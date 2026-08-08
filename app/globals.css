@@ -2149,7 +2149,17 @@ dd {
     line-height: 1.95;
   }
 
-  .home-prelude {
+  .unofficial-bar {
+    grid-template-columns: 1fr;
+    gap: 6px;
+    padding-block: 10px;
+  }
+
+  .unofficial-bar time {
+    justify-self: start;
+  }
+
+  .hero-hit-grid {
     display: none;
   }
 
