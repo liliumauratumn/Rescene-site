@@ -1695,13 +1695,14 @@ dd {
   grid-template:
     "portrait breadcrumbs" 48px
     "portrait identity" minmax(652px, auto)
-    / 300px minmax(0, 1fr);
+    / calc(300px + var(--page-pad)) minmax(0, 1fr);
 }
 
 .member-detail-portrait {
   position: relative;
   grid-area: portrait;
   min-height: 700px;
+  margin-left: var(--page-pad);
   overflow: hidden;
   background: var(--surface-raised);
 }
@@ -2696,10 +2697,12 @@ dd {
 
   .member-detail-portrait {
     min-height: 0;
+    margin-inline: var(--page-pad);
   }
 
   .member-detail-portrait img {
-    object-position: 50% 20%;
+    object-fit: contain;
+    object-position: center;
   }
 
   .member-detail-portrait-fallback {
