@@ -1695,14 +1695,14 @@ dd {
   grid-template:
     "portrait breadcrumbs" 48px
     "portrait identity" minmax(652px, auto)
-    / calc(300px + var(--page-pad)) minmax(0, 1fr);
+    / 318px minmax(0, 1fr);
 }
 
 .member-detail-portrait {
   position: relative;
   grid-area: portrait;
   min-height: 700px;
-  margin-left: var(--page-pad);
+  margin-left: 18px;
   overflow: hidden;
   background: var(--surface-raised);
 }
@@ -1736,19 +1736,29 @@ dd {
   padding-inline: var(--content-pad) var(--page-pad);
 }
 
-.member-detail-hero {
-  display: flex;
+.member-detail-breadcrumbs .breadcrumbs > a:first-child,
+.member-detail-breadcrumbs .breadcrumbs > span:first-of-type > [aria-hidden="true"] {
+  display: none;
+}
+
+.member-detail-panel {
   grid-area: identity;
-  align-items: center;
-  min-height: 652px;
-  padding-block: 52px;
-  overflow: hidden;
+  min-width: 0;
+  padding-bottom: 40px;
+}
+
+.member-detail-hero {
+  padding-top: 0;
+}
+
+.member-detail-eyebrow {
+  display: none;
 }
 
 .member-detail-hero h1 {
   margin-bottom: 16px;
   font-family: var(--font-display);
-  font-size: clamp(76px, 9vw, 120px);
+  font-size: 104px;
   font-weight: 300;
   line-height: 0.9;
 }
@@ -1758,6 +1768,7 @@ dd {
   flex-wrap: wrap;
   gap: 8px 22px;
   color: var(--text-secondary);
+  font-size: 20px;
 }
 
 .member-names span:last-child {
@@ -1770,8 +1781,51 @@ dd {
 
 .member-description {
   max-width: 640px;
+  min-height: 68px;
   margin: 28px 0 0;
   color: var(--text-secondary);
+  font-size: 17px;
+  line-height: 2;
+}
+
+.member-facts.member-detail-facts {
+  margin-top: 28px;
+  padding: 0;
+  border-top: 0;
+}
+
+.member-facts.member-detail-facts dl {
+  max-width: none;
+}
+
+.member-facts.member-detail-facts dl > div {
+  grid-template-columns: 120px minmax(0, 1fr);
+}
+
+.member-detail-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.member-detail-actions a {
+  display: inline-flex;
+  min-height: 50px;
+  align-items: center;
+  padding: 12px 24px;
+  border: 1px solid var(--line-control);
+}
+
+.member-detail-actions a:hover {
+  border-color: var(--accent-gold);
+}
+
+.member-verification-note {
+  padding-block: 16px;
+  border-top: 1px solid var(--line);
+  color: var(--text-muted);
+  font-size: 13px;
 }
 
 .member-facts,
@@ -2682,8 +2736,7 @@ dd {
     border-bottom: 1px solid var(--line);
   }
 
-  .member-detail-hero {
-    min-height: 0;
+  .member-detail-panel {
     padding-block: 22px 40px;
   }
 
@@ -2713,9 +2766,34 @@ dd {
     font-size: 52px;
   }
 
+  .member-detail-eyebrow {
+    display: block;
+  }
+
   .member-detail-hero h1,
   .release-detail-hero h1 {
-    font-size: clamp(54px, 16vw, 68px);
+    font-size: 54px;
+  }
+
+  .member-names {
+    font-size: 17px;
+  }
+
+  .member-description {
+    min-height: 0;
+    font-size: 15px;
+  }
+
+  .member-detail-facts dl > div {
+    grid-template-columns: 1fr;
+  }
+
+  .member-detail-actions {
+    flex-direction: column;
+  }
+
+  .member-detail-actions a {
+    width: 100%;
   }
 
   .member-facts dl > div,

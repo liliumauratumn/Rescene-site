@@ -71,9 +71,11 @@ export default async function MemberDetailPage({ params }: Props) {
             items={[{ label: 'MEMBERS', href: '/members/' }, { label: member.stageName }]}
           />
         </div>
-        <header className="member-detail-hero content-pad">
-          <div>
-            <p className="eyebrow">MEMBER {String(member.displayOrder).padStart(2, '0')}</p>
+        <div className="member-detail-panel content-pad">
+          <header className="member-detail-hero">
+            <p className="eyebrow member-detail-eyebrow">
+              MEMBER {String(member.displayOrder).padStart(2, '0')}
+            </p>
             <h1>{member.stageName}</h1>
             <p className="member-names">
               <span>{member.stageNameJa}</span>
@@ -81,21 +83,27 @@ export default async function MemberDetailPage({ params }: Props) {
               <span>{member.roleLabelJa}</span>
             </p>
             <p className="member-description">{member.shortDescriptionJa}</p>
+          </header>
+          <section className="member-facts member-detail-facts" aria-labelledby="member-facts-title">
+            <h2 className="sr-only" id="member-facts-title">PROFILE</h2>
+            <dl>
+              <div><dt>生年月日</dt><dd><time dateTime={member.birthDate}>{formatDateJa(member.birthDate)}</time></dd></div>
+              <div><dt>出身</dt><dd>{member.originJa}</dd></div>
+              <div><dt>役割</dt><dd>{member.roleLabelJa}</dd></div>
+              <div><dt>表示順</dt><dd>{member.displayOrder}番目（WONI / LIV / MINAMI / MAY / ZENA）</dd></div>
+            </dl>
+          </section>
+          <div className="member-detail-actions">
+            {relatedNews.length > 0 && <Link href="#member-related-news">関連ニュースを見る</Link>}
+            <Link href="/japan/">日本活動記録</Link>
           </div>
-        </header>
+        </div>
       </div>
-      <section className="member-facts content-pad" aria-labelledby="member-facts-title">
-        <h2 className="section-heading" id="member-facts-title">PROFILE</h2>
-        <dl>
-          <div><dt>生年月日</dt><dd><time dateTime={member.birthDate}>{formatDateJa(member.birthDate)}</time></dd></div>
-          <div><dt>出身</dt><dd>{member.originJa}</dd></div>
-          <div><dt>役割</dt><dd>{member.roleLabelJa}</dd></div>
-          <div><dt>表示順</dt><dd>{member.displayOrder}番目（WONI / LIV / MINAMI / MAY / ZENA）</dd></div>
-        </dl>
-        <p>生年月日・出身・役割は本番公開前に一次情報で再確認する項目です。</p>
-      </section>
+      <p className="member-verification-note content-pad">
+        生年月日・出身・役割は本番公開前に一次情報で再確認する項目です。
+      </p>
       {relatedNews.length > 0 && (
-        <section className="related-section content-pad">
+        <section className="related-section content-pad" id="member-related-news">
           <h2 className="section-heading">関連ニュース</h2>
           {relatedNews.map((article) => (
             <Link className="related-row" href={`/news/${article.slug}/`} key={article.id}>
