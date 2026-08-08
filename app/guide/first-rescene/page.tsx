@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { Breadcrumbs, PageHeader } from '@/components/PageHeader';
-import { members } from '@/lib/content';
+import { members, starterVideos } from '@/lib/content';
 import { createMetadata } from '@/lib/metadata';
 
 export const metadata = createMetadata({
@@ -23,8 +23,26 @@ export default function FirstRescenePage() {
           <span className="guide-number">00</span>
           <div>
             <h2>最初に見るべき動画</h2>
-            <p>公式再生ページのURLを公開前に確認中です。未確認の動画URLや再生回数は掲載しません。</p>
-            <Link className="guide-link" href="/links/">確認済みの公式リンクを見る →</Link>
+            <p>聴くより先にこの3本。RESCENEが広く知られるきっかけになった動画です。上から順に見ると、メンバーの人柄が先に入ってきます。</p>
+            <div className="starter-video-list">
+              {starterVideos.map((video) => (
+                <a
+                  className="starter-video-row"
+                  href={video.url}
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  key={video.url}
+                >
+                  <span className="starter-video-order">{String(video.order).padStart(2, '0')}</span>
+                  <span className="starter-video-title">{video.title}</span>
+                  <span className="starter-video-source" aria-hidden="true">
+                    <span className="starter-video-source-label">YouTube </span>↗
+                  </span>
+                  <span className="sr-only">（YouTubeを新しいタブで開く）</span>
+                </a>
+              ))}
+            </div>
+            <p className="starter-video-note">動画は埋め込まず、提供済みのYouTube再生ページへ遷移します。URL・チャンネル・紹介文は本番公開前の再確認項目です。</p>
           </div>
         </section>
         <section className="guide-section">

@@ -104,6 +104,13 @@ export type OfficialLink = {
   note?: string;
 };
 
+export type StarterVideo = {
+  order: number;
+  title: string;
+  url: string;
+  verificationStatus: VerificationStatus;
+};
+
 export type SearchItem = {
   id: string;
   type: 'ニュース' | 'メンバー' | '作品' | '予定' | '日本活動';

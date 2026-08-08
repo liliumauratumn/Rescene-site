@@ -4,6 +4,7 @@ import newsData from '@/data/news.json';
 import officialLinkData from '@/data/official-links.json';
 import releaseData from '@/data/releases.json';
 import scheduleData from '@/data/schedules.json';
+import starterVideoData from '@/data/starter-videos.json';
 import type {
   JapanActivity,
   Member,
@@ -12,6 +13,7 @@ import type {
   Release,
   Schedule,
   SearchItem,
+  StarterVideo,
 } from '@/types/content';
 
 export const members = (memberData as Member[]).sort(
@@ -31,6 +33,9 @@ export const japanActivities = (japanActivityData as JapanActivity[]).sort((a, b
   b.eventDate.localeCompare(a.eventDate),
 );
 export const officialLinks = officialLinkData as OfficialLink[];
+export const starterVideos = (starterVideoData as StarterVideo[]).sort(
+  (a, b) => a.order - b.order,
+);
 
 export const getMember = (id: string) => members.find((member) => member.id === id);
 export const getRelease = (id: string) => releases.find((release) => release.id === id);
