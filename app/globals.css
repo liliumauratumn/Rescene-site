@@ -1690,23 +1690,58 @@ dd {
 }
 
 /* Member detail */
-.member-detail-hero {
-  position: relative;
+.member-detail-intro {
   display: grid;
-  grid-template-columns: minmax(180px, 0.38fr) minmax(0, 1fr);
-  gap: clamp(36px, 7vw, 100px);
-  align-items: end;
-  min-height: clamp(430px, 48vw, 680px);
-  padding-block: clamp(72px, 9vw, 126px);
-  overflow: hidden;
+  grid-template:
+    "portrait breadcrumbs" 48px
+    "portrait identity" minmax(652px, auto)
+    / 300px minmax(0, 1fr);
 }
 
-.member-detail-number {
+.member-detail-portrait {
+  position: relative;
+  grid-area: portrait;
+  min-height: 700px;
+  overflow: hidden;
+  background: var(--surface-raised);
+}
+
+.member-detail-portrait img {
+  object-fit: cover;
+  object-position: 50% 12%;
+}
+
+.member-detail-portrait-fallback {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: flex-end;
+  padding: 40px;
+}
+
+.member-detail-portrait-fallback span {
   color: var(--surface-shimmer);
   font-family: var(--font-display);
-  font-size: clamp(130px, 22vw, 310px);
+  font-size: 72px;
   font-weight: 300;
-  line-height: 0.68;
+  line-height: 0.9;
+}
+
+.member-detail-breadcrumbs {
+  grid-area: breadcrumbs;
+}
+
+.member-detail-breadcrumbs .breadcrumbs {
+  padding-inline: var(--content-pad) var(--page-pad);
+}
+
+.member-detail-hero {
+  display: flex;
+  grid-area: identity;
+  align-items: center;
+  min-height: 652px;
+  padding-block: 52px;
+  overflow: hidden;
 }
 
 .member-detail-hero h1 {
@@ -2647,13 +2682,32 @@ dd {
   }
 
   .member-detail-hero {
-    grid-template-columns: 1fr;
-    gap: 18px;
+    min-height: 0;
+    padding-block: 22px 40px;
+  }
+
+  .member-detail-intro {
+    grid-template:
+      "breadcrumbs" auto
+      "portrait" 440px
+      "identity" auto
+      / minmax(0, 1fr);
+  }
+
+  .member-detail-portrait {
     min-height: 0;
   }
 
-  .member-detail-number {
-    font-size: 120px;
+  .member-detail-portrait img {
+    object-position: 50% 20%;
+  }
+
+  .member-detail-portrait-fallback {
+    padding: 20px;
+  }
+
+  .member-detail-portrait-fallback span {
+    font-size: 52px;
   }
 
   .member-detail-hero h1,

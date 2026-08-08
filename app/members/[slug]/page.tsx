@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Image from 'next/image';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { JsonLd } from '@/components/JsonLd';
@@ -45,20 +46,44 @@ export default async function MemberDetailPage({ params }: Props) {
   return (
     <div className="page-shell">
       <JsonLd data={personSchema} />
-      <Breadcrumbs items={[{ label: 'MEMBERS', href: '/members/' }, { label: member.stageName }]} />
-      <header className="member-detail-hero content-pad">
-        <div className="member-detail-number" aria-hidden="true">{String(member.displayOrder).padStart(2, '0')}</div>
-        <div>
-          <p className="eyebrow">MEMBER {String(member.displayOrder).padStart(2, '0')}</p>
-          <h1>{member.stageName}</h1>
-          <p className="member-names">
-            <span>{member.stageNameJa}</span>
-            <span lang="ko" className="korean">{member.stageNameKo}</span>
-            <span>{member.roleLabelJa}</span>
-          </p>
-          <p className="member-description">{member.shortDescriptionJa}</p>
+      <div className="member-detail-intro">
+        <div className="member-detail-portrait">
+          {member.image ? (
+            <Image
+              src={member.image}
+              alt={member.stageName}
+              fill
+              preload
+              sizes="(max-width: 767px) 100vw, 300px"
+            />
+          ) : (
+            <div className="member-detail-portrait-fallback" aria-hidden="true">
+              <span>
+                {String(member.displayOrder).padStart(2, '0')}
+                <br />
+                {member.stageName}
+              </span>
+            </div>
+          )}
         </div>
-      </header>
+        <div className="member-detail-breadcrumbs">
+          <Breadcrumbs
+            items={[{ label: 'MEMBERS', href: '/members/' }, { label: member.stageName }]}
+          />
+        </div>
+        <header className="member-detail-hero content-pad">
+          <div>
+            <p className="eyebrow">MEMBER {String(member.displayOrder).padStart(2, '0')}</p>
+            <h1>{member.stageName}</h1>
+            <p className="member-names">
+              <span>{member.stageNameJa}</span>
+              <span lang="ko" className="korean">{member.stageNameKo}</span>
+              <span>{member.roleLabelJa}</span>
+            </p>
+            <p className="member-description">{member.shortDescriptionJa}</p>
+          </div>
+        </header>
+      </div>
       <section className="member-facts content-pad" aria-labelledby="member-facts-title">
         <h2 className="section-heading" id="member-facts-title">PROFILE</h2>
         <dl>
