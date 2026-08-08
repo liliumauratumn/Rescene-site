@@ -5,6 +5,7 @@ import officialLinkData from '@/data/official-links.json';
 import releaseData from '@/data/releases.json';
 import scheduleData from '@/data/schedules.json';
 import starterVideoData from '@/data/starter-videos.json';
+import { categoryLabels } from '@/lib/content-display';
 import type {
   JapanActivity,
   Member,
@@ -14,58 +15,57 @@ import type {
   Schedule,
   SearchItem,
   StarterVideo,
+  VerificationStatus,
 } from '@/types/content';
 
-export const members = (memberData as Member[]).sort(
-  (a, b) => a.displayOrder - b.displayOrder,
-);
+const publicVerificationStatuses = new Set<VerificationStatus>(['confirmed', 'verified']);
+
+export const isPublicVerificationStatus = (status: VerificationStatus) =>
+  publicVerificationStatuses.has(status);
+
+const memberRecords = memberData as Member[];
+
+export const members = memberRecords
+  .filter((member) => isPublicVerificationStatus(member.identityVerificationStatus))
+  .map((member) =>
+    isPublicVerificationStatus(member.verificationStatus)
+      ? member
+      : {
+          ...member,
+          birthDate: null,
+          originJa: null,
+          roleLabelJa: null,
+          shortDescriptionJa: null,
+          image: null,
+        },
+  )
+  .sort((a, b) => a.displayOrder - b.displayOrder);
 export const homeMembers = [...members].sort((a, b) => a.homeOrder - b.homeOrder);
 export const releases = (releaseData as Release[])
-  .filter((release) => release.publish)
+  .filter(
+    (release) => release.publish && isPublicVerificationStatus(release.verificationStatus),
+  )
   .sort((a, b) => b.releaseDate.localeCompare(a.releaseDate));
-export const news = (newsData as NewsArticle[]).sort((a, b) =>
-  b.publishedAt.localeCompare(a.publishedAt),
-);
-export const schedules = (scheduleData as Schedule[]).sort((a, b) =>
-  (b.startAt ?? '').localeCompare(a.startAt ?? ''),
-);
-export const japanActivities = (japanActivityData as JapanActivity[]).sort((a, b) =>
-  b.eventDate.localeCompare(a.eventDate),
-);
+export const news = (newsData as NewsArticle[])
+  .filter((article) => isPublicVerificationStatus(article.verificationStatus))
+  .sort((a, b) => b.publishedAt.localeCompare(a.publishedAt));
+export const schedules = (scheduleData as Schedule[])
+  .filter((schedule) => isPublicVerificationStatus(schedule.verificationStatus))
+  .sort((a, b) => (b.startAt ?? '').localeCompare(a.startAt ?? ''));
+export const japanActivities = (japanActivityData as JapanActivity[])
+  .filter((activity) => isPublicVerificationStatus(activity.verificationStatus))
+  .sort((a, b) => b.eventDate.localeCompare(a.eventDate));
 export const officialLinks = officialLinkData as OfficialLink[];
-export const starterVideos = (starterVideoData as StarterVideo[]).sort(
-  (a, b) => a.order - b.order,
-);
+export const starterVideos = (starterVideoData as StarterVideo[])
+  .filter((video) => isPublicVerificationStatus(video.verificationStatus))
+  .sort((a, b) => a.order - b.order);
 
 export const getMember = (id: string) => members.find((member) => member.id === id);
 export const getRelease = (id: string) => releases.find((release) => release.id === id);
 export const getArticle = (slug: string) => news.find((article) => article.slug === slug);
 
-export const formatDate = (date: string) => date.replaceAll('-', '.');
-
-export const formatDateJa = (date: string) => {
-  const [year, month, day] = date.slice(0, 10).split('-');
-  return `${Number(year)}年${Number(month)}月${Number(day)}日`;
-};
-
-export const categoryLabels: Record<string, string> = {
-  guide: '入門',
-  japan: '日本活動',
-  release: 'リリース',
-  event: '公演・イベント',
-  media: 'メディア',
-  official: '公式告知',
-  record: '記録',
-  other: 'その他',
-};
-
-export const activityTypeLabels: Record<string, string> = {
-  japanese_release: '日本語版リリース',
-  official_event: '来日イベント',
-  promotion_event: '来日イベント',
-  online_event: 'オンライン',
-  festival: 'フェス',
-};
+export { categoryLabels };
+export { activityTypeLabels, formatDate, formatDateJa } from '@/lib/content-display';
 
 export const searchIndex: SearchItem[] = [
   ...news.map((article) => ({
@@ -81,14 +81,16 @@ export const searchIndex: SearchItem[] = [
     id: `member-${member.id}`,
     type: 'メンバー' as const,
     title: member.stageName,
-    description: `${member.stageNameJa} ／ ${member.stageNameKo} ／ ${member.roleLabelJa}`,
+    description: [member.stageNameJa, member.stageNameKo, member.roleLabelJa]
+      .filter(Boolean)
+      .join(' ／ '),
     href: `/members/${member.id}/`,
     searchText: [
       member.stageName,
       member.stageNameJa,
       member.stageNameKo,
-      member.roleLabelJa,
-      member.originJa,
+      member.roleLabelJa ?? '',
+      member.originJa ?? '',
     ].join(' '),
   })),
   ...releases.map((release) => ({

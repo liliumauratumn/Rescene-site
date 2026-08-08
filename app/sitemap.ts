@@ -1,11 +1,11 @@
 import type { MetadataRoute } from 'next';
 import { members, news, releases } from '@/lib/content';
-import { absoluteUrl } from '@/site.config';
+import { absoluteUrl, siteConfig } from '@/site.config';
 
 export const dynamic = 'force-static';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const lastModified = new Date('2026-08-08T00:00:00+09:00');
+  const lastModified = new Date(`${siteConfig.lastUpdated}T00:00:00+09:00`);
   const staticPaths = [
     '/',
     '/news/',

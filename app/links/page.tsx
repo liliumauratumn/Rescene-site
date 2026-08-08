@@ -19,7 +19,7 @@ export default function LinksPage() {
         lead="公式・正規配信・主催者を形でも区別します。URLを確認できていないSNSや動画チャンネルは掲載していません。"
       />
       <div className="link-kinds page-pad" aria-label="リンク種別">
-        <span>公式</span><span>正規配信</span><span>主催者</span><span>公開前確認中</span>
+        <span>公式</span><span>正規配信</span><span>主催者</span>
       </div>
       <div className="link-groups content-pad">
         {categories.map((category) => (

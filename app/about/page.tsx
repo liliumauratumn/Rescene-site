@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { PageHeader } from '@/components/PageHeader';
 import { createMetadata } from '@/lib/metadata';
+import { siteConfig } from '@/site.config';
 
 export const metadata = createMetadata({
   title: 'このサイトについて',
@@ -35,7 +36,7 @@ export default function AboutPage() {
           <span>03</span><div><h2>写真・動画・音源の権利</h2><p>権利はそれぞれの権利者に帰属します。公式画像の自動保存や再配布は行わず、歌詞や翻訳の全文は掲載しません。</p></div>
         </section>
         <section>
-          <span>04</span><div><h2>訂正・削除のご依頼</h2><p>事実誤認、権利上の問題、掲載を望まない情報は確認後に訂正または削除し、記事に更新日と修正内容を残します。問い合わせ窓口は公開前準備中です。</p></div>
+          <span>04</span><div><h2>訂正・削除のご依頼</h2><p>事実誤認、権利上の問題、掲載を望まない情報は確認後に訂正または削除し、記事に更新日と修正内容を残します。現在、問い合わせ窓口は設置していません。</p></div>
         </section>
         <section>
           <span>05</span><div><h2>広告・アフィリエイト</h2><p>公式リンクと広告リンクは同じ表現にせず、広告を含む場合はリンクより前に開示します。現在、広告リンクは掲載していません。</p></div>
@@ -45,7 +46,9 @@ export default function AboutPage() {
         </section>
       </div>
       <div className="about-bottom page-pad">
-        <time dateTime="2026-08-08">最終更新 2026.08.08</time>
+        <time dateTime={siteConfig.lastUpdated}>
+          最終更新 {siteConfig.lastUpdated.replaceAll('-', '.')}
+        </time>
         <Link className="text-link" href="/links/">公式リンク一覧へ →</Link>
       </div>
     </div>

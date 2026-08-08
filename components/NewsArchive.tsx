@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { useMemo, useState } from 'react';
-import { categoryLabels, formatDate } from '@/lib/content';
+import { categoryLabels, formatDate } from '@/lib/content-display';
 import type { NewsArticle } from '@/types/content';
 
 export default function NewsArchive({ articles }: { articles: NewsArticle[] }) {

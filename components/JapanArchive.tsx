@@ -1,7 +1,7 @@
 'use client';
 
 import { useMemo, useState } from 'react';
-import { activityTypeLabels, formatDate } from '@/lib/content';
+import { activityTypeLabels, formatDate } from '@/lib/content-display';
 import type { JapanActivity } from '@/types/content';
 
 const groups = [
@@ -61,9 +61,6 @@ export default function JapanArchive({ items }: { items: JapanActivity[] }) {
                       <h3>{item.title}</h3>
                       <p>{item.prefecture ? `${item.prefecture}・${item.venue}` : item.venue}</p>
                       {item.isFirst && <span className="first-marker">日本初の公式イベント</span>}
-                      {item.verificationStatus !== 'confirmed' && (
-                        <span className="pending-note">ステージ詳細は要確認</span>
-                      )}
                     </div>
                   </article>
                 ))}

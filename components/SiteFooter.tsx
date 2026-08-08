@@ -12,7 +12,7 @@ export default function SiteFooter() {
       </div>
       <div className="footer-grid">
         <div>
-          <p className="eyebrow">RESCENE FANSITE</p>
+          <p className="eyebrow">{siteConfig.name}</p>
           <p>日本から知り、追い、記録する。</p>
         </div>
         <nav aria-label="フッターナビゲーション">

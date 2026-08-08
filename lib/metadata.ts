@@ -25,9 +25,9 @@ export function createMetadata({
       images: [
         {
           url: absoluteUrl('/images/og.png'),
-          width: 2880,
-          height: 1800,
-          alt: 'RESCENE FANSITE',
+          width: 1200,
+          height: 630,
+          alt: siteConfig.name,
         },
       ],
     },

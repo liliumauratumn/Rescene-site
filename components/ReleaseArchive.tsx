@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { useMemo, useState } from 'react';
-import { formatDate } from '@/lib/content';
+import { formatDate } from '@/lib/content-display';
 import type { Release } from '@/types/content';
 
 const filters = [

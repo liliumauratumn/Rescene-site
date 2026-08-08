@@ -111,6 +111,11 @@ export default function HomePage() {
                   sizes="(max-width: 767px) 50vw, 20vw"
                 />
               )}
+              {!member.image && (
+                <span className="home-member__fallback" aria-hidden="true">
+                  {String(member.displayOrder).padStart(2, '0')}
+                </span>
+              )}
               <span className="home-member__shade" aria-hidden="true" />
               <span className="home-member__name">{member.stageName}</span>
             </Link>

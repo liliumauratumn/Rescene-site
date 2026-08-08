@@ -16,14 +16,14 @@ export default function FirstRescenePage() {
       <PageHeader
         eyebrow="GUIDE — 初めてのRESCENE"
         title="First RESCENE"
-        lead="名前の意味、5人のメンバー、最初に聴く作品から順に読める入門です。確認できた事実と編集上のおすすめを分けて案内します。"
+        lead="名前の意味、5人のメンバー、最初に聴く作品から順に読める入門です。"
       />
       <article className="guide-article">
         <section className="guide-section guide-section--state">
           <span className="guide-number">00</span>
           <div>
             <h2>最初に見るべき動画</h2>
-            <p>聴くより先にこの3本。RESCENEが広く知られるきっかけになった動画です。上から順に見ると、メンバーの人柄が先に入ってきます。</p>
+            <p>メンバーを知る入口として、YouTubeで公開されている3本を案内します。</p>
             <div className="starter-video-list">
               {starterVideos.map((video) => (
                 <a
@@ -34,7 +34,7 @@ export default function FirstRescenePage() {
                   key={video.url}
                 >
                   <span className="starter-video-order">{String(video.order).padStart(2, '0')}</span>
-                  <span className="starter-video-title">{video.title}</span>
+                  <span className="starter-video-title korean" lang="ko">{video.title}</span>
                   <span className="starter-video-source" aria-hidden="true">
                     <span className="starter-video-source-label">YouTube </span>↗
                   </span>
@@ -42,7 +42,7 @@ export default function FirstRescenePage() {
                 </a>
               ))}
             </div>
-            <p className="starter-video-note">動画は埋め込まず、提供済みのYouTube再生ページへ遷移します。URL・チャンネル・紹介文は本番公開前の再確認項目です。</p>
+            <p className="starter-video-note">動画は埋め込まず、YouTubeの再生ページへ移動します。再生回数は表示しません。</p>
           </div>
         </section>
         <section className="guide-section">
@@ -56,7 +56,7 @@ export default function FirstRescenePage() {
           <span className="guide-number">02</span>
           <div>
             <h2>5人のメンバー</h2>
-            <p>個別ページから関連作品と日本活動へ進めます。プロフィールの生年月日・出身・役割は公開前確認項目です。</p>
+            <p>個別ページから関連作品と日本活動へ進めます。</p>
             <div className="guide-member-grid">
               {members.map((member) => (
                 <Link href={`/members/${member.id}/`} key={member.id}>
@@ -78,7 +78,7 @@ export default function FirstRescenePage() {
           <span className="guide-number">04</span>
           <div>
             <h2>MVから入る</h2>
-            <p>当サイトは公式動画ファイルを再配布しません。確認済みの公式再生ページが揃い次第、作品詳細から直接案内します。</p>
+            <p>当サイトは動画ファイルを再配布しません。確認済みの再生ページは作品詳細から案内します。</p>
           </div>
         </section>
         <section className="guide-section">
@@ -93,7 +93,7 @@ export default function FirstRescenePage() {
           <span className="guide-number">06</span>
           <div>
             <h2>ファンダム名</h2>
-            <p>公式ファンダム名は <strong>REMINE</strong> です。語源・発表日・会員条件などは、一次情報を再確認できた内容だけを今後追記します。</p>
+            <p>公式ファンダム名は <strong>REMINE</strong> です。</p>
           </div>
         </section>
         <section className="guide-section">
@@ -105,7 +105,6 @@ export default function FirstRescenePage() {
           </div>
         </section>
       </article>
-      <p className="verification-note">本ページは提供済みの確認済み資料を基にし、確認できていない事項は空欄または確認中として表示します。</p>
     </div>
   );
 }

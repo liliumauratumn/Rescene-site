@@ -1,4 +1,13 @@
 {
+  "site": {
+    "name": "RESCENE FANSITE",
+    "url": "https://rescene.tokyo",
+    "description": "RESCENEを日本から知り、追い、記録するための日本語・非公式ファンサイト。",
+    "locale": "ja_JP",
+    "language": "ja",
+    "unofficialLabel": "日本語・非公式ファンサイト",
+    "lastUpdated": "2026-08-09"
+  },
   "currentHighlight": {
     "kind": "release",
     "releaseId": "pretty-girl"
@@ -7,6 +16,6 @@
     "status": "none_announced",
     "title": "確認済みの次回日本予定はありません",
     "description": "新しい公式発表を確認後に更新します。",
-    "checkedAt": "2026-08-08"
+    "checkedAt": "2026-08-09"
   }
 }

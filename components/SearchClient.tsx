@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import { useSearchParams } from 'next/navigation';
 import { useMemo, useState } from 'react';
-import { formatDate } from '@/lib/content';
+import { formatDate } from '@/lib/content-display';
 import type { SearchItem } from '@/types/content';
 
 export default function SearchClient({ items }: { items: SearchItem[] }) {

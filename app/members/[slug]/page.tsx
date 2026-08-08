@@ -22,7 +22,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!member) return {};
   return createMetadata({
     title: `${member.stageName}（${member.stageNameJa}）`,
-    description: `RESCENE ${member.stageName}（${member.stageNameJa}／${member.stageNameKo}）のプロフィールと関連コンテンツ。`,
+    description: `RESCENE ${member.stageName}（${member.stageNameJa}／${member.stageNameKo}）の確認済み情報と関連コンテンツ。`,
     path: `/members/${member.id}/`,
   });
 }
@@ -80,28 +80,28 @@ export default async function MemberDetailPage({ params }: Props) {
             <p className="member-names">
               <span>{member.stageNameJa}</span>
               <span lang="ko" className="korean">{member.stageNameKo}</span>
-              <span>{member.roleLabelJa}</span>
+              {member.roleLabelJa && <span className="member-role">{member.roleLabelJa}</span>}
             </p>
-            <p className="member-description">{member.shortDescriptionJa}</p>
+            {member.shortDescriptionJa && (
+              <p className="member-description">{member.shortDescriptionJa}</p>
+            )}
           </header>
-          <section className="member-facts member-detail-facts" aria-labelledby="member-facts-title">
-            <h2 className="sr-only" id="member-facts-title">PROFILE</h2>
-            <dl>
-              <div><dt>生年月日</dt><dd><time dateTime={member.birthDate}>{formatDateJa(member.birthDate)}</time></dd></div>
-              <div><dt>出身</dt><dd>{member.originJa}</dd></div>
-              <div><dt>役割</dt><dd>{member.roleLabelJa}</dd></div>
-              <div><dt>表示順</dt><dd>{member.displayOrder}番目（WONI / LIV / MINAMI / MAY / ZENA）</dd></div>
-            </dl>
-          </section>
+          {(member.birthDate || member.originJa || member.roleLabelJa) && (
+            <section className="member-facts member-detail-facts" aria-labelledby="member-facts-title">
+              <h2 className="sr-only" id="member-facts-title">PROFILE</h2>
+              <dl>
+                {member.birthDate && <div><dt>生年月日</dt><dd><time dateTime={member.birthDate}>{formatDateJa(member.birthDate)}</time></dd></div>}
+                {member.originJa && <div><dt>出身</dt><dd>{member.originJa}</dd></div>}
+                {member.roleLabelJa && <div><dt>役割</dt><dd>{member.roleLabelJa}</dd></div>}
+              </dl>
+            </section>
+          )}
           <div className="member-detail-actions">
             {relatedNews.length > 0 && <Link href="#member-related-news">関連ニュースを見る</Link>}
             <Link href="/japan/">日本活動記録</Link>
           </div>
         </div>
       </div>
-      <p className="member-verification-note content-pad">
-        生年月日・出身・役割は本番公開前に一次情報で再確認する項目です。
-      </p>
       {relatedNews.length > 0 && (
         <section className="related-section content-pad" id="member-related-news">
           <h2 className="section-heading">関連ニュース</h2>
@@ -126,7 +126,8 @@ export default async function MemberDetailPage({ params }: Props) {
       <nav className="other-members" aria-label="他のメンバー">
         {otherMembers.map((item) => (
           <Link href={`/members/${item.id}/`} key={item.id}>
-            <span>{item.stageName}</span><small>{item.stageNameJa}｜{item.roleLabelJa}</small>
+            <span>{item.stageName}</span>
+            <small>{[item.stageNameJa, item.roleLabelJa].filter(Boolean).join('｜')}</small>
           </Link>
         ))}
       </nav>

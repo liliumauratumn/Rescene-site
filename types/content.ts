@@ -1,7 +1,9 @@
 export type VerificationStatus =
   | 'confirmed'
+  | 'verified'
   | 'verify_before_publish'
-  | 'stage_details_verify_before_publish';
+  | 'stage_details_verify_before_publish'
+  | 'unverified';
 
 export type Member = {
   id: string;
@@ -10,11 +12,12 @@ export type Member = {
   stageName: string;
   stageNameKo: string;
   stageNameJa: string;
-  birthDate: string;
-  originJa: string;
-  roleLabelJa: string;
-  shortDescriptionJa: string;
+  birthDate: string | null;
+  originJa: string | null;
+  roleLabelJa: string | null;
+  shortDescriptionJa: string | null;
   image: string | null;
+  identityVerificationStatus: VerificationStatus;
   verificationStatus: VerificationStatus;
 };
 

@@ -2,7 +2,8 @@
 
 import { useMemo, useState } from 'react';
 import { ExternalLink } from '@/components/ExternalLink';
-import { formatDate } from '@/lib/content';
+import siteData from '@/data/site.json';
+import { formatDate } from '@/lib/content-display';
 import type { Schedule } from '@/types/content';
 
 const statusLabels: Record<string, string> = {
@@ -52,11 +53,17 @@ export default function ScheduleArchive({ items }: { items: Schedule[] }) {
       </div>
       <section className="schedule-next" aria-labelledby="schedule-next-title">
         <div>
-          <span className="status-badge">詳細未発表</span>
-          <h2 id="schedule-next-title">日本での次回イベント</h2>
+          <span className="status-badge">
+            {siteData.nextJapanSchedule.status === 'none_announced' ? '発表なし' : '詳細未発表'}
+          </span>
+          <h2 id="schedule-next-title">{siteData.nextJapanSchedule.title}</h2>
         </div>
         <p>
-          2026年8月8日時点で、これ以降の日本予定は公式に発表されていません。日付・会場・応募方法が確認できた時点で更新します。
+          {siteData.nextJapanSchedule.description}
+          <br />
+          <time dateTime={siteData.nextJapanSchedule.checkedAt}>
+            最終確認 {formatDate(siteData.nextJapanSchedule.checkedAt)}
+          </time>
         </p>
       </section>
       <section className="schedule-past" aria-labelledby="schedule-past-title">
@@ -78,9 +85,6 @@ export default function ScheduleArchive({ items }: { items: Schedule[] }) {
               )}
               {item.saleStartAt && (
                 <p className="schedule-row__dates">販売開始 {dateTimeLabel(item.saleStartAt)}</p>
-              )}
-              {item.verificationStatus !== 'confirmed' && (
-                <p className="pending-note">個別ステージ時刻は公開前に再確認します。</p>
               )}
               {item.sourceUrl && (
                 <ExternalLink href={item.sourceUrl} kind="promoter">公式・主催者情報を確認</ExternalLink>

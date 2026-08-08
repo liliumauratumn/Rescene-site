@@ -3,6 +3,7 @@ import type { ReactNode } from 'react';
 import { JsonLd } from '@/components/JsonLd';
 import SiteFooter from '@/components/SiteFooter';
 import SiteHeader from '@/components/SiteHeader';
+import { homeMembers } from '@/lib/content';
 import { absoluteUrl, siteConfig } from '@/site.config';
 import './globals.css';
 
@@ -40,9 +41,9 @@ export const metadata: Metadata = {
     images: [
       {
         url: absoluteUrl('/images/og.png'),
-        width: 2880,
-        height: 1800,
-        alt: 'RESCENE FANSITE',
+        width: 1200,
+        height: 630,
+        alt: siteConfig.name,
       },
     ],
   },
@@ -89,6 +90,12 @@ const musicGroupSchema = {
   ],
 };
 
+const headerMembers = homeMembers.map(({ id, stageName, stageNameJa }) => ({
+  id,
+  stageName,
+  stageNameJa,
+}));
+
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="ja" data-scroll-behavior="smooth">
@@ -96,7 +103,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         <a className="skip-link" href="#main-content">本文へ移動</a>
         <JsonLd data={websiteSchema} />
         <JsonLd data={musicGroupSchema} />
-        <SiteHeader />
+        <SiteHeader homeMembers={headerMembers} />
         <main id="main-content">{children}</main>
         <SiteFooter />
       </body>

@@ -74,7 +74,7 @@ export default async function ReleaseDetailPage({ params }: Props) {
             </li>
           ))}
         </ol>
-        <p>歌詞および歌詞の翻訳は掲載しません。曲名表記は提供済み資料の表記に従います。</p>
+        <p>歌詞および歌詞の翻訳は掲載しません。曲名は各作品の公式表記に従います。</p>
       </section>
       <section className="release-info content-pad" aria-labelledby="release-info-title">
         <h2 className="section-heading" id="release-info-title">作品情報</h2>

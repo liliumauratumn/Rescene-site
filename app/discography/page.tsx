@@ -19,7 +19,6 @@ export default function DiscographyPage() {
         lead="作品名は公式表記を保ち、発売日・タイトル曲・香りの軸を作品データから表示します。"
       />
       <ReleaseArchive items={releases} />
-      <p className="verification-note">正式な企画名が確認できていないコラボ作品は公開一覧から除外しています。</p>
     </div>
   );
 }

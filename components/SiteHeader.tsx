@@ -4,8 +4,13 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useEffect, useRef, useState } from 'react';
-import { homeMembers } from '@/lib/content';
 import { siteConfig } from '@/site.config';
+
+type HeaderMember = {
+  id: string;
+  stageName: string;
+  stageNameJa: string;
+};
 
 const primaryNav = [
   { href: '/news/', label: 'NEWS' },
@@ -43,7 +48,7 @@ function isMobileCurrent(pathname: string, href: string) {
   return isCurrent(pathname, href);
 }
 
-export default function SiteHeader() {
+export default function SiteHeader({ homeMembers }: { homeMembers: HeaderMember[] }) {
   const pathname = usePathname();
   const [menuOpen, setMenuOpen] = useState(false);
   const menuButtonRef = useRef<HTMLButtonElement>(null);
@@ -131,7 +136,7 @@ export default function SiteHeader() {
 
       <header className="site-header">
         <div className="site-header__inner">
-          <Link className="brand" href="/" aria-label="RESCENE FANSITE ホーム">
+          <Link className="brand" href="/" aria-label={`${siteConfig.name} ホーム`}>
             <Image src="/images/logo.png" alt="RESCENE" width={1235} height={236} priority />
             <span>FANSITE</span>
           </Link>

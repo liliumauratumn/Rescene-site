@@ -19,7 +19,6 @@ export default function JapanPage() {
         lead="来日イベント、日本語版リリース、フェス出演、オンライン企画を年別に記録する恒久アーカイブです。"
       />
       <JapanArchive items={japanActivities} />
-      <p className="verification-note">各項目は公式・主催者・会場の発表を出典とし、未確認項目は「要確認」と明示します。</p>
     </div>
   );
 }
