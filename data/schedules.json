@@ -1,0 +1,53 @@
+[
+  {
+    "id": "kcon-japan-2026",
+    "title": "KCON JAPAN 2026 出演",
+    "startAt": "2026-05-08T00:00:00+09:00",
+    "endAt": "2026-05-10T23:59:00+09:00",
+    "timezone": "Asia/Tokyo",
+    "type": "festival",
+    "region": "JP",
+    "prefecture": "千葉県",
+    "venue": "幕張メッセ",
+    "status": "completed",
+    "applicationStartAt": null,
+    "applicationEndAt": null,
+    "saleStartAt": null,
+    "sourceUrl": "https://www.mnetplus.world/contents/ja/shows/696ed7b0074031298f7e9306/basic-info",
+    "verificationStatus": "stage_details_verify_before_publish"
+  },
+  {
+    "id": "lip-bomb-promotion-japan",
+    "title": "3rd Mini Album『lip bomb』プロモーションイベント 全5公演",
+    "startAt": "2026-01-22T00:00:00+09:00",
+    "endAt": "2026-01-26T23:59:00+09:00",
+    "timezone": "Asia/Tokyo",
+    "type": "event",
+    "region": "JP",
+    "prefecture": "東京都",
+    "venue": "都内3会場",
+    "status": "completed",
+    "applicationStartAt": null,
+    "applicationEndAt": null,
+    "saleStartAt": null,
+    "sourceUrl": "https://kissent.jp/contents/1029212",
+    "verificationStatus": "confirmed"
+  },
+  {
+    "id": "glow-up-video-call-deadline",
+    "title": "オンラインビデオ通話イベント応募締切",
+    "startAt": "2025-04-27T00:00:00+09:00",
+    "endAt": null,
+    "timezone": "Asia/Tokyo",
+    "type": "application_deadline",
+    "region": "ONLINE",
+    "prefecture": null,
+    "venue": "KakaoTalk FaceTalk",
+    "status": "closed",
+    "applicationStartAt": "2025-04-09T13:00:00+09:00",
+    "applicationEndAt": "2025-04-20T23:59:00+09:00",
+    "saleStartAt": "2025-04-09T13:00:00+09:00",
+    "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000046.000127686.html",
+    "verificationStatus": "confirmed"
+  }
+]

@@ -1,0 +1,9 @@
+[
+  { "id": "mnet-plus", "label": "RESCENE 公式コミュニティ", "url": "https://artist.mnetplus.world/main/stg/rescene-official", "category": "公式コミュニティ・SNS", "kind": "official" },
+  { "id": "the-muze-rescene", "label": "THE MUZE Entertainment — RESCENE", "url": "https://themuze.kr/rescene", "category": "所属事務所", "kind": "official" },
+  { "id": "the-muze-discography", "label": "THE MUZE Discography", "url": "https://themuze.kr/discography", "category": "所属事務所", "kind": "official" },
+  { "id": "apple-music", "label": "Apple Music", "url": "https://music.apple.com/jp/artist/rescene/1732658659", "category": "音楽配信", "kind": "streaming" },
+  { "id": "spotify", "label": "Spotify", "url": "https://open.spotify.com/artist/5deOsjuFTKrNMJW3rKuL8S", "category": "音楽配信", "kind": "streaming" },
+  { "id": "kcon-2026", "label": "KCON JAPAN 2026", "url": "https://www.mnetplus.world/contents/ja/shows/696ed7b0074031298f7e9306/basic-info", "category": "日本の正規イベント・販売", "kind": "promoter" },
+  { "id": "kissent", "label": "キッス・エンタテインメント", "url": "https://kissent.jp/contents/1029212", "category": "日本の正規イベント・販売", "kind": "promoter" }
+]

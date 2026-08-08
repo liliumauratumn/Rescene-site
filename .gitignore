@@ -1,0 +1,14 @@
+node_modules/
+.next/
+out/
+.DS_Store
+*.log
+*.tsbuildinfo
+.env*
+!.env.example
+
+# Local design/reference inputs (kept in the working folder, not the site repository)
+.thumbnail
+*.dc.html
+support.js
+uploads/

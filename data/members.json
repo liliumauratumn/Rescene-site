@@ -1,0 +1,72 @@
+[
+  {
+    "id": "woni",
+    "displayOrder": 1,
+    "homeOrder": 5,
+    "stageName": "WONI",
+    "stageNameKo": "원이",
+    "stageNameJa": "ウォニ",
+    "birthDate": "2004-05-25",
+    "originJa": "韓国・巨済",
+    "roleLabelJa": "リーダー・ボーカル",
+    "shortDescriptionJa": "落ち着いた入口を作るリーダー。",
+    "image": "/images/members/WONI.png",
+    "verificationStatus": "verify_before_publish"
+  },
+  {
+    "id": "liv",
+    "displayOrder": 2,
+    "homeOrder": 2,
+    "stageName": "LIV",
+    "stageNameKo": "리브",
+    "stageNameJa": "リブ",
+    "birthDate": "2006-10-11",
+    "originJa": "韓国・水原",
+    "roleLabelJa": "ボーカル",
+    "shortDescriptionJa": "明るい音色と印象の反転を持つボーカル。",
+    "image": "/images/members/LIV.png",
+    "verificationStatus": "verify_before_publish"
+  },
+  {
+    "id": "minami",
+    "displayOrder": 3,
+    "homeOrder": 4,
+    "stageName": "MINAMI",
+    "stageNameKo": "미나미",
+    "stageNameJa": "ミナミ",
+    "birthDate": "2006-11-29",
+    "originJa": "日本・千葉県",
+    "roleLabelJa": "ボーカル・ラップ",
+    "shortDescriptionJa": "日本と韓国をつなぐ多面的なパフォーマー。",
+    "image": "/images/members/MINAMI.png",
+    "verificationStatus": "verify_before_publish"
+  },
+  {
+    "id": "may",
+    "displayOrder": 4,
+    "homeOrder": 1,
+    "stageName": "MAY",
+    "stageNameKo": "메이",
+    "stageNameJa": "メイ",
+    "birthDate": "2008-08-19",
+    "originJa": "韓国・高陽",
+    "roleLabelJa": "ボーカル",
+    "shortDescriptionJa": "繊細な音色と静かな存在感を持つボーカル。",
+    "image": "/images/members/MAY.png",
+    "verificationStatus": "verify_before_publish"
+  },
+  {
+    "id": "zena",
+    "displayOrder": 5,
+    "homeOrder": 3,
+    "stageName": "ZENA",
+    "stageNameKo": "제나",
+    "stageNameJa": "ゼナ",
+    "birthDate": "2008-11-27",
+    "originJa": "韓国・慶州",
+    "roleLabelJa": "ボーカル・マンネ",
+    "shortDescriptionJa": "鮮明な表情とエネルギーを持つ最年少メンバー。",
+    "image": "/images/members/ZENA.png",
+    "verificationStatus": "verify_before_publish"
+  }
+]
