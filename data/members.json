@@ -2,7 +2,7 @@
   {
     "id": "woni",
     "displayOrder": 1,
-    "homeOrder": 1,
+    "homeOrder": 5,
     "stageName": "WONI",
     "stageNameKo": "원이",
     "stageNameJa": "ウォニ",
@@ -30,7 +30,7 @@
   {
     "id": "minami",
     "displayOrder": 3,
-    "homeOrder": 3,
+    "homeOrder": 4,
     "stageName": "MINAMI",
     "stageNameKo": "미나미",
     "stageNameJa": "ミナミ",
@@ -44,7 +44,7 @@
   {
     "id": "may",
     "displayOrder": 4,
-    "homeOrder": 4,
+    "homeOrder": 1,
     "stageName": "MAY",
     "stageNameKo": "메이",
     "stageNameJa": "メイ",
@@ -58,7 +58,7 @@
   {
     "id": "zena",
     "displayOrder": 5,
-    "homeOrder": 5,
+    "homeOrder": 3,
     "stageName": "ZENA",
     "stageNameKo": "제나",
     "stageNameJa": "ゼナ",
