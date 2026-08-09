@@ -22,4 +22,6 @@ export const activityTypeLabels: Record<string, string> = {
   promotion_event: '来日イベント',
   online_event: 'オンライン',
   festival: 'フェス',
+  media: 'メディア',
+  radio: 'ラジオ',
 };

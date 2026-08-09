@@ -1,20 +1,35 @@
 [
   {
-    "order": 1,
-    "title": "갸루의 자세에 대해서 배워보았습니다",
+    "id": "woni-minami-gyaru",
+    "title": "ギャルの心得を教わってみました（WONI × MINAMI）",
+    "originalTitle": "갸루의 자세에 대해서 배워보았습니다",
     "url": "https://youtu.be/heifaIjlSUc",
-    "verificationStatus": "verified"
+    "memberIds": [
+      "woni",
+      "minami"
+    ],
+    "verificationStatus": "confirmed"
   },
   {
-    "order": 2,
-    "title": "갸루와 거제에 왔습니다 (거제 1편)",
+    "id": "woni-minami-geoje",
+    "title": "ギャルと巨済に来ました（巨済1編）",
+    "originalTitle": "갸루와 거제에 왔습니다 (거제 1편)",
     "url": "https://youtu.be/OrCOflk2QmQ",
-    "verificationStatus": "verified"
+    "memberIds": [
+      "woni",
+      "minami"
+    ],
+    "verificationStatus": "confirmed"
   },
   {
-    "order": 3,
-    "title": "갸루 출신 일본인에게 일본어 배우기",
+    "id": "woni-minami-japanese",
+    "title": "元ギャルの日本人に日本語を習う",
+    "originalTitle": "갸루 출신 일본인에게 일본어 배우기",
     "url": "https://youtu.be/bvUS-ri9nqQ",
-    "verificationStatus": "verified"
+    "memberIds": [
+      "woni",
+      "minami"
+    ],
+    "verificationStatus": "confirmed"
   }
 ]

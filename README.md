@@ -31,7 +31,7 @@ npm run build
 - First RESCENEの動画: `data/starter-videos.json`
 - 公式・正規配信・主催者リンク: `data/official-links.json`
 
-サイト名、canonical URL、About・ヘッダー・フッター・sitemapの最終更新日は、`data/site.json` の `site` を更新します。ホームとScheduleの次回日本予定は、同ファイルの `nextJapanSchedule` を更新します。Reactコンポーネントへ同じ値を重複記述しません。
+サイト名、canonical URL、説明文は、`data/site.json` の `siteName`、`siteUrl`、`shortDescription` を更新します。About・ヘッダー・フッター・sitemapの最終更新日は `nextJapanSchedule.checkedAt` を参照します。ホームとScheduleの次回日本予定は、同ファイルの `nextJapanSchedule` を更新します。Reactコンポーネントへ同じ値を重複記述しません。
 
 ## コンテンツ更新
 
@@ -41,7 +41,7 @@ npm run build
 
 ### Members
 
-`data/members.json` を更新します。英語・韓国語・日本語の名義は `identityVerificationStatus`、生年月日・出身・役割・説明・画像は `verificationStatus` で公開制御します。低解像度画像を表示枠に合わせて拡大せず、使用条件と十分な解像度を確認できない場合は画像なし表示を使います。
+`data/members.json` を更新します。名義、生年月日、出身、役割、説明、画像はレコードの `verificationStatus` で公開制御します。低解像度画像を表示枠に合わせて拡大せず、使用条件と十分な解像度を確認できない場合は画像なし表示を使います。
 
 ### Releases
 
@@ -68,7 +68,7 @@ npm run build
 - `stage_details_verify_before_publish`: 開催・ステージ詳細の確認が必要
 - `unverified`: 未確認
 
-`lib/content.ts` が公開可否を一元判定します。未確認状態のNews、Releases、Schedule、Japan Activities、動画は公開配列から除外されます。Membersは確認済みの名義だけでページを成立させ、未確認のプロフィール項目と画像を公開表示へ渡しません。未確認情報を説明文や検索データへ直接ハードコードしないでください。
+`lib/content.ts` が公開可否を一元判定します。未確認状態のMembers、News、Releases、Schedule、Japan Activities、動画は公開配列から除外されます。未確認情報を説明文や検索データへ直接ハードコードしないでください。
 
 ## Cloudflare Pages
 

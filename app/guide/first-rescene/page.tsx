@@ -34,7 +34,7 @@ export default function FirstRescenePage() {
                   key={video.url}
                 >
                   <span className="starter-video-order">{String(video.order).padStart(2, '0')}</span>
-                  <span className="starter-video-title korean" lang="ko">{video.title}</span>
+                  <span className="starter-video-title">{video.title}</span>
                   <span className="starter-video-source" aria-hidden="true">
                     <span className="starter-video-source-label">YouTube </span>↗
                   </span>

@@ -17,7 +17,7 @@ export type Member = {
   roleLabelJa: string | null;
   shortDescriptionJa: string | null;
   image: string | null;
-  identityVerificationStatus: VerificationStatus;
+  identityVerificationStatus?: VerificationStatus;
   verificationStatus: VerificationStatus;
 };
 
@@ -107,10 +107,22 @@ export type OfficialLink = {
   note?: string;
 };
 
-export type StarterVideo = {
-  order: number;
-  title: string;
+export type OfficialLinkRecord = {
+  id: string;
+  label: string;
   url: string;
+  type: string;
+  description: string;
+  official: boolean;
+};
+
+export type StarterVideo = {
+  id: string;
+  order?: number;
+  title: string;
+  originalTitle: string;
+  url: string;
+  memberIds: string[];
   verificationStatus: VerificationStatus;
 };
 

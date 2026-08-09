@@ -11,6 +11,7 @@ import type {
   Member,
   NewsArticle,
   OfficialLink,
+  OfficialLinkRecord,
   Release,
   Schedule,
   SearchItem,
@@ -26,7 +27,11 @@ export const isPublicVerificationStatus = (status: VerificationStatus) =>
 const memberRecords = memberData as Member[];
 
 export const members = memberRecords
-  .filter((member) => isPublicVerificationStatus(member.identityVerificationStatus))
+  .filter((member) =>
+    isPublicVerificationStatus(
+      member.identityVerificationStatus ?? member.verificationStatus,
+    ),
+  )
   .map((member) =>
     isPublicVerificationStatus(member.verificationStatus)
       ? member
@@ -55,10 +60,32 @@ export const schedules = (scheduleData as Schedule[])
 export const japanActivities = (japanActivityData as JapanActivity[])
   .filter((activity) => isPublicVerificationStatus(activity.verificationStatus))
   .sort((a, b) => b.eventDate.localeCompare(a.eventDate));
-export const officialLinks = officialLinkData as OfficialLink[];
+const officialLinkPresentation: Record<
+  string,
+  Pick<OfficialLink, 'category' | 'kind'>
+> = {
+  official_community: { category: '公式コミュニティ・SNS', kind: 'official' },
+  official: { category: '所属事務所', kind: 'official' },
+  official_video: { category: '公式コミュニティ・SNS', kind: 'official' },
+  official_social: { category: '公式コミュニティ・SNS', kind: 'official' },
+  streaming: { category: '音楽配信', kind: 'streaming' },
+  retailer: { category: '日本の正規イベント・販売', kind: 'retailer' },
+  promoter: { category: '日本の正規イベント・販売', kind: 'promoter' },
+};
+
+export const officialLinks = (officialLinkData as OfficialLinkRecord[]).map(
+  (link): OfficialLink => ({
+    id: link.id,
+    label: link.label,
+    url: link.url,
+    category: officialLinkPresentation[link.type]?.category ?? 'その他',
+    kind: officialLinkPresentation[link.type]?.kind ?? 'official',
+    note: link.description,
+  }),
+);
 export const starterVideos = (starterVideoData as StarterVideo[])
   .filter((video) => isPublicVerificationStatus(video.verificationStatus))
-  .sort((a, b) => a.order - b.order);
+  .map((video, index) => ({ ...video, order: index + 1 }));
 
 export const getMember = (id: string) => members.find((member) => member.id === id);
 export const getRelease = (id: string) => releases.find((release) => release.id === id);

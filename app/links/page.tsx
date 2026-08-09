@@ -29,7 +29,7 @@ export default function LinksPage() {
               {officialLinks.filter((link) => link.category === category).map((link) => (
                 <ExternalLink
                   href={link.url}
-                  kind={link.kind === 'streaming' ? 'streaming' : link.kind === 'promoter' ? 'promoter' : 'official'}
+                  kind={link.kind === 'streaming' ? 'streaming' : ['promoter', 'retailer'].includes(link.kind) ? 'promoter' : 'official'}
                   key={link.id}
                 >
                   {link.label}

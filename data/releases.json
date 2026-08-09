@@ -5,13 +5,29 @@
     "releaseDate": "2024-02-29",
     "releaseType": "プレデビュー・デジタルシングル",
     "language": "ko",
-    "titleTracks": ["YoYo"],
-    "tracks": [{ "title": "YoYo", "isTitle": true }],
+    "titleTracks": [
+      "YoYo"
+    ],
+    "tracks": [
+      {
+        "title": "YoYo",
+        "isTitle": true
+      }
+    ],
     "scentConcept": "Floralへの導入",
-    "descriptionJa": "RESCENEのプレデビュー曲。香りと場面を結ぶ作品世界への入口です。",
+    "descriptionJa": "正式デビュー前に公開されたプレデビュー曲。",
     "japanRelated": false,
-    "officialVideoUrl": null,
-    "streamingLinks": [],
+    "officialVideoUrl": "https://www.youtube.com/watch?v=uDYy2UyO1X4",
+    "streamingLinks": [
+      {
+        "label": "Apple Music",
+        "url": "https://music.apple.com/jp/artist/rescene/1732658659"
+      },
+      {
+        "label": "Spotify",
+        "url": "https://open.spotify.com/artist/5deOsjuFTKrNMJW3rKuL8S"
+      }
+    ],
     "purchaseLinks": [],
     "verificationStatus": "confirmed",
     "publish": true
@@ -22,13 +38,68 @@
     "releaseDate": "2024-03-26",
     "releaseType": "1st Single Album",
     "language": "ko",
-    "titleTracks": ["UhUh"],
-    "tracks": [{ "title": "YoYo" }, { "title": "UhUh", "isTitle": true }],
+    "titleTracks": [
+      "UhUh"
+    ],
+    "tracks": [
+      {
+        "title": "YoYo"
+      },
+      {
+        "title": "UhUh",
+        "isTitle": true
+      }
+    ],
     "scentConcept": "Floral",
-    "descriptionJa": "2024年3月26日に発表されたデビュー作品。",
+    "descriptionJa": "RESCENEのデビュー作。グループ名の「Scene」と「Scent」を結ぶ世界観を提示した作品。",
+    "japanRelated": false,
+    "officialVideoUrl": "https://www.youtube.com/watch?v=zpSejlkSXLA",
+    "streamingLinks": [
+      {
+        "label": "Apple Music",
+        "url": "https://music.apple.com/jp/artist/rescene/1732658659"
+      },
+      {
+        "label": "Spotify",
+        "url": "https://open.spotify.com/artist/5deOsjuFTKrNMJW3rKuL8S"
+      }
+    ],
+    "purchaseLinks": [],
+    "verificationStatus": "confirmed",
+    "publish": true
+  },
+  {
+    "id": "counting-star",
+    "title": "Counting Star",
+    "releaseDate": "2024-06-26",
+    "releaseType": "OST",
+    "language": "ko",
+    "titleTracks": [
+      "Counting Star"
+    ],
+    "tracks": [
+      {
+        "title": "Counting Star",
+        "isTitle": true
+      },
+      {
+        "title": "Counting Star (Inst.)"
+      }
+    ],
+    "scentConcept": null,
+    "descriptionJa": "ドラマ『The Magic Star』OST。",
     "japanRelated": false,
     "officialVideoUrl": null,
-    "streamingLinks": [],
+    "streamingLinks": [
+      {
+        "label": "Apple Music",
+        "url": "https://music.apple.com/jp/artist/rescene/1732658659"
+      },
+      {
+        "label": "Spotify",
+        "url": "https://open.spotify.com/artist/5deOsjuFTKrNMJW3rKuL8S"
+      }
+    ],
     "purchaseLinks": [],
     "verificationStatus": "confirmed",
     "publish": true
@@ -37,15 +108,31 @@
     "id": "yoyo-japanese",
     "title": "YoYo (Japanese Version)",
     "releaseDate": "2024-08-16",
-    "releaseType": "日本語版デジタルシングル",
+    "releaseType": "Japanese Digital Single",
     "language": "ja",
-    "titleTracks": ["YoYo (Japanese Version)"],
-    "tracks": [{ "title": "YoYo (Japanese Version)", "isTitle": true }],
-    "scentConcept": "Japanese Version",
-    "descriptionJa": "『YoYo』の日本語版デジタルリリース。",
+    "titleTracks": [
+      "YoYo (Japanese Version)"
+    ],
+    "tracks": [
+      {
+        "title": "YoYo (Japanese Version)",
+        "isTitle": true
+      }
+    ],
+    "scentConcept": null,
+    "descriptionJa": "「YoYo」の日本語バージョン。",
     "japanRelated": true,
     "officialVideoUrl": null,
-    "streamingLinks": [],
+    "streamingLinks": [
+      {
+        "label": "Apple Music",
+        "url": "https://music.apple.com/jp/artist/rescene/1732658659"
+      },
+      {
+        "label": "Spotify",
+        "url": "https://open.spotify.com/artist/5deOsjuFTKrNMJW3rKuL8S"
+      }
+    ],
     "purchaseLinks": [],
     "verificationStatus": "confirmed",
     "publish": true
@@ -56,13 +143,40 @@
     "releaseDate": "2024-08-27",
     "releaseType": "1st Mini Album",
     "language": "ko",
-    "titleTracks": ["LOVE ATTACK", "Pinball"],
-    "tracks": [{ "title": "Lucky you" }, { "title": "LOVE ATTACK", "isTitle": true }, { "title": "New World" }, { "title": "Pinball", "isTitle": true }],
+    "titleTracks": [
+      "LOVE ATTACK",
+      "Pinball"
+    ],
+    "tracks": [
+      {
+        "title": "Lucky you"
+      },
+      {
+        "title": "LOVE ATTACK",
+        "isTitle": true
+      },
+      {
+        "title": "New World"
+      },
+      {
+        "title": "Pinball",
+        "isTitle": true
+      }
+    ],
     "scentConcept": "Ambergris",
-    "descriptionJa": "Ambergrisを香りの軸に置いた1st Mini Album。",
+    "descriptionJa": "RESCENE初のミニアルバム。公式コンセプトではアンバーグリスの香りを軸に展開された。",
     "japanRelated": false,
-    "officialVideoUrl": null,
-    "streamingLinks": [],
+    "officialVideoUrl": "https://www.youtube.com/watch?v=9XttLI0oH0I",
+    "streamingLinks": [
+      {
+        "label": "Apple Music",
+        "url": "https://music.apple.com/jp/artist/rescene/1732658659"
+      },
+      {
+        "label": "Spotify",
+        "url": "https://open.spotify.com/artist/5deOsjuFTKrNMJW3rKuL8S"
+      }
+    ],
     "purchaseLinks": [],
     "verificationStatus": "confirmed",
     "publish": true
@@ -71,15 +185,31 @@
     "id": "uhuh-japanese",
     "title": "UhUh (Japanese Version)",
     "releaseDate": "2024-12-04",
-    "releaseType": "日本語版デジタルシングル",
+    "releaseType": "Japanese Digital Single",
     "language": "ja",
-    "titleTracks": ["UhUh (Japanese Version)"],
-    "tracks": [{ "title": "UhUh (Japanese Version)", "isTitle": true }],
-    "scentConcept": "Japanese Version",
-    "descriptionJa": "『UhUh』の日本語版デジタルリリース。",
+    "titleTracks": [
+      "UhUh (Japanese Version)"
+    ],
+    "tracks": [
+      {
+        "title": "UhUh (Japanese Version)",
+        "isTitle": true
+      }
+    ],
+    "scentConcept": null,
+    "descriptionJa": "「UhUh」の日本語バージョン。",
     "japanRelated": true,
     "officialVideoUrl": null,
-    "streamingLinks": [],
+    "streamingLinks": [
+      {
+        "label": "Apple Music",
+        "url": "https://music.apple.com/jp/artist/rescene/1732658659"
+      },
+      {
+        "label": "Spotify",
+        "url": "https://open.spotify.com/artist/5deOsjuFTKrNMJW3rKuL8S"
+      }
+    ],
     "purchaseLinks": [],
     "verificationStatus": "confirmed",
     "publish": true
@@ -90,13 +220,41 @@
     "releaseDate": "2025-02-05",
     "releaseType": "2nd Mini Album",
     "language": "ko",
-    "titleTracks": ["Glow Up"],
-    "tracks": [{ "title": "CRASH" }, { "title": "Glow Up", "isTitle": true }, { "title": "Going on" }, { "title": "In my lotion" }, { "title": "Cotton Candy" }],
-    "scentConcept": "Clean soap / bright clarity",
-    "descriptionJa": "明るく清潔な石けん系のイメージを持つ2nd Mini Album。",
-    "japanRelated": false,
-    "officialVideoUrl": null,
-    "streamingLinks": [],
+    "titleTracks": [
+      "Glow Up"
+    ],
+    "tracks": [
+      {
+        "title": "CRASH"
+      },
+      {
+        "title": "Glow Up",
+        "isTitle": true
+      },
+      {
+        "title": "Going on"
+      },
+      {
+        "title": "In my lotion"
+      },
+      {
+        "title": "Cotton Candy"
+      }
+    ],
+    "scentConcept": "Clean soap",
+    "descriptionJa": "5曲入りの2nd Mini Album。清潔感のある石けん系の香りを作品世界に重ねている。",
+    "japanRelated": true,
+    "officialVideoUrl": "https://www.youtube.com/watch?v=h0xUtrb_JBc",
+    "streamingLinks": [
+      {
+        "label": "Apple Music",
+        "url": "https://music.apple.com/jp/artist/rescene/1732658659"
+      },
+      {
+        "label": "Spotify",
+        "url": "https://open.spotify.com/artist/5deOsjuFTKrNMJW3rKuL8S"
+      }
+    ],
     "purchaseLinks": [],
     "verificationStatus": "confirmed",
     "publish": true
@@ -105,15 +263,67 @@
     "id": "glow-up-english",
     "title": "Glow Up (English Version)",
     "releaseDate": "2025-02-17",
-    "releaseType": "英語版デジタルシングル",
+    "releaseType": "English Digital Single",
     "language": "en",
-    "titleTracks": ["Glow Up (English Version)"],
-    "tracks": [{ "title": "Glow Up (English Version)", "isTitle": true }],
-    "scentConcept": "English Version",
-    "descriptionJa": "『Glow Up』の英語版デジタルリリース。",
+    "titleTracks": [
+      "Glow Up (English Version)"
+    ],
+    "tracks": [
+      {
+        "title": "Glow Up (English Version)",
+        "isTitle": true
+      }
+    ],
+    "scentConcept": null,
+    "descriptionJa": "「Glow Up」の英語バージョン。",
     "japanRelated": false,
     "officialVideoUrl": null,
-    "streamingLinks": [],
+    "streamingLinks": [
+      {
+        "label": "Apple Music",
+        "url": "https://music.apple.com/jp/artist/rescene/1732658659"
+      },
+      {
+        "label": "Spotify",
+        "url": "https://open.spotify.com/artist/5deOsjuFTKrNMJW3rKuL8S"
+      }
+    ],
+    "purchaseLinks": [],
+    "verificationStatus": "confirmed",
+    "publish": true
+  },
+  {
+    "id": "bambambam",
+    "title": "밤밤밤 (BamBamBam)",
+    "releaseDate": "2025-06-12",
+    "releaseType": "OST",
+    "language": "ko",
+    "titleTracks": [
+      "밤밤밤 (BamBamBam)"
+    ],
+    "tracks": [
+      {
+        "title": "밤밤밤 (BamBamBam)",
+        "isTitle": true
+      },
+      {
+        "title": "밤밤밤 (BamBamBam) (Inst.)"
+      }
+    ],
+    "scentConcept": null,
+    "descriptionJa": "ドラマ『The First Night With The Duke』OST Part 1。",
+    "japanRelated": false,
+    "officialVideoUrl": null,
+    "streamingLinks": [
+      {
+        "label": "Apple Music",
+        "url": "https://music.apple.com/jp/artist/rescene/1732658659"
+      },
+      {
+        "label": "Spotify",
+        "url": "https://open.spotify.com/artist/5deOsjuFTKrNMJW3rKuL8S"
+      }
+    ],
     "purchaseLinks": [],
     "verificationStatus": "confirmed",
     "publish": true
@@ -124,13 +334,101 @@
     "releaseDate": "2025-07-02",
     "releaseType": "2nd Single Album",
     "language": "ko",
-    "titleTracks": ["Deja Vu"],
-    "tracks": [{ "title": "Deja Vu", "isTitle": true }, { "title": "Mood" }],
-    "scentConcept": "雨上がりの濡れた草葉と記憶",
-    "descriptionJa": "雨上がりの濡れた草葉と記憶を香りの軸に置いた2nd Single Album。",
+    "titleTracks": [
+      "Deja Vu"
+    ],
+    "tracks": [
+      {
+        "title": "Deja Vu",
+        "isTitle": true
+      },
+      {
+        "title": "Mood"
+      }
+    ],
+    "scentConcept": "Rain-wet grass / memory",
+    "descriptionJa": "2曲入りの2nd Single Album。雨上がりの草葉や記憶を想起させる作品世界を展開する。",
     "japanRelated": true,
+    "officialVideoUrl": "https://www.youtube.com/watch?v=ZbO9PBdFRdc",
+    "streamingLinks": [
+      {
+        "label": "Apple Music",
+        "url": "https://music.apple.com/jp/artist/rescene/1732658659"
+      },
+      {
+        "label": "Spotify",
+        "url": "https://open.spotify.com/artist/5deOsjuFTKrNMJW3rKuL8S"
+      }
+    ],
+    "purchaseLinks": [],
+    "verificationStatus": "confirmed",
+    "publish": true
+  },
+  {
+    "id": "dearest-sped-up",
+    "title": "Dearest (Sped Up Version)",
+    "releaseDate": "2025-07-09",
+    "releaseType": "Digital Single",
+    "language": "ko",
+    "titleTracks": [
+      "Deja Vu (Sped Up Version)"
+    ],
+    "tracks": [
+      {
+        "title": "Deja Vu (Sped Up Version)",
+        "isTitle": true
+      },
+      {
+        "title": "Mood (Sped Up Version)"
+      }
+    ],
+    "scentConcept": null,
+    "descriptionJa": "『Dearest』収録曲のSped Up Version。",
+    "japanRelated": false,
     "officialVideoUrl": null,
-    "streamingLinks": [],
+    "streamingLinks": [
+      {
+        "label": "Apple Music",
+        "url": "https://music.apple.com/jp/artist/rescene/1732658659"
+      },
+      {
+        "label": "Spotify",
+        "url": "https://open.spotify.com/artist/5deOsjuFTKrNMJW3rKuL8S"
+      }
+    ],
+    "purchaseLinks": [],
+    "verificationStatus": "confirmed",
+    "publish": true
+  },
+  {
+    "id": "love-frequency",
+    "title": "고백주파수 (Love Frequency)",
+    "releaseDate": "2025-09-17",
+    "releaseType": "OST",
+    "language": "ko",
+    "titleTracks": [
+      "고백주파수 (Love Frequency)"
+    ],
+    "tracks": [
+      {
+        "title": "고백주파수 (Love Frequency)",
+        "isTitle": true
+      }
+    ],
+    "scentConcept": null,
+    "descriptionJa": "ドラマ『Just For Meeting You』OST。",
+    "japanRelated": false,
+    "officialVideoUrl": null,
+    "streamingLinks": [
+      {
+        "label": "Apple Music",
+        "url": "https://music.apple.com/jp/artist/rescene/1732658659"
+      },
+      {
+        "label": "Spotify",
+        "url": "https://open.spotify.com/artist/5deOsjuFTKrNMJW3rKuL8S"
+      }
+    ],
     "purchaseLinks": [],
     "verificationStatus": "confirmed",
     "publish": true
@@ -139,15 +437,31 @@
     "id": "heart-drop",
     "title": "Heart Drop",
     "releaseDate": "2025-11-06",
-    "releaseType": "先行デジタルシングル",
+    "releaseType": "Pre-release Digital Single",
     "language": "ko",
-    "titleTracks": ["Heart Drop"],
-    "tracks": [{ "title": "Heart Drop", "isTitle": true }],
+    "titleTracks": [
+      "Heart Drop"
+    ],
+    "tracks": [
+      {
+        "title": "Heart Drop",
+        "isTitle": true
+      }
+    ],
     "scentConcept": "Cranberry",
-    "descriptionJa": "『lip bomb』に先駆けて発表されたデジタルシングル。",
+    "descriptionJa": "3rd Mini Album『lip bomb』に先行して公開されたデジタルシングル。",
     "japanRelated": false,
-    "officialVideoUrl": null,
-    "streamingLinks": [],
+    "officialVideoUrl": "https://www.youtube.com/watch?v=ByX8EZq8500",
+    "streamingLinks": [
+      {
+        "label": "Apple Music",
+        "url": "https://music.apple.com/jp/artist/rescene/1732658659"
+      },
+      {
+        "label": "Spotify",
+        "url": "https://open.spotify.com/artist/5deOsjuFTKrNMJW3rKuL8S"
+      }
+    ],
     "purchaseLinks": [],
     "verificationStatus": "confirmed",
     "publish": true
@@ -158,13 +472,76 @@
     "releaseDate": "2025-11-25",
     "releaseType": "3rd Mini Album",
     "language": "ko",
-    "titleTracks": ["Heart Drop", "Bloom"],
-    "tracks": [{ "title": "Heart Drop", "isTitle": true, "preReleaseDate": "2025-11-06" }, { "title": "Bloom", "isTitle": true }, { "title": "Love Echo" }, { "title": "Hello XO" }, { "title": "MVP" }],
+    "titleTracks": [
+      "Heart Drop",
+      "Bloom"
+    ],
+    "tracks": [
+      {
+        "title": "Heart Drop",
+        "isTitle": true
+      },
+      {
+        "title": "Bloom",
+        "isTitle": true
+      },
+      {
+        "title": "Love Echo"
+      },
+      {
+        "title": "Hello XO"
+      },
+      {
+        "title": "MVP"
+      }
+    ],
     "scentConcept": "Berry",
-    "descriptionJa": "Berryの香りをコンセプトに置いた3rd Mini Album。日本では2026年1月にプロモーションイベントが行われました。",
+    "descriptionJa": "5曲入りの3rd Mini Album。ベリー系の香りを作品世界の軸に据える。",
     "japanRelated": true,
-    "officialVideoUrl": "https://themuze.kr/lipbomb",
-    "streamingLinks": [{ "label": "Apple Musicで聴く", "url": "https://music.apple.com/jp/artist/rescene/1732658659" }, { "label": "Spotifyで聴く", "url": "https://open.spotify.com/artist/5deOsjuFTKrNMJW3rKuL8S" }],
+    "officialVideoUrl": null,
+    "streamingLinks": [
+      {
+        "label": "Apple Music",
+        "url": "https://music.apple.com/jp/artist/rescene/1732658659"
+      },
+      {
+        "label": "Spotify",
+        "url": "https://open.spotify.com/artist/5deOsjuFTKrNMJW3rKuL8S"
+      }
+    ],
+    "purchaseLinks": [],
+    "verificationStatus": "confirmed",
+    "publish": true
+  },
+  {
+    "id": "pinball-japanese",
+    "title": "ピンボール (Pinball)",
+    "releaseDate": "2026-01-21",
+    "releaseType": "Japanese Digital Single",
+    "language": "ja",
+    "titleTracks": [
+      "ピンボール (Pinball)"
+    ],
+    "tracks": [
+      {
+        "title": "ピンボール (Pinball)",
+        "isTitle": true
+      }
+    ],
+    "scentConcept": null,
+    "descriptionJa": "「Pinball」の日本語バージョン。RESCENEの日本3rdデジタルシングル。",
+    "japanRelated": true,
+    "officialVideoUrl": "https://www.youtube.com/watch?v=ou2Y2vGKCyY",
+    "streamingLinks": [
+      {
+        "label": "Apple Music",
+        "url": "https://music.apple.com/jp/album/1838666711"
+      },
+      {
+        "label": "Spotify",
+        "url": "https://open.spotify.com/artist/5deOsjuFTKrNMJW3rKuL8S"
+      }
+    ],
     "purchaseLinks": [],
     "verificationStatus": "confirmed",
     "publish": true
@@ -173,18 +550,103 @@
     "id": "rescene-x",
     "title": "[RESCENE X ???]",
     "releaseDate": "2026-02-27",
-    "releaseType": "コラボレーション",
+    "releaseType": "Collaboration Single",
     "language": "ko",
-    "titleTracks": ["Busy Boy"],
-    "tracks": [{ "title": "Busy Boy", "isTitle": true }, { "title": "Busy Boy (Inst.)" }],
+    "titleTracks": [
+      "Busy Boy"
+    ],
+    "tracks": [
+      {
+        "title": "Busy Boy",
+        "isTitle": true
+      },
+      {
+        "title": "Busy Boy (Inst.)"
+      }
+    ],
     "scentConcept": null,
-    "descriptionJa": "正式な企画名と表記を公開前に再確認する作品。",
+    "descriptionJa": "「Busy Boy」を収録したコラボレーション・シングル。『[RESCENE X ???]』は正式なリリース名。",
     "japanRelated": false,
     "officialVideoUrl": null,
-    "streamingLinks": [],
+    "streamingLinks": [
+      {
+        "label": "Apple Music",
+        "url": "https://music.apple.com/jp/artist/rescene/1732658659"
+      },
+      {
+        "label": "Spotify",
+        "url": "https://open.spotify.com/artist/5deOsjuFTKrNMJW3rKuL8S"
+      }
+    ],
     "purchaseLinks": [],
-    "verificationStatus": "verify_before_publish",
-    "publish": false
+    "verificationStatus": "confirmed",
+    "publish": true
+  },
+  {
+    "id": "higher",
+    "title": "Higher",
+    "releaseDate": "2026-02-27",
+    "releaseType": "OST / Soundtrack",
+    "language": "ko",
+    "titleTracks": [
+      "Higher"
+    ],
+    "tracks": [
+      {
+        "title": "Higher",
+        "isTitle": true
+      }
+    ],
+    "scentConcept": null,
+    "descriptionJa": "映画『THE SPECIALS』関連サウンドトラック曲。",
+    "japanRelated": true,
+    "officialVideoUrl": null,
+    "streamingLinks": [
+      {
+        "label": "Apple Music",
+        "url": "https://music.apple.com/jp/artist/rescene/1732658659"
+      },
+      {
+        "label": "Spotify",
+        "url": "https://open.spotify.com/artist/5deOsjuFTKrNMJW3rKuL8S"
+      }
+    ],
+    "purchaseLinks": [],
+    "verificationStatus": "confirmed",
+    "publish": true
+  },
+  {
+    "id": "busy-boy-galantis-remix",
+    "title": "Busy Boy (Galantis Remix)",
+    "releaseDate": "2026-03-12",
+    "releaseType": "Remix Digital Single",
+    "language": "ko",
+    "titleTracks": [
+      "Busy Boy (Galantis Remix)"
+    ],
+    "tracks": [
+      {
+        "title": "Busy Boy (Galantis Remix)",
+        "isTitle": true
+      }
+    ],
+    "scentConcept": null,
+    "descriptionJa": "「Busy Boy」のGalantis Remix。",
+    "japanRelated": false,
+    "officialVideoUrl": null,
+    "streamingLinks": [
+      {
+        "label": "Apple Music",
+        "url": "https://music.apple.com/jp/artist/rescene/1732658659"
+      },
+      {
+        "label": "Spotify",
+        "url": "https://open.spotify.com/artist/5deOsjuFTKrNMJW3rKuL8S"
+      }
+    ],
+    "purchaseLinks": [],
+    "verificationStatus": "confirmed",
+    "publish": true
   },
   {
     "id": "runaway",
@@ -192,13 +654,29 @@
     "releaseDate": "2026-04-08",
     "releaseType": "1st Digital Single",
     "language": "ko",
-    "titleTracks": ["Runaway"],
-    "tracks": [{ "title": "Runaway", "isTitle": true }],
+    "titleTracks": [
+      "Runaway"
+    ],
+    "tracks": [
+      {
+        "title": "Runaway",
+        "isTitle": true
+      }
+    ],
     "scentConcept": "Incense",
-    "descriptionJa": "Incenseを香りの軸に置いた1st Digital Single。",
+    "descriptionJa": "2026年4月に発表されたデジタルシングル。",
     "japanRelated": false,
-    "officialVideoUrl": "https://themuze.kr/Runaway_",
-    "streamingLinks": [{ "label": "Apple Musicで聴く", "url": "https://music.apple.com/jp/artist/rescene/1732658659" }, { "label": "Spotifyで聴く", "url": "https://open.spotify.com/artist/5deOsjuFTKrNMJW3rKuL8S" }],
+    "officialVideoUrl": "https://www.youtube.com/watch?v=rsZwrTNklos",
+    "streamingLinks": [
+      {
+        "label": "Apple Music",
+        "url": "https://music.apple.com/jp/artist/rescene/1732658659"
+      },
+      {
+        "label": "Spotify",
+        "url": "https://open.spotify.com/artist/5deOsjuFTKrNMJW3rKuL8S"
+      }
+    ],
     "purchaseLinks": [],
     "verificationStatus": "confirmed",
     "publish": true
@@ -209,13 +687,29 @@
     "releaseDate": "2026-07-08",
     "releaseType": "Special Single",
     "language": "ko",
-    "titleTracks": ["Pretty Girl"],
-    "tracks": [{ "title": "Pretty Girl", "isTitle": true }],
+    "titleTracks": [
+      "Pretty Girl"
+    ],
+    "tracks": [
+      {
+        "title": "Pretty Girl",
+        "isTitle": true
+      }
+    ],
     "scentConcept": null,
-    "descriptionJa": "2026年7月8日に発表されたSpecial Single。",
+    "descriptionJa": "2026年7月8日発売のSpecial Single。KARAが2008年に発表した同名曲をRESCENEがリメイクした作品。",
     "japanRelated": false,
     "officialVideoUrl": null,
-    "streamingLinks": [{ "label": "Apple Musicで聴く", "url": "https://music.apple.com/jp/artist/rescene/1732658659" }, { "label": "Spotifyで聴く", "url": "https://open.spotify.com/artist/5deOsjuFTKrNMJW3rKuL8S" }],
+    "streamingLinks": [
+      {
+        "label": "Apple Music",
+        "url": "https://music.apple.com/jp/album/pretty-girl-single/1823368755"
+      },
+      {
+        "label": "Spotify",
+        "url": "https://open.spotify.com/artist/5deOsjuFTKrNMJW3rKuL8S"
+      }
+    ],
     "purchaseLinks": [],
     "verificationStatus": "confirmed",
     "publish": true
