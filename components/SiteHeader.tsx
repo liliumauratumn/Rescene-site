@@ -111,7 +111,7 @@ export default function SiteHeader({ homeMembers }: { homeMembers: HeaderMember[
               priority
               sizes="100vw"
             />
-            <div className="hero-hit-grid" aria-label="メンバープロフィール">
+            <div className="hero-hit-grid" role="group" aria-label="メンバープロフィール">
               {homeMembers.map((member) => (
                 <Link
                   className={`hero-hit hero-hit--${member.id}`}
@@ -124,7 +124,7 @@ export default function SiteHeader({ homeMembers }: { homeMembers: HeaderMember[
               ))}
             </div>
           </div>
-          <div className="hero-name-row" aria-label="メンバー一覧">
+          <div className="hero-name-row" role="group" aria-label="メンバー一覧">
             {homeMembers.map((member) => (
               <Link href={`/members/${member.id}/`} key={member.id}>
                 {member.stageName}

@@ -8,10 +8,10 @@
   --surface-shimmer: #2a2e34;
   --text-primary: #f2f0ec;
   --text-secondary: #c7c9cc;
-  --text-muted: #8b8e93;
+  --text-muted: #989ba0;
   --line: #23262b;
   --line-strong: #3a3e44;
-  --line-control: #4a4e55;
+  --line-control: #62666d;
   --accent-gold: #d8b37a;
   --accent-gold-dark: #7a5c22;
   --accent-nav-hover: #e8489b;
@@ -38,6 +38,11 @@ html {
   color-scheme: dark;
   overflow-x: clip;
   scroll-behavior: smooth;
+  scroll-padding-top: calc(var(--header-height) + 20px);
+}
+
+html:has(.home-page) {
+  scroll-padding-top: calc(var(--header-height) + 140px);
 }
 
 body {
@@ -96,8 +101,9 @@ dd {
 }
 
 :focus-visible {
-  outline: 1px solid var(--accent-gold);
-  outline-offset: 4px;
+  outline: 2px solid var(--text-primary);
+  outline-offset: 0;
+  box-shadow: 0 0 0 4px var(--surface-base);
 }
 
 ::selection {
@@ -1480,7 +1486,7 @@ dd {
 }
 
 .guide-number {
-  color: #b9b3a6;
+  color: #69655d;
   font-family: var(--font-display);
   font-size: 64px;
   font-weight: 300;
@@ -1536,7 +1542,7 @@ dd {
 }
 
 .starter-video-order {
-  color: #b9b3a6;
+  color: #69655d;
   font-family: var(--font-display);
   font-size: 26px;
   line-height: 1;
@@ -2209,6 +2215,10 @@ dd {
     --page-pad: 18px;
     --content-pad: 18px;
     --section-gap: 52px;
+  }
+
+  html:has(.home-page) {
+    scroll-padding-top: calc(var(--header-height) + 264px);
   }
 
   body {

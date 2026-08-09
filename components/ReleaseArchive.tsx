@@ -22,7 +22,7 @@ export default function ReleaseArchive({ items }: { items: Release[] }) {
 
   return (
     <>
-      <div className="filter-bar" aria-label="作品の絞り込み">
+      <div className="filter-bar" role="group" aria-label="作品の絞り込み">
         {filters.map((item) => (
           <button
             className={`filter-button ${filter === item.value ? 'is-active' : ''}`}
@@ -35,24 +35,24 @@ export default function ReleaseArchive({ items }: { items: Release[] }) {
           </button>
         ))}
       </div>
-      <div className="release-table" role="table" aria-label="作品一覧">
-        <div className="release-table__head" role="row">
-          <span role="columnheader">DATE</span>
-          <span role="columnheader">TITLE</span>
-          <span role="columnheader">TYPE</span>
-          <span role="columnheader">TITLE TRACK</span>
-          <span role="columnheader">SCENT</span>
+      <div className="release-table">
+        <div className="release-table__head" aria-hidden="true">
+          <span>DATE</span>
+          <span>TITLE</span>
+          <span>TYPE</span>
+          <span>TITLE TRACK</span>
+          <span>SCENT</span>
         </div>
         {filtered.map((release) => (
-          <Link className="release-row" href={`/discography/${release.id}/`} role="row" key={release.id}>
-            <time role="cell" dateTime={release.releaseDate}>{formatDate(release.releaseDate)}</time>
-            <span className="release-row__title" role="cell">
+          <Link className="release-row" href={`/discography/${release.id}/`} key={release.id}>
+            <time dateTime={release.releaseDate}>{formatDate(release.releaseDate)}</time>
+            <span className="release-row__title">
               {release.title}
               {release.tracks.length > 1 && <small>全{release.tracks.length}曲</small>}
             </span>
-            <span role="cell">{release.releaseType}</span>
-            <span role="cell">{release.titleTracks.join(' ／ ')}</span>
-            <span role="cell">{release.scentConcept ?? '—'}</span>
+            <span>{release.releaseType}</span>
+            <span>{release.titleTracks.join(' ／ ')}</span>
+            <span>{release.scentConcept ?? '—'}</span>
           </Link>
         ))}
       </div>

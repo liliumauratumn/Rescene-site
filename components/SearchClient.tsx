@@ -42,7 +42,7 @@ export default function SearchClient({ items }: { items: SearchItem[] }) {
           <button type="submit">検索</button>
         </div>
       </form>
-      <div className="filter-bar" aria-label="検索対象の絞り込み">
+      <div className="filter-bar" role="group" aria-label="検索対象の絞り込み">
         {types.map((value) => (
           <button
             type="button"

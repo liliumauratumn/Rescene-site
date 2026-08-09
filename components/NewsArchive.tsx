@@ -33,7 +33,7 @@ export default function NewsArchive({ articles }: { articles: NewsArticle[] }) {
 
   return (
     <>
-      <div className="filter-bar" aria-label="ニュースの絞り込み">
+      <div className="filter-bar" role="group" aria-label="ニュースの絞り込み">
         <span className="filter-label">CATEGORY</span>
         {categories.map((value) => (
           <button

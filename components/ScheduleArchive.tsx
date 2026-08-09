@@ -33,7 +33,7 @@ export default function ScheduleArchive({ items }: { items: Schedule[] }) {
 
   return (
     <>
-      <div className="filter-bar" aria-label="スケジュールの絞り込み">
+      <div className="filter-bar" role="group" aria-label="スケジュールの絞り込み">
         {[
           ['all', 'すべて'],
           ['jp', '日本のみ'],

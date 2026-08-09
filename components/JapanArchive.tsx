@@ -27,7 +27,7 @@ export default function JapanArchive({ items }: { items: JapanActivity[] }) {
 
   return (
     <>
-      <div className="filter-bar" aria-label="日本活動の絞り込み">
+      <div className="filter-bar" role="group" aria-label="日本活動の絞り込み">
         {groups.map((group) => (
           <button
             className={`filter-button ${filter === group.value ? 'is-active' : ''}`}
