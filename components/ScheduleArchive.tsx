@@ -30,6 +30,44 @@ export default function ScheduleArchive({ items }: { items: Schedule[] }) {
     if (filter === 'deadline') return items.filter((item) => item.applicationEndAt);
     return items;
   }, [filter, items]);
+  const upcomingItems = filtered
+    .filter((item) => ['scheduled', 'application_open', 'deadline_soon', 'details_pending', 'postponed'].includes(item.status))
+    .sort((a, b) => (a.startAt ?? '').localeCompare(b.startAt ?? ''));
+  const pastItems = filtered
+    .filter((item) => !upcomingItems.includes(item))
+    .sort((a, b) => (b.startAt ?? '').localeCompare(a.startAt ?? ''));
+
+  const renderItems = (sectionItems: Schedule[]) => sectionItems.map((item) => (
+    <article className={`schedule-row schedule-row--${item.status}`} key={item.id}>
+      <div className="schedule-row__date">
+        {item.startAt && (
+          <time dateTime={item.startAt}>
+            {formatDate(item.startAt.slice(0, 10))}
+            {item.endAt && item.endAt.slice(0, 10) !== item.startAt.slice(0, 10)
+              ? ` – ${formatDate(item.endAt.slice(0, 10))}`
+              : ''}
+          </time>
+        )}
+        <span className="status-badge">{statusLabels[item.status] ?? item.status}</span>
+      </div>
+      <div className="schedule-row__content">
+        <p className="eyebrow">{item.type.replaceAll('_', ' ')}</p>
+        <h3>{item.title}</h3>
+        <p>{[item.prefecture, item.venue].filter(Boolean).join('・')}</p>
+        {item.applicationStartAt && item.applicationEndAt && (
+          <p className="schedule-row__dates">
+            応募 {dateTimeLabel(item.applicationStartAt)} → {dateTimeLabel(item.applicationEndAt)}
+          </p>
+        )}
+        {item.saleStartAt && (
+          <p className="schedule-row__dates">販売開始 {dateTimeLabel(item.saleStartAt)}</p>
+        )}
+        {item.sourceUrl && (
+          <ExternalLink href={item.sourceUrl} kind="promoter">公式・主催者情報を確認</ExternalLink>
+        )}
+      </div>
+    </article>
+  ));
 
   return (
     <>
@@ -67,31 +105,12 @@ export default function ScheduleArchive({ items }: { items: Schedule[] }) {
         </p>
       </section>
       <section className="schedule-past" aria-labelledby="schedule-past-title">
-        <h2 className="section-heading" id="schedule-past-title">終了した予定</h2>
-        {filtered.map((item) => (
-          <article className={`schedule-row schedule-row--${item.status}`} key={item.id}>
-            <div className="schedule-row__date">
-              {item.startAt && <time dateTime={item.startAt}>{formatDate(item.startAt.slice(0, 10))}</time>}
-              <span className="status-badge">{statusLabels[item.status] ?? item.status}</span>
-            </div>
-            <div className="schedule-row__content">
-              <p className="eyebrow">{item.type.replaceAll('_', ' ')}</p>
-              <h3>{item.title}</h3>
-              <p>{[item.prefecture, item.venue].filter(Boolean).join('・')}</p>
-              {item.applicationStartAt && item.applicationEndAt && (
-                <p className="schedule-row__dates">
-                  応募 {dateTimeLabel(item.applicationStartAt)} → {dateTimeLabel(item.applicationEndAt)}
-                </p>
-              )}
-              {item.saleStartAt && (
-                <p className="schedule-row__dates">販売開始 {dateTimeLabel(item.saleStartAt)}</p>
-              )}
-              {item.sourceUrl && (
-                <ExternalLink href={item.sourceUrl} kind="promoter">公式・主催者情報を確認</ExternalLink>
-              )}
-            </div>
-          </article>
-        ))}
+        <h2 className="section-heading" id="schedule-past-title">今後の予定</h2>
+        {upcomingItems.length > 0 ? renderItems(upcomingItems) : <p>確認済みの予定はありません。</p>}
+      </section>
+      <section className="schedule-past" aria-labelledby="schedule-archive-title">
+        <h2 className="section-heading" id="schedule-archive-title">終了した予定</h2>
+        {renderItems(pastItems)}
       </section>
     </>
   );

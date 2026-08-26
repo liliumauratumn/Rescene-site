@@ -3,45 +3,63 @@ import { Breadcrumbs, PageHeader } from '@/components/PageHeader';
 import { createMetadata } from '@/lib/metadata';
 
 export const metadata = createMetadata({
-  title: '日本からイベントへ参加する',
-  description: 'RESCENEの日本イベントへ参加する際の公式情報、日付、応募、本人確認の見方を案内します。',
+  title: '日本イベント参加前の補助情報',
+  description: 'RESCENEの日本イベントへ参加予定がある人向けに、公式情報、日付、応募、本人確認の見方だけを補助情報として案内します。',
   path: '/guide/japan-events/',
 });
 
 export default function JapanEventsGuidePage() {
   return (
     <div className="page-shell">
-      <Breadcrumbs items={[{ label: 'GUIDE', href: '/guide/first-rescene/' }, { label: '日本からイベントへ参加する' }]} />
+      <Breadcrumbs items={[{ label: 'GUIDE', href: '/guide/first-rescene/' }, { label: '参加前の補助情報' }]} />
       <PageHeader
-        eyebrow="GUIDE — 日本からイベントへ参加する"
+        eyebrow="GUIDE — UTILITY"
         title="Japan Events"
-        lead="最初につまずきやすい応募の順番と本人確認を、4つの手順に絞って説明します。グループの基本は「初めてのRESCENE」にまとめています。"
+        lead="このページは、参加予定ができた人だけが確認する補助情報です。RESCENEを今から知る入口は「First RESCENE」、日本で起きてきた活動は「Japan Archive」にあります。"
       />
-      <article className="guide-article">
+      <div className="guide-priority-links page-pad" aria-label="優先コンテンツ">
+        <Link href="/guide/first-rescene/">
+          <span>START HERE</span>
+          <strong>2026年の今から見る First RESCENE →</strong>
+        </Link>
+        <Link href="/japan/">
+          <span>ACTIVITY RECORD</span>
+          <strong>日本で何が起きてきたかを見る →</strong>
+        </Link>
+      </div>
+      <article className="guide-article guide-article--utility">
         <section className="guide-section">
           <span className="guide-number">01</span>
-          <div><h2>公式アカウントを先に押さえる</h2><p>告知は公式コミュニティ（Mnet Plus）や公式SNSに出ます。当サイトに掲載した内容だけで判断せず、原文へ進める導線を先に確認してください。</p><Link className="guide-link" href="/links/">公式リンク一覧 →</Link></div>
+          <div>
+            <h2>参加前は公式原文を起点にする</h2>
+            <p>告知は公式コミュニティや公式SNS、主催者から出ます。当サイトの要約だけで申し込まず、必ず原文へ進んでください。</p>
+            <Link className="guide-link" href="/links/">公式リンク一覧 →</Link>
+          </div>
         </section>
         <section className="guide-section">
           <span className="guide-number">02</span>
-          <div><h2>発表日・開催日・締切は別々に見る</h2><p>同じイベントでも、販売開始や応募締切が開催日より先に来ます。当サイトはそれぞれを別フィールドで記録しています。</p><Link className="guide-link" href="/schedule/">スケジュール →</Link></div>
+          <div>
+            <h2>発表日・締切・開催日を分ける</h2>
+            <p>同じイベントでも、販売開始や応募締切は開催日より先に来ます。参加予定がある場合だけ、スケジュールで日付の種類を確認してください。</p>
+            <Link className="guide-link" href="/schedule/">スケジュール →</Link>
+          </div>
         </section>
         <section className="guide-section">
           <span className="guide-number">03</span>
-          <div><h2>本人確認は申込時の名義で決まる</h2><p>入場時に身分証と申込名義の一致を求められる場合があります。必要書類、名義変更、年齢条件はイベントごとに異なるため、申込前に主催者の原文を確認してください。</p></div>
+          <div>
+            <h2>本人確認条件はイベントごとに違う</h2>
+            <p>必要書類、申込名義、年齢条件は共通ルールではありません。申込前に、そのイベントの主催者が出した最新条件を確認してください。</p>
+          </div>
         </section>
         <section className="guide-section">
           <span className="guide-number">04</span>
-          <div><h2>作品の呼び方をそろえておく</h2><p>韓国語版、英語版、日本語版が混在します。日本語版のある曲は「YoYo (Japanese Version)」のように原題と分けて記録します。</p><Link className="guide-link" href="/discography/">作品一覧 →</Link></div>
-        </section>
-        <section className="guide-faq">
-          <p className="eyebrow">よくある質問</p>
-          <div><h2>日本独自のファンクラブはありますか</h2><p>提供資料では確認できていません。公式コミュニティの最新案内をご確認ください。</p></div>
-          <div><h2>このサイトはチケットを扱いますか</h2><p>扱いません。販売・応募は公式または正規の販売事業者のページで行ってください。</p></div>
-          <div><h2>情報が古い場合はどうすればよいですか</h2><p>相違がある場合は公式発表を優先してください。訂正時は記事に更新日と修正内容を残します。</p></div>
+          <div>
+            <h2>このサイトは参加可否を保証しない</h2>
+            <p>当サイトはチケット販売や応募受付を行いません。情報が異なる場合は、公式・主催者の最新発表を優先します。</p>
+          </div>
         </section>
       </article>
-      <p className="verification-note">本ガイドは参加条件を保証するものではありません。申込前に必ず公式・主催者の原文をご確認ください。</p>
+      <p className="verification-note">参加条件は変更される場合があります。申込・購入前に、必ず公式または主催者の原文をご確認ください。</p>
     </div>
   );
 }

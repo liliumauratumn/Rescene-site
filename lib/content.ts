@@ -45,6 +45,7 @@ export const members = memberRecords
         },
   )
   .sort((a, b) => a.displayOrder - b.displayOrder);
+// Claude Design selected key-visual order — do not replace with displayOrder without visual review.
 export const homeMembers = [...members].sort((a, b) => a.homeOrder - b.homeOrder);
 export const releases = (releaseData as Release[])
   .filter(

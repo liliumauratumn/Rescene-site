@@ -24,10 +24,10 @@ export default function SiteFooter() {
         </nav>
         <nav aria-label="サイト情報">
           <Link href="/guide/first-rescene/">初めてのRESCENE</Link>
-          <Link href="/guide/japan-events/">日本からイベントへ参加する</Link>
           <Link href="/links/">公式リンク</Link>
           <Link href="/about/">このサイトについて</Link>
           <Link href="/search/">検索</Link>
+          <Link href="/guide/japan-events/">イベント参加前の補助情報</Link>
         </nav>
       </div>
       <div className="footer-bottom">

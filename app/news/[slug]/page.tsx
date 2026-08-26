@@ -76,8 +76,8 @@ export default async function NewsDetailPage({ params }: Props) {
         </div>
         <section className="article-source content-pad">
           <h2 className="section-heading">出典</h2>
-          <ExternalLink href={article.sourceUrl} kind={article.sourceType === 'editorial' ? 'official' : 'promoter'}>{article.sourceName}</ExternalLink>
-          <p>本記事は公式・主催者発表の要点を日本語で整理したものです。原文の全文転載ではありません。</p>
+          <ExternalLink href={article.sourceUrl} kind={article.sourceType === 'event_organizer' ? 'promoter' : 'official'}>{article.sourceName}</ExternalLink>
+          <p>本記事は公式・放送局・主催者が公開した情報の要点を日本語で整理したものです。原文の全文転載ではありません。</p>
         </section>
         <section className="article-policy content-pad">
           <h2 className="section-heading">訂正・広告</h2>

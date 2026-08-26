@@ -1,0 +1,17 @@
+[
+  {
+    "id": "research-weverse-and2ble-k-world-dream-awards",
+    "status": "rejected",
+    "candidateType": "schedule_evidence",
+    "title": "Weverseの2026 K-WORLD DREAM AWARDS参加案内",
+    "eventDate": "2026-08-27",
+    "sourceUrl": "https://weverse.io/and2ble/notice/38598?hl=ja",
+    "sourceName": "Weverse / AND2BLE",
+    "sourceType": "official_other_artist",
+    "discoveredAt": "2026-08-26",
+    "dedupeKeys": [
+      "event:k-world-dream-awards:2026-08-27"
+    ],
+    "reason": "AND2BLE向けの参加案内であり、RESCENEの出演根拠には使用できないため。RESCENE公式Mnet PlusカレンダーとU-NEXT公式発表を採用。"
+  }
+]

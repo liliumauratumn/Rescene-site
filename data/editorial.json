@@ -1,0 +1,63 @@
+{
+  "whyNow": [
+    {
+      "label": "01",
+      "title": "YAHO",
+      "description": "巨済出身のWONIとの掛け合いで、千葉出身のMINAMIが言った「巨済ヤッホー」がK-POPファンの外まで広がった。"
+    },
+    {
+      "label": "02",
+      "title": "LOOK BACK",
+      "description": "そこで終わらず、2024年のLOVE ATTACK、過去の映像や配信、5人自身まで掘り返され始めた。"
+    },
+    {
+      "label": "03",
+      "title": "NOW",
+      "description": "音楽、テレビ、個人コンテンツ、出身地へ。現在も別方向へ話が増え続けている。"
+    }
+  ],
+  "nextListen": [
+    {
+      "releaseId": "scenedrome",
+      "track": "Pinball",
+      "note": "LOVE ATTACKと同じ『SCENEDROME』にある、もう一つのタイトル曲。"
+    },
+    {
+      "releaseId": "dearest",
+      "track": "Deja Vu",
+      "note": "2025年のRESCENEへ進むなら。雨上がりの記憶をまとった1曲。"
+    },
+    {
+      "releaseId": "runaway",
+      "track": "Runaway",
+      "note": "2026年の輪郭を先に聴く。incenseを軸にしたデジタルシングル。"
+    },
+    {
+      "releaseId": "pretty-girl",
+      "track": "Pretty Girl",
+      "note": "逆走の先にある現在地点。2026年7月のSpecial Single。"
+    }
+  ],
+  "memberEntries": [
+    {
+      "memberId": "woni",
+      "copy": "巨済出身。MINAMIとの掛け合いから、故郷の巨済そのものまでコンテンツになった。"
+    },
+    {
+      "memberId": "liv",
+      "copy": "水原出身。『vocal fairy』と紹介する歌声と、2026年の番組で見せるキャラクターが入口。"
+    },
+    {
+      "memberId": "minami",
+      "copy": "千葉出身。「巨済ヤッホー」で実際に「ヤッホー」と言った本人。自然な韓国語も入口になる。"
+    },
+    {
+      "memberId": "may",
+      "copy": "以前の「LOVE ATTACKがTOP100に入ったら巨済へ」という公約が、2026年に掘り返された。"
+    },
+    {
+      "memberId": "zena",
+      "copy": "慶州出身。「新羅姫」という呼び名から、本人の故郷まで話題が広がった。"
+    }
+  ]
+}

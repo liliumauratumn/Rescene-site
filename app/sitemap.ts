@@ -8,6 +8,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const lastModified = new Date(`${siteConfig.lastUpdated}T00:00:00+09:00`);
   const staticPaths = [
     '/',
+    '/tmi/',
     '/news/',
     '/schedule/',
     '/members/',

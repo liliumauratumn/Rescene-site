@@ -1,5 +1,651 @@
 [
   {
+    "id": "mnet-calendar-6a3e7e069f69517347795cee",
+    "title": "2026 KGMA（Korea Grand Music Awards）",
+    "startAt": "2026-11-07T00:00:00+09:00",
+    "endAt": "2026-11-07T23:59:59+09:00",
+    "timezone": "Asia/Tokyo",
+    "type": "event",
+    "region": "KR",
+    "prefecture": null,
+    "venue": null,
+    "status": "scheduled",
+    "applicationStartAt": null,
+    "applicationEndAt": null,
+    "saleStartAt": null,
+    "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/11?eventId=6a3e7e069f69517347795cee",
+    "sourceId": "6a3e7e069f69517347795cee",
+    "sourceIds": [
+      "6a3e7e069f69517347795cee"
+    ],
+    "sourceName": "RESCENE Official / Mnet Plus",
+    "sourceLabel": "RESCENE公式スケジュール",
+    "sources": [
+      {
+        "label": "RESCENE公式スケジュール",
+        "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/11?eventId=6a3e7e069f69517347795cee",
+        "type": "official_calendar",
+        "verifiedAt": "2026-08-26"
+      }
+    ],
+    "verifiedAt": "2026-08-26",
+    "dedupeKeys": [
+      "source:mnet-calendar:6a3e7e069f69517347795cee",
+      "event:2026kgma코리아그랜드뮤직어워즈:2026-11-07"
+    ],
+    "originalTitle": "2026 KGMA (코리아 그랜드 뮤직 어워즈)",
+    "allDay": true,
+    "autoManaged": true,
+    "verificationStatus": "confirmed"
+  },
+  {
+    "id": "mnet-calendar-6a4612a67dd960680ac6f9b8",
+    "title": "NOL FESTIVAL（高陽）",
+    "startAt": "2026-10-17T00:00:00+09:00",
+    "endAt": "2026-10-17T23:59:59+09:00",
+    "timezone": "Asia/Tokyo",
+    "type": "performance",
+    "region": "KR",
+    "prefecture": null,
+    "venue": null,
+    "status": "scheduled",
+    "applicationStartAt": null,
+    "applicationEndAt": null,
+    "saleStartAt": null,
+    "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6a4612a67dd960680ac6f9b8",
+    "sourceId": "6a4612a67dd960680ac6f9b8",
+    "sourceIds": [
+      "6a4612a67dd960680ac6f9b8"
+    ],
+    "sourceName": "RESCENE Official / Mnet Plus",
+    "sourceLabel": "RESCENE公式スケジュール",
+    "sources": [
+      {
+        "label": "RESCENE公式スケジュール",
+        "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6a4612a67dd960680ac6f9b8",
+        "type": "official_calendar",
+        "verifiedAt": "2026-08-26"
+      }
+    ],
+    "verifiedAt": "2026-08-26",
+    "dedupeKeys": [
+      "source:mnet-calendar:6a4612a67dd960680ac6f9b8",
+      "event:nolfestival고양:2026-10-17"
+    ],
+    "originalTitle": "NOL FESTIVAL - 고양",
+    "allDay": true,
+    "autoManaged": true,
+    "verificationStatus": "confirmed"
+  },
+  {
+    "id": "mnet-calendar-6a48ce2d2abffc033aa33c91",
+    "title": "2026 GHOST（京畿韓流OST音楽フェスティバル）",
+    "startAt": "2026-10-11T00:00:00+09:00",
+    "endAt": "2026-10-11T23:59:59+09:00",
+    "timezone": "Asia/Tokyo",
+    "type": "performance",
+    "region": "KR",
+    "prefecture": null,
+    "venue": null,
+    "status": "scheduled",
+    "applicationStartAt": null,
+    "applicationEndAt": null,
+    "saleStartAt": null,
+    "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6a48ce2d2abffc033aa33c91",
+    "sourceId": "6a48ce2d2abffc033aa33c91",
+    "sourceIds": [
+      "6a48ce2d2abffc033aa33c91"
+    ],
+    "sourceName": "RESCENE Official / Mnet Plus",
+    "sourceLabel": "RESCENE公式スケジュール",
+    "sources": [
+      {
+        "label": "RESCENE公式スケジュール",
+        "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6a48ce2d2abffc033aa33c91",
+        "type": "official_calendar",
+        "verifiedAt": "2026-08-26"
+      }
+    ],
+    "verifiedAt": "2026-08-26",
+    "dedupeKeys": [
+      "source:mnet-calendar:6a48ce2d2abffc033aa33c91",
+      "event:2026ghost경기한류ost뮤직페스티벌:2026-10-11"
+    ],
+    "originalTitle": "2026 GHOST (경기 한류 OST 뮤직페스티벌)",
+    "allDay": true,
+    "autoManaged": true,
+    "verificationStatus": "confirmed"
+  },
+  {
+    "id": "mnet-calendar-6a3e81070b7c92615f50c73f",
+    "title": "2026 IBK FESTIVAL",
+    "startAt": "2026-10-03T00:00:00+09:00",
+    "endAt": "2026-10-03T23:59:59+09:00",
+    "timezone": "Asia/Tokyo",
+    "type": "performance",
+    "region": "KR",
+    "prefecture": null,
+    "venue": null,
+    "status": "scheduled",
+    "applicationStartAt": null,
+    "applicationEndAt": null,
+    "saleStartAt": null,
+    "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6a3e81070b7c92615f50c73f",
+    "sourceId": "6a3e81070b7c92615f50c73f",
+    "sourceIds": [
+      "6a3e81070b7c92615f50c73f"
+    ],
+    "sourceName": "RESCENE Official / Mnet Plus",
+    "sourceLabel": "RESCENE公式スケジュール",
+    "sources": [
+      {
+        "label": "RESCENE公式スケジュール",
+        "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6a3e81070b7c92615f50c73f",
+        "type": "official_calendar",
+        "verifiedAt": "2026-08-26"
+      }
+    ],
+    "verifiedAt": "2026-08-26",
+    "dedupeKeys": [
+      "source:mnet-calendar:6a3e81070b7c92615f50c73f",
+      "event:2026입크페스티벌:2026-10-03"
+    ],
+    "originalTitle": "2026 입크페스티벌",
+    "allDay": true,
+    "autoManaged": true,
+    "verificationStatus": "confirmed"
+  },
+  {
+    "id": "mnet-calendar-6a461fc2c567527e9bbbe91a",
+    "title": "OBJET K-POP FESTA 2026（仁川）",
+    "startAt": "2026-09-27T19:00:00+09:00",
+    "endAt": null,
+    "timezone": "Asia/Tokyo",
+    "type": "performance",
+    "region": "KR",
+    "prefecture": null,
+    "venue": null,
+    "status": "scheduled",
+    "applicationStartAt": null,
+    "applicationEndAt": null,
+    "saleStartAt": null,
+    "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6a461fc2c567527e9bbbe91a",
+    "sourceId": "6a461fc2c567527e9bbbe91a",
+    "sourceIds": [
+      "6a461fc2c567527e9bbbe91a"
+    ],
+    "sourceName": "RESCENE Official / Mnet Plus",
+    "sourceLabel": "RESCENE公式スケジュール",
+    "sources": [
+      {
+        "label": "RESCENE公式スケジュール",
+        "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6a461fc2c567527e9bbbe91a",
+        "type": "official_calendar",
+        "verifiedAt": "2026-08-26"
+      }
+    ],
+    "verifiedAt": "2026-08-26",
+    "dedupeKeys": [
+      "source:mnet-calendar:6a461fc2c567527e9bbbe91a",
+      "event:objetkpopfesta2026okf2026인천:2026-09-27"
+    ],
+    "originalTitle": "OBJET K-POP FESTA 2026 (OKF2026) - 인천",
+    "allDay": false,
+    "autoManaged": true,
+    "verificationStatus": "confirmed"
+  },
+  {
+    "id": "mnet-calendar-6a69f1ecd659812bd5406bb9",
+    "title": "2026 THE FACT MUSIC AWARDS（TMA）",
+    "startAt": "2026-09-19T00:00:00+09:00",
+    "endAt": "2026-09-19T23:59:59+09:00",
+    "timezone": "Asia/Tokyo",
+    "type": "performance",
+    "region": "KR",
+    "prefecture": null,
+    "venue": null,
+    "status": "scheduled",
+    "applicationStartAt": null,
+    "applicationEndAt": null,
+    "saleStartAt": null,
+    "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6a69f1ecd659812bd5406bb9",
+    "sourceId": "6a69f1ecd659812bd5406bb9",
+    "sourceIds": [
+      "6a69f1ecd659812bd5406bb9"
+    ],
+    "sourceName": "RESCENE Official / Mnet Plus",
+    "sourceLabel": "RESCENE公式スケジュール",
+    "sources": [
+      {
+        "label": "RESCENE公式スケジュール",
+        "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6a69f1ecd659812bd5406bb9",
+        "type": "official_calendar",
+        "verifiedAt": "2026-08-26"
+      }
+    ],
+    "verifiedAt": "2026-08-26",
+    "dedupeKeys": [
+      "source:mnet-calendar:6a69f1ecd659812bd5406bb9",
+      "event:2026더팩트뮤직어워즈tma:2026-09-19"
+    ],
+    "originalTitle": "2026 더팩트 뮤직 어워즈(TMA)",
+    "allDay": true,
+    "autoManaged": true,
+    "verificationStatus": "confirmed"
+  },
+  {
+    "id": "mnet-calendar-6a755022aba59a5a7ffad756",
+    "title": "Spotify House Seoul",
+    "startAt": "2026-09-10T00:00:00+09:00",
+    "endAt": "2026-09-10T23:59:59+09:00",
+    "timezone": "Asia/Tokyo",
+    "type": "event",
+    "region": "KR",
+    "prefecture": null,
+    "venue": null,
+    "status": "scheduled",
+    "applicationStartAt": null,
+    "applicationEndAt": null,
+    "saleStartAt": null,
+    "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6a755022aba59a5a7ffad756",
+    "sourceId": "6a755022aba59a5a7ffad756",
+    "sourceIds": [
+      "6a755022aba59a5a7ffad756"
+    ],
+    "sourceName": "RESCENE Official / Mnet Plus",
+    "sourceLabel": "RESCENE公式スケジュール",
+    "sources": [
+      {
+        "label": "RESCENE公式スケジュール",
+        "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6a755022aba59a5a7ffad756",
+        "type": "official_calendar",
+        "verifiedAt": "2026-08-26"
+      }
+    ],
+    "verifiedAt": "2026-08-26",
+    "dedupeKeys": [
+      "source:mnet-calendar:6a755022aba59a5a7ffad756",
+      "event:spotifyhouseseoul:2026-09-10"
+    ],
+    "originalTitle": "Spotify House Seoul",
+    "allDay": true,
+    "autoManaged": true,
+    "verificationStatus": "confirmed"
+  },
+  {
+    "id": "mnet-calendar-6a69f06d62e6743977db6c12",
+    "title": "SPOTV K-POP AWARDS（SKA）",
+    "startAt": "2026-09-06T00:00:00+09:00",
+    "endAt": "2026-09-06T23:59:59+09:00",
+    "timezone": "Asia/Tokyo",
+    "type": "performance",
+    "region": "KR",
+    "prefecture": null,
+    "venue": null,
+    "status": "scheduled",
+    "applicationStartAt": null,
+    "applicationEndAt": null,
+    "saleStartAt": null,
+    "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6a69f06d62e6743977db6c12",
+    "sourceId": "6a69f06d62e6743977db6c12",
+    "sourceIds": [
+      "6a69f06d62e6743977db6c12"
+    ],
+    "sourceName": "RESCENE Official / Mnet Plus",
+    "sourceLabel": "RESCENE公式スケジュール",
+    "sources": [
+      {
+        "label": "RESCENE公式スケジュール",
+        "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6a69f06d62e6743977db6c12",
+        "type": "official_calendar",
+        "verifiedAt": "2026-08-26"
+      }
+    ],
+    "verifiedAt": "2026-08-26",
+    "dedupeKeys": [
+      "source:mnet-calendar:6a69f06d62e6743977db6c12",
+      "event:spotvkpopawardsska:2026-09-06"
+    ],
+    "originalTitle": "SPOTV K-POP AWARDS(SKA)",
+    "allDay": true,
+    "autoManaged": true,
+    "verificationStatus": "confirmed"
+  },
+  {
+    "id": "mnet-calendar-6a48cd9b2abffc033aa33c90",
+    "title": "One Summer Night with K-POP Season 2",
+    "startAt": "2026-09-05T19:30:00+09:00",
+    "endAt": null,
+    "timezone": "Asia/Tokyo",
+    "type": "performance",
+    "region": "KR",
+    "prefecture": null,
+    "venue": null,
+    "status": "scheduled",
+    "applicationStartAt": null,
+    "applicationEndAt": null,
+    "saleStartAt": null,
+    "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6a48cd9b2abffc033aa33c90",
+    "sourceId": "6a48cd9b2abffc033aa33c90",
+    "sourceIds": [
+      "6a48cd9b2abffc033aa33c90"
+    ],
+    "sourceName": "RESCENE Official / Mnet Plus",
+    "sourceLabel": "RESCENE公式スケジュール",
+    "sources": [
+      {
+        "label": "RESCENE公式スケジュール",
+        "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6a48cd9b2abffc033aa33c90",
+        "type": "official_calendar",
+        "verifiedAt": "2026-08-26"
+      }
+    ],
+    "verifiedAt": "2026-08-26",
+    "dedupeKeys": [
+      "source:mnet-calendar:6a48cd9b2abffc033aa33c90",
+      "event:원썸머나잇위드케이팝시즌2:2026-09-05"
+    ],
+    "originalTitle": "원 썸머 나잇 위드 케이팝 시즌 2",
+    "allDay": false,
+    "autoManaged": true,
+    "verificationStatus": "confirmed"
+  },
+  {
+    "id": "mnet-calendar-6a48ce7d7dd960680ac6fc90",
+    "title": "2026 天安K-Culture博覧会 オープニング公演",
+    "startAt": "2026-09-02T20:40:00+09:00",
+    "endAt": null,
+    "timezone": "Asia/Tokyo",
+    "type": "event",
+    "region": "KR",
+    "prefecture": null,
+    "venue": null,
+    "status": "scheduled",
+    "applicationStartAt": null,
+    "applicationEndAt": null,
+    "saleStartAt": null,
+    "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6a48ce7d7dd960680ac6fc90",
+    "sourceId": "6a48ce7d7dd960680ac6fc90",
+    "sourceIds": [
+      "6a48ce7d7dd960680ac6fc90"
+    ],
+    "sourceName": "RESCENE Official / Mnet Plus",
+    "sourceLabel": "RESCENE公式スケジュール",
+    "sources": [
+      {
+        "label": "RESCENE公式スケジュール",
+        "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6a48ce7d7dd960680ac6fc90",
+        "type": "official_calendar",
+        "verifiedAt": "2026-08-26"
+      }
+    ],
+    "verifiedAt": "2026-08-26",
+    "dedupeKeys": [
+      "source:mnet-calendar:6a48ce7d7dd960680ac6fc90",
+      "event:2026천안k컬처박람회개막공연:2026-09-02"
+    ],
+    "originalTitle": "2026 천안 K-컬처 박람회 개막 공연",
+    "allDay": false,
+    "autoManaged": true,
+    "verificationStatus": "confirmed"
+  },
+  {
+    "id": "mnet-calendar-6a462321c567527e9bbbe924",
+    "title": "SBS『熱血バスケットボール団2』",
+    "startAt": "2026-08-30T23:05:00+09:00",
+    "endAt": null,
+    "timezone": "Asia/Tokyo",
+    "type": "broadcast",
+    "region": "KR",
+    "prefecture": null,
+    "venue": null,
+    "status": "scheduled",
+    "applicationStartAt": null,
+    "applicationEndAt": null,
+    "saleStartAt": null,
+    "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/08?eventId=6a462321c567527e9bbbe924",
+    "sourceId": "6a462321c567527e9bbbe924",
+    "sourceIds": [
+      "6a462321c567527e9bbbe924"
+    ],
+    "sourceName": "RESCENE Official / Mnet Plus",
+    "sourceLabel": "RESCENE公式スケジュール",
+    "sources": [
+      {
+        "label": "RESCENE公式スケジュール",
+        "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/08?eventId=6a462321c567527e9bbbe924",
+        "type": "official_calendar",
+        "verifiedAt": "2026-08-26"
+      }
+    ],
+    "verifiedAt": "2026-08-26",
+    "dedupeKeys": [
+      "source:mnet-calendar:6a462321c567527e9bbbe924",
+      "event:sbs열혈농구단2:2026-08-30"
+    ],
+    "originalTitle": "SBS 열혈농구단2",
+    "allDay": false,
+    "autoManaged": true,
+    "verificationStatus": "confirmed"
+  },
+  {
+    "id": "mnet-calendar-6a3c83fb0b7c92615f50b57c",
+    "title": "2026 K-WORLD DREAM AWARDS",
+    "startAt": "2026-08-27T18:30:00+09:00",
+    "endAt": null,
+    "timezone": "Asia/Tokyo",
+    "type": "performance",
+    "region": "KR",
+    "prefecture": "京畿道",
+    "venue": "KINTEX（韓国・高陽市）",
+    "status": "scheduled",
+    "applicationStartAt": null,
+    "applicationEndAt": null,
+    "saleStartAt": null,
+    "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/08?eventId=6a3c83fb0b7c92615f50b57c",
+    "sourceId": "6a3c83fb0b7c92615f50b57c",
+    "sourceIds": [
+      "6a3c83fb0b7c92615f50b57c"
+    ],
+    "sourceName": "RESCENE Official / Mnet Plus",
+    "sourceLabel": "RESCENE公式スケジュール",
+    "sources": [
+      {
+        "label": "RESCENE公式スケジュール",
+        "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/08?eventId=6a3c83fb0b7c92615f50b57c",
+        "type": "official_calendar",
+        "verifiedAt": "2026-08-26"
+      },
+      {
+        "label": "U-NEXT公式ライブ配信案内",
+        "url": "https://www.unext.co.jp/ja/press-room/2026-k_world-dream-award-2026-08-06",
+        "type": "official_streamer",
+        "verifiedAt": "2026-08-26"
+      }
+    ],
+    "verifiedAt": "2026-08-26",
+    "dedupeKeys": [
+      "source:mnet-calendar:6a3c83fb0b7c92615f50b57c",
+      "event:2026kworlddreamawards:2026-08-27"
+    ],
+    "originalTitle": "2026 K-WORLD DREAM AWARDS",
+    "allDay": false,
+    "autoManaged": true,
+    "verificationStatus": "confirmed"
+  },
+  {
+    "id": "mnet-calendar-6a77522486f9d810eb3d203b",
+    "title": "tvN『驚きの土曜日』",
+    "startAt": "2026-08-15T19:30:00+09:00",
+    "endAt": null,
+    "timezone": "Asia/Tokyo",
+    "type": "broadcast",
+    "region": "KR",
+    "prefecture": null,
+    "venue": null,
+    "status": "completed",
+    "applicationStartAt": null,
+    "applicationEndAt": null,
+    "saleStartAt": null,
+    "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/08?eventId=6a77522486f9d810eb3d203b",
+    "sourceId": "6a77522486f9d810eb3d203b",
+    "sourceIds": [
+      "6a77522486f9d810eb3d203b"
+    ],
+    "sourceName": "RESCENE Official / Mnet Plus",
+    "sourceLabel": "RESCENE公式スケジュール",
+    "sources": [
+      {
+        "label": "RESCENE公式スケジュール",
+        "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/08?eventId=6a77522486f9d810eb3d203b",
+        "type": "official_calendar",
+        "verifiedAt": "2026-08-26"
+      }
+    ],
+    "verifiedAt": "2026-08-26",
+    "dedupeKeys": [
+      "source:mnet-calendar:6a77522486f9d810eb3d203b",
+      "event:tvn놀라운토요일:2026-08-15"
+    ],
+    "originalTitle": "tvN <놀라운 토요일>",
+    "allDay": false,
+    "autoManaged": true,
+    "verificationStatus": "confirmed"
+  },
+  {
+    "id": "mnet-calendar-69c5f5a5ea4b5a79089acae7",
+    "title": "KCON LA 2026",
+    "startAt": "2026-08-14T00:00:00+09:00",
+    "endAt": "2026-08-16T23:59:59+09:00",
+    "timezone": "Asia/Tokyo",
+    "type": "performance",
+    "region": "US",
+    "prefecture": null,
+    "venue": "Crypto.com Arena／Los Angeles Convention Center",
+    "status": "completed",
+    "applicationStartAt": null,
+    "applicationEndAt": null,
+    "saleStartAt": null,
+    "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/08?eventId=69c5f5a5ea4b5a79089acae7",
+    "sourceId": "69c5f5a5ea4b5a79089acae7",
+    "sourceIds": [
+      "69c5f5a5ea4b5a79089acae7",
+      "69c5f5d1ea4b5a79089acae8",
+      "69c5f5edae273728431b003d"
+    ],
+    "sourceName": "RESCENE Official / Mnet Plus",
+    "sourceLabel": "RESCENE公式スケジュール",
+    "sources": [
+      {
+        "label": "RESCENE公式スケジュール",
+        "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/08?eventId=69c5f5a5ea4b5a79089acae7",
+        "type": "official_calendar",
+        "verifiedAt": "2026-08-26"
+      },
+      {
+        "label": "KCON LA 2026公式番組ページ",
+        "url": "https://www.mnetplus.world/contents/ko/shows/697c44d05f013c2e8027b7d3/videos",
+        "type": "event_organizer",
+        "verifiedAt": "2026-08-26"
+      },
+      {
+        "label": "CJ ENM公式イベント案内",
+        "url": "https://front.mnetplus.world/en/news/kcon-la-2026-to-bring-diverse-klifestyle-experiences-to-cryptocom-arena--los-angeles-convention-center-aug-1416/",
+        "type": "event_organizer",
+        "verifiedAt": "2026-08-26"
+      }
+    ],
+    "verifiedAt": "2026-08-26",
+    "dedupeKeys": [
+      "source:mnet-calendar:69c5f5a5ea4b5a79089acae7",
+      "source:mnet-calendar:69c5f5d1ea4b5a79089acae8",
+      "source:mnet-calendar:69c5f5edae273728431b003d",
+      "event:kconla2026:2026-08-14"
+    ],
+    "originalTitle": "KCON LA 2026",
+    "allDay": true,
+    "autoManaged": true,
+    "verificationStatus": "confirmed"
+  },
+  {
+    "id": "mnet-calendar-6a587b48395e8522ce32869a",
+    "title": "『2026 Coupang Play Series』Manchester City vs Atlético Madrid ハーフタイムショー",
+    "startAt": "2026-08-09T20:00:00+09:00",
+    "endAt": null,
+    "timezone": "Asia/Tokyo",
+    "type": "performance",
+    "region": "KR",
+    "prefecture": null,
+    "venue": null,
+    "status": "completed",
+    "applicationStartAt": null,
+    "applicationEndAt": null,
+    "saleStartAt": null,
+    "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/08?eventId=6a587b48395e8522ce32869a",
+    "sourceId": "6a587b48395e8522ce32869a",
+    "sourceIds": [
+      "6a587b48395e8522ce32869a"
+    ],
+    "sourceName": "RESCENE Official / Mnet Plus",
+    "sourceLabel": "RESCENE公式スケジュール",
+    "sources": [
+      {
+        "label": "RESCENE公式スケジュール",
+        "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/08?eventId=6a587b48395e8522ce32869a",
+        "type": "official_calendar",
+        "verifiedAt": "2026-08-26"
+      }
+    ],
+    "verifiedAt": "2026-08-26",
+    "dedupeKeys": [
+      "source:mnet-calendar:6a587b48395e8522ce32869a",
+      "event:2026쿠팡플레이시리즈맨시티vsat마드리드하프타임쇼:2026-08-09"
+    ],
+    "originalTitle": "<2026 쿠팡플레이 시리즈> 맨시티 vs AT마드리드 하프타임쇼",
+    "allDay": false,
+    "autoManaged": true,
+    "verificationStatus": "confirmed"
+  },
+  {
+    "id": "mnet-calendar-6a7241766e77820edf3dbd8e",
+    "title": "『2026 Coupang Play Series』プレビューショー",
+    "startAt": "2026-08-09T00:00:00+09:00",
+    "endAt": "2026-08-09T23:59:59+09:00",
+    "timezone": "Asia/Tokyo",
+    "type": "broadcast",
+    "region": "KR",
+    "prefecture": null,
+    "venue": null,
+    "status": "completed",
+    "applicationStartAt": null,
+    "applicationEndAt": null,
+    "saleStartAt": null,
+    "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/08?eventId=6a7241766e77820edf3dbd8e",
+    "sourceId": "6a7241766e77820edf3dbd8e",
+    "sourceIds": [
+      "6a7241766e77820edf3dbd8e"
+    ],
+    "sourceName": "RESCENE Official / Mnet Plus",
+    "sourceLabel": "RESCENE公式スケジュール",
+    "sources": [
+      {
+        "label": "RESCENE公式スケジュール",
+        "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/08?eventId=6a7241766e77820edf3dbd8e",
+        "type": "official_calendar",
+        "verifiedAt": "2026-08-26"
+      }
+    ],
+    "verifiedAt": "2026-08-26",
+    "dedupeKeys": [
+      "source:mnet-calendar:6a7241766e77820edf3dbd8e",
+      "event:2026쿠팡플레이시리즈프리뷰쇼:2026-08-09"
+    ],
+    "originalTitle": "<2026 쿠팡플레이 시리즈> 프리뷰쇼",
+    "allDay": true,
+    "autoManaged": true,
+    "verificationStatus": "confirmed"
+  },
+  {
     "id": "2026-kcon-japan",
     "title": "KCON JAPAN 2026",
     "startAt": "2026-05-08T00:00:00+09:00",

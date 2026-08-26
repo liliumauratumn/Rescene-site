@@ -13,26 +13,32 @@ type HeaderMember = {
 };
 
 const primaryNav = [
+  { href: '/tmi/', label: 'TMI' },
   { href: '/news/', label: 'NEWS' },
-  { href: '/schedule/', label: 'SCHEDULE' },
+  { href: '/guide/first-rescene/', label: 'GUIDE' },
   { href: '/members/', label: 'MEMBERS' },
   { href: '/discography/', label: 'DISCOGRAPHY' },
   { href: '/japan/', label: 'JAPAN' },
-  { href: '/guide/first-rescene/', label: 'GUIDE' },
+  { href: '/schedule/', label: 'SCHEDULE' },
 ];
 
 const mobileNav = [
-  ...primaryNav.slice(0, 5).map((item) => ({ ...item, ja: {
+  ...primaryNav.map((item) => ({ ...item, ja: {
+    TMI: '細かな記録',
     NEWS: 'ニュース',
-    SCHEDULE: '予定',
+    GUIDE: '初めてのRESCENE',
     MEMBERS: 'メンバー',
     DISCOGRAPHY: '作品',
     JAPAN: '日本活動記録',
+    SCHEDULE: '予定',
   }[item.label] ?? '' })),
-  { href: '/guide/first-rescene/', label: 'Guide', ja: '初めてのRESCENE' },
-  { href: '/guide/japan-events/', label: 'Guide', ja: '日本からイベントへ参加する' },
   { href: '/links/', label: 'Links', ja: '公式リンク集' },
   { href: '/about/', label: 'About', ja: 'このサイトについて' },
+];
+
+const mobileUtilityNav = [
+  { href: '/guide/japan-events/', label: '参加前の補助情報' },
+  { href: '/search/', label: 'サイト内検索' },
 ];
 
 function isCurrent(pathname: string, href: string) {
@@ -206,6 +212,20 @@ export default function SiteHeader({ homeMembers }: { homeMembers: HeaderMember[
               >
                 <span>{item.label}</span>
                 <span>{item.ja}</span>
+              </Link>
+            ))}
+          </nav>
+          <nav className="mobile-utility-nav" aria-label="補助ナビゲーション">
+            <span>UTILITY</span>
+            {mobileUtilityNav.map((item) => (
+              <Link
+                href={item.href}
+                className={isMobileCurrent(pathname, item.href) ? 'is-current' : undefined}
+                aria-current={isMobileCurrent(pathname, item.href) ? 'page' : undefined}
+                onClick={() => setMenuOpen(false)}
+                key={item.href}
+              >
+                {item.label} →
               </Link>
             ))}
           </nav>

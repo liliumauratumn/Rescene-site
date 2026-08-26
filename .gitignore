@@ -12,3 +12,4 @@ out/
 *.dc.html
 support.js
 uploads/
+.vercel

@@ -11,6 +11,26 @@
 - 変更後にbuild・型検査・lint・主要リンク検査を行います。
 - `verificationStatus: verify_before_publish` の情報は、本番公開前に一次情報で再確認します。
 
+## Required Noise
+
+このプロジェクトは `docs/rescene-required-noise-profile.md` を視覚表現の保護規約として使用します。
+
+コード整理と視覚表現の均質化を混同しません。リファクタリング時に以下を無断で統一しません。
+
+- 非対称配置
+- 個別画像重心
+- 非等分比率
+- 微細な位置ずれ
+- 個別装飾座標
+- モーション周期・イージング
+- その他profileでprotectedとされた値
+
+「説明できない」「使用箇所が1件しかない」「共通化できる」という理由だけで削除しません。変更する場合は `docs/visual-audit.md` に従い、実ブラウザで変更前後を比較します。
+
+Required Noiseは新しい不規則性を自動生成する許可ではありません。既存の保護値を変更するとき、または新しい視覚表現を設計するときだけ、参照原則に定められた比較工程を使用します。
+
+アクセシビリティと機能要件はRequired Noiseより上位です。WCAG 2.2 AA、可読性、フォーカス表示、正しいARIA、キーボード・タッチ操作、320pxでの成立、`prefers-reduced-motion`、静的出力を壊す差異は保護しません。
+
 <!-- BEGIN:nextjs-agent-rules -->
 
 # This is NOT the Next.js you know

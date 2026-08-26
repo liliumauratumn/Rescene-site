@@ -1,0 +1,129 @@
+name: Update schedule
+
+on:
+  schedule:
+    - cron: '17 0,6,12 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: rescene-schedule-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      UPDATE_BRANCH: automation/schedule-update
+      GH_TOKEN: ${{ github.token }}
+      MAX_SAFE_SCHEDULE_CHANGES: 5
+    steps:
+      - name: Checkout the default branch
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Continue the schedule branch if it exists
+        shell: bash
+        run: |
+          set -euo pipefail
+          default_branch="${{ github.event.repository.default_branch }}"
+          git fetch origin "$default_branch"
+          if git ls-remote --exit-code --heads origin "$UPDATE_BRANCH" >/dev/null 2>&1; then
+            git fetch origin "$UPDATE_BRANCH:$UPDATE_BRANCH"
+            git switch "$UPDATE_BRANCH"
+            git merge --no-edit "origin/$default_branch"
+          else
+            git switch -c "$UPDATE_BRANCH" "origin/$default_branch"
+          fi
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Collect schedule and classify risk
+        id: collect
+        shell: bash
+        run: |
+          set -euo pipefail
+          report_path="$RUNNER_TEMP/schedule-update-report.json"
+          SCHEDULE_UPDATE_REPORT="$report_path" npm run update:schedule
+          test -s "$report_path"
+          echo "requires_review=$(jq -r '.requiresReview' "$report_path")" >> "$GITHUB_OUTPUT"
+          echo "auto_merge_eligible=$(jq -r '.autoMergeEligible' "$report_path")" >> "$GITHUB_OUTPUT"
+          echo "applied_change_count=$(jq -r '.appliedChangeCount' "$report_path")" >> "$GITHUB_OUTPUT"
+          echo "### Schedule safety report" >> "$GITHUB_STEP_SUMMARY"
+          jq -r '"- Applied: \(.appliedChangeCount) (added \(.addedCount), updated \(.updatedCount))\n- Review candidates: \(.blockingPendingCount)\n- Auto-merge eligible: \(.autoMergeEligible)\n- Reasons: \((.unsafeReasons | join(", ")) // "none")"' "$report_path" >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Validate data and site
+        run: npm run verify
+
+      - name: Commit schedule-only changes
+        id: branch
+        shell: bash
+        run: |
+          set -euo pipefail
+          unexpected="$(git status --porcelain | sed -E 's/^.. //' | grep -Ev '^(data/schedules\.json|data/content-meta\.json|data/pending/schedules\.json)$' || true)"
+          if [ -n "$unexpected" ]; then
+            echo "Unexpected files changed:" >&2
+            echo "$unexpected" >&2
+            exit 1
+          fi
+          if ! git diff --quiet -- data/schedules.json data/content-meta.json data/pending/schedules.json; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add data/schedules.json data/content-meta.json data/pending/schedules.json
+            git commit -m "chore(schedule): sync official calendar"
+          fi
+          default_branch="${{ github.event.repository.default_branch }}"
+          ahead="$(git rev-list --count "origin/$default_branch..HEAD")"
+          echo "ahead=$ahead" >> "$GITHUB_OUTPUT"
+          if [ "$ahead" -gt 0 ]; then
+            git push --set-upstream origin "$UPDATE_BRANCH"
+          else
+            echo "No schedule changes." >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+      - name: Auto-merge safe schedule or open review PR
+        if: steps.branch.outputs.ahead != '0'
+        shell: bash
+        run: |
+          set -euo pipefail
+          default_branch="${{ github.event.repository.default_branch }}"
+          pr_json="$(gh pr list --state open --head "$UPDATE_BRANCH" --json number,title --jq '.[0] // {}')"
+          pr_number="$(jq -r '.number // empty' <<< "$pr_json")"
+          previous_title="$(jq -r '.title // empty' <<< "$pr_json")"
+          requires_review="${{ steps.collect.outputs.requires_review }}"
+
+          if [ "$requires_review" = "true" ] || [[ "$previous_title" == "[Schedule review]"* ]]; then
+            title="[Schedule review] Official calendar needs confirmation"
+            body="自動反映の安全条件を満たさなかったSchedule更新です。data/pending/schedules.jsonと変更差分を確認してください。日付変更、公式予定の消失、同一イベント判定、一次情報、変更件数のいずれかが確認対象です。"
+            route="review"
+          else
+            title="[Schedule auto] Sync official RESCENE calendar"
+            body="RESCENE公式Mnet PlusカレンダーからのSchedule更新です。重複判定、schema validation、型検査、lint、build、主要リンク検査が完了し、削除・日付変更・曖昧一致・非一次情報・大量変更は検出されていません。"
+            route="auto"
+          fi
+
+          if [ -z "$pr_number" ]; then
+            gh pr create --base "$default_branch" --head "$UPDATE_BRANCH" --title "$title" --body "$body" >/dev/null
+            pr_number="$(gh pr view "$UPDATE_BRANCH" --json number --jq '.number')"
+          else
+            gh pr edit "$pr_number" --title "$title" --body "$body"
+          fi
+
+          if [ "$route" = "auto" ]; then
+            gh pr merge "$pr_number" --auto --squash --delete-branch
+            echo "Safe Schedule PR #$pr_number was set to auto-merge." >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "Schedule PR #$pr_number requires human review and was not merged." >> "$GITHUB_STEP_SUMMARY"
+          fi

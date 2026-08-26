@@ -15,13 +15,16 @@ npm run dev
 npm run typecheck
 npm run lint
 npm run build
+npm run validate:data
+npm run check:links
 ```
 
-`npm run build` はNext.jsの完全静的出力を行い、配信可能なファイルを `out/` に生成します。
+`npm run build` はNext.jsの完全静的出力を行い、配信可能なファイルを `out/` に生成します。公式ソースの収集から全検査までまとめて行う場合は `npm run update` を実行します。
 
 ## データの正本
 
-- サイト名、canonical URL、最終更新日、ホームとScheduleで共有する次回日本予定: `data/site.json`
+- サイト名、canonical URL、ホームとScheduleで共有する次回日本予定: `data/site.json`
+- データ群ごとの最終更新日: `data/content-meta.json`
 - 共通サイト設定の読み出し: `site.config.ts`
 - News: `data/news.json`
 - Members: `data/members.json`
@@ -31,7 +34,7 @@ npm run build
 - First RESCENEの動画: `data/starter-videos.json`
 - 公式・正規配信・主催者リンク: `data/official-links.json`
 
-サイト名、canonical URL、説明文は、`data/site.json` の `siteName`、`siteUrl`、`shortDescription` を更新します。About・ヘッダー・フッター・sitemapの最終更新日は `nextJapanSchedule.checkedAt` を参照します。ホームとScheduleの次回日本予定は、同ファイルの `nextJapanSchedule` を更新します。Reactコンポーネントへ同じ値を重複記述しません。
+サイト名、canonical URL、説明文は、`data/site.json` の `siteName`、`siteUrl`、`shortDescription` を更新します。About・ヘッダー・フッター・sitemapの最終更新日は `data/content-meta.json` のうち最新の日付を参照します。ホームとScheduleの次回日本予定は `data/site.json` の `nextJapanSchedule` を更新します。Reactコンポーネントへ同じ値を重複記述しません。
 
 ## コンテンツ更新
 
@@ -50,6 +53,10 @@ npm run build
 ### Schedule
 
 `data/schedules.json` を更新します。開催日時、会場、応募期間、販売開始、出典URLを別々の項目として記録します。日時や会場を確認できない予定は推測値を入れず、未確認状態のまま公開しません。現在の次回日本予定は `data/site.json` の `nextJapanSchedule` を更新します。
+
+### 自動収集
+
+`npm run update:news` は公式Noticeと公式YouTubeからNews候補を `data/pending/news.json` へ集めます。`npm run update:schedule` はRESCENE公式Mnet Plusカレンダーの確認済み予定を同期し、安全判定レポートを出力できます。候補と確定情報の境界、重複排除、Scheduleの自動反映条件、GitHub ActionsからVercelまでの運用は `docs/content-update-pipeline.md` を参照してください。TMIは自動処理の対象外です。
 
 ### Japan Activities
 
@@ -70,13 +77,10 @@ npm run build
 
 `lib/content.ts` が公開可否を一元判定します。未確認状態のMembers、News、Releases、Schedule、Japan Activities、動画は公開配列から除外されます。未確認情報を説明文や検索データへ直接ハードコードしないでください。
 
-## Cloudflare Pages
+## Vercel
 
-Cloudflare Pagesでは次を設定します。
+Vercelではこのリポジトリを既存の `rescene-site` プロジェクトへGit連携し、Production Branchを `main` に設定します。Next.jsとして自動検出されるため、通常はbuild commandやoutput directoryの上書きは不要です。
 
-```text
-Build command: npm run build
-Build output directory: out
-```
+定期更新はScheduleとNewsで分離しています。`.github/workflows/update-schedule.yml` は安全条件をすべて満たすScheduleだけを機械PR経由で自動マージし、例外はレビュー待ちにします。`.github/workflows/update-news.yml` はNews専用のレビューPRを作成し、自動マージしません。Vercelは`main`へのマージをProductionへ反映します。Actionsから`main`への直接pushやProductionへの直接deployは行いません。
 
-CMS、データベース、Workers APIは不要です。公開前に、事実関係、画像の利用条件、外部URL、Cloudflare Pagesのドメイン・DNS設定を人間が最終確認します。
+CMS、データベース、Serverless APIは不要です。一般公開前に、事実関係、画像の利用条件、外部URL、Vercelのドメイン・Deployment Protection・検索エンジン向けヘッダーを人間が最終確認します。

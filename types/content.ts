@@ -5,6 +5,13 @@ export type VerificationStatus =
   | 'stage_details_verify_before_publish'
   | 'unverified';
 
+export type SourceReference = {
+  label: string;
+  url: string;
+  type: string;
+  verifiedAt: string;
+};
+
 export type Member = {
   id: string;
   displayOrder: number;
@@ -57,6 +64,10 @@ export type NewsArticle = {
   sourceType: string;
   sourceName: string;
   sourceUrl: string;
+  sourceLabel?: string;
+  sources?: SourceReference[];
+  verifiedAt?: string;
+  dedupeKeys?: string[];
   body: Array<{ heading: string; paragraphs: string[] }>;
   relatedMembers: string[];
   relatedReleases: string[];
@@ -80,6 +91,16 @@ export type Schedule = {
   applicationEndAt: string | null;
   saleStartAt: string | null;
   sourceUrl: string | null;
+  sourceId?: string;
+  sourceIds?: string[];
+  sourceName?: string;
+  sourceLabel?: string;
+  sources?: SourceReference[];
+  verifiedAt?: string;
+  dedupeKeys?: string[];
+  originalTitle?: string;
+  allDay?: boolean;
+  autoManaged?: boolean;
   verificationStatus: VerificationStatus;
 };
 
@@ -122,6 +143,7 @@ export type StarterVideo = {
   title: string;
   originalTitle: string;
   url: string;
+  editorialNote: string;
   memberIds: string[];
   verificationStatus: VerificationStatus;
 };

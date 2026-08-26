@@ -10,7 +10,11 @@ export default function NewsArchive({ articles }: { articles: NewsArticle[] }) {
   const [year, setYear] = useState('all');
   const [query, setQuery] = useState('');
 
-  const categories = ['all', 'japan', 'guide', 'release', 'event'];
+  const categoryOrder = ['record', 'media', 'release', 'event', 'japan', 'official'];
+  const categories = [
+    'all',
+    ...categoryOrder.filter((value) => articles.some((article) => article.category === value)),
+  ];
   const years = [...new Set(articles.map((article) => article.publishedAt.slice(0, 4)))];
   const normalizedQuery = query.normalize('NFKC').toLocaleLowerCase('ja');
   const filtered = useMemo(

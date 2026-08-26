@@ -1,23 +1,472 @@
 [
   {
-    "id": "sample-long-title",
-    "slug": "sample-long-title",
-    "title": "日本から参加する前に確認したい、応募期間・本人確認・販売開始時刻がそれぞれ異なるイベント案内",
-    "summary": "長い日本語タイトル、複数の日付、注意事項がある場合の読み方をまとめた編集ガイドです。",
-    "publishedAt": "2026-08-07",
+    "id": "kcon-la-2026-love-attack-stage",
+    "slug": "kcon-la-2026-love-attack-stage",
+    "title": "KCON LA 2026、RESCENEの「LOVE ATTACK」公式ステージ映像が公開",
+    "summary": "2026年8月14日から16日にロサンゼルスで開催されたKCON LA 2026から、RESCENEの「LOVE ATTACK」公式ステージ映像が公開されました。",
+    "publishedAt": "2026-08-21",
     "updatedAt": null,
-    "eventDate": null,
-    "category": "guide",
-    "sourceType": "editorial",
-    "sourceName": "RESCENE FANSITE 編集部",
-    "sourceUrl": "https://rescene.tokyo/about/",
-    "body": [
-      { "heading": "3つの日付を同じものとして扱わない", "paragraphs": ["イベント案内には、応募期間、販売開始、開催日時という性質の異なる日付が並ぶことがあります。当サイトでは、これらを1つの開催日にまとめず、種別ごとに分けて記録します。"] },
-      { "heading": "時刻は日本時間で読み替える", "paragraphs": ["発表が韓国時間で行われる場合があります。スケジュールページの時刻は日本時間を基本に表示し、原文の表記が異なる場合はその旨を併記します。"] },
-      { "heading": "最終確認は公式の原文で", "paragraphs": ["当サイトの記載は日本語での要約です。応募や購入の前には、必ず公式または主催者の発表原文を確認してください。"] }
+    "eventDate": "2026-08-16",
+    "category": "event",
+    "sourceType": "event_organizer",
+    "sourceName": "KCON / Mnet Plus",
+    "sourceUrl": "https://www.mnetplus.world/media/en/videos/6a852f0146c9c170fecfc10d",
+    "sourceLabel": "KCON公式ステージ映像",
+    "sources": [
+      {
+        "label": "KCON公式ステージ映像",
+        "url": "https://www.mnetplus.world/media/en/videos/6a852f0146c9c170fecfc10d",
+        "type": "event_organizer",
+        "verifiedAt": "2026-08-26"
+      },
+      {
+        "label": "KCON LA 2026公式番組ページ",
+        "url": "https://www.mnetplus.world/contents/ko/shows/697c44d05f013c2e8027b7d3/videos",
+        "type": "event_organizer",
+        "verifiedAt": "2026-08-26"
+      }
     ],
-    "relatedMembers": ["minami"],
-    "relatedReleases": [],
+    "verifiedAt": "2026-08-26",
+    "dedupeKeys": [
+      "event:kcon-la-2026:2026-08-14",
+      "media:mnetplus:6a852f0146c9c170fecfc10d"
+    ],
+    "body": [
+      {
+        "heading": "何が起きた",
+        "paragraphs": [
+          "KCON LA 2026は2026年8月14日から16日までロサンゼルスで開催され、RESCENEが出演しました。Mnet Plusでは8月21日に「LOVE ATTACK」の公式ステージ映像が公開されています。"
+        ]
+      },
+      {
+        "heading": "確認できるもの",
+        "paragraphs": [
+          "公式番組ページと公開映像から、開催期間、出演、映像の公開日を確認できます。ステージ映像はMnet Plusの配信ページから視聴できます。"
+        ]
+      }
+    ],
+    "relatedMembers": [],
+    "relatedReleases": [
+      "scenedrome"
+    ],
+    "affiliateDisclosure": null,
+    "correctionNote": null,
+    "verificationStatus": "confirmed"
+  },
+  {
+    "id": "love-attack-second-inkigayo-no1",
+    "slug": "love-attack-second-inkigayo-no1",
+    "title": "「LOVE ATTACK」がSBS『人気歌謡』で2度目の1位、通算6冠に",
+    "summary": "「LOVE ATTACK」が2026年8月16日放送のSBS『人気歌謡』で1位を獲得し、同曲では2度目、RESCENEの音楽番組通算では6冠となりました。",
+    "publishedAt": "2026-08-17",
+    "updatedAt": null,
+    "eventDate": "2026-08-16",
+    "category": "record",
+    "sourceType": "news_report",
+    "sourceName": "スポーツ京郷",
+    "sourceUrl": "https://sports.khan.co.kr/article/202608171709003",
+    "sourceLabel": "スポーツ京郷の報道",
+    "sources": [
+      {
+        "label": "スポーツ京郷の報道",
+        "url": "https://sports.khan.co.kr/article/202608171709003",
+        "type": "news_report",
+        "verifiedAt": "2026-08-26"
+      }
+    ],
+    "verifiedAt": "2026-08-26",
+    "dedupeKeys": [
+      "award:inkigayo:love-attack:2026-08-16",
+      "record:music-show-win:6"
+    ],
+    "body": [
+      {
+        "heading": "何が起きた",
+        "paragraphs": [
+          "報道によると、RESCENEは2026年8月16日放送のSBS『人気歌謡』で「LOVE ATTACK」1位を獲得しました。7月26日に続く同曲2度目の1位です。"
+        ]
+      },
+      {
+        "heading": "記録",
+        "paragraphs": [
+          "「Pretty Girl」の4冠と「LOVE ATTACK」の2冠を合わせ、音楽番組での1位は通算6回になりました。"
+        ]
+      }
+    ],
+    "relatedMembers": [],
+    "relatedReleases": [
+      "scenedrome",
+      "pretty-girl"
+    ],
+    "affiliateDisclosure": null,
+    "correctionNote": null,
+    "verificationStatus": "confirmed"
+  },
+  {
+    "id": "pretty-girl-music-core-triple-crown",
+    "slug": "pretty-girl-music-core-triple-crown",
+    "title": "「Pretty Girl」がMBC『ショー！音楽中心』で3度目の1位、トリプルクラウンを達成",
+    "summary": "「Pretty Girl」が2026年8月15日放送のMBC『ショー！音楽中心』で3度目の1位となり、同番組のトリプルクラウンを達成しました。",
+    "publishedAt": "2026-08-16",
+    "updatedAt": null,
+    "eventDate": "2026-08-15",
+    "category": "record",
+    "sourceType": "broadcaster",
+    "sourceName": "iMBC",
+    "sourceUrl": "https://enews.imbc.com/News/ViewAmp/514920",
+    "sourceLabel": "iMBC公式記事",
+    "sources": [
+      {
+        "label": "iMBC公式記事",
+        "url": "https://enews.imbc.com/News/ViewAmp/514920",
+        "type": "broadcaster",
+        "verifiedAt": "2026-08-26"
+      }
+    ],
+    "verifiedAt": "2026-08-26",
+    "dedupeKeys": [
+      "award:music-core:pretty-girl:2026-08-15",
+      "record:pretty-girl:music-core-triple-crown"
+    ],
+    "body": [
+      {
+        "heading": "何が起きた",
+        "paragraphs": [
+          "iMBCは、RESCENEが2026年8月15日放送の『ショー！音楽中心』で「Pretty Girl」1位を獲得したと伝えました。"
+        ]
+      },
+      {
+        "heading": "記録",
+        "paragraphs": [
+          "同番組での「Pretty Girl」1位はこれで3回となり、トリプルクラウンを達成しました。"
+        ]
+      }
+    ],
+    "relatedMembers": [],
+    "relatedReleases": [
+      "pretty-girl"
+    ],
+    "affiliateDisclosure": null,
+    "correctionNote": null,
+    "verificationStatus": "confirmed"
+  },
+  {
+    "id": "love-attack-inkigayo-no1",
+    "slug": "love-attack-inkigayo-no1",
+    "title": "2024年の『LOVE ATTACK』が、2026年にSBS『人気歌謡』1位へ",
+    "summary": "『SCENEDROME』収録曲「LOVE ATTACK」が、発売から約2年後の2026年7月26日にSBS『人気歌謡』で1位を獲得しました。",
+    "publishedAt": "2026-07-27",
+    "updatedAt": null,
+    "eventDate": "2026-07-26",
+    "category": "record",
+    "sourceType": "broadcaster",
+    "sourceName": "SBSニュース",
+    "sourceUrl": "https://news.sbs.co.kr/news/endPagePrintPopup.do?news_id=N1008676058",
+    "body": [
+      {
+        "heading": "何が起きた",
+        "paragraphs": [
+          "SBSは、RESCENEが2026年7月26日放送の『人気歌謡』で「LOVE ATTACK」1位を獲得したと伝えました。"
+        ]
+      },
+      {
+        "heading": "なぜ注目されている",
+        "paragraphs": [
+          "「LOVE ATTACK」は2024年8月発売の1st Mini Album『SCENEDROME』のタイトル曲です。新曲の発売直後ではなく、約2年後に再発見されて音楽番組1位へ到達した点が、現在のRESCENEを象徴する出来事になりました。"
+        ]
+      },
+      {
+        "heading": "EDITOR’S NOTE",
+        "paragraphs": [
+          "このサイトでは、WONIとMINAMIの動画から「巨済ヤッホー」が広がり、グループを知った人が「LOVE ATTACK」や過去作品へ進んだ流れを、2026年のRESCENEを知る入口として編集しています。これは公式が示した因果関係ではなく、当サイトの編集上の読み方です。"
+        ]
+      },
+      {
+        "heading": "関連動画・作品",
+        "paragraphs": [
+          "まずは『SCENEDROME』の作品ページから「LOVE ATTACK」と、同じ作品のもう一つのタイトル曲「Pinball」へ進めます。"
+        ]
+      },
+      {
+        "heading": "過去のRESCENEとどうつながる",
+        "paragraphs": [
+          "2024年の作品へ戻ることで、デビュー初期から続くメロディーの方向性と、2026年の「Pretty Girl」までの変化を同じ線上で聴けます。"
+        ]
+      }
+    ],
+    "relatedMembers": [],
+    "relatedReleases": [
+      "scenedrome",
+      "pretty-girl"
+    ],
+    "affiliateDisclosure": null,
+    "correctionNote": null,
+    "verificationStatus": "confirmed"
+  },
+  {
+    "id": "pretty-girl-mcountdown",
+    "slug": "pretty-girl-mcountdown",
+    "title": "Special Single『Pretty Girl』公開、M COUNTDOWNでステージ披露",
+    "summary": "2026年7月8日発売のSpecial Single「Pretty Girl」が、翌9日のM COUNTDOWNで披露されました。",
+    "publishedAt": "2026-07-09",
+    "updatedAt": null,
+    "eventDate": "2026-07-09",
+    "category": "release",
+    "sourceType": "broadcaster",
+    "sourceName": "Mnet Plus",
+    "sourceUrl": "https://www.mnetplus.world/media/en/videos/6a4f78c2623b250be26d422c",
+    "body": [
+      {
+        "heading": "何が起きた",
+        "paragraphs": [
+          "RESCENEは2026年7月8日にSpecial Single「Pretty Girl」を発売し、7月9日放送のM COUNTDOWNでステージを披露しました。"
+        ]
+      },
+      {
+        "heading": "なぜ注目されている",
+        "paragraphs": [
+          "KARAが2008年に発表した同名曲のリメイクで、過去の「LOVE ATTACK」が再発見される時期に届いた、2026年の新しい活動曲です。"
+        ]
+      },
+      {
+        "heading": "EDITOR’S NOTE",
+        "paragraphs": [
+          "「LOVE ATTACK」でRESCENEを知ったなら、現在の5人へ追いつくための出口としてこのステージを置きたい。過去曲の逆走だけで話を終わらせないための1本です。"
+        ]
+      },
+      {
+        "heading": "関連動画・作品",
+        "paragraphs": [
+          "作品詳細には公式Special Videoと配信先をまとめています。再生回数のような変動値は掲載していません。"
+        ]
+      },
+      {
+        "heading": "過去のRESCENEとどうつながる",
+        "paragraphs": [
+          "「Runaway」から「Pretty Girl」へ進むと、2026年の異なる表情を短い距離で比べられます。"
+        ]
+      }
+    ],
+    "relatedMembers": [],
+    "relatedReleases": [
+      "pretty-girl",
+      "runaway"
+    ],
+    "affiliateDisclosure": null,
+    "correctionNote": null,
+    "verificationStatus": "confirmed"
+  },
+  {
+    "id": "woni-minami-geoje-videos",
+    "slug": "woni-minami-geoje-videos",
+    "title": "WONI × MINAMI『ギャルと巨済に来ました』公開—3本から始める人物入口",
+    "summary": "WONIの個人YouTubeで公開された2人の動画から、巨済・方言・ギャル、日本語と韓国語をまたぐ掛け合いをたどります。",
+    "publishedAt": "2026-05-22",
+    "updatedAt": "2026-06-11",
+    "eventDate": null,
+    "category": "media",
+    "sourceType": "official_video",
+    "sourceName": "WONI 個人YouTube",
+    "sourceUrl": "https://youtu.be/OrCOflk2QmQ",
+    "body": [
+      {
+        "heading": "何が起きた",
+        "paragraphs": [
+          "WONIの個人YouTubeで、MINAMIと巨済を訪れる動画『ギャルと巨済に来ました（巨済1編）』が公開されました。"
+        ]
+      },
+      {
+        "heading": "なぜ注目されている",
+        "paragraphs": [
+          "先に公開された『ギャルの心得を教わってみました』で生まれた「巨済ヤッホー」という一言から、WONIの故郷・巨済を実際に歩く動画へ続きます。"
+        ]
+      },
+      {
+        "heading": "EDITOR’S NOTE",
+        "paragraphs": [
+          "2人を説明文だけで知るより、『ギャルの心得を教わってみました』『ギャルと巨済に来ました』『元ギャルの日本人に日本語を習う』の3本から見ると関係性がつかみやすい、というのが当サイトの編集提案です。"
+        ]
+      },
+      {
+        "heading": "関連動画・作品",
+        "paragraphs": [
+          "First RESCENEとトップページから、確認済みの3本すべてへ直接進めます。再生回数は固定表示しません。"
+        ]
+      },
+      {
+        "heading": "過去のRESCENEとどうつながる",
+        "paragraphs": [
+          "動画から入ったあとに「LOVE ATTACK」を聴くと、人物から音楽へ自然に掘り進められます。"
+        ]
+      }
+    ],
+    "relatedMembers": [
+      "woni",
+      "minami"
+    ],
+    "relatedReleases": [
+      "scenedrome"
+    ],
+    "affiliateDisclosure": null,
+    "correctionNote": null,
+    "verificationStatus": "confirmed"
+  },
+  {
+    "id": "kcon-japan-2026-stage",
+    "slug": "kcon-japan-2026-stage",
+    "title": "KCON JAPAN 2026、RESCENEのX STAGE映像が公開",
+    "summary": "2026年5月8日から10日に幕張メッセで行われたKCON JAPAN 2026から、RESCENEのX STAGE映像が公開されました。",
+    "publishedAt": "2026-05-14",
+    "updatedAt": null,
+    "eventDate": "2026-05-08",
+    "category": "japan",
+    "sourceType": "event_organizer",
+    "sourceName": "KCON / Mnet Plus",
+    "sourceUrl": "https://www.mnetplus.world/media/ja/videos/6a058b08ca35600daecb5fe6",
+    "body": [
+      {
+        "heading": "何が起きた",
+        "paragraphs": [
+          "KCON JAPAN 2026は2026年5月8日から10日まで幕張メッセで開催され、RESCENEが出演しました。公式のX STAGE映像は5月14日に公開されています。"
+        ]
+      },
+      {
+        "heading": "なぜ注目されている",
+        "paragraphs": [
+          "日本活動を応募手順ではなく、実際に残ったステージから見られる記録です。"
+        ]
+      },
+      {
+        "heading": "EDITOR’S NOTE",
+        "paragraphs": [
+          "日本で何が起きてきたかを知るときは、まずステージを見て、そのあとJapan Archiveの日付へ戻る順が分かりやすいと考えています。"
+        ]
+      },
+      {
+        "heading": "関連動画・作品",
+        "paragraphs": [
+          "Mnet Plusの公式映像と、当サイトのJapan Archiveにある2026年の活動記録を行き来できます。"
+        ]
+      },
+      {
+        "heading": "過去のRESCENEとどうつながる",
+        "paragraphs": [
+          "2025年のKCON JAPAN出演記録と並べると、日本でのステージの積み重なりを年単位で追えます。"
+        ]
+      }
+    ],
+    "relatedMembers": [],
+    "relatedReleases": [
+      "runaway"
+    ],
+    "affiliateDisclosure": null,
+    "correctionNote": null,
+    "verificationStatus": "confirmed"
+  },
+  {
+    "id": "runaway-release",
+    "slug": "runaway-release",
+    "title": "1st Digital Single『Runaway』と公式MV公開",
+    "summary": "RESCENEが2026年4月8日に1st Digital Single『Runaway』を発売し、公式MVを公開しました。",
+    "publishedAt": "2026-04-08",
+    "updatedAt": null,
+    "eventDate": "2026-04-08",
+    "category": "release",
+    "sourceType": "official_video",
+    "sourceName": "RESCENE Official",
+    "sourceUrl": "https://youtu.be/rsZwrTNklos",
+    "body": [
+      {
+        "heading": "何が起きた",
+        "paragraphs": [
+          "RESCENEは2026年4月8日に1st Digital Single『Runaway』を発売し、公式MVを公開しました。"
+        ]
+      },
+      {
+        "heading": "なぜ注目されている",
+        "paragraphs": [
+          "作品データではincenseを香りの軸に持つシングルとして記録しています。過去作とは異なる2026年の音像へ進む入口です。"
+        ]
+      },
+      {
+        "heading": "EDITOR’S NOTE",
+        "paragraphs": [
+          "「LOVE ATTACK」から入った人に、2026年のRESCENEを一曲で見せるなら外せない作品です。"
+        ]
+      },
+      {
+        "heading": "関連動画・作品",
+        "paragraphs": [
+          "作品詳細から公式MVと配信先へ進めます。"
+        ]
+      },
+      {
+        "heading": "過去のRESCENEとどうつながる",
+        "paragraphs": [
+          "『Dearest』の「Deja Vu」から『Runaway』へ進むと、2025年から2026年の変化を追えます。"
+        ]
+      }
+    ],
+    "relatedMembers": [],
+    "relatedReleases": [
+      "runaway",
+      "dearest"
+    ],
+    "affiliateDisclosure": null,
+    "correctionNote": null,
+    "verificationStatus": "confirmed"
+  },
+  {
+    "id": "pinball-japanese-release",
+    "slug": "pinball-japanese-release",
+    "title": "日本3rd Digital Single『ピンボール (Pinball)』公開",
+    "summary": "『SCENEDROME』収録曲「Pinball」の日本語バージョンが、2026年1月21日に公開されました。",
+    "publishedAt": "2026-01-21",
+    "updatedAt": null,
+    "eventDate": "2026-01-21",
+    "category": "release",
+    "sourceType": "official_video",
+    "sourceName": "RESCENE Official",
+    "sourceUrl": "https://www.youtube.com/watch?v=ou2Y2vGKCyY",
+    "body": [
+      {
+        "heading": "何が起きた",
+        "paragraphs": [
+          "RESCENEは2026年1月21日に、日本3rd Digital Single『ピンボール (Pinball)』を公開しました。"
+        ]
+      },
+      {
+        "heading": "なぜ注目されている",
+        "paragraphs": [
+          "原曲「Pinball」は「LOVE ATTACK」と同じ『SCENEDROME』のタイトル曲です。現在の入口から同じ作品を横に掘れる1曲です。"
+        ]
+      },
+      {
+        "heading": "EDITOR’S NOTE",
+        "paragraphs": [
+          "「LOVE ATTACK」が好きなら次は「Pinball」も面白い。日本語バージョンは、日本からその枝へ入るもう一つの入口です。"
+        ]
+      },
+      {
+        "heading": "関連動画・作品",
+        "paragraphs": [
+          "日本語版の作品詳細と、原曲を収録した『SCENEDROME』の両方へ進めます。"
+        ]
+      },
+      {
+        "heading": "過去のRESCENEとどうつながる",
+        "paragraphs": [
+          "2024年の原曲と2026年の日本語版を並べることで、日本活動とディスコグラフィーを同じ線で追えます。"
+        ]
+      }
+    ],
+    "relatedMembers": [
+      "minami"
+    ],
+    "relatedReleases": [
+      "pinball-japanese",
+      "scenedrome"
+    ],
     "affiliateDisclosure": null,
     "correctionNote": null,
     "verificationStatus": "confirmed"
@@ -26,7 +475,7 @@
     "id": "dearest-japan-promotion",
     "slug": "dearest-japan-promotion",
     "title": "2nd Single Album『Dearest』日本プロモーションイベント、東京と愛知で開催",
-    "summary": "東京2日間と愛知1日で実施されたプロモーションイベントの日程と会場を整理します。",
+    "summary": "『Dearest』の日本プロモーションイベントが、2025年8月に東京と愛知で開催されました。",
     "publishedAt": "2025-08-01",
     "updatedAt": null,
     "eventDate": "2025-08-21",
@@ -35,11 +484,41 @@
     "sourceName": "キッス・エンタテインメント",
     "sourceUrl": "https://prtimes.jp/main/html/rd/p/000000272.000009426.html",
     "body": [
-      { "heading": "開催日と会場", "paragraphs": ["2025年8月21日・22日に東京都の目黒区中小企業センター、8月31日に愛知県の東別院ホールで実施されました。"] },
-      { "heading": "情報の確認", "paragraphs": ["販売条件や参加方法は変更される場合があります。参加前には主催者の原文をご確認ください。"] }
+      {
+        "heading": "何が起きた",
+        "paragraphs": [
+          "『Dearest』の日本プロモーションイベントが、2025年8月21日・22日に東京都の目黒区中小企業センター、8月31日に愛知県の東別院ホールで開催されました。"
+        ]
+      },
+      {
+        "heading": "なぜ注目されている",
+        "paragraphs": [
+          "東京に加えて愛知でも開催され、RESCENEの日本活動が複数地域へ広がった記録です。"
+        ]
+      },
+      {
+        "heading": "EDITOR’S NOTE",
+        "paragraphs": [
+          "参加方法ではなく、日本でどの作品が、どの地域へ届いてきたかをたどるためのアーカイブ記事です。"
+        ]
+      },
+      {
+        "heading": "関連動画・作品",
+        "paragraphs": [
+          "作品ページから2nd Single Album『Dearest』とタイトル曲「Deja Vu」へ進めます。"
+        ]
+      },
+      {
+        "heading": "過去のRESCENEとどうつながる",
+        "paragraphs": [
+          "2024年の日本初公式イベントから続く活動記録の一つであり、2026年の日本活動へ至る流れを確認できます。"
+        ]
+      }
     ],
     "relatedMembers": [],
-    "relatedReleases": ["dearest"],
+    "relatedReleases": [
+      "dearest"
+    ],
     "affiliateDisclosure": null,
     "correctionNote": null,
     "verificationStatus": "confirmed"
@@ -48,7 +527,7 @@
     "id": "first-official-event-in-japan",
     "slug": "first-official-event-in-japan",
     "title": "RESCENE、日本初の公式イベントを東京で開催",
-    "summary": "日本で初めて行われた公式イベントについて、開催日時と会場を記録します。",
+    "summary": "RESCENE初の日本公式イベントが、2024年12月7日に東京で開催されました。",
     "publishedAt": "2024-11-13",
     "updatedAt": null,
     "eventDate": "2024-12-07",
@@ -57,11 +536,42 @@
     "sourceName": "RED° TOKYO TOWER",
     "sourceUrl": "https://tokyotower.red-brand.jp/20241113-2/",
     "body": [
-      { "heading": "日本初の公式イベント", "paragraphs": ["イベントは2024年12月7日、RED° TOKYO TOWER 5F SKY STADIUMで2部制により実施されました。"] },
-      { "heading": "記録方針", "paragraphs": ["本記事は会場発表の要点を日本語で整理したものです。原文の全文転載は行っていません。"] }
+      {
+        "heading": "何が起きた",
+        "paragraphs": [
+          "RESCENE初の日本公式イベントが、2024年12月7日にRED° TOKYO TOWER 5F SKY STADIUMで2部制により開催されました。"
+        ]
+      },
+      {
+        "heading": "なぜ注目されている",
+        "paragraphs": [
+          "日本での公式活動の起点として、以後のプロモーションイベントや出演をたどる基準になる出来事です。"
+        ]
+      },
+      {
+        "heading": "EDITOR’S NOTE",
+        "paragraphs": [
+          "現在の日本活動を知ってから過去へ戻るとき、まず確認したい最初の一地点として残します。"
+        ]
+      },
+      {
+        "heading": "関連動画・作品",
+        "paragraphs": [
+          "当時のRESCENEはデビュー作『Re:Scene』と『SCENEDROME』を発表した2024年にあたります。"
+        ]
+      },
+      {
+        "heading": "過去のRESCENEとどうつながる",
+        "paragraphs": [
+          "Japan Archiveでは、このイベント以降の23件の日本活動を時系列で確認できます。"
+        ]
+      }
     ],
     "relatedMembers": [],
-    "relatedReleases": ["re-scene"],
+    "relatedReleases": [
+      "re-scene",
+      "scenedrome"
+    ],
     "affiliateDisclosure": null,
     "correctionNote": null,
     "verificationStatus": "confirmed"

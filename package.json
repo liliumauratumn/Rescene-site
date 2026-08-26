@@ -6,7 +6,14 @@
     "dev": "next dev",
     "build": "next build",
     "lint": "eslint .",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "update:news": "node scripts/update-news.mjs",
+    "update:schedule": "node scripts/update-schedule.mjs",
+    "validate:data": "node scripts/validate-content.mjs",
+    "check:links": "node scripts/check-links.mjs",
+    "test:schedule-safety": "node scripts/test-schedule-safety.mjs",
+    "verify": "npm run test:schedule-safety && npm run validate:data && npm run typecheck && npm run lint && npm run build && npm run check:links",
+    "update": "npm run update:news && npm run update:schedule && npm run verify"
   },
   "dependencies": {
     "next": "16.3.0",

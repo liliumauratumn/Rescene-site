@@ -1,0 +1,110 @@
+{
+  "mnet": {
+    "spaceId": "rescene-official",
+    "communityUrl": "https://artist.mnetplus.world/main/stg/rescene-official/community",
+    "noticeBoardId": "67a5c573036dc37e1e6d248c",
+    "calendarApi": "https://artist.mnetplus.world/svc/stg/rescene-official/space/api/v1/calendar",
+    "calendarDetailBase": "https://artist.mnetplus.world/main/stg/rescene-official/schedule"
+  },
+  "youtube": {
+    "channelId": "UCtKtCiaWRz-d3EZn2xd1mdA",
+    "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCtKtCiaWRz-d3EZn2xd1mdA"
+  },
+  "newsKeywords": [
+    "official mv",
+    "official m/v",
+    "special video",
+    "performance",
+    "stage",
+    "dance practice",
+    "choreography",
+    "highlight medley",
+    "teaser",
+    "release",
+    "out now",
+    "발매",
+    "공연",
+    "출연",
+    "콘서트",
+    "쇼케이스",
+    "이벤트",
+    "활동"
+  ],
+  "scheduleLabels": ["방송", "공연", "행사"],
+  "scheduleOverrides": {
+    "6a7241766e77820edf3dbd8e": {
+      "title": "『2026 Coupang Play Series』プレビューショー"
+    },
+    "6a587b48395e8522ce32869a": {
+      "title": "『2026 Coupang Play Series』Manchester City vs Atlético Madrid ハーフタイムショー"
+    },
+    "69c5f5a5ea4b5a79089acae7": {
+      "title": "KCON LA 2026",
+      "region": "US",
+      "venue": "Crypto.com Arena／Los Angeles Convention Center",
+      "additionalSources": [
+        {
+          "label": "KCON LA 2026公式番組ページ",
+          "url": "https://www.mnetplus.world/contents/ko/shows/697c44d05f013c2e8027b7d3/videos",
+          "type": "event_organizer"
+        },
+        {
+          "label": "CJ ENM公式イベント案内",
+          "url": "https://front.mnetplus.world/en/news/kcon-la-2026-to-bring-diverse-klifestyle-experiences-to-cryptocom-arena--los-angeles-convention-center-aug-1416/",
+          "type": "event_organizer"
+        }
+      ]
+    },
+    "6a77522486f9d810eb3d203b": {
+      "title": "tvN『驚きの土曜日』"
+    },
+    "6a3c83fb0b7c92615f50b57c": {
+      "title": "2026 K-WORLD DREAM AWARDS",
+      "startAt": "2026-08-27T18:30:00+09:00",
+      "endAt": null,
+      "allDay": false,
+      "prefecture": "京畿道",
+      "venue": "KINTEX（韓国・高陽市）",
+      "additionalSources": [
+        {
+          "label": "U-NEXT公式ライブ配信案内",
+          "url": "https://www.unext.co.jp/ja/press-room/2026-k_world-dream-award-2026-08-06",
+          "type": "official_streamer"
+        }
+      ]
+    },
+    "6a462321c567527e9bbbe924": {
+      "title": "SBS『熱血バスケットボール団2』"
+    },
+    "6a48ce7d7dd960680ac6fc90": {
+      "title": "2026 天安K-Culture博覧会 オープニング公演"
+    },
+    "6a48cd9b2abffc033aa33c90": {
+      "title": "One Summer Night with K-POP Season 2"
+    },
+    "6a69f06d62e6743977db6c12": {
+      "title": "SPOTV K-POP AWARDS（SKA）"
+    },
+    "6a755022aba59a5a7ffad756": {
+      "title": "Spotify House Seoul"
+    },
+    "6a69f1ecd659812bd5406bb9": {
+      "title": "2026 THE FACT MUSIC AWARDS（TMA）"
+    },
+    "6a461fc2c567527e9bbbe91a": {
+      "title": "OBJET K-POP FESTA 2026（仁川）"
+    },
+    "6a3e81070b7c92615f50c73f": {
+      "title": "2026 IBK FESTIVAL"
+    },
+    "6a48ce2d2abffc033aa33c91": {
+      "title": "2026 GHOST（京畿韓流OST音楽フェスティバル）"
+    },
+    "6a4612a67dd960680ac6f9b8": {
+      "title": "NOL FESTIVAL（高陽）"
+    },
+    "6a3e7e069f69517347795cee": {
+      "title": "2026 KGMA（Korea Grand Music Awards）"
+    }
+  }
+}

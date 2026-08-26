@@ -1,0 +1,94 @@
+name: Discover news candidates
+
+on:
+  schedule:
+    - cron: '37 1,7,13 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: rescene-news-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      UPDATE_BRANCH: automation/news-review
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - name: Checkout the default branch
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Continue the news branch if it exists
+        shell: bash
+        run: |
+          set -euo pipefail
+          default_branch="${{ github.event.repository.default_branch }}"
+          git fetch origin "$default_branch"
+          if git ls-remote --exit-code --heads origin "$UPDATE_BRANCH" >/dev/null 2>&1; then
+            git fetch origin "$UPDATE_BRANCH:$UPDATE_BRANCH"
+            git switch "$UPDATE_BRANCH"
+            git merge --no-edit "origin/$default_branch"
+          else
+            git switch -c "$UPDATE_BRANCH" "origin/$default_branch"
+          fi
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Discover news candidates
+        run: npm run update:news
+
+      - name: Validate data and site
+        run: npm run verify
+
+      - name: Commit news-only changes
+        id: branch
+        shell: bash
+        run: |
+          set -euo pipefail
+          unexpected="$(git status --porcelain | sed -E 's/^.. //' | grep -Ev '^(data/news\.json|data/content-meta\.json|data/pending/news\.json)$' || true)"
+          if [ -n "$unexpected" ]; then
+            echo "Unexpected files changed:" >&2
+            echo "$unexpected" >&2
+            exit 1
+          fi
+          if git diff --quiet -- data/news.json data/content-meta.json data/pending/news.json; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No News changes." >> "$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/news.json data/content-meta.json data/pending/news.json
+          git commit -m "chore(news): collect review candidates"
+          git push --set-upstream origin "$UPDATE_BRANCH"
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      - name: Open or update the News review PR
+        if: steps.branch.outputs.changed == 'true'
+        shell: bash
+        run: |
+          set -euo pipefail
+          default_branch="${{ github.event.repository.default_branch }}"
+          pr_number="$(gh pr list --state open --head "$UPDATE_BRANCH" --json number --jq '.[0].number // empty')"
+          title="[News review] Official discoveries and approved drafts"
+          body="Newsの公式情報候補または人間が承認した記事本文です。NEWS本文は自動マージされません。data/pending/news.json、出典、本文、重複キーを確認してから人間がマージしてください。"
+          if [ -z "$pr_number" ]; then
+            gh pr create --base "$default_branch" --head "$UPDATE_BRANCH" --title "$title" --body "$body"
+          else
+            gh pr edit "$pr_number" --title "$title" --body "$body"
+          fi
