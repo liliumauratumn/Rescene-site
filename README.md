@@ -23,8 +23,9 @@ npm run check:links
 
 ## データの正本
 
-- サイト名、canonical URL、ホームとScheduleで共有する次回日本予定: `data/site.json`
+- サイト名、canonical URL、説明文: `data/site.json`
 - データ群ごとの最終更新日: `data/content-meta.json`
+- Schedule自動取得の最終成功日: `data/schedule-sync.json`
 - 共通サイト設定の読み出し: `site.config.ts`
 - News: `data/news.json`
 - Members: `data/members.json`
@@ -34,7 +35,7 @@ npm run check:links
 - First RESCENEの動画: `data/starter-videos.json`
 - 公式・正規配信・主催者リンク: `data/official-links.json`
 
-サイト名、canonical URL、説明文は、`data/site.json` の `siteName`、`siteUrl`、`shortDescription` を更新します。About・ヘッダー・フッター・sitemapの最終更新日は `data/content-meta.json` のうち最新の日付を参照します。ホームとScheduleの次回日本予定は `data/site.json` の `nextJapanSchedule` を更新します。Reactコンポーネントへ同じ値を重複記述しません。
+サイト名、canonical URL、説明文は、`data/site.json` の `siteName`、`siteUrl`、`shortDescription` を更新します。About・ヘッダー・フッター・sitemapの最終更新日は `data/content-meta.json` のうち最新の日付を参照します。ホームとSchedule上部の次回日本予定は、公開可能な`data/schedules.json`のうち未来の`region: JP`から共通算出します。該当予定がない場合の最終確認日は`data/schedule-sync.json`を参照します。
 
 ## コンテンツ更新
 
@@ -52,7 +53,7 @@ npm run check:links
 
 ### Schedule
 
-`data/schedules.json` を更新します。開催日時、会場、応募期間、販売開始、出典URLを別々の項目として記録します。日時や会場を確認できない予定は推測値を入れず、未確認状態のまま公開しません。現在の次回日本予定は `data/site.json` の `nextJapanSchedule` を更新します。
+`data/schedules.json` を更新します。開催日時、会場、応募期間、販売開始、出典URLを別々の項目として記録します。日時や会場を確認できない予定は推測値を入れず、未確認状態のまま公開しません。未来の日本予定が追加されると、Schedule一覧とTOPのNEXT IN JAPANへ同じレコードが反映されます。
 
 ### 自動収集
 

@@ -2,8 +2,8 @@
 
 import { useMemo, useState } from 'react';
 import { ExternalLink } from '@/components/ExternalLink';
-import siteData from '@/data/site.json';
 import { formatDate } from '@/lib/content-display';
+import type { NextJapanSchedule } from '@/lib/next-japan';
 import type { Schedule } from '@/types/content';
 
 const statusLabels: Record<string, string> = {
@@ -23,7 +23,13 @@ const dateTimeLabel = (value: string) => {
   return time === '00:00' || time === '23:59' ? (time === '23:59' ? `${date} ${time}` : date) : `${date} ${time}`;
 };
 
-export default function ScheduleArchive({ items }: { items: Schedule[] }) {
+export default function ScheduleArchive({
+  items,
+  nextJapanSchedule,
+}: {
+  items: Schedule[];
+  nextJapanSchedule: NextJapanSchedule;
+}) {
   const [filter, setFilter] = useState('all');
   const filtered = useMemo(() => {
     if (filter === 'jp') return items.filter((item) => item.region === 'JP');
@@ -92,15 +98,15 @@ export default function ScheduleArchive({ items }: { items: Schedule[] }) {
       <section className="schedule-next" aria-labelledby="schedule-next-title">
         <div>
           <span className="status-badge">
-            {siteData.nextJapanSchedule.status === 'none_announced' ? '発表なし' : '詳細未発表'}
+            {nextJapanSchedule.statusLabel}
           </span>
-          <h2 id="schedule-next-title">{siteData.nextJapanSchedule.title}</h2>
+          <h2 id="schedule-next-title">{nextJapanSchedule.title}</h2>
         </div>
         <p>
-          {siteData.nextJapanSchedule.description}
+          {nextJapanSchedule.description}
           <br />
-          <time dateTime={siteData.nextJapanSchedule.checkedAt}>
-            最終確認 {formatDate(siteData.nextJapanSchedule.checkedAt)}
+          <time dateTime={nextJapanSchedule.checkedAt}>
+            最終確認 {formatDate(nextJapanSchedule.checkedAt)}
           </time>
         </p>
       </section>

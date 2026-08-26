@@ -5,7 +5,9 @@ import officialLinkData from '@/data/official-links.json';
 import releaseData from '@/data/releases.json';
 import scheduleData from '@/data/schedules.json';
 import starterVideoData from '@/data/starter-videos.json';
+import scheduleSyncData from '@/data/schedule-sync.json';
 import { categoryLabels } from '@/lib/content-display';
+import { deriveNextJapanSchedule } from '@/lib/next-japan';
 import type {
   JapanActivity,
   Member,
@@ -58,6 +60,10 @@ export const news = (newsData as NewsArticle[])
 export const schedules = (scheduleData as Schedule[])
   .filter((schedule) => isPublicVerificationStatus(schedule.verificationStatus))
   .sort((a, b) => (b.startAt ?? '').localeCompare(a.startAt ?? ''));
+export const nextJapanSchedule = deriveNextJapanSchedule(
+  schedules,
+  scheduleSyncData.checkedAt,
+);
 export const japanActivities = (japanActivityData as JapanActivity[])
   .filter((activity) => isPublicVerificationStatus(activity.verificationStatus))
   .sort((a, b) => b.eventDate.localeCompare(a.eventDate));

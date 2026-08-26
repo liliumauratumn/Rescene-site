@@ -323,12 +323,17 @@ const pendingChanged = await writeJsonIfChanged(
     (b.discoveredAt ?? '').localeCompare(a.discoveredAt ?? '') || a.id.localeCompare(b.id),
   ),
 );
+const syncChanged = await writeJsonIfChanged('data/schedule-sync.json', {
+  checkedAt: today,
+  source: config.mnet.calendarApi,
+});
 await updateDatasetDate('schedules', publicChanged);
 
 const blockingPendingCount = nextPending.filter((item) => item.status === 'candidate').length;
 const primarySourceOnly = records.every(isPrimaryScheduleSource);
 const safety = scheduleSafetyDecision({
   publicChanged,
+  syncChanged,
   blockingPendingCount,
   appliedChangeCount: appliedChanges.length,
   maxSafeChanges,
@@ -340,6 +345,7 @@ const report = {
   primarySourceOnly,
   publicChanged,
   pendingChanged,
+  syncChanged,
   appliedChangeCount: appliedChanges.length,
   addedCount: appliedChanges.filter((item) => item.kind === 'added').length,
   updatedCount: appliedChanges.filter((item) => item.kind === 'updated').length,

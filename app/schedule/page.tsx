@@ -1,6 +1,6 @@
 import { PageHeader } from '@/components/PageHeader';
 import ScheduleArchive from '@/components/ScheduleArchive';
-import { schedules } from '@/lib/content';
+import { nextJapanSchedule, schedules } from '@/lib/content';
 import { createMetadata } from '@/lib/metadata';
 
 export const metadata = createMetadata({
@@ -21,7 +21,7 @@ export default function SchedulePage() {
         title="Schedule"
         lead="放送・公演・イベントの確認済み日程を整理します。終了したものも状態を残し、参加可否は必ず公式発表で確認してください。"
       />
-      <ScheduleArchive items={schedules} />
+      <ScheduleArchive items={schedules} nextJapanSchedule={nextJapanSchedule} />
       <p className="verification-note">終了した予定は日付と会場を残したまま日本活動記録へ蓄積します。</p>
     </div>
   );

@@ -37,6 +37,8 @@ ScheduleとNewsは別の時刻・ブランチ・Pull Requestで更新します�
 
 `data/content-meta.json` はデータ群ごとの最終変更日です。公開NewsまたはScheduleのJSONが実際に変わった場合だけ該当日を更新します。候補だけの追加、空振り実行、buildだけではサイトの最終更新日は変わりません。TMIの日付は手動管理です。
 
+`data/schedule-sync.json`は公式Schedule収集が最後に成功した日を保持します。公開Scheduleに差分がない日でも、日付が変わって最初の成功時にはScheduleの安全な機械PRで更新されます。TOPとSchedule上部のNEXT IN JAPANは`data/schedules.json`の未来の`region: JP`を共通利用し、該当予定がない場合の「最終確認」にはこの成功日を表示します。`data/site.json`には次回日本予定の固定文を持ちません。
+
 ## ローカル実行
 
 ```bash

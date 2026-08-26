@@ -127,6 +127,12 @@ for (const [key, value] of Object.entries(meta)) {
   if (!datePattern.test(value)) errors.push(`content-meta.${key} はYYYY-MM-DD形式が必要です。`);
 }
 
+const scheduleSync = await readJson('data/schedule-sync.json');
+if (!datePattern.test(scheduleSync.checkedAt ?? '')) {
+  errors.push('schedule-sync.checkedAt はYYYY-MM-DD形式が必要です。');
+}
+validUrl(scheduleSync.source, 'schedule-sync.source');
+
 if (errors.length > 0) {
   console.error(`データ検証に失敗しました（${errors.length}件）:\n- ${errors.join('\n- ')}`);
   process.exit(1);

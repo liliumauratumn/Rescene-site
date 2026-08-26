@@ -62,7 +62,7 @@ jobs:
           echo "auto_merge_eligible=$(jq -r '.autoMergeEligible' "$report_path")" >> "$GITHUB_OUTPUT"
           echo "applied_change_count=$(jq -r '.appliedChangeCount' "$report_path")" >> "$GITHUB_OUTPUT"
           echo "### Schedule safety report" >> "$GITHUB_STEP_SUMMARY"
-          jq -r '"- Applied: \(.appliedChangeCount) (added \(.addedCount), updated \(.updatedCount))\n- Review candidates: \(.blockingPendingCount)\n- Auto-merge eligible: \(.autoMergeEligible)\n- Reasons: \((.unsafeReasons | join(", ")) // "none")"' "$report_path" >> "$GITHUB_STEP_SUMMARY"
+          jq -r '"- Applied: \(.appliedChangeCount) (added \(.addedCount), updated \(.updatedCount))\n- Schedule check date changed: \(.syncChanged)\n- Review candidates: \(.blockingPendingCount)\n- Auto-merge eligible: \(.autoMergeEligible)\n- Reasons: \((.unsafeReasons | join(", ")) // "none")"' "$report_path" >> "$GITHUB_STEP_SUMMARY"
 
       - name: Validate data and site
         run: npm run verify
@@ -72,16 +72,16 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          unexpected="$(git status --porcelain | sed -E 's/^.. //' | grep -Ev '^(data/schedules\.json|data/content-meta\.json|data/pending/schedules\.json)$' || true)"
+          unexpected="$(git status --porcelain | sed -E 's/^.. //' | grep -Ev '^(data/schedules\.json|data/schedule-sync\.json|data/content-meta\.json|data/pending/schedules\.json)$' || true)"
           if [ -n "$unexpected" ]; then
             echo "Unexpected files changed:" >&2
             echo "$unexpected" >&2
             exit 1
           fi
-          if ! git diff --quiet -- data/schedules.json data/content-meta.json data/pending/schedules.json; then
+          if ! git diff --quiet -- data/schedules.json data/schedule-sync.json data/content-meta.json data/pending/schedules.json; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add data/schedules.json data/content-meta.json data/pending/schedules.json
+            git add data/schedules.json data/schedule-sync.json data/content-meta.json data/pending/schedules.json
             git commit -m "chore(schedule): sync official calendar"
           fi
           default_branch="${{ github.event.repository.default_branch }}"

@@ -66,6 +66,7 @@ assert.equal(
 assert.equal(
   scheduleSafetyDecision({
     publicChanged: true,
+    syncChanged: false,
     blockingPendingCount: 0,
     appliedChangeCount: 3,
     maxSafeChanges: 5,
@@ -74,13 +75,24 @@ assert.equal(
   true,
 );
 for (const unsafe of [
-  { publicChanged: true, blockingPendingCount: 1, appliedChangeCount: 1, maxSafeChanges: 5, primarySourceOnly: true },
-  { publicChanged: true, blockingPendingCount: 0, appliedChangeCount: 6, maxSafeChanges: 5, primarySourceOnly: true },
-  { publicChanged: true, blockingPendingCount: 0, appliedChangeCount: 1, maxSafeChanges: 5, primarySourceOnly: false },
-  { publicChanged: true, blockingPendingCount: 0, appliedChangeCount: 0, maxSafeChanges: 5, primarySourceOnly: true },
+  { publicChanged: true, syncChanged: false, blockingPendingCount: 1, appliedChangeCount: 1, maxSafeChanges: 5, primarySourceOnly: true },
+  { publicChanged: true, syncChanged: false, blockingPendingCount: 0, appliedChangeCount: 6, maxSafeChanges: 5, primarySourceOnly: true },
+  { publicChanged: true, syncChanged: false, blockingPendingCount: 0, appliedChangeCount: 1, maxSafeChanges: 5, primarySourceOnly: false },
+  { publicChanged: true, syncChanged: false, blockingPendingCount: 0, appliedChangeCount: 0, maxSafeChanges: 5, primarySourceOnly: true },
 ]) {
   assert.equal(scheduleSafetyDecision(unsafe).autoMergeEligible, false);
   assert.equal(scheduleSafetyDecision(unsafe).requiresReview, true);
 }
+assert.equal(
+  scheduleSafetyDecision({
+    publicChanged: false,
+    syncChanged: true,
+    blockingPendingCount: 0,
+    appliedChangeCount: 0,
+    maxSafeChanges: 5,
+    primarySourceOnly: true,
+  }).autoMergeEligible,
+  true,
+);
 
 console.log('Schedule安全判定テストOK');

@@ -2,12 +2,12 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { StarterVideoList } from '@/components/StarterVideoList';
 import editorialData from '@/data/editorial.json';
-import siteData from '@/data/site.json';
 import {
   categoryLabels,
   formatDate,
   homeMembers,
   news,
+  nextJapanSchedule,
   releases,
   starterVideos,
 } from '@/lib/content';
@@ -288,12 +288,12 @@ export default function HomePage() {
       <section className="next-japan" aria-labelledby="next-japan-title">
         <div>
           <h2 className="eyebrow" id="next-japan-title">NEXT IN JAPAN — UTILITY</h2>
-          <p className="next-japan__title">{siteData.nextJapanSchedule.title}</p>
-          <p>{siteData.nextJapanSchedule.description}</p>
+          <p className="next-japan__title">{nextJapanSchedule.title}</p>
+          <p>{nextJapanSchedule.description}</p>
         </div>
         <div className="next-japan__links">
-          <time dateTime={siteData.nextJapanSchedule.checkedAt}>
-            最終確認 {formatDate(siteData.nextJapanSchedule.checkedAt)}
+          <time dateTime={nextJapanSchedule.checkedAt}>
+            最終確認 {formatDate(nextJapanSchedule.checkedAt)}
           </time>
           <Link href="/japan/">日本活動記録 →</Link>
         </div>

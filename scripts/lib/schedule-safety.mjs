@@ -1,3 +1,5 @@
+import { normalizeText } from './content-utils.mjs';
+
 const withoutVerificationDates = (record) => ({
   ...record,
   verifiedAt: undefined,
@@ -64,6 +66,7 @@ export const hasScheduleSourceDisappeared = (
 
 export const scheduleSafetyDecision = ({
   publicChanged,
+  syncChanged,
   blockingPendingCount,
   appliedChangeCount,
   maxSafeChanges,
@@ -80,7 +83,6 @@ export const scheduleSafetyDecision = ({
   return {
     unsafeReasons,
     requiresReview: unsafeReasons.length > 0,
-    autoMergeEligible: publicChanged && unsafeReasons.length === 0,
+    autoMergeEligible: (publicChanged || syncChanged) && unsafeReasons.length === 0,
   };
 };
-import { normalizeText } from './content-utils.mjs';
