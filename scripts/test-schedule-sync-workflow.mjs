@@ -28,7 +28,14 @@ assert.match(
   'schedule-sync.jsonがgit add対象にありません。',
 );
 assert.match(workflow, /git commit -m "chore\(schedule\): sync official calendar"/);
-assert.match(workflow, /gh pr merge "\$pr_number" --auto --squash --delete-branch/);
+assert.match(workflow, /AUTO_MERGE_MAX_ATTEMPTS: 18/);
+assert.match(workflow, /AUTO_MERGE_RETRY_SECONDS: 10/);
+assert.match(workflow, /run: node scripts\/route-schedule-pr\.mjs/);
+assert.doesNotMatch(
+  workflow,
+  /gh pr merge/,
+  'Workflow内でPR作成直後にgh pr mergeを直接実行しています。',
+);
 
 const syncOnlyDecision = scheduleSafetyDecision({
   publicChanged: false,

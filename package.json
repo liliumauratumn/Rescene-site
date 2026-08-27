@@ -13,8 +13,10 @@
     "check:links": "node scripts/check-links.mjs",
     "test:schedule-safety": "node scripts/test-schedule-safety.mjs",
     "test:schedule-sync-workflow": "node scripts/test-schedule-sync-workflow.mjs",
+    "test:schedule-pr-workflow": "node scripts/test-schedule-pr-workflow.mjs",
+    "test:schedule-branch-continuation": "node scripts/test-schedule-branch-continuation.mjs",
     "test:next-japan": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON --experimental-strip-types scripts/test-next-japan.mjs",
-    "verify": "npm run test:schedule-safety && npm run test:schedule-sync-workflow && npm run test:next-japan && npm run validate:data && npm run typecheck && npm run lint && npm run build && npm run check:links",
+    "verify": "npm run test:schedule-safety && npm run test:schedule-sync-workflow && npm run test:schedule-pr-workflow && npm run test:schedule-branch-continuation && npm run test:next-japan && npm run validate:data && npm run typecheck && npm run lint && npm run build && npm run check:links",
     "update": "npm run update:news && npm run update:schedule && npm run verify"
   },
   "dependencies": {
