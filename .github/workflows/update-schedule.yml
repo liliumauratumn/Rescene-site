@@ -33,6 +33,8 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           default_branch="${{ github.event.repository.default_branch }}"
           git fetch origin "$default_branch"
           if git ls-remote --exit-code --heads origin "$UPDATE_BRANCH" >/dev/null 2>&1; then
@@ -81,8 +83,6 @@ jobs:
             exit 1
           fi
           if ! git diff --quiet -- data/schedules.json data/schedule-sync.json data/content-meta.json data/pending/schedules.json; then
-            git config user.name "github-actions[bot]"
-            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git add data/schedules.json data/schedule-sync.json data/content-meta.json data/pending/schedules.json
             git commit -m "chore(schedule): sync official calendar"
           fi
