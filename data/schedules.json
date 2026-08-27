@@ -438,7 +438,7 @@
     "region": "KR",
     "prefecture": "京畿道",
     "venue": "KINTEX（韓国・高陽市）",
-    "status": "scheduled",
+    "status": "completed",
     "applicationStartAt": null,
     "applicationEndAt": null,
     "saleStartAt": null,
@@ -454,16 +454,16 @@
         "label": "RESCENE公式スケジュール",
         "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/08?eventId=6a3c83fb0b7c92615f50b57c",
         "type": "official_calendar",
-        "verifiedAt": "2026-08-26"
+        "verifiedAt": "2026-08-28"
       },
       {
         "label": "U-NEXT公式ライブ配信案内",
         "url": "https://www.unext.co.jp/ja/press-room/2026-k_world-dream-award-2026-08-06",
         "type": "official_streamer",
-        "verifiedAt": "2026-08-26"
+        "verifiedAt": "2026-08-28"
       }
     ],
-    "verifiedAt": "2026-08-26",
+    "verifiedAt": "2026-08-28",
     "dedupeKeys": [
       "source:mnet-calendar:6a3c83fb0b7c92615f50b57c",
       "event:2026kworlddreamawards:2026-08-27"
