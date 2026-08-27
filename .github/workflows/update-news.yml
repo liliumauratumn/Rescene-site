@@ -30,6 +30,8 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           default_branch="${{ github.event.repository.default_branch }}"
           git fetch origin "$default_branch"
           if git ls-remote --exit-code --heads origin "$UPDATE_BRANCH" >/dev/null 2>&1; then
@@ -71,8 +73,6 @@ jobs:
             echo "No News changes." >> "$GITHUB_STEP_SUMMARY"
             exit 0
           fi
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/news.json data/content-meta.json data/pending/news.json
           git commit -m "chore(news): collect review candidates"
           git push --set-upstream origin "$UPDATE_BRANCH"
