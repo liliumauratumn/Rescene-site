@@ -399,7 +399,7 @@
     "region": "KR",
     "prefecture": null,
     "venue": null,
-    "status": "scheduled",
+    "status": "completed",
     "applicationStartAt": null,
     "applicationEndAt": null,
     "saleStartAt": null,
@@ -415,10 +415,10 @@
         "label": "RESCENE公式スケジュール",
         "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/08?eventId=6a462321c567527e9bbbe924",
         "type": "official_calendar",
-        "verifiedAt": "2026-08-26"
+        "verifiedAt": "2026-08-31"
       }
     ],
-    "verifiedAt": "2026-08-26",
+    "verifiedAt": "2026-08-31",
     "dedupeKeys": [
       "source:mnet-calendar:6a462321c567527e9bbbe924",
       "event:sbs열혈농구단2:2026-08-30"
