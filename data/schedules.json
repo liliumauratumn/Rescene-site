@@ -360,7 +360,7 @@
     "region": "KR",
     "prefecture": null,
     "venue": null,
-    "status": "scheduled",
+    "status": "completed",
     "applicationStartAt": null,
     "applicationEndAt": null,
     "saleStartAt": null,
@@ -376,10 +376,10 @@
         "label": "RESCENE公式スケジュール",
         "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6a48ce7d7dd960680ac6fc90",
         "type": "official_calendar",
-        "verifiedAt": "2026-08-26"
+        "verifiedAt": "2026-09-03"
       }
     ],
-    "verifiedAt": "2026-08-26",
+    "verifiedAt": "2026-09-03",
     "dedupeKeys": [
       "source:mnet-calendar:6a48ce7d7dd960680ac6fc90",
       "event:2026천안k컬처박람회개막공연:2026-09-02"
