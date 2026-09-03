@@ -594,7 +594,7 @@
     "region": "KR",
     "prefecture": null,
     "venue": null,
-    "status": "scheduled",
+    "status": "completed",
     "applicationStartAt": null,
     "applicationEndAt": null,
     "saleStartAt": null,
@@ -610,10 +610,10 @@
         "label": "RESCENE公式スケジュール",
         "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6a3e80710b7c92615f50c73e",
         "type": "official_calendar",
-        "verifiedAt": "2026-09-03"
+        "verifiedAt": "2026-09-04"
       }
     ],
-    "verifiedAt": "2026-09-03",
+    "verifiedAt": "2026-09-04",
     "dedupeKeys": [
       "source:mnet-calendar:6a3e80710b7c92615f50c73e",
       "event:한국방송대상축하공연:2026-09-03"
