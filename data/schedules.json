@@ -555,7 +555,7 @@
     "region": "KR",
     "prefecture": null,
     "venue": null,
-    "status": "scheduled",
+    "status": "completed",
     "applicationStartAt": null,
     "applicationEndAt": null,
     "saleStartAt": null,
@@ -571,10 +571,10 @@
         "label": "RESCENE公式スケジュール",
         "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6a98f41c301866263741bceb",
         "type": "official_calendar",
-        "verifiedAt": "2026-09-03"
+        "verifiedAt": "2026-09-05"
       }
     ],
-    "verifiedAt": "2026-09-03",
+    "verifiedAt": "2026-09-05",
     "dedupeKeys": [
       "source:mnet-calendar:6a98f41c301866263741bceb",
       "event:2026살람서울페스티벌:2026-09-04"
