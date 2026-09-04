@@ -1,5 +1,22 @@
 [
   {
+    "id": "youtube-jGyDVoKfmOY",
+    "status": "candidate",
+    "candidateType": "official_video",
+    "title": "[티저] 느닷없이 나타나서 당황하셨다고요? | 리센느닷없이 Teaser | RESCENE (리센느)",
+    "publishedAt": "2026-09-04",
+    "eventDate": null,
+    "videoId": "jGyDVoKfmOY",
+    "sourceUrl": "https://www.youtube.com/watch?v=jGyDVoKfmOY",
+    "sourceName": "RESCENE Official YouTube",
+    "sourceType": "official_video",
+    "discoveredAt": "2026-09-05",
+    "dedupeKeys": [
+      "media:youtube:jGyDVoKfmOY"
+    ],
+    "reason": "公式YouTubeの高シグナル動画として検出。記事化の要否と日本語本文を人間が確認します。"
+  },
+  {
     "id": "youtube-MOtTXqDWt2Y",
     "status": "candidate",
     "candidateType": "official_video",
