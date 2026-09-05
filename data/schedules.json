@@ -1,11 +1,50 @@
 [
   {
+    "id": "mnet-calendar-6a98f652301866263741bcec",
+    "title": "AAA 2026 in Kaohsiung",
+    "startAt": "2026-12-05T00:00:00+09:00",
+    "endAt": "2026-12-05T23:59:59+09:00",
+    "timezone": "Asia/Tokyo",
+    "type": "performance",
+    "region": "KR",
+    "prefecture": null,
+    "venue": null,
+    "status": "scheduled",
+    "applicationStartAt": null,
+    "applicationEndAt": null,
+    "saleStartAt": null,
+    "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/12?eventId=6a98f652301866263741bcec",
+    "sourceId": "6a98f652301866263741bcec",
+    "sourceIds": [
+      "6a98f652301866263741bcec"
+    ],
+    "sourceName": "RESCENE Official / Mnet Plus",
+    "sourceLabel": "RESCENE公式スケジュール",
+    "sources": [
+      {
+        "label": "RESCENE公式スケジュール",
+        "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/12?eventId=6a98f652301866263741bcec",
+        "type": "official_calendar",
+        "verifiedAt": "2026-09-03"
+      }
+    ],
+    "verifiedAt": "2026-09-03",
+    "dedupeKeys": [
+      "source:mnet-calendar:6a98f652301866263741bcec",
+      "event:aaa2026inkaohsiung:2026-12-05"
+    ],
+    "originalTitle": "AAA 2026 in Kaohsiung",
+    "allDay": true,
+    "autoManaged": true,
+    "verificationStatus": "confirmed"
+  },
+  {
     "id": "mnet-calendar-6a3e7e069f69517347795cee",
     "title": "2026 KGMA（Korea Grand Music Awards）",
     "startAt": "2026-11-07T00:00:00+09:00",
     "endAt": "2026-11-07T23:59:59+09:00",
     "timezone": "Asia/Tokyo",
-    "type": "event",
+    "type": "performance",
     "region": "KR",
     "prefecture": null,
     "venue": null,
@@ -25,10 +64,10 @@
         "label": "RESCENE公式スケジュール",
         "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/11?eventId=6a3e7e069f69517347795cee",
         "type": "official_calendar",
-        "verifiedAt": "2026-08-26"
+        "verifiedAt": "2026-09-03"
       }
     ],
-    "verifiedAt": "2026-08-26",
+    "verifiedAt": "2026-09-03",
     "dedupeKeys": [
       "source:mnet-calendar:6a3e7e069f69517347795cee",
       "event:2026kgma코리아그랜드뮤직어워즈:2026-11-07"
@@ -117,6 +156,45 @@
     "verificationStatus": "confirmed"
   },
   {
+    "id": "mnet-calendar-6a98f7a94563ce4caf466391",
+    "title": "2026 대전 동구동락 축제",
+    "startAt": "2026-10-10T00:00:00+09:00",
+    "endAt": "2026-10-10T23:59:59+09:00",
+    "timezone": "Asia/Tokyo",
+    "type": "event",
+    "region": "KR",
+    "prefecture": null,
+    "venue": null,
+    "status": "scheduled",
+    "applicationStartAt": null,
+    "applicationEndAt": null,
+    "saleStartAt": null,
+    "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6a98f7a94563ce4caf466391",
+    "sourceId": "6a98f7a94563ce4caf466391",
+    "sourceIds": [
+      "6a98f7a94563ce4caf466391"
+    ],
+    "sourceName": "RESCENE Official / Mnet Plus",
+    "sourceLabel": "RESCENE公式スケジュール",
+    "sources": [
+      {
+        "label": "RESCENE公式スケジュール",
+        "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6a98f7a94563ce4caf466391",
+        "type": "official_calendar",
+        "verifiedAt": "2026-09-03"
+      }
+    ],
+    "verifiedAt": "2026-09-03",
+    "dedupeKeys": [
+      "source:mnet-calendar:6a98f7a94563ce4caf466391",
+      "event:2026대전동구동락축제:2026-10-10"
+    ],
+    "originalTitle": "2026 대전 동구동락 축제",
+    "allDay": true,
+    "autoManaged": true,
+    "verificationStatus": "confirmed"
+  },
+  {
     "id": "mnet-calendar-6a3e81070b7c92615f50c73f",
     "title": "2026 IBK FESTIVAL",
     "startAt": "2026-10-03T00:00:00+09:00",
@@ -151,6 +229,45 @@
       "event:2026입크페스티벌:2026-10-03"
     ],
     "originalTitle": "2026 입크페스티벌",
+    "allDay": true,
+    "autoManaged": true,
+    "verificationStatus": "confirmed"
+  },
+  {
+    "id": "mnet-calendar-6a98f6bd4563ce4caf466390",
+    "title": "공주 백제문화제",
+    "startAt": "2026-10-03T00:00:00+09:00",
+    "endAt": "2026-10-03T23:59:59+09:00",
+    "timezone": "Asia/Tokyo",
+    "type": "event",
+    "region": "KR",
+    "prefecture": null,
+    "venue": null,
+    "status": "scheduled",
+    "applicationStartAt": null,
+    "applicationEndAt": null,
+    "saleStartAt": null,
+    "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6a98f6bd4563ce4caf466390",
+    "sourceId": "6a98f6bd4563ce4caf466390",
+    "sourceIds": [
+      "6a98f6bd4563ce4caf466390"
+    ],
+    "sourceName": "RESCENE Official / Mnet Plus",
+    "sourceLabel": "RESCENE公式スケジュール",
+    "sources": [
+      {
+        "label": "RESCENE公式スケジュール",
+        "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6a98f6bd4563ce4caf466390",
+        "type": "official_calendar",
+        "verifiedAt": "2026-09-03"
+      }
+    ],
+    "verifiedAt": "2026-09-03",
+    "dedupeKeys": [
+      "source:mnet-calendar:6a98f6bd4563ce4caf466390",
+      "event:공주백제문화제:2026-10-03"
+    ],
+    "originalTitle": "공주 백제문화제",
     "allDay": true,
     "autoManaged": true,
     "verificationStatus": "confirmed"
@@ -229,6 +346,84 @@
       "event:2026더팩트뮤직어워즈tma:2026-09-19"
     ],
     "originalTitle": "2026 더팩트 뮤직 어워즈(TMA)",
+    "allDay": true,
+    "autoManaged": true,
+    "verificationStatus": "confirmed"
+  },
+  {
+    "id": "mnet-calendar-6a3e7ff41df3183e76dd7b2f",
+    "title": "인하대학교 축제",
+    "startAt": "2026-09-18T00:00:00+09:00",
+    "endAt": "2026-09-18T23:59:59+09:00",
+    "timezone": "Asia/Tokyo",
+    "type": "event",
+    "region": "KR",
+    "prefecture": null,
+    "venue": null,
+    "status": "scheduled",
+    "applicationStartAt": null,
+    "applicationEndAt": null,
+    "saleStartAt": null,
+    "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6a3e7ff41df3183e76dd7b2f",
+    "sourceId": "6a3e7ff41df3183e76dd7b2f",
+    "sourceIds": [
+      "6a3e7ff41df3183e76dd7b2f"
+    ],
+    "sourceName": "RESCENE Official / Mnet Plus",
+    "sourceLabel": "RESCENE公式スケジュール",
+    "sources": [
+      {
+        "label": "RESCENE公式スケジュール",
+        "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6a3e7ff41df3183e76dd7b2f",
+        "type": "official_calendar",
+        "verifiedAt": "2026-09-03"
+      }
+    ],
+    "verifiedAt": "2026-09-03",
+    "dedupeKeys": [
+      "source:mnet-calendar:6a3e7ff41df3183e76dd7b2f",
+      "event:인하대학교축제:2026-09-18"
+    ],
+    "originalTitle": "인하대학교 축제",
+    "allDay": true,
+    "autoManaged": true,
+    "verificationStatus": "confirmed"
+  },
+  {
+    "id": "mnet-calendar-6a69f17de7b4af7396d34657",
+    "title": "동국대학교 축제",
+    "startAt": "2026-09-17T00:00:00+09:00",
+    "endAt": "2026-09-17T23:59:59+09:00",
+    "timezone": "Asia/Tokyo",
+    "type": "event",
+    "region": "KR",
+    "prefecture": null,
+    "venue": null,
+    "status": "scheduled",
+    "applicationStartAt": null,
+    "applicationEndAt": null,
+    "saleStartAt": null,
+    "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6a69f17de7b4af7396d34657",
+    "sourceId": "6a69f17de7b4af7396d34657",
+    "sourceIds": [
+      "6a69f17de7b4af7396d34657"
+    ],
+    "sourceName": "RESCENE Official / Mnet Plus",
+    "sourceLabel": "RESCENE公式スケジュール",
+    "sources": [
+      {
+        "label": "RESCENE公式スケジュール",
+        "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6a69f17de7b4af7396d34657",
+        "type": "official_calendar",
+        "verifiedAt": "2026-09-03"
+      }
+    ],
+    "verifiedAt": "2026-09-03",
+    "dedupeKeys": [
+      "source:mnet-calendar:6a69f17de7b4af7396d34657",
+      "event:동국대학교축제:2026-09-17"
+    ],
+    "originalTitle": "동국대학교 축제",
     "allDay": true,
     "autoManaged": true,
     "verificationStatus": "confirmed"
@@ -321,7 +516,7 @@
     "region": "KR",
     "prefecture": null,
     "venue": null,
-    "status": "scheduled",
+    "status": "completed",
     "applicationStartAt": null,
     "applicationEndAt": null,
     "saleStartAt": null,
@@ -337,15 +532,93 @@
         "label": "RESCENE公式スケジュール",
         "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6a48cd9b2abffc033aa33c90",
         "type": "official_calendar",
-        "verifiedAt": "2026-08-26"
+        "verifiedAt": "2026-09-06"
       }
     ],
-    "verifiedAt": "2026-08-26",
+    "verifiedAt": "2026-09-06",
     "dedupeKeys": [
       "source:mnet-calendar:6a48cd9b2abffc033aa33c90",
       "event:원썸머나잇위드케이팝시즌2:2026-09-05"
     ],
     "originalTitle": "원 썸머 나잇 위드 케이팝 시즌 2",
+    "allDay": false,
+    "autoManaged": true,
+    "verificationStatus": "confirmed"
+  },
+  {
+    "id": "mnet-calendar-6a98f41c301866263741bceb",
+    "title": "2026 살람서울페스티벌",
+    "startAt": "2026-09-04T20:30:00+09:00",
+    "endAt": null,
+    "timezone": "Asia/Tokyo",
+    "type": "event",
+    "region": "KR",
+    "prefecture": null,
+    "venue": null,
+    "status": "completed",
+    "applicationStartAt": null,
+    "applicationEndAt": null,
+    "saleStartAt": null,
+    "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6a98f41c301866263741bceb",
+    "sourceId": "6a98f41c301866263741bceb",
+    "sourceIds": [
+      "6a98f41c301866263741bceb"
+    ],
+    "sourceName": "RESCENE Official / Mnet Plus",
+    "sourceLabel": "RESCENE公式スケジュール",
+    "sources": [
+      {
+        "label": "RESCENE公式スケジュール",
+        "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6a98f41c301866263741bceb",
+        "type": "official_calendar",
+        "verifiedAt": "2026-09-05"
+      }
+    ],
+    "verifiedAt": "2026-09-05",
+    "dedupeKeys": [
+      "source:mnet-calendar:6a98f41c301866263741bceb",
+      "event:2026살람서울페스티벌:2026-09-04"
+    ],
+    "originalTitle": "2026 살람서울페스티벌",
+    "allDay": false,
+    "autoManaged": true,
+    "verificationStatus": "confirmed"
+  },
+  {
+    "id": "mnet-calendar-6a3e80710b7c92615f50c73e",
+    "title": "한국방송대상 축하공연",
+    "startAt": "2026-09-03T15:00:00+09:00",
+    "endAt": null,
+    "timezone": "Asia/Tokyo",
+    "type": "broadcast",
+    "region": "KR",
+    "prefecture": null,
+    "venue": null,
+    "status": "completed",
+    "applicationStartAt": null,
+    "applicationEndAt": null,
+    "saleStartAt": null,
+    "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6a3e80710b7c92615f50c73e",
+    "sourceId": "6a3e80710b7c92615f50c73e",
+    "sourceIds": [
+      "6a3e80710b7c92615f50c73e"
+    ],
+    "sourceName": "RESCENE Official / Mnet Plus",
+    "sourceLabel": "RESCENE公式スケジュール",
+    "sources": [
+      {
+        "label": "RESCENE公式スケジュール",
+        "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6a3e80710b7c92615f50c73e",
+        "type": "official_calendar",
+        "verifiedAt": "2026-09-04"
+      }
+    ],
+    "verifiedAt": "2026-09-04",
+    "dedupeKeys": [
+      "source:mnet-calendar:6a3e80710b7c92615f50c73e",
+      "event:한국방송대상축하공연:2026-09-03"
+    ],
+    "originalTitle": "한국방송대상 축하공연",
     "allDay": false,
     "autoManaged": true,
     "verificationStatus": "confirmed"
