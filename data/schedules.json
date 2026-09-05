@@ -516,7 +516,7 @@
     "region": "KR",
     "prefecture": null,
     "venue": null,
-    "status": "scheduled",
+    "status": "completed",
     "applicationStartAt": null,
     "applicationEndAt": null,
     "saleStartAt": null,
@@ -532,10 +532,10 @@
         "label": "RESCENE公式スケジュール",
         "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6a48cd9b2abffc033aa33c90",
         "type": "official_calendar",
-        "verifiedAt": "2026-08-26"
+        "verifiedAt": "2026-09-06"
       }
     ],
-    "verifiedAt": "2026-08-26",
+    "verifiedAt": "2026-09-06",
     "dedupeKeys": [
       "source:mnet-calendar:6a48cd9b2abffc033aa33c90",
       "event:원썸머나잇위드케이팝시즌2:2026-09-05"
