@@ -477,7 +477,7 @@
     "region": "KR",
     "prefecture": null,
     "venue": null,
-    "status": "scheduled",
+    "status": "completed",
     "applicationStartAt": null,
     "applicationEndAt": null,
     "saleStartAt": null,
@@ -493,10 +493,10 @@
         "label": "RESCENE公式スケジュール",
         "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6a69f06d62e6743977db6c12",
         "type": "official_calendar",
-        "verifiedAt": "2026-08-26"
+        "verifiedAt": "2026-09-07"
       }
     ],
-    "verifiedAt": "2026-08-26",
+    "verifiedAt": "2026-09-07",
     "dedupeKeys": [
       "source:mnet-calendar:6a69f06d62e6743977db6c12",
       "event:spotvkpopawardsska:2026-09-06"
