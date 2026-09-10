@@ -429,6 +429,45 @@
     "verificationStatus": "confirmed"
   },
   {
+    "id": "mnet-calendar-6a3e80341df3183e76dd7b30",
+    "title": "서울대학교 축제",
+    "startAt": "2026-09-17T21:00:00+09:00",
+    "endAt": null,
+    "timezone": "Asia/Tokyo",
+    "type": "event",
+    "region": "KR",
+    "prefecture": null,
+    "venue": null,
+    "status": "scheduled",
+    "applicationStartAt": null,
+    "applicationEndAt": null,
+    "saleStartAt": null,
+    "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6a3e80341df3183e76dd7b30",
+    "sourceId": "6a3e80341df3183e76dd7b30",
+    "sourceIds": [
+      "6a3e80341df3183e76dd7b30"
+    ],
+    "sourceName": "RESCENE Official / Mnet Plus",
+    "sourceLabel": "RESCENE公式スケジュール",
+    "sources": [
+      {
+        "label": "RESCENE公式スケジュール",
+        "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6a3e80341df3183e76dd7b30",
+        "type": "official_calendar",
+        "verifiedAt": "2026-09-11"
+      }
+    ],
+    "verifiedAt": "2026-09-11",
+    "dedupeKeys": [
+      "source:mnet-calendar:6a3e80341df3183e76dd7b30",
+      "event:서울대학교축제:2026-09-17"
+    ],
+    "originalTitle": "서울대학교 축제",
+    "allDay": false,
+    "autoManaged": true,
+    "verificationStatus": "confirmed"
+  },
+  {
     "id": "mnet-calendar-6a69f17de7b4af7396d34657",
     "title": "동국대학교 축제",
     "startAt": "2026-09-17T00:00:00+09:00",
@@ -477,7 +516,7 @@
     "region": "KR",
     "prefecture": null,
     "venue": null,
-    "status": "scheduled",
+    "status": "completed",
     "applicationStartAt": null,
     "applicationEndAt": null,
     "saleStartAt": null,
@@ -493,10 +532,10 @@
         "label": "RESCENE公式スケジュール",
         "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6a755022aba59a5a7ffad756",
         "type": "official_calendar",
-        "verifiedAt": "2026-08-26"
+        "verifiedAt": "2026-09-11"
       }
     ],
-    "verifiedAt": "2026-08-26",
+    "verifiedAt": "2026-09-11",
     "dedupeKeys": [
       "source:mnet-calendar:6a755022aba59a5a7ffad756",
       "event:spotifyhouseseoul:2026-09-10"
