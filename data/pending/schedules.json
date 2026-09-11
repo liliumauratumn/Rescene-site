@@ -1,1 +1,36 @@
-[]
+[
+  {
+    "id": "missing-mnet-calendar-6a3e80341df3183e76dd7b30-2026-09-11",
+    "status": "candidate",
+    "candidateType": "source_disappearance",
+    "title": "서울대학교 축제",
+    "eventDate": "2026-09-17",
+    "sourceId": "6a3e80341df3183e76dd7b30",
+    "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6a3e80341df3183e76dd7b30",
+    "sourceName": "RESCENE Official / Mnet Plus",
+    "sourceType": "official_calendar",
+    "discoveredAt": "2026-09-11",
+    "dedupeKeys": [
+      "source:mnet-calendar:6a3e80341df3183e76dd7b30",
+      "event:서울대학교축제:2026-09-17"
+    ],
+    "reason": "公式カレンダーの収集範囲から消えました。中止・延期・削除の判断は人間が公式発表を確認します。公開データは自動削除していません。"
+  },
+  {
+    "id": "missing-mnet-calendar-6a461fc2c567527e9bbbe91a-2026-09-11",
+    "status": "candidate",
+    "candidateType": "source_disappearance",
+    "title": "OBJET K-POP FESTA 2026（仁川）",
+    "eventDate": "2026-09-27",
+    "sourceId": "6a461fc2c567527e9bbbe91a",
+    "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6a461fc2c567527e9bbbe91a",
+    "sourceName": "RESCENE Official / Mnet Plus",
+    "sourceType": "official_calendar",
+    "discoveredAt": "2026-09-11",
+    "dedupeKeys": [
+      "source:mnet-calendar:6a461fc2c567527e9bbbe91a",
+      "event:objetkpopfesta2026okf2026인천:2026-09-27"
+    ],
+    "reason": "公式カレンダーの収集範囲から消えました。中止・延期・削除の判断は人間が公式発表を確認します。公開データは自動削除していません。"
+  }
+]
