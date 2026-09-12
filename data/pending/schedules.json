@@ -1,1 +1,131 @@
-[]
+[
+  {
+    "id": "uncertain-match-6aa4e500ec1d9356ed4c283c-2026-09-12",
+    "status": "candidate",
+    "candidateType": "uncertain_match",
+    "title": "서울대학교 축제",
+    "eventDate": "2026-09-17",
+    "sourceId": "6aa4e500ec1d9356ed4c283c",
+    "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6aa4e500ec1d9356ed4c283c",
+    "sourceName": "RESCENE Official / Mnet Plus",
+    "sourceType": "official_calendar",
+    "discoveredAt": "2026-09-12",
+    "existingSchedule": {
+      "id": "mnet-calendar-6a3e80341df3183e76dd7b30",
+      "title": "서울대학교 축제",
+      "startAt": "2026-09-17T21:00:00+09:00",
+      "endAt": null,
+      "timezone": "Asia/Tokyo",
+      "type": "event",
+      "region": "KR",
+      "prefecture": null,
+      "venue": null,
+      "status": "scheduled",
+      "applicationStartAt": null,
+      "applicationEndAt": null,
+      "saleStartAt": null,
+      "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6a3e80341df3183e76dd7b30",
+      "sourceId": "6a3e80341df3183e76dd7b30",
+      "sourceIds": [
+        "6a3e80341df3183e76dd7b30"
+      ],
+      "sourceName": "RESCENE Official / Mnet Plus",
+      "sourceLabel": "RESCENE公式スケジュール",
+      "sources": [
+        {
+          "label": "RESCENE公式スケジュール",
+          "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6a3e80341df3183e76dd7b30",
+          "type": "official_calendar",
+          "verifiedAt": "2026-09-11"
+        }
+      ],
+      "verifiedAt": "2026-09-11",
+      "dedupeKeys": [
+        "source:mnet-calendar:6a3e80341df3183e76dd7b30",
+        "event:서울대학교축제:2026-09-17"
+      ],
+      "originalTitle": "서울대학교 축제",
+      "allDay": false,
+      "autoManaged": true,
+      "verificationStatus": "confirmed"
+    },
+    "proposedSchedule": {
+      "id": "mnet-calendar-6aa4e500ec1d9356ed4c283c",
+      "title": "서울대학교 축제",
+      "startAt": "2026-09-17T00:00:00+09:00",
+      "endAt": "2026-09-17T23:59:59+09:00",
+      "timezone": "Asia/Tokyo",
+      "type": "event",
+      "region": "KR",
+      "prefecture": null,
+      "venue": null,
+      "status": "scheduled",
+      "applicationStartAt": null,
+      "applicationEndAt": null,
+      "saleStartAt": null,
+      "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6aa4e500ec1d9356ed4c283c",
+      "sourceId": "6aa4e500ec1d9356ed4c283c",
+      "sourceIds": [
+        "6aa4e500ec1d9356ed4c283c"
+      ],
+      "sourceName": "RESCENE Official / Mnet Plus",
+      "sourceLabel": "RESCENE公式スケジュール",
+      "sources": [
+        {
+          "label": "RESCENE公式スケジュール",
+          "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6aa4e500ec1d9356ed4c283c",
+          "type": "official_calendar",
+          "verifiedAt": "2026-09-12"
+        }
+      ],
+      "verifiedAt": "2026-09-12",
+      "dedupeKeys": [
+        "source:mnet-calendar:6aa4e500ec1d9356ed4c283c",
+        "event:서울대학교축제:2026-09-17"
+      ],
+      "originalTitle": "서울대학교 축제",
+      "allDay": true,
+      "autoManaged": true,
+      "verificationStatus": "confirmed"
+    },
+    "dedupeKeys": [
+      "source:mnet-calendar:6aa4e500ec1d9356ed4c283c",
+      "event:서울대학교축제:2026-09-17"
+    ],
+    "reason": "公式source IDは一致しませんが、既存予定とタイトル・日付または一部source IDが近いため、同一イベントか人間が確認します。"
+  },
+  {
+    "id": "missing-mnet-calendar-6a3e80341df3183e76dd7b30-2026-09-11",
+    "status": "candidate",
+    "candidateType": "source_disappearance",
+    "title": "서울대학교 축제",
+    "eventDate": "2026-09-17",
+    "sourceId": "6a3e80341df3183e76dd7b30",
+    "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6a3e80341df3183e76dd7b30",
+    "sourceName": "RESCENE Official / Mnet Plus",
+    "sourceType": "official_calendar",
+    "discoveredAt": "2026-09-11",
+    "dedupeKeys": [
+      "source:mnet-calendar:6a3e80341df3183e76dd7b30",
+      "event:서울대학교축제:2026-09-17"
+    ],
+    "reason": "公式カレンダーの収集範囲から消えました。中止・延期・削除の判断は人間が公式発表を確認します。公開データは自動削除していません。"
+  },
+  {
+    "id": "missing-mnet-calendar-6a461fc2c567527e9bbbe91a-2026-09-11",
+    "status": "candidate",
+    "candidateType": "source_disappearance",
+    "title": "OBJET K-POP FESTA 2026（仁川）",
+    "eventDate": "2026-09-27",
+    "sourceId": "6a461fc2c567527e9bbbe91a",
+    "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6a461fc2c567527e9bbbe91a",
+    "sourceName": "RESCENE Official / Mnet Plus",
+    "sourceType": "official_calendar",
+    "discoveredAt": "2026-09-11",
+    "dedupeKeys": [
+      "source:mnet-calendar:6a461fc2c567527e9bbbe91a",
+      "event:objetkpopfesta2026okf2026인천:2026-09-27"
+    ],
+    "reason": "公式カレンダーの収集範囲から消えました。中止・延期・削除の判断は人間が公式発表を確認します。公開データは自動削除していません。"
+  }
+]
