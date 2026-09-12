@@ -117,6 +117,45 @@
     "verificationStatus": "confirmed"
   },
   {
+    "id": "mnet-calendar-6aa4f18695f4fe71ddd6c352",
+    "title": "MBC 라디오스타",
+    "startAt": "2026-10-16T22:30:00+09:00",
+    "endAt": null,
+    "timezone": "Asia/Tokyo",
+    "type": "broadcast",
+    "region": "KR",
+    "prefecture": null,
+    "venue": null,
+    "status": "scheduled",
+    "applicationStartAt": null,
+    "applicationEndAt": null,
+    "saleStartAt": null,
+    "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6aa4f18695f4fe71ddd6c352",
+    "sourceId": "6aa4f18695f4fe71ddd6c352",
+    "sourceIds": [
+      "6aa4f18695f4fe71ddd6c352"
+    ],
+    "sourceName": "RESCENE Official / Mnet Plus",
+    "sourceLabel": "RESCENE公式スケジュール",
+    "sources": [
+      {
+        "label": "RESCENE公式スケジュール",
+        "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6aa4f18695f4fe71ddd6c352",
+        "type": "official_calendar",
+        "verifiedAt": "2026-09-12"
+      }
+    ],
+    "verifiedAt": "2026-09-12",
+    "dedupeKeys": [
+      "source:mnet-calendar:6aa4f18695f4fe71ddd6c352",
+      "event:mbc라디오스타:2026-10-16"
+    ],
+    "originalTitle": "MBC 라디오스타",
+    "allDay": false,
+    "autoManaged": true,
+    "verificationStatus": "confirmed"
+  },
+  {
     "id": "mnet-calendar-6a48ce2d2abffc033aa33c91",
     "title": "2026 GHOST（京畿韓流OST音楽フェスティバル）",
     "startAt": "2026-10-11T00:00:00+09:00",
@@ -308,6 +347,45 @@
     ],
     "originalTitle": "OBJET K-POP FESTA 2026 (OKF2026) - 인천",
     "allDay": false,
+    "autoManaged": true,
+    "verificationStatus": "confirmed"
+  },
+  {
+    "id": "mnet-calendar-6a8d665e0baf003252ac6225",
+    "title": "명지대학교 자연캠퍼스 축제",
+    "startAt": "2026-09-22T00:00:00+09:00",
+    "endAt": "2026-09-22T23:59:59+09:00",
+    "timezone": "Asia/Tokyo",
+    "type": "event",
+    "region": "KR",
+    "prefecture": null,
+    "venue": null,
+    "status": "scheduled",
+    "applicationStartAt": null,
+    "applicationEndAt": null,
+    "saleStartAt": null,
+    "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6a8d665e0baf003252ac6225",
+    "sourceId": "6a8d665e0baf003252ac6225",
+    "sourceIds": [
+      "6a8d665e0baf003252ac6225"
+    ],
+    "sourceName": "RESCENE Official / Mnet Plus",
+    "sourceLabel": "RESCENE公式スケジュール",
+    "sources": [
+      {
+        "label": "RESCENE公式スケジュール",
+        "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6a8d665e0baf003252ac6225",
+        "type": "official_calendar",
+        "verifiedAt": "2026-09-12"
+      }
+    ],
+    "verifiedAt": "2026-09-12",
+    "dedupeKeys": [
+      "source:mnet-calendar:6a8d665e0baf003252ac6225",
+      "event:명지대학교자연캠퍼스축제:2026-09-22"
+    ],
+    "originalTitle": "명지대학교 자연캠퍼스 축제",
+    "allDay": true,
     "autoManaged": true,
     "verificationStatus": "confirmed"
   },
