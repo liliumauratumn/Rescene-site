@@ -1,5 +1,106 @@
 [
   {
+    "id": "date-change-6aa4f18695f4fe71ddd6c352-2026-09-14",
+    "status": "candidate",
+    "candidateType": "date_change",
+    "title": "MBC 라디오스타",
+    "eventDate": "2026-09-16",
+    "sourceId": "6aa4f18695f4fe71ddd6c352",
+    "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6aa4f18695f4fe71ddd6c352",
+    "sourceName": "RESCENE Official / Mnet Plus",
+    "sourceType": "official_calendar",
+    "discoveredAt": "2026-09-14",
+    "changedFields": [
+      "startAt",
+      "sourceUrl",
+      "sources",
+      "dedupeKeys"
+    ],
+    "existingSchedule": {
+      "id": "mnet-calendar-6aa4f18695f4fe71ddd6c352",
+      "title": "MBC 라디오스타",
+      "startAt": "2026-10-16T22:30:00+09:00",
+      "endAt": null,
+      "timezone": "Asia/Tokyo",
+      "type": "broadcast",
+      "region": "KR",
+      "prefecture": null,
+      "venue": null,
+      "status": "scheduled",
+      "applicationStartAt": null,
+      "applicationEndAt": null,
+      "saleStartAt": null,
+      "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6aa4f18695f4fe71ddd6c352",
+      "sourceId": "6aa4f18695f4fe71ddd6c352",
+      "sourceIds": [
+        "6aa4f18695f4fe71ddd6c352"
+      ],
+      "sourceName": "RESCENE Official / Mnet Plus",
+      "sourceLabel": "RESCENE公式スケジュール",
+      "sources": [
+        {
+          "label": "RESCENE公式スケジュール",
+          "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6aa4f18695f4fe71ddd6c352",
+          "type": "official_calendar",
+          "verifiedAt": "2026-09-12"
+        }
+      ],
+      "verifiedAt": "2026-09-12",
+      "dedupeKeys": [
+        "source:mnet-calendar:6aa4f18695f4fe71ddd6c352",
+        "event:mbc라디오스타:2026-10-16"
+      ],
+      "originalTitle": "MBC 라디오스타",
+      "allDay": false,
+      "autoManaged": true,
+      "verificationStatus": "confirmed"
+    },
+    "proposedSchedule": {
+      "id": "mnet-calendar-6aa4f18695f4fe71ddd6c352",
+      "title": "MBC 라디오스타",
+      "startAt": "2026-09-16T22:30:00+09:00",
+      "endAt": null,
+      "timezone": "Asia/Tokyo",
+      "type": "broadcast",
+      "region": "KR",
+      "prefecture": null,
+      "venue": null,
+      "status": "scheduled",
+      "applicationStartAt": null,
+      "applicationEndAt": null,
+      "saleStartAt": null,
+      "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6aa4f18695f4fe71ddd6c352",
+      "sourceId": "6aa4f18695f4fe71ddd6c352",
+      "sourceIds": [
+        "6aa4f18695f4fe71ddd6c352"
+      ],
+      "sourceName": "RESCENE Official / Mnet Plus",
+      "sourceLabel": "RESCENE公式スケジュール",
+      "sources": [
+        {
+          "label": "RESCENE公式スケジュール",
+          "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6aa4f18695f4fe71ddd6c352",
+          "type": "official_calendar",
+          "verifiedAt": "2026-09-14"
+        }
+      ],
+      "verifiedAt": "2026-09-14",
+      "dedupeKeys": [
+        "source:mnet-calendar:6aa4f18695f4fe71ddd6c352",
+        "event:mbc라디오스타:2026-09-16"
+      ],
+      "originalTitle": "MBC 라디오스타",
+      "allDay": false,
+      "autoManaged": true,
+      "verificationStatus": "confirmed"
+    },
+    "dedupeKeys": [
+      "source:mnet-calendar:6aa4f18695f4fe71ddd6c352",
+      "event:mbc라디오스타:2026-09-16"
+    ],
+    "reason": "公式カレンダー上の日付・期間・終日区分が既存公開データから変わりました。公開データは自動変更せず、人間の確認が必要です。"
+  },
+  {
     "id": "uncertain-match-6aa4e500ec1d9356ed4c283c-2026-09-12",
     "status": "candidate",
     "candidateType": "uncertain_match",
