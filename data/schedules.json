@@ -234,6 +234,45 @@
     "verificationStatus": "confirmed"
   },
   {
+    "id": "mnet-calendar-6aa966b78bbf3631c83b8e7f",
+    "title": "연수 능허대 문화 축제",
+    "startAt": "2026-10-09T00:00:00+09:00",
+    "endAt": "2026-10-09T23:59:59+09:00",
+    "timezone": "Asia/Tokyo",
+    "type": "event",
+    "region": "KR",
+    "prefecture": null,
+    "venue": null,
+    "status": "scheduled",
+    "applicationStartAt": null,
+    "applicationEndAt": null,
+    "saleStartAt": null,
+    "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6aa966b78bbf3631c83b8e7f",
+    "sourceId": "6aa966b78bbf3631c83b8e7f",
+    "sourceIds": [
+      "6aa966b78bbf3631c83b8e7f"
+    ],
+    "sourceName": "RESCENE Official / Mnet Plus",
+    "sourceLabel": "RESCENE公式スケジュール",
+    "sources": [
+      {
+        "label": "RESCENE公式スケジュール",
+        "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6aa966b78bbf3631c83b8e7f",
+        "type": "official_calendar",
+        "verifiedAt": "2026-09-16"
+      }
+    ],
+    "verifiedAt": "2026-09-16",
+    "dedupeKeys": [
+      "source:mnet-calendar:6aa966b78bbf3631c83b8e7f",
+      "event:연수능허대문화축제:2026-10-09"
+    ],
+    "originalTitle": "연수 능허대 문화 축제",
+    "allDay": true,
+    "autoManaged": true,
+    "verificationStatus": "confirmed"
+  },
+  {
     "id": "mnet-calendar-6a3e81070b7c92615f50c73f",
     "title": "2026 IBK FESTIVAL",
     "startAt": "2026-10-03T00:00:00+09:00",
@@ -312,6 +351,45 @@
     "verificationStatus": "confirmed"
   },
   {
+    "id": "mnet-calendar-6a8d65a05a5e16309c692ea7",
+    "title": "한양대학교 ERICA 축제",
+    "startAt": "2026-09-29T00:00:00+09:00",
+    "endAt": "2026-09-29T23:59:59+09:00",
+    "timezone": "Asia/Tokyo",
+    "type": "event",
+    "region": "KR",
+    "prefecture": null,
+    "venue": null,
+    "status": "scheduled",
+    "applicationStartAt": null,
+    "applicationEndAt": null,
+    "saleStartAt": null,
+    "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6a8d65a05a5e16309c692ea7",
+    "sourceId": "6a8d65a05a5e16309c692ea7",
+    "sourceIds": [
+      "6a8d65a05a5e16309c692ea7"
+    ],
+    "sourceName": "RESCENE Official / Mnet Plus",
+    "sourceLabel": "RESCENE公式スケジュール",
+    "sources": [
+      {
+        "label": "RESCENE公式スケジュール",
+        "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6a8d65a05a5e16309c692ea7",
+        "type": "official_calendar",
+        "verifiedAt": "2026-09-16"
+      }
+    ],
+    "verifiedAt": "2026-09-16",
+    "dedupeKeys": [
+      "source:mnet-calendar:6a8d65a05a5e16309c692ea7",
+      "event:한양대학교erica축제:2026-09-29"
+    ],
+    "originalTitle": "한양대학교 ERICA 축제",
+    "allDay": true,
+    "autoManaged": true,
+    "verificationStatus": "confirmed"
+  },
+  {
     "id": "mnet-calendar-6a461fc2c567527e9bbbe91a",
     "title": "OBJET K-POP FESTA 2026（仁川）",
     "startAt": "2026-09-27T19:00:00+09:00",
@@ -347,6 +425,45 @@
     ],
     "originalTitle": "OBJET K-POP FESTA 2026 (OKF2026) - 인천",
     "allDay": false,
+    "autoManaged": true,
+    "verificationStatus": "confirmed"
+  },
+  {
+    "id": "mnet-calendar-6a8d655d5a5e16309c692ea6",
+    "title": "한국외국어대학교 글로벌캠퍼스 축제",
+    "startAt": "2026-09-22T00:00:00+09:00",
+    "endAt": "2026-09-22T23:59:59+09:00",
+    "timezone": "Asia/Tokyo",
+    "type": "event",
+    "region": "KR",
+    "prefecture": null,
+    "venue": null,
+    "status": "scheduled",
+    "applicationStartAt": null,
+    "applicationEndAt": null,
+    "saleStartAt": null,
+    "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6a8d655d5a5e16309c692ea6",
+    "sourceId": "6a8d655d5a5e16309c692ea6",
+    "sourceIds": [
+      "6a8d655d5a5e16309c692ea6"
+    ],
+    "sourceName": "RESCENE Official / Mnet Plus",
+    "sourceLabel": "RESCENE公式スケジュール",
+    "sources": [
+      {
+        "label": "RESCENE公式スケジュール",
+        "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6a8d655d5a5e16309c692ea6",
+        "type": "official_calendar",
+        "verifiedAt": "2026-09-16"
+      }
+    ],
+    "verifiedAt": "2026-09-16",
+    "dedupeKeys": [
+      "source:mnet-calendar:6a8d655d5a5e16309c692ea6",
+      "event:한국외국어대학교글로벌캠퍼스축제:2026-09-22"
+    ],
+    "originalTitle": "한국외국어대학교 글로벌캠퍼스 축제",
+    "allDay": true,
     "autoManaged": true,
     "verificationStatus": "confirmed"
   },
