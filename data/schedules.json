@@ -351,6 +351,45 @@
     "verificationStatus": "confirmed"
   },
   {
+    "id": "mnet-calendar-6a8d669d8e8ebf53edc6a541",
+    "title": "한경국립대학교 축제",
+    "startAt": "2026-09-30T00:00:00+09:00",
+    "endAt": "2026-09-30T23:59:59+09:00",
+    "timezone": "Asia/Tokyo",
+    "type": "event",
+    "region": "KR",
+    "prefecture": null,
+    "venue": null,
+    "status": "scheduled",
+    "applicationStartAt": null,
+    "applicationEndAt": null,
+    "saleStartAt": null,
+    "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6a8d669d8e8ebf53edc6a541",
+    "sourceId": "6a8d669d8e8ebf53edc6a541",
+    "sourceIds": [
+      "6a8d669d8e8ebf53edc6a541"
+    ],
+    "sourceName": "RESCENE Official / Mnet Plus",
+    "sourceLabel": "RESCENE公式スケジュール",
+    "sources": [
+      {
+        "label": "RESCENE公式スケジュール",
+        "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6a8d669d8e8ebf53edc6a541",
+        "type": "official_calendar",
+        "verifiedAt": "2026-09-17"
+      }
+    ],
+    "verifiedAt": "2026-09-17",
+    "dedupeKeys": [
+      "source:mnet-calendar:6a8d669d8e8ebf53edc6a541",
+      "event:한경국립대학교축제:2026-09-30"
+    ],
+    "originalTitle": "한경국립대학교 축제",
+    "allDay": true,
+    "autoManaged": true,
+    "verificationStatus": "confirmed"
+  },
+  {
     "id": "mnet-calendar-6a8d65a05a5e16309c692ea7",
     "title": "한양대학교 ERICA 축제",
     "startAt": "2026-09-29T00:00:00+09:00",
