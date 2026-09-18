@@ -594,7 +594,7 @@
     "region": "KR",
     "prefecture": null,
     "venue": null,
-    "status": "scheduled",
+    "status": "completed",
     "applicationStartAt": null,
     "applicationEndAt": null,
     "saleStartAt": null,
@@ -610,10 +610,10 @@
         "label": "RESCENE公式スケジュール",
         "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6a3e7ff41df3183e76dd7b2f",
         "type": "official_calendar",
-        "verifiedAt": "2026-09-03"
+        "verifiedAt": "2026-09-19"
       }
     ],
-    "verifiedAt": "2026-09-03",
+    "verifiedAt": "2026-09-19",
     "dedupeKeys": [
       "source:mnet-calendar:6a3e7ff41df3183e76dd7b2f",
       "event:인하대학교축제:2026-09-18"
