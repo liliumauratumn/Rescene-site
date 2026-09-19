@@ -555,7 +555,7 @@
     "region": "KR",
     "prefecture": null,
     "venue": null,
-    "status": "scheduled",
+    "status": "completed",
     "applicationStartAt": null,
     "applicationEndAt": null,
     "saleStartAt": null,
@@ -571,10 +571,10 @@
         "label": "RESCENE公式スケジュール",
         "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6a69f1ecd659812bd5406bb9",
         "type": "official_calendar",
-        "verifiedAt": "2026-08-26"
+        "verifiedAt": "2026-09-20"
       }
     ],
-    "verifiedAt": "2026-08-26",
+    "verifiedAt": "2026-09-20",
     "dedupeKeys": [
       "source:mnet-calendar:6a69f1ecd659812bd5406bb9",
       "event:2026더팩트뮤직어워즈tma:2026-09-19"
