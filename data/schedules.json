@@ -390,6 +390,45 @@
     "verificationStatus": "confirmed"
   },
   {
+    "id": "mnet-calendar-6a8d66ee5a5e16309c692ea8",
+    "title": "을지대학교 축제",
+    "startAt": "2026-09-30T00:00:00+09:00",
+    "endAt": "2026-09-30T23:59:59+09:00",
+    "timezone": "Asia/Tokyo",
+    "type": "event",
+    "region": "KR",
+    "prefecture": null,
+    "venue": null,
+    "status": "scheduled",
+    "applicationStartAt": null,
+    "applicationEndAt": null,
+    "saleStartAt": null,
+    "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6a8d66ee5a5e16309c692ea8",
+    "sourceId": "6a8d66ee5a5e16309c692ea8",
+    "sourceIds": [
+      "6a8d66ee5a5e16309c692ea8"
+    ],
+    "sourceName": "RESCENE Official / Mnet Plus",
+    "sourceLabel": "RESCENE公式スケジュール",
+    "sources": [
+      {
+        "label": "RESCENE公式スケジュール",
+        "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6a8d66ee5a5e16309c692ea8",
+        "type": "official_calendar",
+        "verifiedAt": "2026-09-22"
+      }
+    ],
+    "verifiedAt": "2026-09-22",
+    "dedupeKeys": [
+      "source:mnet-calendar:6a8d66ee5a5e16309c692ea8",
+      "event:을지대학교축제:2026-09-30"
+    ],
+    "originalTitle": "을지대학교 축제",
+    "allDay": true,
+    "autoManaged": true,
+    "verificationStatus": "confirmed"
+  },
+  {
     "id": "mnet-calendar-6a8d65a05a5e16309c692ea7",
     "title": "한양대학교 ERICA 축제",
     "startAt": "2026-09-29T00:00:00+09:00",
@@ -424,6 +463,45 @@
       "event:한양대학교erica축제:2026-09-29"
     ],
     "originalTitle": "한양대학교 ERICA 축제",
+    "allDay": true,
+    "autoManaged": true,
+    "verificationStatus": "confirmed"
+  },
+  {
+    "id": "mnet-calendar-6a8d65db0baf003252ac6224",
+    "title": "경희대학교 국제캠퍼스 축제",
+    "startAt": "2026-09-29T00:00:00+09:00",
+    "endAt": "2026-09-29T23:59:59+09:00",
+    "timezone": "Asia/Tokyo",
+    "type": "event",
+    "region": "KR",
+    "prefecture": null,
+    "venue": null,
+    "status": "scheduled",
+    "applicationStartAt": null,
+    "applicationEndAt": null,
+    "saleStartAt": null,
+    "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6a8d65db0baf003252ac6224",
+    "sourceId": "6a8d65db0baf003252ac6224",
+    "sourceIds": [
+      "6a8d65db0baf003252ac6224"
+    ],
+    "sourceName": "RESCENE Official / Mnet Plus",
+    "sourceLabel": "RESCENE公式スケジュール",
+    "sources": [
+      {
+        "label": "RESCENE公式スケジュール",
+        "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6a8d65db0baf003252ac6224",
+        "type": "official_calendar",
+        "verifiedAt": "2026-09-22"
+      }
+    ],
+    "verifiedAt": "2026-09-22",
+    "dedupeKeys": [
+      "source:mnet-calendar:6a8d65db0baf003252ac6224",
+      "event:경희대학교국제캠퍼스축제:2026-09-29"
+    ],
+    "originalTitle": "경희대학교 국제캠퍼스 축제",
     "allDay": true,
     "autoManaged": true,
     "verificationStatus": "confirmed"
