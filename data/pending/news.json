@@ -1,5 +1,22 @@
 [
   {
+    "id": "youtube-Kq3_URiv0gs",
+    "status": "candidate",
+    "candidateType": "official_video",
+    "title": "[티저] 리브와 메이를 찾아 👀 | 몰래 온 손님 Teaser | RESCENE (리센느)",
+    "publishedAt": "2026-09-26",
+    "eventDate": null,
+    "videoId": "Kq3_URiv0gs",
+    "sourceUrl": "https://www.youtube.com/watch?v=Kq3_URiv0gs",
+    "sourceName": "RESCENE Official YouTube",
+    "sourceType": "official_video",
+    "discoveredAt": "2026-09-26",
+    "dedupeKeys": [
+      "media:youtube:Kq3_URiv0gs"
+    ],
+    "reason": "公式YouTubeの高シグナル動画として検出。記事化の要否と日本語本文を人間が確認します。"
+  },
+  {
     "id": "youtube-jGyDVoKfmOY",
     "status": "candidate",
     "candidateType": "official_video",
