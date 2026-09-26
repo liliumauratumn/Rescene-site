@@ -50,7 +50,7 @@ npm run update
 
 一時的に収集開始日・終了日を変える場合は `UPDATE_START_DATE=YYYY-MM-DD` と `UPDATE_END_DATE=YYYY-MM-DD` を指定できます。通常は開始日を2026-08-09、終了日を実行日から120日後として扱います。
 
-`npm run verify` はSchedule安全判定テスト、データ検証、型検査、lint、静的build、sitemapと主要外部リンクの検査を実行します。`npm run update`はNewsとScheduleの両方をローカルで収集した後に同じ検証を行います。アクセス制限（401、403、405、429）と一時的な通信エラーは警告、404・410・その他のHTTPエラーは失敗です。
+`npm run verify` はSchedule安全判定テスト、データ検証、型検査、lint、静的build、sitemapと主要外部リンクの検査を実行します。`npm run update`はNewsとScheduleの両方をローカルで収集した後に同じ検証を行います。アクセス制限（403、429）、外部サイトの5xx、一時的な通信エラーは警告、DNS解決失敗、404・410・その他の4xxは失敗です。
 
 ## GitHub / Vercelの初期設定
 
