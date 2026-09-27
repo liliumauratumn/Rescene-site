@@ -351,6 +351,84 @@
     "verificationStatus": "confirmed"
   },
   {
+    "id": "mnet-calendar-6a8d889c8e8ebf53edc6a55f",
+    "title": "대구보건대학교 축제",
+    "startAt": "2026-10-01T21:30:00+09:00",
+    "endAt": null,
+    "timezone": "Asia/Tokyo",
+    "type": "event",
+    "region": "KR",
+    "prefecture": null,
+    "venue": null,
+    "status": "scheduled",
+    "applicationStartAt": null,
+    "applicationEndAt": null,
+    "saleStartAt": null,
+    "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6a8d889c8e8ebf53edc6a55f",
+    "sourceId": "6a8d889c8e8ebf53edc6a55f",
+    "sourceIds": [
+      "6a8d889c8e8ebf53edc6a55f"
+    ],
+    "sourceName": "RESCENE Official / Mnet Plus",
+    "sourceLabel": "RESCENE公式スケジュール",
+    "sources": [
+      {
+        "label": "RESCENE公式スケジュール",
+        "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6a8d889c8e8ebf53edc6a55f",
+        "type": "official_calendar",
+        "verifiedAt": "2026-09-28"
+      }
+    ],
+    "verifiedAt": "2026-09-28",
+    "dedupeKeys": [
+      "source:mnet-calendar:6a8d889c8e8ebf53edc6a55f",
+      "event:대구보건대학교축제:2026-10-01"
+    ],
+    "originalTitle": "대구보건대학교 축제",
+    "allDay": false,
+    "autoManaged": true,
+    "verificationStatus": "confirmed"
+  },
+  {
+    "id": "mnet-calendar-6a8d885d8e8ebf53edc6a55d",
+    "title": "계명대학교 축제",
+    "startAt": "2026-10-01T20:00:00+09:00",
+    "endAt": null,
+    "timezone": "Asia/Tokyo",
+    "type": "event",
+    "region": "KR",
+    "prefecture": null,
+    "venue": null,
+    "status": "scheduled",
+    "applicationStartAt": null,
+    "applicationEndAt": null,
+    "saleStartAt": null,
+    "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6a8d885d8e8ebf53edc6a55d",
+    "sourceId": "6a8d885d8e8ebf53edc6a55d",
+    "sourceIds": [
+      "6a8d885d8e8ebf53edc6a55d"
+    ],
+    "sourceName": "RESCENE Official / Mnet Plus",
+    "sourceLabel": "RESCENE公式スケジュール",
+    "sources": [
+      {
+        "label": "RESCENE公式スケジュール",
+        "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6a8d885d8e8ebf53edc6a55d",
+        "type": "official_calendar",
+        "verifiedAt": "2026-09-28"
+      }
+    ],
+    "verifiedAt": "2026-09-28",
+    "dedupeKeys": [
+      "source:mnet-calendar:6a8d885d8e8ebf53edc6a55d",
+      "event:계명대학교축제:2026-10-01"
+    ],
+    "originalTitle": "계명대학교 축제",
+    "allDay": false,
+    "autoManaged": true,
+    "verificationStatus": "confirmed"
+  },
+  {
     "id": "mnet-calendar-6a8d669d8e8ebf53edc6a541",
     "title": "한경국립대학교 축제",
     "startAt": "2026-09-30T00:00:00+09:00",
