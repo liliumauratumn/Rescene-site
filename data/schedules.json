@@ -516,7 +516,7 @@
     "region": "KR",
     "prefecture": null,
     "venue": null,
-    "status": "scheduled",
+    "status": "completed",
     "applicationStartAt": null,
     "applicationEndAt": null,
     "saleStartAt": null,
@@ -532,10 +532,10 @@
         "label": "RESCENE公式スケジュール",
         "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6a8d65a05a5e16309c692ea7",
         "type": "official_calendar",
-        "verifiedAt": "2026-09-16"
+        "verifiedAt": "2026-09-30"
       }
     ],
-    "verifiedAt": "2026-09-16",
+    "verifiedAt": "2026-09-30",
     "dedupeKeys": [
       "source:mnet-calendar:6a8d65a05a5e16309c692ea7",
       "event:한양대학교erica축제:2026-09-29"
@@ -555,7 +555,7 @@
     "region": "KR",
     "prefecture": null,
     "venue": null,
-    "status": "scheduled",
+    "status": "completed",
     "applicationStartAt": null,
     "applicationEndAt": null,
     "saleStartAt": null,
@@ -571,10 +571,10 @@
         "label": "RESCENE公式スケジュール",
         "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6a8d65db0baf003252ac6224",
         "type": "official_calendar",
-        "verifiedAt": "2026-09-22"
+        "verifiedAt": "2026-09-30"
       }
     ],
-    "verifiedAt": "2026-09-22",
+    "verifiedAt": "2026-09-30",
     "dedupeKeys": [
       "source:mnet-calendar:6a8d65db0baf003252ac6224",
       "event:경희대학교국제캠퍼스축제:2026-09-29"
