@@ -438,7 +438,7 @@
     "region": "KR",
     "prefecture": null,
     "venue": null,
-    "status": "scheduled",
+    "status": "completed",
     "applicationStartAt": null,
     "applicationEndAt": null,
     "saleStartAt": null,
@@ -454,10 +454,10 @@
         "label": "RESCENE公式スケジュール",
         "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6a8d669d8e8ebf53edc6a541",
         "type": "official_calendar",
-        "verifiedAt": "2026-09-17"
+        "verifiedAt": "2026-10-01"
       }
     ],
-    "verifiedAt": "2026-09-17",
+    "verifiedAt": "2026-10-01",
     "dedupeKeys": [
       "source:mnet-calendar:6a8d669d8e8ebf53edc6a541",
       "event:한경국립대학교축제:2026-09-30"
@@ -477,7 +477,7 @@
     "region": "KR",
     "prefecture": null,
     "venue": null,
-    "status": "scheduled",
+    "status": "completed",
     "applicationStartAt": null,
     "applicationEndAt": null,
     "saleStartAt": null,
@@ -493,10 +493,10 @@
         "label": "RESCENE公式スケジュール",
         "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6a8d66ee5a5e16309c692ea8",
         "type": "official_calendar",
-        "verifiedAt": "2026-09-22"
+        "verifiedAt": "2026-10-01"
       }
     ],
-    "verifiedAt": "2026-09-22",
+    "verifiedAt": "2026-10-01",
     "dedupeKeys": [
       "source:mnet-calendar:6a8d66ee5a5e16309c692ea8",
       "event:을지대학교축제:2026-09-30"
