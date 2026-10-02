@@ -78,6 +78,123 @@
     "verificationStatus": "confirmed"
   },
   {
+    "id": "mnet-calendar-6a3e80b31df3183e76dd7b31",
+    "title": "APEC 정상회의장 기념관 개관식",
+    "startAt": "2026-10-31T00:00:00+09:00",
+    "endAt": "2026-10-31T23:59:59+09:00",
+    "timezone": "Asia/Tokyo",
+    "type": "event",
+    "region": "KR",
+    "prefecture": null,
+    "venue": null,
+    "status": "scheduled",
+    "applicationStartAt": null,
+    "applicationEndAt": null,
+    "saleStartAt": null,
+    "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6a3e80b31df3183e76dd7b31",
+    "sourceId": "6a3e80b31df3183e76dd7b31",
+    "sourceIds": [
+      "6a3e80b31df3183e76dd7b31"
+    ],
+    "sourceName": "RESCENE Official / Mnet Plus",
+    "sourceLabel": "RESCENE公式スケジュール",
+    "sources": [
+      {
+        "label": "RESCENE公式スケジュール",
+        "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6a3e80b31df3183e76dd7b31",
+        "type": "official_calendar",
+        "verifiedAt": "2026-10-02"
+      }
+    ],
+    "verifiedAt": "2026-10-02",
+    "dedupeKeys": [
+      "source:mnet-calendar:6a3e80b31df3183e76dd7b31",
+      "event:apec정상회의장기념관개관식:2026-10-31"
+    ],
+    "originalTitle": "APEC 정상회의장 기념관 개관식",
+    "allDay": true,
+    "autoManaged": true,
+    "verificationStatus": "confirmed"
+  },
+  {
+    "id": "mnet-calendar-6abeaf6f9fce30571f6042d7",
+    "title": "여기어때 콘서트팩 거제",
+    "startAt": "2026-10-24T00:00:00+09:00",
+    "endAt": "2026-10-24T23:59:59+09:00",
+    "timezone": "Asia/Tokyo",
+    "type": "performance",
+    "region": "KR",
+    "prefecture": null,
+    "venue": null,
+    "status": "scheduled",
+    "applicationStartAt": null,
+    "applicationEndAt": null,
+    "saleStartAt": null,
+    "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6abeaf6f9fce30571f6042d7",
+    "sourceId": "6abeaf6f9fce30571f6042d7",
+    "sourceIds": [
+      "6abeaf6f9fce30571f6042d7"
+    ],
+    "sourceName": "RESCENE Official / Mnet Plus",
+    "sourceLabel": "RESCENE公式スケジュール",
+    "sources": [
+      {
+        "label": "RESCENE公式スケジュール",
+        "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6abeaf6f9fce30571f6042d7",
+        "type": "official_calendar",
+        "verifiedAt": "2026-10-02"
+      }
+    ],
+    "verifiedAt": "2026-10-02",
+    "dedupeKeys": [
+      "source:mnet-calendar:6abeaf6f9fce30571f6042d7",
+      "event:여기어때콘서트팩거제:2026-10-24"
+    ],
+    "originalTitle": "여기어때 콘서트팩 거제",
+    "allDay": true,
+    "autoManaged": true,
+    "verificationStatus": "confirmed"
+  },
+  {
+    "id": "mnet-calendar-6a8d89530baf003252ac6227",
+    "title": "마산대학교 축제",
+    "startAt": "2026-10-23T00:00:00+09:00",
+    "endAt": "2026-10-23T23:59:59+09:00",
+    "timezone": "Asia/Tokyo",
+    "type": "event",
+    "region": "KR",
+    "prefecture": null,
+    "venue": null,
+    "status": "scheduled",
+    "applicationStartAt": null,
+    "applicationEndAt": null,
+    "saleStartAt": null,
+    "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6a8d89530baf003252ac6227",
+    "sourceId": "6a8d89530baf003252ac6227",
+    "sourceIds": [
+      "6a8d89530baf003252ac6227"
+    ],
+    "sourceName": "RESCENE Official / Mnet Plus",
+    "sourceLabel": "RESCENE公式スケジュール",
+    "sources": [
+      {
+        "label": "RESCENE公式スケジュール",
+        "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6a8d89530baf003252ac6227",
+        "type": "official_calendar",
+        "verifiedAt": "2026-10-02"
+      }
+    ],
+    "verifiedAt": "2026-10-02",
+    "dedupeKeys": [
+      "source:mnet-calendar:6a8d89530baf003252ac6227",
+      "event:마산대학교축제:2026-10-23"
+    ],
+    "originalTitle": "마산대학교 축제",
+    "allDay": true,
+    "autoManaged": true,
+    "verificationStatus": "confirmed"
+  },
+  {
     "id": "mnet-calendar-6a4612a67dd960680ac6f9b8",
     "title": "NOL FESTIVAL（高陽）",
     "startAt": "2026-10-17T00:00:00+09:00",
@@ -268,6 +385,45 @@
       "event:연수능허대문화축제:2026-10-09"
     ],
     "originalTitle": "연수 능허대 문화 축제",
+    "allDay": true,
+    "autoManaged": true,
+    "verificationStatus": "confirmed"
+  },
+  {
+    "id": "mnet-calendar-6abeae327cda1f77dc44908f",
+    "title": "2026 의령 리치리치 페스티벌",
+    "startAt": "2026-10-04T00:00:00+09:00",
+    "endAt": "2026-10-04T23:59:59+09:00",
+    "timezone": "Asia/Tokyo",
+    "type": "performance",
+    "region": "KR",
+    "prefecture": null,
+    "venue": null,
+    "status": "scheduled",
+    "applicationStartAt": null,
+    "applicationEndAt": null,
+    "saleStartAt": null,
+    "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6abeae327cda1f77dc44908f",
+    "sourceId": "6abeae327cda1f77dc44908f",
+    "sourceIds": [
+      "6abeae327cda1f77dc44908f"
+    ],
+    "sourceName": "RESCENE Official / Mnet Plus",
+    "sourceLabel": "RESCENE公式スケジュール",
+    "sources": [
+      {
+        "label": "RESCENE公式スケジュール",
+        "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6abeae327cda1f77dc44908f",
+        "type": "official_calendar",
+        "verifiedAt": "2026-10-02"
+      }
+    ],
+    "verifiedAt": "2026-10-02",
+    "dedupeKeys": [
+      "source:mnet-calendar:6abeae327cda1f77dc44908f",
+      "event:2026의령리치리치페스티벌:2026-10-04"
+    ],
+    "originalTitle": "2026 의령 리치리치 페스티벌",
     "allDay": true,
     "autoManaged": true,
     "verificationStatus": "confirmed"
