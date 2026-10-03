@@ -391,7 +391,7 @@
   },
   {
     "id": "mnet-calendar-6abeae327cda1f77dc44908f",
-    "title": "제5회 의령 리치리치 페스티벌",
+    "title": "2026 의령 리치리치페스티벌",
     "startAt": "2026-10-04T00:00:00+09:00",
     "endAt": "2026-10-04T23:59:59+09:00",
     "timezone": "Asia/Tokyo",
@@ -415,15 +415,15 @@
         "label": "RESCENE公式スケジュール",
         "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6abeae327cda1f77dc44908f",
         "type": "official_calendar",
-        "verifiedAt": "2026-10-03"
+        "verifiedAt": "2026-10-04"
       }
     ],
-    "verifiedAt": "2026-10-03",
+    "verifiedAt": "2026-10-04",
     "dedupeKeys": [
       "source:mnet-calendar:6abeae327cda1f77dc44908f",
-      "event:제5회의령리치리치페스티벌:2026-10-04"
+      "event:2026의령리치리치페스티벌:2026-10-04"
     ],
-    "originalTitle": "제5회 의령 리치리치 페스티벌",
+    "originalTitle": "2026 의령 리치리치페스티벌",
     "allDay": true,
     "autoManaged": true,
     "verificationStatus": "confirmed"
