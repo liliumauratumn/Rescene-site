@@ -278,7 +278,7 @@
     "startAt": "2026-10-11T00:00:00+09:00",
     "endAt": "2026-10-11T23:59:59+09:00",
     "timezone": "Asia/Tokyo",
-    "type": "performance",
+    "type": "event",
     "region": "KR",
     "prefecture": null,
     "venue": null,
@@ -298,10 +298,10 @@
         "label": "RESCENE公式スケジュール",
         "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6a48ce2d2abffc033aa33c91",
         "type": "official_calendar",
-        "verifiedAt": "2026-08-26"
+        "verifiedAt": "2026-10-03"
       }
     ],
-    "verifiedAt": "2026-08-26",
+    "verifiedAt": "2026-10-03",
     "dedupeKeys": [
       "source:mnet-calendar:6a48ce2d2abffc033aa33c91",
       "event:2026ghost경기한류ost뮤직페스티벌:2026-10-11"
@@ -391,11 +391,11 @@
   },
   {
     "id": "mnet-calendar-6abeae327cda1f77dc44908f",
-    "title": "2026 의령 리치리치 페스티벌",
+    "title": "제5회 의령 리치리치 페스티벌",
     "startAt": "2026-10-04T00:00:00+09:00",
     "endAt": "2026-10-04T23:59:59+09:00",
     "timezone": "Asia/Tokyo",
-    "type": "performance",
+    "type": "event",
     "region": "KR",
     "prefecture": null,
     "venue": null,
@@ -415,15 +415,15 @@
         "label": "RESCENE公式スケジュール",
         "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6abeae327cda1f77dc44908f",
         "type": "official_calendar",
-        "verifiedAt": "2026-10-02"
+        "verifiedAt": "2026-10-03"
       }
     ],
-    "verifiedAt": "2026-10-02",
+    "verifiedAt": "2026-10-03",
     "dedupeKeys": [
       "source:mnet-calendar:6abeae327cda1f77dc44908f",
-      "event:2026의령리치리치페스티벌:2026-10-04"
+      "event:제5회의령리치리치페스티벌:2026-10-04"
     ],
-    "originalTitle": "2026 의령 리치리치 페스티벌",
+    "originalTitle": "제5회 의령 리치리치 페스티벌",
     "allDay": true,
     "autoManaged": true,
     "verificationStatus": "confirmed"
@@ -507,6 +507,45 @@
     "verificationStatus": "confirmed"
   },
   {
+    "id": "mnet-calendar-6ac0db6e61092456453dd662",
+    "title": "SBS <무엇이든 해줄지니 - 비서진>",
+    "startAt": "2026-10-02T23:10:00+09:00",
+    "endAt": null,
+    "timezone": "Asia/Tokyo",
+    "type": "broadcast",
+    "region": "KR",
+    "prefecture": null,
+    "venue": null,
+    "status": "completed",
+    "applicationStartAt": null,
+    "applicationEndAt": null,
+    "saleStartAt": null,
+    "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6ac0db6e61092456453dd662",
+    "sourceId": "6ac0db6e61092456453dd662",
+    "sourceIds": [
+      "6ac0db6e61092456453dd662"
+    ],
+    "sourceName": "RESCENE Official / Mnet Plus",
+    "sourceLabel": "RESCENE公式スケジュール",
+    "sources": [
+      {
+        "label": "RESCENE公式スケジュール",
+        "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6ac0db6e61092456453dd662",
+        "type": "official_calendar",
+        "verifiedAt": "2026-10-03"
+      }
+    ],
+    "verifiedAt": "2026-10-03",
+    "dedupeKeys": [
+      "source:mnet-calendar:6ac0db6e61092456453dd662",
+      "event:sbs무엇이든해줄지니비서진:2026-10-02"
+    ],
+    "originalTitle": "SBS <무엇이든 해줄지니 - 비서진>",
+    "allDay": false,
+    "autoManaged": true,
+    "verificationStatus": "confirmed"
+  },
+  {
     "id": "mnet-calendar-6a8d889c8e8ebf53edc6a55f",
     "title": "대구보건대학교 축제",
     "startAt": "2026-10-01T21:30:00+09:00",
@@ -555,7 +594,7 @@
     "region": "KR",
     "prefecture": null,
     "venue": null,
-    "status": "scheduled",
+    "status": "completed",
     "applicationStartAt": null,
     "applicationEndAt": null,
     "saleStartAt": null,
@@ -571,10 +610,10 @@
         "label": "RESCENE公式スケジュール",
         "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6a8d885d8e8ebf53edc6a55d",
         "type": "official_calendar",
-        "verifiedAt": "2026-09-28"
+        "verifiedAt": "2026-10-03"
       }
     ],
-    "verifiedAt": "2026-09-28",
+    "verifiedAt": "2026-10-03",
     "dedupeKeys": [
       "source:mnet-calendar:6a8d885d8e8ebf53edc6a55d",
       "event:계명대학교축제:2026-10-01"
@@ -1136,7 +1175,7 @@
     "startAt": "2026-09-05T19:30:00+09:00",
     "endAt": null,
     "timezone": "Asia/Tokyo",
-    "type": "performance",
+    "type": "event",
     "region": "KR",
     "prefecture": null,
     "venue": null,
@@ -1156,22 +1195,22 @@
         "label": "RESCENE公式スケジュール",
         "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6a48cd9b2abffc033aa33c90",
         "type": "official_calendar",
-        "verifiedAt": "2026-09-06"
+        "verifiedAt": "2026-10-03"
       }
     ],
-    "verifiedAt": "2026-09-06",
+    "verifiedAt": "2026-10-03",
     "dedupeKeys": [
       "source:mnet-calendar:6a48cd9b2abffc033aa33c90",
       "event:원썸머나잇위드케이팝시즌2:2026-09-05"
     ],
-    "originalTitle": "원 썸머 나잇 위드 케이팝 시즌 2",
+    "originalTitle": "원 썸머 나잇 위드 케이팝 시즌2",
     "allDay": false,
     "autoManaged": true,
     "verificationStatus": "confirmed"
   },
   {
     "id": "mnet-calendar-6a98f41c301866263741bceb",
-    "title": "2026 살람서울페스티벌",
+    "title": "2026 살람서울 페스티벌",
     "startAt": "2026-09-04T20:30:00+09:00",
     "endAt": null,
     "timezone": "Asia/Tokyo",
@@ -1195,15 +1234,15 @@
         "label": "RESCENE公式スケジュール",
         "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6a98f41c301866263741bceb",
         "type": "official_calendar",
-        "verifiedAt": "2026-09-05"
+        "verifiedAt": "2026-10-03"
       }
     ],
-    "verifiedAt": "2026-09-05",
+    "verifiedAt": "2026-10-03",
     "dedupeKeys": [
       "source:mnet-calendar:6a98f41c301866263741bceb",
       "event:2026살람서울페스티벌:2026-09-04"
     ],
-    "originalTitle": "2026 살람서울페스티벌",
+    "originalTitle": "2026 살람서울 페스티벌",
     "allDay": false,
     "autoManaged": true,
     "verificationStatus": "confirmed"
