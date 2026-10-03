@@ -1,1 +1,1640 @@
-[]
+[
+  {
+    "id": "date-change-6aa966b78bbf3631c83b8e7f-2026-10-04",
+    "status": "candidate",
+    "candidateType": "date_change",
+    "title": "제14회 연수 능허대 문화축제",
+    "eventDate": "2026-10-09",
+    "sourceId": "6aa966b78bbf3631c83b8e7f",
+    "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6aa966b78bbf3631c83b8e7f",
+    "sourceName": "RESCENE Official / Mnet Plus",
+    "sourceType": "official_calendar",
+    "discoveredAt": "2026-10-04",
+    "changedFields": [
+      "title",
+      "startAt",
+      "endAt",
+      "dedupeKeys",
+      "originalTitle",
+      "allDay"
+    ],
+    "existingSchedule": {
+      "id": "mnet-calendar-6aa966b78bbf3631c83b8e7f",
+      "title": "연수 능허대 문화 축제",
+      "startAt": "2026-10-09T00:00:00+09:00",
+      "endAt": "2026-10-09T23:59:59+09:00",
+      "timezone": "Asia/Tokyo",
+      "type": "event",
+      "region": "KR",
+      "prefecture": null,
+      "venue": null,
+      "status": "scheduled",
+      "applicationStartAt": null,
+      "applicationEndAt": null,
+      "saleStartAt": null,
+      "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6aa966b78bbf3631c83b8e7f",
+      "sourceId": "6aa966b78bbf3631c83b8e7f",
+      "sourceIds": [
+        "6aa966b78bbf3631c83b8e7f"
+      ],
+      "sourceName": "RESCENE Official / Mnet Plus",
+      "sourceLabel": "RESCENE公式スケジュール",
+      "sources": [
+        {
+          "label": "RESCENE公式スケジュール",
+          "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6aa966b78bbf3631c83b8e7f",
+          "type": "official_calendar",
+          "verifiedAt": "2026-09-16"
+        }
+      ],
+      "verifiedAt": "2026-09-16",
+      "dedupeKeys": [
+        "source:mnet-calendar:6aa966b78bbf3631c83b8e7f",
+        "event:연수능허대문화축제:2026-10-09"
+      ],
+      "originalTitle": "연수 능허대 문화 축제",
+      "allDay": true,
+      "autoManaged": true,
+      "verificationStatus": "confirmed"
+    },
+    "proposedSchedule": {
+      "id": "mnet-calendar-6aa966b78bbf3631c83b8e7f",
+      "title": "제14회 연수 능허대 문화축제",
+      "startAt": "2026-10-09T20:00:00+09:00",
+      "endAt": null,
+      "timezone": "Asia/Tokyo",
+      "type": "event",
+      "region": "KR",
+      "prefecture": null,
+      "venue": null,
+      "status": "scheduled",
+      "applicationStartAt": null,
+      "applicationEndAt": null,
+      "saleStartAt": null,
+      "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6aa966b78bbf3631c83b8e7f",
+      "sourceId": "6aa966b78bbf3631c83b8e7f",
+      "sourceIds": [
+        "6aa966b78bbf3631c83b8e7f"
+      ],
+      "sourceName": "RESCENE Official / Mnet Plus",
+      "sourceLabel": "RESCENE公式スケジュール",
+      "sources": [
+        {
+          "label": "RESCENE公式スケジュール",
+          "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6aa966b78bbf3631c83b8e7f",
+          "type": "official_calendar",
+          "verifiedAt": "2026-10-04"
+        }
+      ],
+      "verifiedAt": "2026-10-04",
+      "dedupeKeys": [
+        "source:mnet-calendar:6aa966b78bbf3631c83b8e7f",
+        "event:제14회연수능허대문화축제:2026-10-09"
+      ],
+      "originalTitle": "제14회 연수 능허대 문화축제",
+      "allDay": false,
+      "autoManaged": true,
+      "verificationStatus": "confirmed"
+    },
+    "dedupeKeys": [
+      "source:mnet-calendar:6aa966b78bbf3631c83b8e7f",
+      "event:제14회연수능허대문화축제:2026-10-09"
+    ],
+    "reason": "公式カレンダー上の日付・期間・終日区分が既存公開データから変わりました。公開データは自動変更せず、人間の確認が必要です。"
+  },
+  {
+    "id": "date-change-6a3e7ff41df3183e76dd7b2f-2026-10-03",
+    "status": "candidate",
+    "candidateType": "date_change",
+    "title": "인하대학교 축제",
+    "eventDate": "2026-09-18",
+    "sourceId": "6a3e7ff41df3183e76dd7b2f",
+    "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6a3e7ff41df3183e76dd7b2f",
+    "sourceName": "RESCENE Official / Mnet Plus",
+    "sourceType": "official_calendar",
+    "discoveredAt": "2026-10-03",
+    "changedFields": [
+      "startAt",
+      "endAt",
+      "allDay"
+    ],
+    "existingSchedule": {
+      "id": "mnet-calendar-6a3e7ff41df3183e76dd7b2f",
+      "title": "인하대학교 축제",
+      "startAt": "2026-09-18T00:00:00+09:00",
+      "endAt": "2026-09-18T23:59:59+09:00",
+      "timezone": "Asia/Tokyo",
+      "type": "event",
+      "region": "KR",
+      "prefecture": null,
+      "venue": null,
+      "status": "completed",
+      "applicationStartAt": null,
+      "applicationEndAt": null,
+      "saleStartAt": null,
+      "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6a3e7ff41df3183e76dd7b2f",
+      "sourceId": "6a3e7ff41df3183e76dd7b2f",
+      "sourceIds": [
+        "6a3e7ff41df3183e76dd7b2f"
+      ],
+      "sourceName": "RESCENE Official / Mnet Plus",
+      "sourceLabel": "RESCENE公式スケジュール",
+      "sources": [
+        {
+          "label": "RESCENE公式スケジュール",
+          "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6a3e7ff41df3183e76dd7b2f",
+          "type": "official_calendar",
+          "verifiedAt": "2026-09-19"
+        }
+      ],
+      "verifiedAt": "2026-09-19",
+      "dedupeKeys": [
+        "source:mnet-calendar:6a3e7ff41df3183e76dd7b2f",
+        "event:인하대학교축제:2026-09-18"
+      ],
+      "originalTitle": "인하대학교 축제",
+      "allDay": true,
+      "autoManaged": true,
+      "verificationStatus": "confirmed"
+    },
+    "proposedSchedule": {
+      "id": "mnet-calendar-6a3e7ff41df3183e76dd7b2f",
+      "title": "인하대학교 축제",
+      "startAt": "2026-09-18T21:40:00+09:00",
+      "endAt": null,
+      "timezone": "Asia/Tokyo",
+      "type": "event",
+      "region": "KR",
+      "prefecture": null,
+      "venue": null,
+      "status": "completed",
+      "applicationStartAt": null,
+      "applicationEndAt": null,
+      "saleStartAt": null,
+      "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6a3e7ff41df3183e76dd7b2f",
+      "sourceId": "6a3e7ff41df3183e76dd7b2f",
+      "sourceIds": [
+        "6a3e7ff41df3183e76dd7b2f"
+      ],
+      "sourceName": "RESCENE Official / Mnet Plus",
+      "sourceLabel": "RESCENE公式スケジュール",
+      "sources": [
+        {
+          "label": "RESCENE公式スケジュール",
+          "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6a3e7ff41df3183e76dd7b2f",
+          "type": "official_calendar",
+          "verifiedAt": "2026-10-03"
+        }
+      ],
+      "verifiedAt": "2026-10-03",
+      "dedupeKeys": [
+        "source:mnet-calendar:6a3e7ff41df3183e76dd7b2f",
+        "event:인하대학교축제:2026-09-18"
+      ],
+      "originalTitle": "인하대학교 축제",
+      "allDay": false,
+      "autoManaged": true,
+      "verificationStatus": "confirmed"
+    },
+    "dedupeKeys": [
+      "source:mnet-calendar:6a3e7ff41df3183e76dd7b2f",
+      "event:인하대학교축제:2026-09-18"
+    ],
+    "reason": "公式カレンダー上の日付・期間・終日区分が既存公開データから変わりました。公開データは自動変更せず、人間の確認が必要です。"
+  },
+  {
+    "id": "date-change-6a3e81070b7c92615f50c73f-2026-10-03",
+    "status": "candidate",
+    "candidateType": "date_change",
+    "title": "2026 IBK FESTIVAL",
+    "eventDate": "2026-10-03",
+    "sourceId": "6a3e81070b7c92615f50c73f",
+    "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6a3e81070b7c92615f50c73f",
+    "sourceName": "RESCENE Official / Mnet Plus",
+    "sourceType": "official_calendar",
+    "discoveredAt": "2026-10-03",
+    "changedFields": [
+      "startAt",
+      "endAt",
+      "type",
+      "originalTitle",
+      "allDay"
+    ],
+    "existingSchedule": {
+      "id": "mnet-calendar-6a3e81070b7c92615f50c73f",
+      "title": "2026 IBK FESTIVAL",
+      "startAt": "2026-10-03T00:00:00+09:00",
+      "endAt": "2026-10-03T23:59:59+09:00",
+      "timezone": "Asia/Tokyo",
+      "type": "performance",
+      "region": "KR",
+      "prefecture": null,
+      "venue": null,
+      "status": "scheduled",
+      "applicationStartAt": null,
+      "applicationEndAt": null,
+      "saleStartAt": null,
+      "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6a3e81070b7c92615f50c73f",
+      "sourceId": "6a3e81070b7c92615f50c73f",
+      "sourceIds": [
+        "6a3e81070b7c92615f50c73f"
+      ],
+      "sourceName": "RESCENE Official / Mnet Plus",
+      "sourceLabel": "RESCENE公式スケジュール",
+      "sources": [
+        {
+          "label": "RESCENE公式スケジュール",
+          "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6a3e81070b7c92615f50c73f",
+          "type": "official_calendar",
+          "verifiedAt": "2026-08-26"
+        }
+      ],
+      "verifiedAt": "2026-08-26",
+      "dedupeKeys": [
+        "source:mnet-calendar:6a3e81070b7c92615f50c73f",
+        "event:2026입크페스티벌:2026-10-03"
+      ],
+      "originalTitle": "2026 입크페스티벌",
+      "allDay": true,
+      "autoManaged": true,
+      "verificationStatus": "confirmed"
+    },
+    "proposedSchedule": {
+      "id": "mnet-calendar-6a3e81070b7c92615f50c73f",
+      "title": "2026 IBK FESTIVAL",
+      "startAt": "2026-10-03T15:50:00+09:00",
+      "endAt": null,
+      "timezone": "Asia/Tokyo",
+      "type": "event",
+      "region": "KR",
+      "prefecture": null,
+      "venue": null,
+      "status": "scheduled",
+      "applicationStartAt": null,
+      "applicationEndAt": null,
+      "saleStartAt": null,
+      "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6a3e81070b7c92615f50c73f",
+      "sourceId": "6a3e81070b7c92615f50c73f",
+      "sourceIds": [
+        "6a3e81070b7c92615f50c73f"
+      ],
+      "sourceName": "RESCENE Official / Mnet Plus",
+      "sourceLabel": "RESCENE公式スケジュール",
+      "sources": [
+        {
+          "label": "RESCENE公式スケジュール",
+          "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6a3e81070b7c92615f50c73f",
+          "type": "official_calendar",
+          "verifiedAt": "2026-10-03"
+        }
+      ],
+      "verifiedAt": "2026-10-03",
+      "dedupeKeys": [
+        "source:mnet-calendar:6a3e81070b7c92615f50c73f",
+        "event:2026입크페스티벌:2026-10-03"
+      ],
+      "originalTitle": "2026 입크 페스티벌",
+      "allDay": false,
+      "autoManaged": true,
+      "verificationStatus": "confirmed"
+    },
+    "dedupeKeys": [
+      "source:mnet-calendar:6a3e81070b7c92615f50c73f",
+      "event:2026입크페스티벌:2026-10-03"
+    ],
+    "reason": "公式カレンダー上の日付・期間・終日区分が既存公開データから変わりました。公開データは自動変更せず、人間の確認が必要です。"
+  },
+  {
+    "id": "date-change-6a8d655d5a5e16309c692ea6-2026-10-03",
+    "status": "candidate",
+    "candidateType": "date_change",
+    "title": "한국외국어대학교 글로벌캠퍼스 축제",
+    "eventDate": "2026-09-22",
+    "sourceId": "6a8d655d5a5e16309c692ea6",
+    "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6a8d655d5a5e16309c692ea6",
+    "sourceName": "RESCENE Official / Mnet Plus",
+    "sourceType": "official_calendar",
+    "discoveredAt": "2026-10-03",
+    "changedFields": [
+      "startAt",
+      "endAt",
+      "allDay"
+    ],
+    "existingSchedule": {
+      "id": "mnet-calendar-6a8d655d5a5e16309c692ea6",
+      "title": "한국외국어대학교 글로벌캠퍼스 축제",
+      "startAt": "2026-09-22T00:00:00+09:00",
+      "endAt": "2026-09-22T23:59:59+09:00",
+      "timezone": "Asia/Tokyo",
+      "type": "event",
+      "region": "KR",
+      "prefecture": null,
+      "venue": null,
+      "status": "completed",
+      "applicationStartAt": null,
+      "applicationEndAt": null,
+      "saleStartAt": null,
+      "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6a8d655d5a5e16309c692ea6",
+      "sourceId": "6a8d655d5a5e16309c692ea6",
+      "sourceIds": [
+        "6a8d655d5a5e16309c692ea6"
+      ],
+      "sourceName": "RESCENE Official / Mnet Plus",
+      "sourceLabel": "RESCENE公式スケジュール",
+      "sources": [
+        {
+          "label": "RESCENE公式スケジュール",
+          "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6a8d655d5a5e16309c692ea6",
+          "type": "official_calendar",
+          "verifiedAt": "2026-09-23"
+        }
+      ],
+      "verifiedAt": "2026-09-23",
+      "dedupeKeys": [
+        "source:mnet-calendar:6a8d655d5a5e16309c692ea6",
+        "event:한국외국어대학교글로벌캠퍼스축제:2026-09-22"
+      ],
+      "originalTitle": "한국외국어대학교 글로벌캠퍼스 축제",
+      "allDay": true,
+      "autoManaged": true,
+      "verificationStatus": "confirmed"
+    },
+    "proposedSchedule": {
+      "id": "mnet-calendar-6a8d655d5a5e16309c692ea6",
+      "title": "한국외국어대학교 글로벌캠퍼스 축제",
+      "startAt": "2026-09-22T19:00:00+09:00",
+      "endAt": null,
+      "timezone": "Asia/Tokyo",
+      "type": "event",
+      "region": "KR",
+      "prefecture": null,
+      "venue": null,
+      "status": "completed",
+      "applicationStartAt": null,
+      "applicationEndAt": null,
+      "saleStartAt": null,
+      "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6a8d655d5a5e16309c692ea6",
+      "sourceId": "6a8d655d5a5e16309c692ea6",
+      "sourceIds": [
+        "6a8d655d5a5e16309c692ea6"
+      ],
+      "sourceName": "RESCENE Official / Mnet Plus",
+      "sourceLabel": "RESCENE公式スケジュール",
+      "sources": [
+        {
+          "label": "RESCENE公式スケジュール",
+          "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6a8d655d5a5e16309c692ea6",
+          "type": "official_calendar",
+          "verifiedAt": "2026-10-03"
+        }
+      ],
+      "verifiedAt": "2026-10-03",
+      "dedupeKeys": [
+        "source:mnet-calendar:6a8d655d5a5e16309c692ea6",
+        "event:한국외국어대학교글로벌캠퍼스축제:2026-09-22"
+      ],
+      "originalTitle": "한국외국어대학교 글로벌캠퍼스 축제",
+      "allDay": false,
+      "autoManaged": true,
+      "verificationStatus": "confirmed"
+    },
+    "dedupeKeys": [
+      "source:mnet-calendar:6a8d655d5a5e16309c692ea6",
+      "event:한국외국어대학교글로벌캠퍼스축제:2026-09-22"
+    ],
+    "reason": "公式カレンダー上の日付・期間・終日区分が既存公開データから変わりました。公開データは自動変更せず、人間の確認が必要です。"
+  },
+  {
+    "id": "date-change-6a8d65a05a5e16309c692ea7-2026-10-03",
+    "status": "candidate",
+    "candidateType": "date_change",
+    "title": "한양대학교 ERICA 축제",
+    "eventDate": "2026-09-29",
+    "sourceId": "6a8d65a05a5e16309c692ea7",
+    "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6a8d65a05a5e16309c692ea7",
+    "sourceName": "RESCENE Official / Mnet Plus",
+    "sourceType": "official_calendar",
+    "discoveredAt": "2026-10-03",
+    "changedFields": [
+      "startAt",
+      "endAt",
+      "allDay"
+    ],
+    "existingSchedule": {
+      "id": "mnet-calendar-6a8d65a05a5e16309c692ea7",
+      "title": "한양대학교 ERICA 축제",
+      "startAt": "2026-09-29T00:00:00+09:00",
+      "endAt": "2026-09-29T23:59:59+09:00",
+      "timezone": "Asia/Tokyo",
+      "type": "event",
+      "region": "KR",
+      "prefecture": null,
+      "venue": null,
+      "status": "completed",
+      "applicationStartAt": null,
+      "applicationEndAt": null,
+      "saleStartAt": null,
+      "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6a8d65a05a5e16309c692ea7",
+      "sourceId": "6a8d65a05a5e16309c692ea7",
+      "sourceIds": [
+        "6a8d65a05a5e16309c692ea7"
+      ],
+      "sourceName": "RESCENE Official / Mnet Plus",
+      "sourceLabel": "RESCENE公式スケジュール",
+      "sources": [
+        {
+          "label": "RESCENE公式スケジュール",
+          "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6a8d65a05a5e16309c692ea7",
+          "type": "official_calendar",
+          "verifiedAt": "2026-09-30"
+        }
+      ],
+      "verifiedAt": "2026-09-30",
+      "dedupeKeys": [
+        "source:mnet-calendar:6a8d65a05a5e16309c692ea7",
+        "event:한양대학교erica축제:2026-09-29"
+      ],
+      "originalTitle": "한양대학교 ERICA 축제",
+      "allDay": true,
+      "autoManaged": true,
+      "verificationStatus": "confirmed"
+    },
+    "proposedSchedule": {
+      "id": "mnet-calendar-6a8d65a05a5e16309c692ea7",
+      "title": "한양대학교 ERICA 축제",
+      "startAt": "2026-09-29T21:50:00+09:00",
+      "endAt": null,
+      "timezone": "Asia/Tokyo",
+      "type": "event",
+      "region": "KR",
+      "prefecture": null,
+      "venue": null,
+      "status": "completed",
+      "applicationStartAt": null,
+      "applicationEndAt": null,
+      "saleStartAt": null,
+      "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6a8d65a05a5e16309c692ea7",
+      "sourceId": "6a8d65a05a5e16309c692ea7",
+      "sourceIds": [
+        "6a8d65a05a5e16309c692ea7"
+      ],
+      "sourceName": "RESCENE Official / Mnet Plus",
+      "sourceLabel": "RESCENE公式スケジュール",
+      "sources": [
+        {
+          "label": "RESCENE公式スケジュール",
+          "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6a8d65a05a5e16309c692ea7",
+          "type": "official_calendar",
+          "verifiedAt": "2026-10-03"
+        }
+      ],
+      "verifiedAt": "2026-10-03",
+      "dedupeKeys": [
+        "source:mnet-calendar:6a8d65a05a5e16309c692ea7",
+        "event:한양대학교erica축제:2026-09-29"
+      ],
+      "originalTitle": "한양대학교 ERICA 축제",
+      "allDay": false,
+      "autoManaged": true,
+      "verificationStatus": "confirmed"
+    },
+    "dedupeKeys": [
+      "source:mnet-calendar:6a8d65a05a5e16309c692ea7",
+      "event:한양대학교erica축제:2026-09-29"
+    ],
+    "reason": "公式カレンダー上の日付・期間・終日区分が既存公開データから変わりました。公開データは自動変更せず、人間の確認が必要です。"
+  },
+  {
+    "id": "date-change-6a8d65db0baf003252ac6224-2026-10-03",
+    "status": "candidate",
+    "candidateType": "date_change",
+    "title": "경희대학교 국제캠퍼스 축제",
+    "eventDate": "2026-09-29",
+    "sourceId": "6a8d65db0baf003252ac6224",
+    "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6a8d65db0baf003252ac6224",
+    "sourceName": "RESCENE Official / Mnet Plus",
+    "sourceType": "official_calendar",
+    "discoveredAt": "2026-10-03",
+    "changedFields": [
+      "startAt",
+      "endAt",
+      "allDay"
+    ],
+    "existingSchedule": {
+      "id": "mnet-calendar-6a8d65db0baf003252ac6224",
+      "title": "경희대학교 국제캠퍼스 축제",
+      "startAt": "2026-09-29T00:00:00+09:00",
+      "endAt": "2026-09-29T23:59:59+09:00",
+      "timezone": "Asia/Tokyo",
+      "type": "event",
+      "region": "KR",
+      "prefecture": null,
+      "venue": null,
+      "status": "completed",
+      "applicationStartAt": null,
+      "applicationEndAt": null,
+      "saleStartAt": null,
+      "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6a8d65db0baf003252ac6224",
+      "sourceId": "6a8d65db0baf003252ac6224",
+      "sourceIds": [
+        "6a8d65db0baf003252ac6224"
+      ],
+      "sourceName": "RESCENE Official / Mnet Plus",
+      "sourceLabel": "RESCENE公式スケジュール",
+      "sources": [
+        {
+          "label": "RESCENE公式スケジュール",
+          "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6a8d65db0baf003252ac6224",
+          "type": "official_calendar",
+          "verifiedAt": "2026-09-30"
+        }
+      ],
+      "verifiedAt": "2026-09-30",
+      "dedupeKeys": [
+        "source:mnet-calendar:6a8d65db0baf003252ac6224",
+        "event:경희대학교국제캠퍼스축제:2026-09-29"
+      ],
+      "originalTitle": "경희대학교 국제캠퍼스 축제",
+      "allDay": true,
+      "autoManaged": true,
+      "verificationStatus": "confirmed"
+    },
+    "proposedSchedule": {
+      "id": "mnet-calendar-6a8d65db0baf003252ac6224",
+      "title": "경희대학교 국제캠퍼스 축제",
+      "startAt": "2026-09-29T19:45:00+09:00",
+      "endAt": null,
+      "timezone": "Asia/Tokyo",
+      "type": "event",
+      "region": "KR",
+      "prefecture": null,
+      "venue": null,
+      "status": "completed",
+      "applicationStartAt": null,
+      "applicationEndAt": null,
+      "saleStartAt": null,
+      "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6a8d65db0baf003252ac6224",
+      "sourceId": "6a8d65db0baf003252ac6224",
+      "sourceIds": [
+        "6a8d65db0baf003252ac6224"
+      ],
+      "sourceName": "RESCENE Official / Mnet Plus",
+      "sourceLabel": "RESCENE公式スケジュール",
+      "sources": [
+        {
+          "label": "RESCENE公式スケジュール",
+          "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6a8d65db0baf003252ac6224",
+          "type": "official_calendar",
+          "verifiedAt": "2026-10-03"
+        }
+      ],
+      "verifiedAt": "2026-10-03",
+      "dedupeKeys": [
+        "source:mnet-calendar:6a8d65db0baf003252ac6224",
+        "event:경희대학교국제캠퍼스축제:2026-09-29"
+      ],
+      "originalTitle": "경희대학교 국제캠퍼스 축제",
+      "allDay": false,
+      "autoManaged": true,
+      "verificationStatus": "confirmed"
+    },
+    "dedupeKeys": [
+      "source:mnet-calendar:6a8d65db0baf003252ac6224",
+      "event:경희대학교국제캠퍼스축제:2026-09-29"
+    ],
+    "reason": "公式カレンダー上の日付・期間・終日区分が既存公開データから変わりました。公開データは自動変更せず、人間の確認が必要です。"
+  },
+  {
+    "id": "date-change-6a8d665e0baf003252ac6225-2026-10-03",
+    "status": "candidate",
+    "candidateType": "date_change",
+    "title": "명지대학교 자연캠퍼스 축제",
+    "eventDate": "2026-09-22",
+    "sourceId": "6a8d665e0baf003252ac6225",
+    "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6a8d665e0baf003252ac6225",
+    "sourceName": "RESCENE Official / Mnet Plus",
+    "sourceType": "official_calendar",
+    "discoveredAt": "2026-10-03",
+    "changedFields": [
+      "startAt",
+      "endAt",
+      "allDay"
+    ],
+    "existingSchedule": {
+      "id": "mnet-calendar-6a8d665e0baf003252ac6225",
+      "title": "명지대학교 자연캠퍼스 축제",
+      "startAt": "2026-09-22T00:00:00+09:00",
+      "endAt": "2026-09-22T23:59:59+09:00",
+      "timezone": "Asia/Tokyo",
+      "type": "event",
+      "region": "KR",
+      "prefecture": null,
+      "venue": null,
+      "status": "completed",
+      "applicationStartAt": null,
+      "applicationEndAt": null,
+      "saleStartAt": null,
+      "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6a8d665e0baf003252ac6225",
+      "sourceId": "6a8d665e0baf003252ac6225",
+      "sourceIds": [
+        "6a8d665e0baf003252ac6225"
+      ],
+      "sourceName": "RESCENE Official / Mnet Plus",
+      "sourceLabel": "RESCENE公式スケジュール",
+      "sources": [
+        {
+          "label": "RESCENE公式スケジュール",
+          "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6a8d665e0baf003252ac6225",
+          "type": "official_calendar",
+          "verifiedAt": "2026-09-23"
+        }
+      ],
+      "verifiedAt": "2026-09-23",
+      "dedupeKeys": [
+        "source:mnet-calendar:6a8d665e0baf003252ac6225",
+        "event:명지대학교자연캠퍼스축제:2026-09-22"
+      ],
+      "originalTitle": "명지대학교 자연캠퍼스 축제",
+      "allDay": true,
+      "autoManaged": true,
+      "verificationStatus": "confirmed"
+    },
+    "proposedSchedule": {
+      "id": "mnet-calendar-6a8d665e0baf003252ac6225",
+      "title": "명지대학교 자연캠퍼스 축제",
+      "startAt": "2026-09-22T20:40:00+09:00",
+      "endAt": null,
+      "timezone": "Asia/Tokyo",
+      "type": "event",
+      "region": "KR",
+      "prefecture": null,
+      "venue": null,
+      "status": "completed",
+      "applicationStartAt": null,
+      "applicationEndAt": null,
+      "saleStartAt": null,
+      "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6a8d665e0baf003252ac6225",
+      "sourceId": "6a8d665e0baf003252ac6225",
+      "sourceIds": [
+        "6a8d665e0baf003252ac6225"
+      ],
+      "sourceName": "RESCENE Official / Mnet Plus",
+      "sourceLabel": "RESCENE公式スケジュール",
+      "sources": [
+        {
+          "label": "RESCENE公式スケジュール",
+          "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6a8d665e0baf003252ac6225",
+          "type": "official_calendar",
+          "verifiedAt": "2026-10-03"
+        }
+      ],
+      "verifiedAt": "2026-10-03",
+      "dedupeKeys": [
+        "source:mnet-calendar:6a8d665e0baf003252ac6225",
+        "event:명지대학교자연캠퍼스축제:2026-09-22"
+      ],
+      "originalTitle": "명지대학교 자연캠퍼스 축제",
+      "allDay": false,
+      "autoManaged": true,
+      "verificationStatus": "confirmed"
+    },
+    "dedupeKeys": [
+      "source:mnet-calendar:6a8d665e0baf003252ac6225",
+      "event:명지대학교자연캠퍼스축제:2026-09-22"
+    ],
+    "reason": "公式カレンダー上の日付・期間・終日区分が既存公開データから変わりました。公開データは自動変更せず、人間の確認が必要です。"
+  },
+  {
+    "id": "date-change-6a8d669d8e8ebf53edc6a541-2026-10-03",
+    "status": "candidate",
+    "candidateType": "date_change",
+    "title": "한경국립대학교 축제",
+    "eventDate": "2026-09-30",
+    "sourceId": "6a8d669d8e8ebf53edc6a541",
+    "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6a8d669d8e8ebf53edc6a541",
+    "sourceName": "RESCENE Official / Mnet Plus",
+    "sourceType": "official_calendar",
+    "discoveredAt": "2026-10-03",
+    "changedFields": [
+      "startAt",
+      "endAt",
+      "allDay"
+    ],
+    "existingSchedule": {
+      "id": "mnet-calendar-6a8d669d8e8ebf53edc6a541",
+      "title": "한경국립대학교 축제",
+      "startAt": "2026-09-30T00:00:00+09:00",
+      "endAt": "2026-09-30T23:59:59+09:00",
+      "timezone": "Asia/Tokyo",
+      "type": "event",
+      "region": "KR",
+      "prefecture": null,
+      "venue": null,
+      "status": "completed",
+      "applicationStartAt": null,
+      "applicationEndAt": null,
+      "saleStartAt": null,
+      "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6a8d669d8e8ebf53edc6a541",
+      "sourceId": "6a8d669d8e8ebf53edc6a541",
+      "sourceIds": [
+        "6a8d669d8e8ebf53edc6a541"
+      ],
+      "sourceName": "RESCENE Official / Mnet Plus",
+      "sourceLabel": "RESCENE公式スケジュール",
+      "sources": [
+        {
+          "label": "RESCENE公式スケジュール",
+          "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6a8d669d8e8ebf53edc6a541",
+          "type": "official_calendar",
+          "verifiedAt": "2026-10-01"
+        }
+      ],
+      "verifiedAt": "2026-10-01",
+      "dedupeKeys": [
+        "source:mnet-calendar:6a8d669d8e8ebf53edc6a541",
+        "event:한경국립대학교축제:2026-09-30"
+      ],
+      "originalTitle": "한경국립대학교 축제",
+      "allDay": true,
+      "autoManaged": true,
+      "verificationStatus": "confirmed"
+    },
+    "proposedSchedule": {
+      "id": "mnet-calendar-6a8d669d8e8ebf53edc6a541",
+      "title": "한경국립대학교 축제",
+      "startAt": "2026-09-30T20:00:00+09:00",
+      "endAt": null,
+      "timezone": "Asia/Tokyo",
+      "type": "event",
+      "region": "KR",
+      "prefecture": null,
+      "venue": null,
+      "status": "completed",
+      "applicationStartAt": null,
+      "applicationEndAt": null,
+      "saleStartAt": null,
+      "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6a8d669d8e8ebf53edc6a541",
+      "sourceId": "6a8d669d8e8ebf53edc6a541",
+      "sourceIds": [
+        "6a8d669d8e8ebf53edc6a541"
+      ],
+      "sourceName": "RESCENE Official / Mnet Plus",
+      "sourceLabel": "RESCENE公式スケジュール",
+      "sources": [
+        {
+          "label": "RESCENE公式スケジュール",
+          "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6a8d669d8e8ebf53edc6a541",
+          "type": "official_calendar",
+          "verifiedAt": "2026-10-03"
+        }
+      ],
+      "verifiedAt": "2026-10-03",
+      "dedupeKeys": [
+        "source:mnet-calendar:6a8d669d8e8ebf53edc6a541",
+        "event:한경국립대학교축제:2026-09-30"
+      ],
+      "originalTitle": "한경국립대학교 축제",
+      "allDay": false,
+      "autoManaged": true,
+      "verificationStatus": "confirmed"
+    },
+    "dedupeKeys": [
+      "source:mnet-calendar:6a8d669d8e8ebf53edc6a541",
+      "event:한경국립대학교축제:2026-09-30"
+    ],
+    "reason": "公式カレンダー上の日付・期間・終日区分が既存公開データから変わりました。公開データは自動変更せず、人間の確認が必要です。"
+  },
+  {
+    "id": "date-change-6a8d66ee5a5e16309c692ea8-2026-10-03",
+    "status": "candidate",
+    "candidateType": "date_change",
+    "title": "을지대학교 축제",
+    "eventDate": "2026-09-30",
+    "sourceId": "6a8d66ee5a5e16309c692ea8",
+    "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6a8d66ee5a5e16309c692ea8",
+    "sourceName": "RESCENE Official / Mnet Plus",
+    "sourceType": "official_calendar",
+    "discoveredAt": "2026-10-03",
+    "changedFields": [
+      "startAt",
+      "endAt",
+      "allDay"
+    ],
+    "existingSchedule": {
+      "id": "mnet-calendar-6a8d66ee5a5e16309c692ea8",
+      "title": "을지대학교 축제",
+      "startAt": "2026-09-30T00:00:00+09:00",
+      "endAt": "2026-09-30T23:59:59+09:00",
+      "timezone": "Asia/Tokyo",
+      "type": "event",
+      "region": "KR",
+      "prefecture": null,
+      "venue": null,
+      "status": "completed",
+      "applicationStartAt": null,
+      "applicationEndAt": null,
+      "saleStartAt": null,
+      "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6a8d66ee5a5e16309c692ea8",
+      "sourceId": "6a8d66ee5a5e16309c692ea8",
+      "sourceIds": [
+        "6a8d66ee5a5e16309c692ea8"
+      ],
+      "sourceName": "RESCENE Official / Mnet Plus",
+      "sourceLabel": "RESCENE公式スケジュール",
+      "sources": [
+        {
+          "label": "RESCENE公式スケジュール",
+          "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6a8d66ee5a5e16309c692ea8",
+          "type": "official_calendar",
+          "verifiedAt": "2026-10-01"
+        }
+      ],
+      "verifiedAt": "2026-10-01",
+      "dedupeKeys": [
+        "source:mnet-calendar:6a8d66ee5a5e16309c692ea8",
+        "event:을지대학교축제:2026-09-30"
+      ],
+      "originalTitle": "을지대학교 축제",
+      "allDay": true,
+      "autoManaged": true,
+      "verificationStatus": "confirmed"
+    },
+    "proposedSchedule": {
+      "id": "mnet-calendar-6a8d66ee5a5e16309c692ea8",
+      "title": "을지대학교 축제",
+      "startAt": "2026-09-30T22:30:00+09:00",
+      "endAt": null,
+      "timezone": "Asia/Tokyo",
+      "type": "event",
+      "region": "KR",
+      "prefecture": null,
+      "venue": null,
+      "status": "completed",
+      "applicationStartAt": null,
+      "applicationEndAt": null,
+      "saleStartAt": null,
+      "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6a8d66ee5a5e16309c692ea8",
+      "sourceId": "6a8d66ee5a5e16309c692ea8",
+      "sourceIds": [
+        "6a8d66ee5a5e16309c692ea8"
+      ],
+      "sourceName": "RESCENE Official / Mnet Plus",
+      "sourceLabel": "RESCENE公式スケジュール",
+      "sources": [
+        {
+          "label": "RESCENE公式スケジュール",
+          "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6a8d66ee5a5e16309c692ea8",
+          "type": "official_calendar",
+          "verifiedAt": "2026-10-03"
+        }
+      ],
+      "verifiedAt": "2026-10-03",
+      "dedupeKeys": [
+        "source:mnet-calendar:6a8d66ee5a5e16309c692ea8",
+        "event:을지대학교축제:2026-09-30"
+      ],
+      "originalTitle": "을지대학교 축제",
+      "allDay": false,
+      "autoManaged": true,
+      "verificationStatus": "confirmed"
+    },
+    "dedupeKeys": [
+      "source:mnet-calendar:6a8d66ee5a5e16309c692ea8",
+      "event:을지대학교축제:2026-09-30"
+    ],
+    "reason": "公式カレンダー上の日付・期間・終日区分が既存公開データから変わりました。公開データは自動変更せず、人間の確認が必要です。"
+  },
+  {
+    "id": "date-change-6a98f6bd4563ce4caf466390-2026-10-03",
+    "status": "candidate",
+    "candidateType": "date_change",
+    "title": "제72회 백제문화제",
+    "eventDate": "2026-10-03",
+    "sourceId": "6a98f6bd4563ce4caf466390",
+    "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6a98f6bd4563ce4caf466390",
+    "sourceName": "RESCENE Official / Mnet Plus",
+    "sourceType": "official_calendar",
+    "discoveredAt": "2026-10-03",
+    "changedFields": [
+      "title",
+      "startAt",
+      "endAt",
+      "dedupeKeys",
+      "originalTitle",
+      "allDay"
+    ],
+    "existingSchedule": {
+      "id": "mnet-calendar-6a98f6bd4563ce4caf466390",
+      "title": "공주 백제문화제",
+      "startAt": "2026-10-03T00:00:00+09:00",
+      "endAt": "2026-10-03T23:59:59+09:00",
+      "timezone": "Asia/Tokyo",
+      "type": "event",
+      "region": "KR",
+      "prefecture": null,
+      "venue": null,
+      "status": "scheduled",
+      "applicationStartAt": null,
+      "applicationEndAt": null,
+      "saleStartAt": null,
+      "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6a98f6bd4563ce4caf466390",
+      "sourceId": "6a98f6bd4563ce4caf466390",
+      "sourceIds": [
+        "6a98f6bd4563ce4caf466390"
+      ],
+      "sourceName": "RESCENE Official / Mnet Plus",
+      "sourceLabel": "RESCENE公式スケジュール",
+      "sources": [
+        {
+          "label": "RESCENE公式スケジュール",
+          "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6a98f6bd4563ce4caf466390",
+          "type": "official_calendar",
+          "verifiedAt": "2026-09-03"
+        }
+      ],
+      "verifiedAt": "2026-09-03",
+      "dedupeKeys": [
+        "source:mnet-calendar:6a98f6bd4563ce4caf466390",
+        "event:공주백제문화제:2026-10-03"
+      ],
+      "originalTitle": "공주 백제문화제",
+      "allDay": true,
+      "autoManaged": true,
+      "verificationStatus": "confirmed"
+    },
+    "proposedSchedule": {
+      "id": "mnet-calendar-6a98f6bd4563ce4caf466390",
+      "title": "제72회 백제문화제",
+      "startAt": "2026-10-03T20:30:00+09:00",
+      "endAt": null,
+      "timezone": "Asia/Tokyo",
+      "type": "event",
+      "region": "KR",
+      "prefecture": null,
+      "venue": null,
+      "status": "scheduled",
+      "applicationStartAt": null,
+      "applicationEndAt": null,
+      "saleStartAt": null,
+      "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6a98f6bd4563ce4caf466390",
+      "sourceId": "6a98f6bd4563ce4caf466390",
+      "sourceIds": [
+        "6a98f6bd4563ce4caf466390"
+      ],
+      "sourceName": "RESCENE Official / Mnet Plus",
+      "sourceLabel": "RESCENE公式スケジュール",
+      "sources": [
+        {
+          "label": "RESCENE公式スケジュール",
+          "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6a98f6bd4563ce4caf466390",
+          "type": "official_calendar",
+          "verifiedAt": "2026-10-03"
+        }
+      ],
+      "verifiedAt": "2026-10-03",
+      "dedupeKeys": [
+        "source:mnet-calendar:6a98f6bd4563ce4caf466390",
+        "event:제72회백제문화제:2026-10-03"
+      ],
+      "originalTitle": "제72회 백제문화제",
+      "allDay": false,
+      "autoManaged": true,
+      "verificationStatus": "confirmed"
+    },
+    "dedupeKeys": [
+      "source:mnet-calendar:6a98f6bd4563ce4caf466390",
+      "event:제72회백제문화제:2026-10-03"
+    ],
+    "reason": "公式カレンダー上の日付・期間・終日区分が既存公開データから変わりました。公開データは自動変更せず、人間の確認が必要です。"
+  },
+  {
+    "id": "date-change-6a8d885d8e8ebf53edc6a55d-2026-09-30",
+    "status": "candidate",
+    "candidateType": "date_change",
+    "title": "계명대학교 축제",
+    "eventDate": "2026-10-01",
+    "sourceId": "6a8d885d8e8ebf53edc6a55d",
+    "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6a8d885d8e8ebf53edc6a55d",
+    "sourceName": "RESCENE Official / Mnet Plus",
+    "sourceType": "official_calendar",
+    "discoveredAt": "2026-09-30",
+    "changedFields": [
+      "startAt",
+      "endAt",
+      "allDay"
+    ],
+    "existingSchedule": {
+      "id": "mnet-calendar-6a8d885d8e8ebf53edc6a55d",
+      "title": "계명대학교 축제",
+      "startAt": "2026-10-01T20:00:00+09:00",
+      "endAt": null,
+      "timezone": "Asia/Tokyo",
+      "type": "event",
+      "region": "KR",
+      "prefecture": null,
+      "venue": null,
+      "status": "scheduled",
+      "applicationStartAt": null,
+      "applicationEndAt": null,
+      "saleStartAt": null,
+      "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6a8d885d8e8ebf53edc6a55d",
+      "sourceId": "6a8d885d8e8ebf53edc6a55d",
+      "sourceIds": [
+        "6a8d885d8e8ebf53edc6a55d"
+      ],
+      "sourceName": "RESCENE Official / Mnet Plus",
+      "sourceLabel": "RESCENE公式スケジュール",
+      "sources": [
+        {
+          "label": "RESCENE公式スケジュール",
+          "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6a8d885d8e8ebf53edc6a55d",
+          "type": "official_calendar",
+          "verifiedAt": "2026-09-28"
+        }
+      ],
+      "verifiedAt": "2026-09-28",
+      "dedupeKeys": [
+        "source:mnet-calendar:6a8d885d8e8ebf53edc6a55d",
+        "event:계명대학교축제:2026-10-01"
+      ],
+      "originalTitle": "계명대학교 축제",
+      "allDay": false,
+      "autoManaged": true,
+      "verificationStatus": "confirmed"
+    },
+    "proposedSchedule": {
+      "id": "mnet-calendar-6a8d885d8e8ebf53edc6a55d",
+      "title": "계명대학교 축제",
+      "startAt": "2026-10-01T00:00:00+09:00",
+      "endAt": "2026-10-01T23:59:59+09:00",
+      "timezone": "Asia/Tokyo",
+      "type": "event",
+      "region": "KR",
+      "prefecture": null,
+      "venue": null,
+      "status": "scheduled",
+      "applicationStartAt": null,
+      "applicationEndAt": null,
+      "saleStartAt": null,
+      "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6a8d885d8e8ebf53edc6a55d",
+      "sourceId": "6a8d885d8e8ebf53edc6a55d",
+      "sourceIds": [
+        "6a8d885d8e8ebf53edc6a55d"
+      ],
+      "sourceName": "RESCENE Official / Mnet Plus",
+      "sourceLabel": "RESCENE公式スケジュール",
+      "sources": [
+        {
+          "label": "RESCENE公式スケジュール",
+          "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6a8d885d8e8ebf53edc6a55d",
+          "type": "official_calendar",
+          "verifiedAt": "2026-09-30"
+        }
+      ],
+      "verifiedAt": "2026-09-30",
+      "dedupeKeys": [
+        "source:mnet-calendar:6a8d885d8e8ebf53edc6a55d",
+        "event:계명대학교축제:2026-10-01"
+      ],
+      "originalTitle": "계명대학교 축제",
+      "allDay": true,
+      "autoManaged": true,
+      "verificationStatus": "confirmed"
+    },
+    "dedupeKeys": [
+      "source:mnet-calendar:6a8d885d8e8ebf53edc6a55d",
+      "event:계명대학교축제:2026-10-01"
+    ],
+    "reason": "公式カレンダー上の日付・期間・終日区分が既存公開データから変わりました。公開データは自動変更せず、人間の確認が必要です。"
+  },
+  {
+    "id": "date-change-6a8d889c8e8ebf53edc6a55f-2026-09-30",
+    "status": "candidate",
+    "candidateType": "date_change",
+    "title": "대구보건대학교 축제",
+    "eventDate": "2026-10-01",
+    "sourceId": "6a8d889c8e8ebf53edc6a55f",
+    "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6a8d889c8e8ebf53edc6a55f",
+    "sourceName": "RESCENE Official / Mnet Plus",
+    "sourceType": "official_calendar",
+    "discoveredAt": "2026-09-30",
+    "changedFields": [
+      "startAt",
+      "endAt",
+      "allDay"
+    ],
+    "existingSchedule": {
+      "id": "mnet-calendar-6a8d889c8e8ebf53edc6a55f",
+      "title": "대구보건대학교 축제",
+      "startAt": "2026-10-01T21:30:00+09:00",
+      "endAt": null,
+      "timezone": "Asia/Tokyo",
+      "type": "event",
+      "region": "KR",
+      "prefecture": null,
+      "venue": null,
+      "status": "scheduled",
+      "applicationStartAt": null,
+      "applicationEndAt": null,
+      "saleStartAt": null,
+      "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6a8d889c8e8ebf53edc6a55f",
+      "sourceId": "6a8d889c8e8ebf53edc6a55f",
+      "sourceIds": [
+        "6a8d889c8e8ebf53edc6a55f"
+      ],
+      "sourceName": "RESCENE Official / Mnet Plus",
+      "sourceLabel": "RESCENE公式スケジュール",
+      "sources": [
+        {
+          "label": "RESCENE公式スケジュール",
+          "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6a8d889c8e8ebf53edc6a55f",
+          "type": "official_calendar",
+          "verifiedAt": "2026-09-28"
+        }
+      ],
+      "verifiedAt": "2026-09-28",
+      "dedupeKeys": [
+        "source:mnet-calendar:6a8d889c8e8ebf53edc6a55f",
+        "event:대구보건대학교축제:2026-10-01"
+      ],
+      "originalTitle": "대구보건대학교 축제",
+      "allDay": false,
+      "autoManaged": true,
+      "verificationStatus": "confirmed"
+    },
+    "proposedSchedule": {
+      "id": "mnet-calendar-6a8d889c8e8ebf53edc6a55f",
+      "title": "대구보건대학교 축제",
+      "startAt": "2026-10-01T00:00:00+09:00",
+      "endAt": "2026-10-01T23:59:59+09:00",
+      "timezone": "Asia/Tokyo",
+      "type": "event",
+      "region": "KR",
+      "prefecture": null,
+      "venue": null,
+      "status": "scheduled",
+      "applicationStartAt": null,
+      "applicationEndAt": null,
+      "saleStartAt": null,
+      "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6a8d889c8e8ebf53edc6a55f",
+      "sourceId": "6a8d889c8e8ebf53edc6a55f",
+      "sourceIds": [
+        "6a8d889c8e8ebf53edc6a55f"
+      ],
+      "sourceName": "RESCENE Official / Mnet Plus",
+      "sourceLabel": "RESCENE公式スケジュール",
+      "sources": [
+        {
+          "label": "RESCENE公式スケジュール",
+          "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6a8d889c8e8ebf53edc6a55f",
+          "type": "official_calendar",
+          "verifiedAt": "2026-09-30"
+        }
+      ],
+      "verifiedAt": "2026-09-30",
+      "dedupeKeys": [
+        "source:mnet-calendar:6a8d889c8e8ebf53edc6a55f",
+        "event:대구보건대학교축제:2026-10-01"
+      ],
+      "originalTitle": "대구보건대학교 축제",
+      "allDay": true,
+      "autoManaged": true,
+      "verificationStatus": "confirmed"
+    },
+    "dedupeKeys": [
+      "source:mnet-calendar:6a8d889c8e8ebf53edc6a55f",
+      "event:대구보건대학교축제:2026-10-01"
+    ],
+    "reason": "公式カレンダー上の日付・期間・終日区分が既存公開データから変わりました。公開データは自動変更せず、人間の確認が必要です。"
+  },
+  {
+    "id": "date-change-6a69f17de7b4af7396d34657-2026-09-16",
+    "status": "candidate",
+    "candidateType": "date_change",
+    "title": "동국대학교 축제",
+    "eventDate": "2026-09-17",
+    "sourceId": "6a69f17de7b4af7396d34657",
+    "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6a69f17de7b4af7396d34657",
+    "sourceName": "RESCENE Official / Mnet Plus",
+    "sourceType": "official_calendar",
+    "discoveredAt": "2026-09-16",
+    "changedFields": [
+      "startAt",
+      "endAt",
+      "allDay"
+    ],
+    "existingSchedule": {
+      "id": "mnet-calendar-6a69f17de7b4af7396d34657",
+      "title": "동국대학교 축제",
+      "startAt": "2026-09-17T00:00:00+09:00",
+      "endAt": "2026-09-17T23:59:59+09:00",
+      "timezone": "Asia/Tokyo",
+      "type": "event",
+      "region": "KR",
+      "prefecture": null,
+      "venue": null,
+      "status": "scheduled",
+      "applicationStartAt": null,
+      "applicationEndAt": null,
+      "saleStartAt": null,
+      "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6a69f17de7b4af7396d34657",
+      "sourceId": "6a69f17de7b4af7396d34657",
+      "sourceIds": [
+        "6a69f17de7b4af7396d34657"
+      ],
+      "sourceName": "RESCENE Official / Mnet Plus",
+      "sourceLabel": "RESCENE公式スケジュール",
+      "sources": [
+        {
+          "label": "RESCENE公式スケジュール",
+          "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6a69f17de7b4af7396d34657",
+          "type": "official_calendar",
+          "verifiedAt": "2026-09-03"
+        }
+      ],
+      "verifiedAt": "2026-09-03",
+      "dedupeKeys": [
+        "source:mnet-calendar:6a69f17de7b4af7396d34657",
+        "event:동국대학교축제:2026-09-17"
+      ],
+      "originalTitle": "동국대학교 축제",
+      "allDay": true,
+      "autoManaged": true,
+      "verificationStatus": "confirmed"
+    },
+    "proposedSchedule": {
+      "id": "mnet-calendar-6a69f17de7b4af7396d34657",
+      "title": "동국대학교 축제",
+      "startAt": "2026-09-17T19:00:00+09:00",
+      "endAt": null,
+      "timezone": "Asia/Tokyo",
+      "type": "event",
+      "region": "KR",
+      "prefecture": null,
+      "venue": null,
+      "status": "scheduled",
+      "applicationStartAt": null,
+      "applicationEndAt": null,
+      "saleStartAt": null,
+      "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6a69f17de7b4af7396d34657",
+      "sourceId": "6a69f17de7b4af7396d34657",
+      "sourceIds": [
+        "6a69f17de7b4af7396d34657"
+      ],
+      "sourceName": "RESCENE Official / Mnet Plus",
+      "sourceLabel": "RESCENE公式スケジュール",
+      "sources": [
+        {
+          "label": "RESCENE公式スケジュール",
+          "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6a69f17de7b4af7396d34657",
+          "type": "official_calendar",
+          "verifiedAt": "2026-09-16"
+        }
+      ],
+      "verifiedAt": "2026-09-16",
+      "dedupeKeys": [
+        "source:mnet-calendar:6a69f17de7b4af7396d34657",
+        "event:동국대학교축제:2026-09-17"
+      ],
+      "originalTitle": "동국대학교 축제",
+      "allDay": false,
+      "autoManaged": true,
+      "verificationStatus": "confirmed"
+    },
+    "dedupeKeys": [
+      "source:mnet-calendar:6a69f17de7b4af7396d34657",
+      "event:동국대학교축제:2026-09-17"
+    ],
+    "reason": "公式カレンダー上の日付・期間・終日区分が既存公開データから変わりました。公開データは自動変更せず、人間の確認が必要です。"
+  },
+  {
+    "id": "date-change-6a8d652f0baf003252ac6223-2026-09-16",
+    "status": "candidate",
+    "candidateType": "date_change",
+    "title": "수원대학교 축제",
+    "eventDate": "2026-09-18",
+    "sourceId": "6a8d652f0baf003252ac6223",
+    "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6a8d652f0baf003252ac6223",
+    "sourceName": "RESCENE Official / Mnet Plus",
+    "sourceType": "official_calendar",
+    "discoveredAt": "2026-09-16",
+    "changedFields": [
+      "startAt",
+      "endAt",
+      "allDay"
+    ],
+    "existingSchedule": {
+      "id": "mnet-calendar-6a8d652f0baf003252ac6223",
+      "title": "수원대학교 축제",
+      "startAt": "2026-09-18T00:00:00+09:00",
+      "endAt": "2026-09-18T23:59:59+09:00",
+      "timezone": "Asia/Tokyo",
+      "type": "event",
+      "region": "KR",
+      "prefecture": null,
+      "venue": null,
+      "status": "scheduled",
+      "applicationStartAt": null,
+      "applicationEndAt": null,
+      "saleStartAt": null,
+      "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6a8d652f0baf003252ac6223",
+      "sourceId": "6a8d652f0baf003252ac6223",
+      "sourceIds": [
+        "6a8d652f0baf003252ac6223"
+      ],
+      "sourceName": "RESCENE Official / Mnet Plus",
+      "sourceLabel": "RESCENE公式スケジュール",
+      "sources": [
+        {
+          "label": "RESCENE公式スケジュール",
+          "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6a8d652f0baf003252ac6223",
+          "type": "official_calendar",
+          "verifiedAt": "2026-09-08"
+        }
+      ],
+      "verifiedAt": "2026-09-08",
+      "dedupeKeys": [
+        "source:mnet-calendar:6a8d652f0baf003252ac6223",
+        "event:수원대학교축제:2026-09-18"
+      ],
+      "originalTitle": "수원대학교 축제",
+      "allDay": true,
+      "autoManaged": true,
+      "verificationStatus": "confirmed"
+    },
+    "proposedSchedule": {
+      "id": "mnet-calendar-6a8d652f0baf003252ac6223",
+      "title": "수원대학교 축제",
+      "startAt": "2026-09-18T19:00:00+09:00",
+      "endAt": null,
+      "timezone": "Asia/Tokyo",
+      "type": "event",
+      "region": "KR",
+      "prefecture": null,
+      "venue": null,
+      "status": "scheduled",
+      "applicationStartAt": null,
+      "applicationEndAt": null,
+      "saleStartAt": null,
+      "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6a8d652f0baf003252ac6223",
+      "sourceId": "6a8d652f0baf003252ac6223",
+      "sourceIds": [
+        "6a8d652f0baf003252ac6223"
+      ],
+      "sourceName": "RESCENE Official / Mnet Plus",
+      "sourceLabel": "RESCENE公式スケジュール",
+      "sources": [
+        {
+          "label": "RESCENE公式スケジュール",
+          "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6a8d652f0baf003252ac6223",
+          "type": "official_calendar",
+          "verifiedAt": "2026-09-16"
+        }
+      ],
+      "verifiedAt": "2026-09-16",
+      "dedupeKeys": [
+        "source:mnet-calendar:6a8d652f0baf003252ac6223",
+        "event:수원대학교축제:2026-09-18"
+      ],
+      "originalTitle": "수원대학교 축제",
+      "allDay": false,
+      "autoManaged": true,
+      "verificationStatus": "confirmed"
+    },
+    "dedupeKeys": [
+      "source:mnet-calendar:6a8d652f0baf003252ac6223",
+      "event:수원대학교축제:2026-09-18"
+    ],
+    "reason": "公式カレンダー上の日付・期間・終日区分が既存公開データから変わりました。公開データは自動変更せず、人間の確認が必要です。"
+  },
+  {
+    "id": "date-change-6aa4f18695f4fe71ddd6c352-2026-09-14",
+    "status": "candidate",
+    "candidateType": "date_change",
+    "title": "MBC 라디오스타",
+    "eventDate": "2026-09-16",
+    "sourceId": "6aa4f18695f4fe71ddd6c352",
+    "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6aa4f18695f4fe71ddd6c352",
+    "sourceName": "RESCENE Official / Mnet Plus",
+    "sourceType": "official_calendar",
+    "discoveredAt": "2026-09-14",
+    "changedFields": [
+      "startAt",
+      "sourceUrl",
+      "sources",
+      "dedupeKeys"
+    ],
+    "existingSchedule": {
+      "id": "mnet-calendar-6aa4f18695f4fe71ddd6c352",
+      "title": "MBC 라디오스타",
+      "startAt": "2026-10-16T22:30:00+09:00",
+      "endAt": null,
+      "timezone": "Asia/Tokyo",
+      "type": "broadcast",
+      "region": "KR",
+      "prefecture": null,
+      "venue": null,
+      "status": "scheduled",
+      "applicationStartAt": null,
+      "applicationEndAt": null,
+      "saleStartAt": null,
+      "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6aa4f18695f4fe71ddd6c352",
+      "sourceId": "6aa4f18695f4fe71ddd6c352",
+      "sourceIds": [
+        "6aa4f18695f4fe71ddd6c352"
+      ],
+      "sourceName": "RESCENE Official / Mnet Plus",
+      "sourceLabel": "RESCENE公式スケジュール",
+      "sources": [
+        {
+          "label": "RESCENE公式スケジュール",
+          "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6aa4f18695f4fe71ddd6c352",
+          "type": "official_calendar",
+          "verifiedAt": "2026-09-12"
+        }
+      ],
+      "verifiedAt": "2026-09-12",
+      "dedupeKeys": [
+        "source:mnet-calendar:6aa4f18695f4fe71ddd6c352",
+        "event:mbc라디오스타:2026-10-16"
+      ],
+      "originalTitle": "MBC 라디오스타",
+      "allDay": false,
+      "autoManaged": true,
+      "verificationStatus": "confirmed"
+    },
+    "proposedSchedule": {
+      "id": "mnet-calendar-6aa4f18695f4fe71ddd6c352",
+      "title": "MBC 라디오스타",
+      "startAt": "2026-09-16T22:30:00+09:00",
+      "endAt": null,
+      "timezone": "Asia/Tokyo",
+      "type": "broadcast",
+      "region": "KR",
+      "prefecture": null,
+      "venue": null,
+      "status": "scheduled",
+      "applicationStartAt": null,
+      "applicationEndAt": null,
+      "saleStartAt": null,
+      "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6aa4f18695f4fe71ddd6c352",
+      "sourceId": "6aa4f18695f4fe71ddd6c352",
+      "sourceIds": [
+        "6aa4f18695f4fe71ddd6c352"
+      ],
+      "sourceName": "RESCENE Official / Mnet Plus",
+      "sourceLabel": "RESCENE公式スケジュール",
+      "sources": [
+        {
+          "label": "RESCENE公式スケジュール",
+          "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6aa4f18695f4fe71ddd6c352",
+          "type": "official_calendar",
+          "verifiedAt": "2026-09-14"
+        }
+      ],
+      "verifiedAt": "2026-09-14",
+      "dedupeKeys": [
+        "source:mnet-calendar:6aa4f18695f4fe71ddd6c352",
+        "event:mbc라디오스타:2026-09-16"
+      ],
+      "originalTitle": "MBC 라디오스타",
+      "allDay": false,
+      "autoManaged": true,
+      "verificationStatus": "confirmed"
+    },
+    "dedupeKeys": [
+      "source:mnet-calendar:6aa4f18695f4fe71ddd6c352",
+      "event:mbc라디오스타:2026-09-16"
+    ],
+    "reason": "公式カレンダー上の日付・期間・終日区分が既存公開データから変わりました。公開データは自動変更せず、人間の確認が必要です。"
+  },
+  {
+    "id": "uncertain-match-6aa4e500ec1d9356ed4c283c-2026-09-12",
+    "status": "candidate",
+    "candidateType": "uncertain_match",
+    "title": "서울대학교 축제",
+    "eventDate": "2026-09-17",
+    "sourceId": "6aa4e500ec1d9356ed4c283c",
+    "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6aa4e500ec1d9356ed4c283c",
+    "sourceName": "RESCENE Official / Mnet Plus",
+    "sourceType": "official_calendar",
+    "discoveredAt": "2026-09-12",
+    "existingSchedule": {
+      "id": "mnet-calendar-6a3e80341df3183e76dd7b30",
+      "title": "서울대학교 축제",
+      "startAt": "2026-09-17T21:00:00+09:00",
+      "endAt": null,
+      "timezone": "Asia/Tokyo",
+      "type": "event",
+      "region": "KR",
+      "prefecture": null,
+      "venue": null,
+      "status": "scheduled",
+      "applicationStartAt": null,
+      "applicationEndAt": null,
+      "saleStartAt": null,
+      "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6a3e80341df3183e76dd7b30",
+      "sourceId": "6a3e80341df3183e76dd7b30",
+      "sourceIds": [
+        "6a3e80341df3183e76dd7b30"
+      ],
+      "sourceName": "RESCENE Official / Mnet Plus",
+      "sourceLabel": "RESCENE公式スケジュール",
+      "sources": [
+        {
+          "label": "RESCENE公式スケジュール",
+          "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6a3e80341df3183e76dd7b30",
+          "type": "official_calendar",
+          "verifiedAt": "2026-09-11"
+        }
+      ],
+      "verifiedAt": "2026-09-11",
+      "dedupeKeys": [
+        "source:mnet-calendar:6a3e80341df3183e76dd7b30",
+        "event:서울대학교축제:2026-09-17"
+      ],
+      "originalTitle": "서울대학교 축제",
+      "allDay": false,
+      "autoManaged": true,
+      "verificationStatus": "confirmed"
+    },
+    "proposedSchedule": {
+      "id": "mnet-calendar-6aa4e500ec1d9356ed4c283c",
+      "title": "서울대학교 축제",
+      "startAt": "2026-09-17T00:00:00+09:00",
+      "endAt": "2026-09-17T23:59:59+09:00",
+      "timezone": "Asia/Tokyo",
+      "type": "event",
+      "region": "KR",
+      "prefecture": null,
+      "venue": null,
+      "status": "scheduled",
+      "applicationStartAt": null,
+      "applicationEndAt": null,
+      "saleStartAt": null,
+      "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6aa4e500ec1d9356ed4c283c",
+      "sourceId": "6aa4e500ec1d9356ed4c283c",
+      "sourceIds": [
+        "6aa4e500ec1d9356ed4c283c"
+      ],
+      "sourceName": "RESCENE Official / Mnet Plus",
+      "sourceLabel": "RESCENE公式スケジュール",
+      "sources": [
+        {
+          "label": "RESCENE公式スケジュール",
+          "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6aa4e500ec1d9356ed4c283c",
+          "type": "official_calendar",
+          "verifiedAt": "2026-09-12"
+        }
+      ],
+      "verifiedAt": "2026-09-12",
+      "dedupeKeys": [
+        "source:mnet-calendar:6aa4e500ec1d9356ed4c283c",
+        "event:서울대학교축제:2026-09-17"
+      ],
+      "originalTitle": "서울대학교 축제",
+      "allDay": true,
+      "autoManaged": true,
+      "verificationStatus": "confirmed"
+    },
+    "dedupeKeys": [
+      "source:mnet-calendar:6aa4e500ec1d9356ed4c283c",
+      "event:서울대학교축제:2026-09-17"
+    ],
+    "reason": "公式source IDは一致しませんが、既存予定とタイトル・日付または一部source IDが近いため、同一イベントか人間が確認します。"
+  },
+  {
+    "id": "missing-mnet-calendar-6a3e80341df3183e76dd7b30-2026-09-11",
+    "status": "candidate",
+    "candidateType": "source_disappearance",
+    "title": "서울대학교 축제",
+    "eventDate": "2026-09-17",
+    "sourceId": "6a3e80341df3183e76dd7b30",
+    "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6a3e80341df3183e76dd7b30",
+    "sourceName": "RESCENE Official / Mnet Plus",
+    "sourceType": "official_calendar",
+    "discoveredAt": "2026-09-11",
+    "dedupeKeys": [
+      "source:mnet-calendar:6a3e80341df3183e76dd7b30",
+      "event:서울대학교축제:2026-09-17"
+    ],
+    "reason": "公式カレンダーの収集範囲から消えました。中止・延期・削除の判断は人間が公式発表を確認します。公開データは自動削除していません。"
+  },
+  {
+    "id": "missing-mnet-calendar-6a461fc2c567527e9bbbe91a-2026-09-11",
+    "status": "candidate",
+    "candidateType": "source_disappearance",
+    "title": "OBJET K-POP FESTA 2026（仁川）",
+    "eventDate": "2026-09-27",
+    "sourceId": "6a461fc2c567527e9bbbe91a",
+    "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6a461fc2c567527e9bbbe91a",
+    "sourceName": "RESCENE Official / Mnet Plus",
+    "sourceType": "official_calendar",
+    "discoveredAt": "2026-09-11",
+    "dedupeKeys": [
+      "source:mnet-calendar:6a461fc2c567527e9bbbe91a",
+      "event:objetkpopfesta2026okf2026인천:2026-09-27"
+    ],
+    "reason": "公式カレンダーの収集範囲から消えました。中止・延期・削除の判断は人間が公式発表を確認します。公開データは自動削除していません。"
+  }
+]
