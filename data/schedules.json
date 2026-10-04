@@ -79,7 +79,7 @@
   },
   {
     "id": "mnet-calendar-6a3e80b31df3183e76dd7b31",
-    "title": "APEC 정상회의장 기념관 개관식",
+    "title": "경주 APEC 정상회의장 기념관 개관식",
     "startAt": "2026-10-31T00:00:00+09:00",
     "endAt": "2026-10-31T23:59:59+09:00",
     "timezone": "Asia/Tokyo",
@@ -103,15 +103,15 @@
         "label": "RESCENE公式スケジュール",
         "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6a3e80b31df3183e76dd7b31",
         "type": "official_calendar",
-        "verifiedAt": "2026-10-02"
+        "verifiedAt": "2026-10-04"
       }
     ],
-    "verifiedAt": "2026-10-02",
+    "verifiedAt": "2026-10-04",
     "dedupeKeys": [
       "source:mnet-calendar:6a3e80b31df3183e76dd7b31",
-      "event:apec정상회의장기념관개관식:2026-10-31"
+      "event:경주apec정상회의장기념관개관식:2026-10-31"
     ],
-    "originalTitle": "APEC 정상회의장 기념관 개관식",
+    "originalTitle": "경주 APEC 정상회의장 기념관 개관식",
     "allDay": true,
     "autoManaged": true,
     "verificationStatus": "confirmed"

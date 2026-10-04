@@ -1,5 +1,205 @@
 [
   {
+    "id": "date-change-6a48ce2d2abffc033aa33c91-2026-10-04",
+    "status": "candidate",
+    "candidateType": "date_change",
+    "title": "2026 GHOST（京畿韓流OST音楽フェスティバル）",
+    "eventDate": "2026-10-11",
+    "sourceId": "6a48ce2d2abffc033aa33c91",
+    "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6a48ce2d2abffc033aa33c91",
+    "sourceName": "RESCENE Official / Mnet Plus",
+    "sourceType": "official_calendar",
+    "discoveredAt": "2026-10-04",
+    "changedFields": [
+      "startAt",
+      "endAt",
+      "allDay"
+    ],
+    "existingSchedule": {
+      "id": "mnet-calendar-6a48ce2d2abffc033aa33c91",
+      "title": "2026 GHOST（京畿韓流OST音楽フェスティバル）",
+      "startAt": "2026-10-11T00:00:00+09:00",
+      "endAt": "2026-10-11T23:59:59+09:00",
+      "timezone": "Asia/Tokyo",
+      "type": "event",
+      "region": "KR",
+      "prefecture": null,
+      "venue": null,
+      "status": "scheduled",
+      "applicationStartAt": null,
+      "applicationEndAt": null,
+      "saleStartAt": null,
+      "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6a48ce2d2abffc033aa33c91",
+      "sourceId": "6a48ce2d2abffc033aa33c91",
+      "sourceIds": [
+        "6a48ce2d2abffc033aa33c91"
+      ],
+      "sourceName": "RESCENE Official / Mnet Plus",
+      "sourceLabel": "RESCENE公式スケジュール",
+      "sources": [
+        {
+          "label": "RESCENE公式スケジュール",
+          "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6a48ce2d2abffc033aa33c91",
+          "type": "official_calendar",
+          "verifiedAt": "2026-10-03"
+        }
+      ],
+      "verifiedAt": "2026-10-03",
+      "dedupeKeys": [
+        "source:mnet-calendar:6a48ce2d2abffc033aa33c91",
+        "event:2026ghost경기한류ost뮤직페스티벌:2026-10-11"
+      ],
+      "originalTitle": "2026 GHOST (경기 한류 OST 뮤직페스티벌)",
+      "allDay": true,
+      "autoManaged": true,
+      "verificationStatus": "confirmed"
+    },
+    "proposedSchedule": {
+      "id": "mnet-calendar-6a48ce2d2abffc033aa33c91",
+      "title": "2026 GHOST（京畿韓流OST音楽フェスティバル）",
+      "startAt": "2026-10-11T16:10:00+09:00",
+      "endAt": null,
+      "timezone": "Asia/Tokyo",
+      "type": "event",
+      "region": "KR",
+      "prefecture": null,
+      "venue": null,
+      "status": "scheduled",
+      "applicationStartAt": null,
+      "applicationEndAt": null,
+      "saleStartAt": null,
+      "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6a48ce2d2abffc033aa33c91",
+      "sourceId": "6a48ce2d2abffc033aa33c91",
+      "sourceIds": [
+        "6a48ce2d2abffc033aa33c91"
+      ],
+      "sourceName": "RESCENE Official / Mnet Plus",
+      "sourceLabel": "RESCENE公式スケジュール",
+      "sources": [
+        {
+          "label": "RESCENE公式スケジュール",
+          "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6a48ce2d2abffc033aa33c91",
+          "type": "official_calendar",
+          "verifiedAt": "2026-10-04"
+        }
+      ],
+      "verifiedAt": "2026-10-04",
+      "dedupeKeys": [
+        "source:mnet-calendar:6a48ce2d2abffc033aa33c91",
+        "event:2026ghost경기한류ost뮤직페스티벌:2026-10-11"
+      ],
+      "originalTitle": "2026 GHOST (경기 한류 OST 뮤직페스티벌)",
+      "allDay": false,
+      "autoManaged": true,
+      "verificationStatus": "confirmed"
+    },
+    "dedupeKeys": [
+      "source:mnet-calendar:6a48ce2d2abffc033aa33c91",
+      "event:2026ghost경기한류ost뮤직페스티벌:2026-10-11"
+    ],
+    "reason": "公式カレンダー上の日付・期間・終日区分が既存公開データから変わりました。公開データは自動変更せず、人間の確認が必要です。"
+  },
+  {
+    "id": "date-change-6a98f7a94563ce4caf466391-2026-10-04",
+    "status": "candidate",
+    "candidateType": "date_change",
+    "title": "2026 대전 동구동락 축제",
+    "eventDate": "2026-10-10",
+    "sourceId": "6a98f7a94563ce4caf466391",
+    "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6a98f7a94563ce4caf466391",
+    "sourceName": "RESCENE Official / Mnet Plus",
+    "sourceType": "official_calendar",
+    "discoveredAt": "2026-10-04",
+    "changedFields": [
+      "startAt",
+      "endAt",
+      "allDay"
+    ],
+    "existingSchedule": {
+      "id": "mnet-calendar-6a98f7a94563ce4caf466391",
+      "title": "2026 대전 동구동락 축제",
+      "startAt": "2026-10-10T00:00:00+09:00",
+      "endAt": "2026-10-10T23:59:59+09:00",
+      "timezone": "Asia/Tokyo",
+      "type": "event",
+      "region": "KR",
+      "prefecture": null,
+      "venue": null,
+      "status": "scheduled",
+      "applicationStartAt": null,
+      "applicationEndAt": null,
+      "saleStartAt": null,
+      "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6a98f7a94563ce4caf466391",
+      "sourceId": "6a98f7a94563ce4caf466391",
+      "sourceIds": [
+        "6a98f7a94563ce4caf466391"
+      ],
+      "sourceName": "RESCENE Official / Mnet Plus",
+      "sourceLabel": "RESCENE公式スケジュール",
+      "sources": [
+        {
+          "label": "RESCENE公式スケジュール",
+          "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6a98f7a94563ce4caf466391",
+          "type": "official_calendar",
+          "verifiedAt": "2026-09-03"
+        }
+      ],
+      "verifiedAt": "2026-09-03",
+      "dedupeKeys": [
+        "source:mnet-calendar:6a98f7a94563ce4caf466391",
+        "event:2026대전동구동락축제:2026-10-10"
+      ],
+      "originalTitle": "2026 대전 동구동락 축제",
+      "allDay": true,
+      "autoManaged": true,
+      "verificationStatus": "confirmed"
+    },
+    "proposedSchedule": {
+      "id": "mnet-calendar-6a98f7a94563ce4caf466391",
+      "title": "2026 대전 동구동락 축제",
+      "startAt": "2026-10-10T20:00:00+09:00",
+      "endAt": null,
+      "timezone": "Asia/Tokyo",
+      "type": "event",
+      "region": "KR",
+      "prefecture": null,
+      "venue": null,
+      "status": "scheduled",
+      "applicationStartAt": null,
+      "applicationEndAt": null,
+      "saleStartAt": null,
+      "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6a98f7a94563ce4caf466391",
+      "sourceId": "6a98f7a94563ce4caf466391",
+      "sourceIds": [
+        "6a98f7a94563ce4caf466391"
+      ],
+      "sourceName": "RESCENE Official / Mnet Plus",
+      "sourceLabel": "RESCENE公式スケジュール",
+      "sources": [
+        {
+          "label": "RESCENE公式スケジュール",
+          "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6a98f7a94563ce4caf466391",
+          "type": "official_calendar",
+          "verifiedAt": "2026-10-04"
+        }
+      ],
+      "verifiedAt": "2026-10-04",
+      "dedupeKeys": [
+        "source:mnet-calendar:6a98f7a94563ce4caf466391",
+        "event:2026대전동구동락축제:2026-10-10"
+      ],
+      "originalTitle": "2026 대전 동구동락 축제",
+      "allDay": false,
+      "autoManaged": true,
+      "verificationStatus": "confirmed"
+    },
+    "dedupeKeys": [
+      "source:mnet-calendar:6a98f7a94563ce4caf466391",
+      "event:2026대전동구동락축제:2026-10-10"
+    ],
+    "reason": "公式カレンダー上の日付・期間・終日区分が既存公開データから変わりました。公開データは自動変更せず、人間の確認が必要です。"
+  },
+  {
     "id": "date-change-6aa966b78bbf3631c83b8e7f-2026-10-04",
     "status": "candidate",
     "candidateType": "date_change",
