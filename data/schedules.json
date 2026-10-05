@@ -399,7 +399,7 @@
     "region": "KR",
     "prefecture": null,
     "venue": null,
-    "status": "scheduled",
+    "status": "completed",
     "applicationStartAt": null,
     "applicationEndAt": null,
     "saleStartAt": null,
@@ -415,10 +415,10 @@
         "label": "RESCENE公式スケジュール",
         "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6abeae327cda1f77dc44908f",
         "type": "official_calendar",
-        "verifiedAt": "2026-10-04"
+        "verifiedAt": "2026-10-05"
       }
     ],
-    "verifiedAt": "2026-10-04",
+    "verifiedAt": "2026-10-05",
     "dedupeKeys": [
       "source:mnet-calendar:6abeae327cda1f77dc44908f",
       "event:2026의령리치리치페스티벌:2026-10-04"
