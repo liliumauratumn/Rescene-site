@@ -351,6 +351,45 @@
     "verificationStatus": "confirmed"
   },
   {
+    "id": "mnet-calendar-6ac7a5627a5b7f332bf392dc",
+    "title": "KBS 2TV <해피투게더 - 혼자가 아니어서 좋아>",
+    "startAt": "2026-10-09T20:30:00+09:00",
+    "endAt": null,
+    "timezone": "Asia/Tokyo",
+    "type": "broadcast",
+    "region": "KR",
+    "prefecture": null,
+    "venue": null,
+    "status": "scheduled",
+    "applicationStartAt": null,
+    "applicationEndAt": null,
+    "saleStartAt": null,
+    "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6ac7a5627a5b7f332bf392dc",
+    "sourceId": "6ac7a5627a5b7f332bf392dc",
+    "sourceIds": [
+      "6ac7a5627a5b7f332bf392dc"
+    ],
+    "sourceName": "RESCENE Official / Mnet Plus",
+    "sourceLabel": "RESCENE公式スケジュール",
+    "sources": [
+      {
+        "label": "RESCENE公式スケジュール",
+        "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6ac7a5627a5b7f332bf392dc",
+        "type": "official_calendar",
+        "verifiedAt": "2026-10-09"
+      }
+    ],
+    "verifiedAt": "2026-10-09",
+    "dedupeKeys": [
+      "source:mnet-calendar:6ac7a5627a5b7f332bf392dc",
+      "event:kbs2tv해피투게더혼자가아니어서좋아:2026-10-09"
+    ],
+    "originalTitle": "KBS 2TV <해피투게더 - 혼자가 아니어서 좋아>",
+    "allDay": false,
+    "autoManaged": true,
+    "verificationStatus": "confirmed"
+  },
+  {
     "id": "mnet-calendar-6aa966b78bbf3631c83b8e7f",
     "title": "연수 능허대 문화 축제",
     "startAt": "2026-10-09T00:00:00+09:00",
