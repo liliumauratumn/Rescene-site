@@ -360,7 +360,7 @@
     "region": "KR",
     "prefecture": null,
     "venue": null,
-    "status": "scheduled",
+    "status": "completed",
     "applicationStartAt": null,
     "applicationEndAt": null,
     "saleStartAt": null,
@@ -376,10 +376,10 @@
         "label": "RESCENE公式スケジュール",
         "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6ac7a5627a5b7f332bf392dc",
         "type": "official_calendar",
-        "verifiedAt": "2026-10-09"
+        "verifiedAt": "2026-10-10"
       }
     ],
-    "verifiedAt": "2026-10-09",
+    "verifiedAt": "2026-10-10",
     "dedupeKeys": [
       "source:mnet-calendar:6ac7a5627a5b7f332bf392dc",
       "event:kbs2tv해피투게더혼자가아니어서좋아:2026-10-09"
