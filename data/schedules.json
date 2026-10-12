@@ -273,6 +273,45 @@
     "verificationStatus": "confirmed"
   },
   {
+    "id": "mnet-calendar-6acb95e6447ee70d40cd0eaa",
+    "title": "SBS 8 뉴스",
+    "startAt": "2026-10-11T20:00:00+09:00",
+    "endAt": null,
+    "timezone": "Asia/Tokyo",
+    "type": "broadcast",
+    "region": "KR",
+    "prefecture": null,
+    "venue": null,
+    "status": "completed",
+    "applicationStartAt": null,
+    "applicationEndAt": null,
+    "saleStartAt": null,
+    "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6acb95e6447ee70d40cd0eaa",
+    "sourceId": "6acb95e6447ee70d40cd0eaa",
+    "sourceIds": [
+      "6acb95e6447ee70d40cd0eaa"
+    ],
+    "sourceName": "RESCENE Official / Mnet Plus",
+    "sourceLabel": "RESCENE公式スケジュール",
+    "sources": [
+      {
+        "label": "RESCENE公式スケジュール",
+        "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6acb95e6447ee70d40cd0eaa",
+        "type": "official_calendar",
+        "verifiedAt": "2026-10-12"
+      }
+    ],
+    "verifiedAt": "2026-10-12",
+    "dedupeKeys": [
+      "source:mnet-calendar:6acb95e6447ee70d40cd0eaa",
+      "event:sbs8뉴스:2026-10-11"
+    ],
+    "originalTitle": "SBS 8 뉴스",
+    "allDay": false,
+    "autoManaged": true,
+    "verificationStatus": "confirmed"
+  },
+  {
     "id": "mnet-calendar-6a48ce2d2abffc033aa33c91",
     "title": "2026 GHOST（京畿韓流OST音楽フェスティバル）",
     "startAt": "2026-10-11T00:00:00+09:00",
