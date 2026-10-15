@@ -1,5 +1,22 @@
 [
   {
+    "id": "mnet-notice-6ad098be81b129370e830c7b",
+    "status": "candidate",
+    "candidateType": "official_notice",
+    "title": "로꼬 - 타타 (Feat. 미나미 of RESCENE) OUT NOW",
+    "publishedAt": "2026-10-15",
+    "eventDate": null,
+    "sourceId": "6ad098be81b129370e830c7b",
+    "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/community/board/67a5c573036dc37e1e6d248c/post/6ad098be81b129370e830c7b",
+    "sourceName": "RESCENE Official / Mnet Plus",
+    "sourceType": "official_notice",
+    "discoveredAt": "2026-10-15",
+    "dedupeKeys": [
+      "source:mnet-notice:6ad098be81b129370e830c7b"
+    ],
+    "reason": "公式Noticeで検出。日本語本文、日付、関連作品を人間が確認してからapprovedに変更します。"
+  },
+  {
     "id": "youtube-Kq3_URiv0gs",
     "status": "candidate",
     "candidateType": "official_video",
