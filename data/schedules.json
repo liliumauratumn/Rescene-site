@@ -204,7 +204,7 @@
     "region": "KR",
     "prefecture": null,
     "venue": null,
-    "status": "scheduled",
+    "status": "completed",
     "applicationStartAt": null,
     "applicationEndAt": null,
     "saleStartAt": null,
@@ -220,10 +220,10 @@
         "label": "RESCENE公式スケジュール",
         "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6a4612a67dd960680ac6f9b8",
         "type": "official_calendar",
-        "verifiedAt": "2026-08-26"
+        "verifiedAt": "2026-10-18"
       }
     ],
-    "verifiedAt": "2026-08-26",
+    "verifiedAt": "2026-10-18",
     "dedupeKeys": [
       "source:mnet-calendar:6a4612a67dd960680ac6f9b8",
       "event:nolfestival고양:2026-10-17"
