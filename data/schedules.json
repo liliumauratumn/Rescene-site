@@ -204,7 +204,7 @@
     "region": "KR",
     "prefecture": null,
     "venue": null,
-    "status": "scheduled",
+    "status": "completed",
     "applicationStartAt": null,
     "applicationEndAt": null,
     "saleStartAt": null,
@@ -220,10 +220,10 @@
         "label": "RESCENE公式スケジュール",
         "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6a8d89530baf003252ac6227",
         "type": "official_calendar",
-        "verifiedAt": "2026-10-02"
+        "verifiedAt": "2026-10-24"
       }
     ],
-    "verifiedAt": "2026-10-02",
+    "verifiedAt": "2026-10-24",
     "dedupeKeys": [
       "source:mnet-calendar:6a8d89530baf003252ac6227",
       "event:마산대학교축제:2026-10-23"
@@ -243,7 +243,7 @@
     "region": "KR",
     "prefecture": null,
     "venue": null,
-    "status": "scheduled",
+    "status": "completed",
     "applicationStartAt": null,
     "applicationEndAt": null,
     "saleStartAt": null,
@@ -259,10 +259,10 @@
         "label": "RESCENE公式スケジュール",
         "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6adb1f0443ea3171535c8d2a",
         "type": "official_calendar",
-        "verifiedAt": "2026-10-23"
+        "verifiedAt": "2026-10-24"
       }
     ],
-    "verifiedAt": "2026-10-23",
+    "verifiedAt": "2026-10-24",
     "dedupeKeys": [
       "source:mnet-calendar:6adb1f0443ea3171535c8d2a",
       "event:동아대학교축제승학캠:2026-10-23"
