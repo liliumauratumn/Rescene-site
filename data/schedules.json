@@ -156,6 +156,45 @@
     "verificationStatus": "confirmed"
   },
   {
+    "id": "mnet-calendar-6adb1fc313e68b02d4a6b12a",
+    "title": "한화오션 오션하모니",
+    "startAt": "2026-10-24T00:00:00+09:00",
+    "endAt": "2026-10-24T23:59:59+09:00",
+    "timezone": "Asia/Tokyo",
+    "type": "event",
+    "region": "KR",
+    "prefecture": null,
+    "venue": null,
+    "status": "scheduled",
+    "applicationStartAt": null,
+    "applicationEndAt": null,
+    "saleStartAt": null,
+    "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6adb1fc313e68b02d4a6b12a",
+    "sourceId": "6adb1fc313e68b02d4a6b12a",
+    "sourceIds": [
+      "6adb1fc313e68b02d4a6b12a"
+    ],
+    "sourceName": "RESCENE Official / Mnet Plus",
+    "sourceLabel": "RESCENE公式スケジュール",
+    "sources": [
+      {
+        "label": "RESCENE公式スケジュール",
+        "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6adb1fc313e68b02d4a6b12a",
+        "type": "official_calendar",
+        "verifiedAt": "2026-10-23"
+      }
+    ],
+    "verifiedAt": "2026-10-23",
+    "dedupeKeys": [
+      "source:mnet-calendar:6adb1fc313e68b02d4a6b12a",
+      "event:한화오션오션하모니:2026-10-24"
+    ],
+    "originalTitle": "한화오션 오션하모니",
+    "allDay": true,
+    "autoManaged": true,
+    "verificationStatus": "confirmed"
+  },
+  {
     "id": "mnet-calendar-6a8d89530baf003252ac6227",
     "title": "마산대학교 축제",
     "startAt": "2026-10-23T00:00:00+09:00",
@@ -190,6 +229,45 @@
       "event:마산대학교축제:2026-10-23"
     ],
     "originalTitle": "마산대학교 축제",
+    "allDay": true,
+    "autoManaged": true,
+    "verificationStatus": "confirmed"
+  },
+  {
+    "id": "mnet-calendar-6adb1f0443ea3171535c8d2a",
+    "title": "동아대학교 축제 (승학캠)",
+    "startAt": "2026-10-23T00:00:00+09:00",
+    "endAt": "2026-10-23T23:59:59+09:00",
+    "timezone": "Asia/Tokyo",
+    "type": "event",
+    "region": "KR",
+    "prefecture": null,
+    "venue": null,
+    "status": "scheduled",
+    "applicationStartAt": null,
+    "applicationEndAt": null,
+    "saleStartAt": null,
+    "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6adb1f0443ea3171535c8d2a",
+    "sourceId": "6adb1f0443ea3171535c8d2a",
+    "sourceIds": [
+      "6adb1f0443ea3171535c8d2a"
+    ],
+    "sourceName": "RESCENE Official / Mnet Plus",
+    "sourceLabel": "RESCENE公式スケジュール",
+    "sources": [
+      {
+        "label": "RESCENE公式スケジュール",
+        "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6adb1f0443ea3171535c8d2a",
+        "type": "official_calendar",
+        "verifiedAt": "2026-10-23"
+      }
+    ],
+    "verifiedAt": "2026-10-23",
+    "dedupeKeys": [
+      "source:mnet-calendar:6adb1f0443ea3171535c8d2a",
+      "event:동아대학교축제승학캠:2026-10-23"
+    ],
+    "originalTitle": "동아대학교 축제 (승학캠)",
     "allDay": true,
     "autoManaged": true,
     "verificationStatus": "confirmed"
