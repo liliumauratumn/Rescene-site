@@ -1,5 +1,44 @@
 [
   {
+    "id": "mnet-calendar-6adc139b5aa3932ecf5898af",
+    "title": "2026 MUSIC BANK GLOBAL FESTIVAL IN JAPAN",
+    "startAt": "2026-12-13T00:00:00+09:00",
+    "endAt": "2026-12-13T23:59:59+09:00",
+    "timezone": "Asia/Tokyo",
+    "type": "broadcast",
+    "region": "KR",
+    "prefecture": null,
+    "venue": null,
+    "status": "scheduled",
+    "applicationStartAt": null,
+    "applicationEndAt": null,
+    "saleStartAt": null,
+    "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/12?eventId=6adc139b5aa3932ecf5898af",
+    "sourceId": "6adc139b5aa3932ecf5898af",
+    "sourceIds": [
+      "6adc139b5aa3932ecf5898af"
+    ],
+    "sourceName": "RESCENE Official / Mnet Plus",
+    "sourceLabel": "RESCENE公式スケジュール",
+    "sources": [
+      {
+        "label": "RESCENE公式スケジュール",
+        "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/12?eventId=6adc139b5aa3932ecf5898af",
+        "type": "official_calendar",
+        "verifiedAt": "2026-10-24"
+      }
+    ],
+    "verifiedAt": "2026-10-24",
+    "dedupeKeys": [
+      "source:mnet-calendar:6adc139b5aa3932ecf5898af",
+      "event:2026musicbankglobalfestivalinjapan:2026-12-13"
+    ],
+    "originalTitle": "2026 MUSIC BANK GLOBAL FESTIVAL IN JAPAN",
+    "allDay": true,
+    "autoManaged": true,
+    "verificationStatus": "confirmed"
+  },
+  {
     "id": "mnet-calendar-6a98f652301866263741bcec",
     "title": "AAA 2026 in Kaohsiung",
     "startAt": "2026-12-05T00:00:00+09:00",
@@ -34,6 +73,45 @@
       "event:aaa2026inkaohsiung:2026-12-05"
     ],
     "originalTitle": "AAA 2026 in Kaohsiung",
+    "allDay": true,
+    "autoManaged": true,
+    "verificationStatus": "confirmed"
+  },
+  {
+    "id": "mnet-calendar-6adc11ce13e68b02d4a6b14a",
+    "title": "2026 멜론 뮤직 어워드 (MMA)",
+    "startAt": "2026-11-14T00:00:00+09:00",
+    "endAt": "2026-11-14T23:59:59+09:00",
+    "timezone": "Asia/Tokyo",
+    "type": "performance",
+    "region": "KR",
+    "prefecture": null,
+    "venue": null,
+    "status": "scheduled",
+    "applicationStartAt": null,
+    "applicationEndAt": null,
+    "saleStartAt": null,
+    "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/11?eventId=6adc11ce13e68b02d4a6b14a",
+    "sourceId": "6adc11ce13e68b02d4a6b14a",
+    "sourceIds": [
+      "6adc11ce13e68b02d4a6b14a"
+    ],
+    "sourceName": "RESCENE Official / Mnet Plus",
+    "sourceLabel": "RESCENE公式スケジュール",
+    "sources": [
+      {
+        "label": "RESCENE公式スケジュール",
+        "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/11?eventId=6adc11ce13e68b02d4a6b14a",
+        "type": "official_calendar",
+        "verifiedAt": "2026-10-24"
+      }
+    ],
+    "verifiedAt": "2026-10-24",
+    "dedupeKeys": [
+      "source:mnet-calendar:6adc11ce13e68b02d4a6b14a",
+      "event:2026멜론뮤직어워드mma:2026-11-14"
+    ],
+    "originalTitle": "2026 멜론 뮤직 어워드 (MMA)",
     "allDay": true,
     "autoManaged": true,
     "verificationStatus": "confirmed"

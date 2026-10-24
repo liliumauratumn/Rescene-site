@@ -1,5 +1,708 @@
 [
   {
+    "id": "date-change-6a3e80b31df3183e76dd7b31-2026-10-24",
+    "status": "candidate",
+    "candidateType": "date_change",
+    "title": "경주 APEC 정상회의장 기념관 개관식",
+    "eventDate": "2026-10-31",
+    "sourceId": "6a3e80b31df3183e76dd7b31",
+    "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6a3e80b31df3183e76dd7b31",
+    "sourceName": "RESCENE Official / Mnet Plus",
+    "sourceType": "official_calendar",
+    "discoveredAt": "2026-10-24",
+    "changedFields": [
+      "startAt",
+      "endAt",
+      "allDay"
+    ],
+    "existingSchedule": {
+      "id": "mnet-calendar-6a3e80b31df3183e76dd7b31",
+      "title": "경주 APEC 정상회의장 기념관 개관식",
+      "startAt": "2026-10-31T00:00:00+09:00",
+      "endAt": "2026-10-31T23:59:59+09:00",
+      "timezone": "Asia/Tokyo",
+      "type": "event",
+      "region": "KR",
+      "prefecture": null,
+      "venue": null,
+      "status": "scheduled",
+      "applicationStartAt": null,
+      "applicationEndAt": null,
+      "saleStartAt": null,
+      "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6a3e80b31df3183e76dd7b31",
+      "sourceId": "6a3e80b31df3183e76dd7b31",
+      "sourceIds": [
+        "6a3e80b31df3183e76dd7b31"
+      ],
+      "sourceName": "RESCENE Official / Mnet Plus",
+      "sourceLabel": "RESCENE公式スケジュール",
+      "sources": [
+        {
+          "label": "RESCENE公式スケジュール",
+          "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6a3e80b31df3183e76dd7b31",
+          "type": "official_calendar",
+          "verifiedAt": "2026-10-04"
+        }
+      ],
+      "verifiedAt": "2026-10-04",
+      "dedupeKeys": [
+        "source:mnet-calendar:6a3e80b31df3183e76dd7b31",
+        "event:경주apec정상회의장기념관개관식:2026-10-31"
+      ],
+      "originalTitle": "경주 APEC 정상회의장 기념관 개관식",
+      "allDay": true,
+      "autoManaged": true,
+      "verificationStatus": "confirmed"
+    },
+    "proposedSchedule": {
+      "id": "mnet-calendar-6a3e80b31df3183e76dd7b31",
+      "title": "경주 APEC 정상회의장 기념관 개관식",
+      "startAt": "2026-10-31T16:00:00+09:00",
+      "endAt": null,
+      "timezone": "Asia/Tokyo",
+      "type": "event",
+      "region": "KR",
+      "prefecture": null,
+      "venue": null,
+      "status": "scheduled",
+      "applicationStartAt": null,
+      "applicationEndAt": null,
+      "saleStartAt": null,
+      "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6a3e80b31df3183e76dd7b31",
+      "sourceId": "6a3e80b31df3183e76dd7b31",
+      "sourceIds": [
+        "6a3e80b31df3183e76dd7b31"
+      ],
+      "sourceName": "RESCENE Official / Mnet Plus",
+      "sourceLabel": "RESCENE公式スケジュール",
+      "sources": [
+        {
+          "label": "RESCENE公式スケジュール",
+          "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6a3e80b31df3183e76dd7b31",
+          "type": "official_calendar",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "verifiedAt": "2026-10-24",
+      "dedupeKeys": [
+        "source:mnet-calendar:6a3e80b31df3183e76dd7b31",
+        "event:경주apec정상회의장기념관개관식:2026-10-31"
+      ],
+      "originalTitle": "경주 APEC 정상회의장 기념관 개관식",
+      "allDay": false,
+      "autoManaged": true,
+      "verificationStatus": "confirmed"
+    },
+    "dedupeKeys": [
+      "source:mnet-calendar:6a3e80b31df3183e76dd7b31",
+      "event:경주apec정상회의장기념관개관식:2026-10-31"
+    ],
+    "reason": "公式カレンダー上の日付・期間・終日区分が既存公開データから変わりました。公開データは自動変更せず、人間の確認が必要です。"
+  },
+  {
+    "id": "date-change-6a4612a67dd960680ac6f9b8-2026-10-24",
+    "status": "candidate",
+    "candidateType": "date_change",
+    "title": "NOL FESTIVAL（高陽）",
+    "eventDate": "2026-10-17",
+    "sourceId": "6a4612a67dd960680ac6f9b8",
+    "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6a4612a67dd960680ac6f9b8",
+    "sourceName": "RESCENE Official / Mnet Plus",
+    "sourceType": "official_calendar",
+    "discoveredAt": "2026-10-24",
+    "changedFields": [
+      "startAt",
+      "endAt",
+      "allDay"
+    ],
+    "existingSchedule": {
+      "id": "mnet-calendar-6a4612a67dd960680ac6f9b8",
+      "title": "NOL FESTIVAL（高陽）",
+      "startAt": "2026-10-17T00:00:00+09:00",
+      "endAt": "2026-10-17T23:59:59+09:00",
+      "timezone": "Asia/Tokyo",
+      "type": "performance",
+      "region": "KR",
+      "prefecture": null,
+      "venue": null,
+      "status": "completed",
+      "applicationStartAt": null,
+      "applicationEndAt": null,
+      "saleStartAt": null,
+      "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6a4612a67dd960680ac6f9b8",
+      "sourceId": "6a4612a67dd960680ac6f9b8",
+      "sourceIds": [
+        "6a4612a67dd960680ac6f9b8"
+      ],
+      "sourceName": "RESCENE Official / Mnet Plus",
+      "sourceLabel": "RESCENE公式スケジュール",
+      "sources": [
+        {
+          "label": "RESCENE公式スケジュール",
+          "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6a4612a67dd960680ac6f9b8",
+          "type": "official_calendar",
+          "verifiedAt": "2026-10-18"
+        }
+      ],
+      "verifiedAt": "2026-10-18",
+      "dedupeKeys": [
+        "source:mnet-calendar:6a4612a67dd960680ac6f9b8",
+        "event:nolfestival고양:2026-10-17"
+      ],
+      "originalTitle": "NOL FESTIVAL - 고양",
+      "allDay": true,
+      "autoManaged": true,
+      "verificationStatus": "confirmed"
+    },
+    "proposedSchedule": {
+      "id": "mnet-calendar-6a4612a67dd960680ac6f9b8",
+      "title": "NOL FESTIVAL（高陽）",
+      "startAt": "2026-10-17T17:30:00+09:00",
+      "endAt": null,
+      "timezone": "Asia/Tokyo",
+      "type": "performance",
+      "region": "KR",
+      "prefecture": null,
+      "venue": null,
+      "status": "completed",
+      "applicationStartAt": null,
+      "applicationEndAt": null,
+      "saleStartAt": null,
+      "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6a4612a67dd960680ac6f9b8",
+      "sourceId": "6a4612a67dd960680ac6f9b8",
+      "sourceIds": [
+        "6a4612a67dd960680ac6f9b8"
+      ],
+      "sourceName": "RESCENE Official / Mnet Plus",
+      "sourceLabel": "RESCENE公式スケジュール",
+      "sources": [
+        {
+          "label": "RESCENE公式スケジュール",
+          "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6a4612a67dd960680ac6f9b8",
+          "type": "official_calendar",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "verifiedAt": "2026-10-24",
+      "dedupeKeys": [
+        "source:mnet-calendar:6a4612a67dd960680ac6f9b8",
+        "event:nolfestival고양:2026-10-17"
+      ],
+      "originalTitle": "NOL FESTIVAL - 고양",
+      "allDay": false,
+      "autoManaged": true,
+      "verificationStatus": "confirmed"
+    },
+    "dedupeKeys": [
+      "source:mnet-calendar:6a4612a67dd960680ac6f9b8",
+      "event:nolfestival고양:2026-10-17"
+    ],
+    "reason": "公式カレンダー上の日付・期間・終日区分が既存公開データから変わりました。公開データは自動変更せず、人間の確認が必要です。"
+  },
+  {
+    "id": "date-change-6a755022aba59a5a7ffad756-2026-10-24",
+    "status": "candidate",
+    "candidateType": "date_change",
+    "title": "Spotify House Seoul",
+    "eventDate": "2026-09-10",
+    "sourceId": "6a755022aba59a5a7ffad756",
+    "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6a755022aba59a5a7ffad756",
+    "sourceName": "RESCENE Official / Mnet Plus",
+    "sourceType": "official_calendar",
+    "discoveredAt": "2026-10-24",
+    "changedFields": [
+      "startAt",
+      "endAt",
+      "allDay"
+    ],
+    "existingSchedule": {
+      "id": "mnet-calendar-6a755022aba59a5a7ffad756",
+      "title": "Spotify House Seoul",
+      "startAt": "2026-09-10T00:00:00+09:00",
+      "endAt": "2026-09-10T23:59:59+09:00",
+      "timezone": "Asia/Tokyo",
+      "type": "event",
+      "region": "KR",
+      "prefecture": null,
+      "venue": null,
+      "status": "completed",
+      "applicationStartAt": null,
+      "applicationEndAt": null,
+      "saleStartAt": null,
+      "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6a755022aba59a5a7ffad756",
+      "sourceId": "6a755022aba59a5a7ffad756",
+      "sourceIds": [
+        "6a755022aba59a5a7ffad756"
+      ],
+      "sourceName": "RESCENE Official / Mnet Plus",
+      "sourceLabel": "RESCENE公式スケジュール",
+      "sources": [
+        {
+          "label": "RESCENE公式スケジュール",
+          "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6a755022aba59a5a7ffad756",
+          "type": "official_calendar",
+          "verifiedAt": "2026-09-11"
+        }
+      ],
+      "verifiedAt": "2026-09-11",
+      "dedupeKeys": [
+        "source:mnet-calendar:6a755022aba59a5a7ffad756",
+        "event:spotifyhouseseoul:2026-09-10"
+      ],
+      "originalTitle": "Spotify House Seoul",
+      "allDay": true,
+      "autoManaged": true,
+      "verificationStatus": "confirmed"
+    },
+    "proposedSchedule": {
+      "id": "mnet-calendar-6a755022aba59a5a7ffad756",
+      "title": "Spotify House Seoul",
+      "startAt": "2026-09-10T19:15:00+09:00",
+      "endAt": null,
+      "timezone": "Asia/Tokyo",
+      "type": "event",
+      "region": "KR",
+      "prefecture": null,
+      "venue": null,
+      "status": "completed",
+      "applicationStartAt": null,
+      "applicationEndAt": null,
+      "saleStartAt": null,
+      "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6a755022aba59a5a7ffad756",
+      "sourceId": "6a755022aba59a5a7ffad756",
+      "sourceIds": [
+        "6a755022aba59a5a7ffad756"
+      ],
+      "sourceName": "RESCENE Official / Mnet Plus",
+      "sourceLabel": "RESCENE公式スケジュール",
+      "sources": [
+        {
+          "label": "RESCENE公式スケジュール",
+          "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6a755022aba59a5a7ffad756",
+          "type": "official_calendar",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "verifiedAt": "2026-10-24",
+      "dedupeKeys": [
+        "source:mnet-calendar:6a755022aba59a5a7ffad756",
+        "event:spotifyhouseseoul:2026-09-10"
+      ],
+      "originalTitle": "Spotify House Seoul",
+      "allDay": false,
+      "autoManaged": true,
+      "verificationStatus": "confirmed"
+    },
+    "dedupeKeys": [
+      "source:mnet-calendar:6a755022aba59a5a7ffad756",
+      "event:spotifyhouseseoul:2026-09-10"
+    ],
+    "reason": "公式カレンダー上の日付・期間・終日区分が既存公開データから変わりました。公開データは自動変更せず、人間の確認が必要です。"
+  },
+  {
+    "id": "date-change-6a8d89530baf003252ac6227-2026-10-24",
+    "status": "candidate",
+    "candidateType": "date_change",
+    "title": "마산대학교 축제",
+    "eventDate": "2026-10-23",
+    "sourceId": "6a8d89530baf003252ac6227",
+    "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6a8d89530baf003252ac6227",
+    "sourceName": "RESCENE Official / Mnet Plus",
+    "sourceType": "official_calendar",
+    "discoveredAt": "2026-10-24",
+    "changedFields": [
+      "startAt",
+      "endAt",
+      "allDay"
+    ],
+    "existingSchedule": {
+      "id": "mnet-calendar-6a8d89530baf003252ac6227",
+      "title": "마산대학교 축제",
+      "startAt": "2026-10-23T00:00:00+09:00",
+      "endAt": "2026-10-23T23:59:59+09:00",
+      "timezone": "Asia/Tokyo",
+      "type": "event",
+      "region": "KR",
+      "prefecture": null,
+      "venue": null,
+      "status": "completed",
+      "applicationStartAt": null,
+      "applicationEndAt": null,
+      "saleStartAt": null,
+      "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6a8d89530baf003252ac6227",
+      "sourceId": "6a8d89530baf003252ac6227",
+      "sourceIds": [
+        "6a8d89530baf003252ac6227"
+      ],
+      "sourceName": "RESCENE Official / Mnet Plus",
+      "sourceLabel": "RESCENE公式スケジュール",
+      "sources": [
+        {
+          "label": "RESCENE公式スケジュール",
+          "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6a8d89530baf003252ac6227",
+          "type": "official_calendar",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "verifiedAt": "2026-10-24",
+      "dedupeKeys": [
+        "source:mnet-calendar:6a8d89530baf003252ac6227",
+        "event:마산대학교축제:2026-10-23"
+      ],
+      "originalTitle": "마산대학교 축제",
+      "allDay": true,
+      "autoManaged": true,
+      "verificationStatus": "confirmed"
+    },
+    "proposedSchedule": {
+      "id": "mnet-calendar-6a8d89530baf003252ac6227",
+      "title": "마산대학교 축제",
+      "startAt": "2026-10-23T21:00:00+09:00",
+      "endAt": null,
+      "timezone": "Asia/Tokyo",
+      "type": "event",
+      "region": "KR",
+      "prefecture": null,
+      "venue": null,
+      "status": "completed",
+      "applicationStartAt": null,
+      "applicationEndAt": null,
+      "saleStartAt": null,
+      "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6a8d89530baf003252ac6227",
+      "sourceId": "6a8d89530baf003252ac6227",
+      "sourceIds": [
+        "6a8d89530baf003252ac6227"
+      ],
+      "sourceName": "RESCENE Official / Mnet Plus",
+      "sourceLabel": "RESCENE公式スケジュール",
+      "sources": [
+        {
+          "label": "RESCENE公式スケジュール",
+          "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6a8d89530baf003252ac6227",
+          "type": "official_calendar",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "verifiedAt": "2026-10-24",
+      "dedupeKeys": [
+        "source:mnet-calendar:6a8d89530baf003252ac6227",
+        "event:마산대학교축제:2026-10-23"
+      ],
+      "originalTitle": "마산대학교 축제",
+      "allDay": false,
+      "autoManaged": true,
+      "verificationStatus": "confirmed"
+    },
+    "dedupeKeys": [
+      "source:mnet-calendar:6a8d89530baf003252ac6227",
+      "event:마산대학교축제:2026-10-23"
+    ],
+    "reason": "公式カレンダー上の日付・期間・終日区分が既存公開データから変わりました。公開データは自動変更せず、人間の確認が必要です。"
+  },
+  {
+    "id": "date-change-6abeae327cda1f77dc44908f-2026-10-24",
+    "status": "candidate",
+    "candidateType": "date_change",
+    "title": "2026 의령 리치리치페스티벌",
+    "eventDate": "2026-10-04",
+    "sourceId": "6abeae327cda1f77dc44908f",
+    "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6abeae327cda1f77dc44908f",
+    "sourceName": "RESCENE Official / Mnet Plus",
+    "sourceType": "official_calendar",
+    "discoveredAt": "2026-10-24",
+    "changedFields": [
+      "startAt",
+      "endAt",
+      "allDay"
+    ],
+    "existingSchedule": {
+      "id": "mnet-calendar-6abeae327cda1f77dc44908f",
+      "title": "2026 의령 리치리치페스티벌",
+      "startAt": "2026-10-04T00:00:00+09:00",
+      "endAt": "2026-10-04T23:59:59+09:00",
+      "timezone": "Asia/Tokyo",
+      "type": "event",
+      "region": "KR",
+      "prefecture": null,
+      "venue": null,
+      "status": "completed",
+      "applicationStartAt": null,
+      "applicationEndAt": null,
+      "saleStartAt": null,
+      "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6abeae327cda1f77dc44908f",
+      "sourceId": "6abeae327cda1f77dc44908f",
+      "sourceIds": [
+        "6abeae327cda1f77dc44908f"
+      ],
+      "sourceName": "RESCENE Official / Mnet Plus",
+      "sourceLabel": "RESCENE公式スケジュール",
+      "sources": [
+        {
+          "label": "RESCENE公式スケジュール",
+          "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6abeae327cda1f77dc44908f",
+          "type": "official_calendar",
+          "verifiedAt": "2026-10-05"
+        }
+      ],
+      "verifiedAt": "2026-10-05",
+      "dedupeKeys": [
+        "source:mnet-calendar:6abeae327cda1f77dc44908f",
+        "event:2026의령리치리치페스티벌:2026-10-04"
+      ],
+      "originalTitle": "2026 의령 리치리치페스티벌",
+      "allDay": true,
+      "autoManaged": true,
+      "verificationStatus": "confirmed"
+    },
+    "proposedSchedule": {
+      "id": "mnet-calendar-6abeae327cda1f77dc44908f",
+      "title": "2026 의령 리치리치페스티벌",
+      "startAt": "2026-10-04T20:00:00+09:00",
+      "endAt": null,
+      "timezone": "Asia/Tokyo",
+      "type": "event",
+      "region": "KR",
+      "prefecture": null,
+      "venue": null,
+      "status": "completed",
+      "applicationStartAt": null,
+      "applicationEndAt": null,
+      "saleStartAt": null,
+      "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6abeae327cda1f77dc44908f",
+      "sourceId": "6abeae327cda1f77dc44908f",
+      "sourceIds": [
+        "6abeae327cda1f77dc44908f"
+      ],
+      "sourceName": "RESCENE Official / Mnet Plus",
+      "sourceLabel": "RESCENE公式スケジュール",
+      "sources": [
+        {
+          "label": "RESCENE公式スケジュール",
+          "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6abeae327cda1f77dc44908f",
+          "type": "official_calendar",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "verifiedAt": "2026-10-24",
+      "dedupeKeys": [
+        "source:mnet-calendar:6abeae327cda1f77dc44908f",
+        "event:2026의령리치리치페스티벌:2026-10-04"
+      ],
+      "originalTitle": "2026 의령 리치리치페스티벌",
+      "allDay": false,
+      "autoManaged": true,
+      "verificationStatus": "confirmed"
+    },
+    "dedupeKeys": [
+      "source:mnet-calendar:6abeae327cda1f77dc44908f",
+      "event:2026의령리치리치페스티벌:2026-10-04"
+    ],
+    "reason": "公式カレンダー上の日付・期間・終日区分が既存公開データから変わりました。公開データは自動変更せず、人間の確認が必要です。"
+  },
+  {
+    "id": "date-change-6adb1f0443ea3171535c8d2a-2026-10-24",
+    "status": "candidate",
+    "candidateType": "date_change",
+    "title": "동아대학교 승학 캠퍼스 축제",
+    "eventDate": "2026-10-23",
+    "sourceId": "6adb1f0443ea3171535c8d2a",
+    "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6adb1f0443ea3171535c8d2a",
+    "sourceName": "RESCENE Official / Mnet Plus",
+    "sourceType": "official_calendar",
+    "discoveredAt": "2026-10-24",
+    "changedFields": [
+      "title",
+      "startAt",
+      "endAt",
+      "dedupeKeys",
+      "originalTitle",
+      "allDay"
+    ],
+    "existingSchedule": {
+      "id": "mnet-calendar-6adb1f0443ea3171535c8d2a",
+      "title": "동아대학교 축제 (승학캠)",
+      "startAt": "2026-10-23T00:00:00+09:00",
+      "endAt": "2026-10-23T23:59:59+09:00",
+      "timezone": "Asia/Tokyo",
+      "type": "event",
+      "region": "KR",
+      "prefecture": null,
+      "venue": null,
+      "status": "completed",
+      "applicationStartAt": null,
+      "applicationEndAt": null,
+      "saleStartAt": null,
+      "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6adb1f0443ea3171535c8d2a",
+      "sourceId": "6adb1f0443ea3171535c8d2a",
+      "sourceIds": [
+        "6adb1f0443ea3171535c8d2a"
+      ],
+      "sourceName": "RESCENE Official / Mnet Plus",
+      "sourceLabel": "RESCENE公式スケジュール",
+      "sources": [
+        {
+          "label": "RESCENE公式スケジュール",
+          "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6adb1f0443ea3171535c8d2a",
+          "type": "official_calendar",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "verifiedAt": "2026-10-24",
+      "dedupeKeys": [
+        "source:mnet-calendar:6adb1f0443ea3171535c8d2a",
+        "event:동아대학교축제승학캠:2026-10-23"
+      ],
+      "originalTitle": "동아대학교 축제 (승학캠)",
+      "allDay": true,
+      "autoManaged": true,
+      "verificationStatus": "confirmed"
+    },
+    "proposedSchedule": {
+      "id": "mnet-calendar-6adb1f0443ea3171535c8d2a",
+      "title": "동아대학교 승학 캠퍼스 축제",
+      "startAt": "2026-10-23T18:50:00+09:00",
+      "endAt": null,
+      "timezone": "Asia/Tokyo",
+      "type": "event",
+      "region": "KR",
+      "prefecture": null,
+      "venue": null,
+      "status": "completed",
+      "applicationStartAt": null,
+      "applicationEndAt": null,
+      "saleStartAt": null,
+      "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6adb1f0443ea3171535c8d2a",
+      "sourceId": "6adb1f0443ea3171535c8d2a",
+      "sourceIds": [
+        "6adb1f0443ea3171535c8d2a"
+      ],
+      "sourceName": "RESCENE Official / Mnet Plus",
+      "sourceLabel": "RESCENE公式スケジュール",
+      "sources": [
+        {
+          "label": "RESCENE公式スケジュール",
+          "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6adb1f0443ea3171535c8d2a",
+          "type": "official_calendar",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "verifiedAt": "2026-10-24",
+      "dedupeKeys": [
+        "source:mnet-calendar:6adb1f0443ea3171535c8d2a",
+        "event:동아대학교승학캠퍼스축제:2026-10-23"
+      ],
+      "originalTitle": "동아대학교 승학 캠퍼스 축제",
+      "allDay": false,
+      "autoManaged": true,
+      "verificationStatus": "confirmed"
+    },
+    "dedupeKeys": [
+      "source:mnet-calendar:6adb1f0443ea3171535c8d2a",
+      "event:동아대학교승학캠퍼스축제:2026-10-23"
+    ],
+    "reason": "公式カレンダー上の日付・期間・終日区分が既存公開データから変わりました。公開データは自動変更せず、人間の確認が必要です。"
+  },
+  {
+    "id": "date-change-6adb1fc313e68b02d4a6b12a-2026-10-24",
+    "status": "candidate",
+    "candidateType": "date_change",
+    "title": "한화오션 오션하모니",
+    "eventDate": "2026-10-24",
+    "sourceId": "6adb1fc313e68b02d4a6b12a",
+    "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6adb1fc313e68b02d4a6b12a",
+    "sourceName": "RESCENE Official / Mnet Plus",
+    "sourceType": "official_calendar",
+    "discoveredAt": "2026-10-24",
+    "changedFields": [
+      "startAt",
+      "endAt",
+      "allDay"
+    ],
+    "existingSchedule": {
+      "id": "mnet-calendar-6adb1fc313e68b02d4a6b12a",
+      "title": "한화오션 오션하모니",
+      "startAt": "2026-10-24T00:00:00+09:00",
+      "endAt": "2026-10-24T23:59:59+09:00",
+      "timezone": "Asia/Tokyo",
+      "type": "event",
+      "region": "KR",
+      "prefecture": null,
+      "venue": null,
+      "status": "scheduled",
+      "applicationStartAt": null,
+      "applicationEndAt": null,
+      "saleStartAt": null,
+      "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6adb1fc313e68b02d4a6b12a",
+      "sourceId": "6adb1fc313e68b02d4a6b12a",
+      "sourceIds": [
+        "6adb1fc313e68b02d4a6b12a"
+      ],
+      "sourceName": "RESCENE Official / Mnet Plus",
+      "sourceLabel": "RESCENE公式スケジュール",
+      "sources": [
+        {
+          "label": "RESCENE公式スケジュール",
+          "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6adb1fc313e68b02d4a6b12a",
+          "type": "official_calendar",
+          "verifiedAt": "2026-10-23"
+        }
+      ],
+      "verifiedAt": "2026-10-23",
+      "dedupeKeys": [
+        "source:mnet-calendar:6adb1fc313e68b02d4a6b12a",
+        "event:한화오션오션하모니:2026-10-24"
+      ],
+      "originalTitle": "한화오션 오션하모니",
+      "allDay": true,
+      "autoManaged": true,
+      "verificationStatus": "confirmed"
+    },
+    "proposedSchedule": {
+      "id": "mnet-calendar-6adb1fc313e68b02d4a6b12a",
+      "title": "한화오션 오션하모니",
+      "startAt": "2026-10-24T19:00:00+09:00",
+      "endAt": null,
+      "timezone": "Asia/Tokyo",
+      "type": "event",
+      "region": "KR",
+      "prefecture": null,
+      "venue": null,
+      "status": "scheduled",
+      "applicationStartAt": null,
+      "applicationEndAt": null,
+      "saleStartAt": null,
+      "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6adb1fc313e68b02d4a6b12a",
+      "sourceId": "6adb1fc313e68b02d4a6b12a",
+      "sourceIds": [
+        "6adb1fc313e68b02d4a6b12a"
+      ],
+      "sourceName": "RESCENE Official / Mnet Plus",
+      "sourceLabel": "RESCENE公式スケジュール",
+      "sources": [
+        {
+          "label": "RESCENE公式スケジュール",
+          "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6adb1fc313e68b02d4a6b12a",
+          "type": "official_calendar",
+          "verifiedAt": "2026-10-24"
+        }
+      ],
+      "verifiedAt": "2026-10-24",
+      "dedupeKeys": [
+        "source:mnet-calendar:6adb1fc313e68b02d4a6b12a",
+        "event:한화오션오션하모니:2026-10-24"
+      ],
+      "originalTitle": "한화오션 오션하모니",
+      "allDay": false,
+      "autoManaged": true,
+      "verificationStatus": "confirmed"
+    },
+    "dedupeKeys": [
+      "source:mnet-calendar:6adb1fc313e68b02d4a6b12a",
+      "event:한화오션오션하모니:2026-10-24"
+    ],
+    "reason": "公式カレンダー上の日付・期間・終日区分が既存公開データから変わりました。公開データは自動変更せず、人間の確認が必要です。"
+  },
+  {
     "id": "date-change-6a48ce2d2abffc033aa33c91-2026-10-04",
     "status": "candidate",
     "candidateType": "date_change",
