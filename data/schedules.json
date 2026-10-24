@@ -204,7 +204,7 @@
     "region": "KR",
     "prefecture": null,
     "venue": null,
-    "status": "scheduled",
+    "status": "completed",
     "applicationStartAt": null,
     "applicationEndAt": null,
     "saleStartAt": null,
@@ -220,10 +220,10 @@
         "label": "RESCENE公式スケジュール",
         "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6abeaf6f9fce30571f6042d7",
         "type": "official_calendar",
-        "verifiedAt": "2026-10-02"
+        "verifiedAt": "2026-10-25"
       }
     ],
-    "verifiedAt": "2026-10-02",
+    "verifiedAt": "2026-10-25",
     "dedupeKeys": [
       "source:mnet-calendar:6abeaf6f9fce30571f6042d7",
       "event:여기어때콘서트팩거제:2026-10-24"
