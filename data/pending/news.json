@@ -1,5 +1,107 @@
 [
   {
+    "id": "youtube-BRL7ag8oEO0",
+    "status": "candidate",
+    "candidateType": "official_video",
+    "title": "RESCENE [PULSE] Highlight Medley - With",
+    "publishedAt": "2026-10-26",
+    "eventDate": null,
+    "videoId": "BRL7ag8oEO0",
+    "sourceUrl": "https://www.youtube.com/watch?v=BRL7ag8oEO0",
+    "sourceName": "RESCENE Official YouTube",
+    "sourceType": "official_video",
+    "discoveredAt": "2026-10-26",
+    "dedupeKeys": [
+      "media:youtube:BRL7ag8oEO0"
+    ],
+    "reason": "公式YouTubeの高シグナル動画として検出。記事化の要否と日本語本文を人間が確認します。"
+  },
+  {
+    "id": "youtube-CbsHNx-mbe0",
+    "status": "candidate",
+    "candidateType": "official_video",
+    "title": "RESCENE [PULSE] Highlight Medley - Finest Thing",
+    "publishedAt": "2026-10-26",
+    "eventDate": null,
+    "videoId": "CbsHNx-mbe0",
+    "sourceUrl": "https://www.youtube.com/watch?v=CbsHNx-mbe0",
+    "sourceName": "RESCENE Official YouTube",
+    "sourceType": "official_video",
+    "discoveredAt": "2026-10-26",
+    "dedupeKeys": [
+      "media:youtube:CbsHNx-mbe0"
+    ],
+    "reason": "公式YouTubeの高シグナル動画として検出。記事化の要否と日本語本文を人間が確認します。"
+  },
+  {
+    "id": "youtube-CWEsngk-rF0",
+    "status": "candidate",
+    "candidateType": "official_video",
+    "title": "RESCENE [PULSE] Highlight Medley - 백화요란 (Inside Out)",
+    "publishedAt": "2026-10-26",
+    "eventDate": null,
+    "videoId": "CWEsngk-rF0",
+    "sourceUrl": "https://www.youtube.com/watch?v=CWEsngk-rF0",
+    "sourceName": "RESCENE Official YouTube",
+    "sourceType": "official_video",
+    "discoveredAt": "2026-10-26",
+    "dedupeKeys": [
+      "media:youtube:CWEsngk-rF0"
+    ],
+    "reason": "公式YouTubeの高シグナル動画として検出。記事化の要否と日本語本文を人間が確認します。"
+  },
+  {
+    "id": "youtube-kmDGZd1mv7I",
+    "status": "candidate",
+    "candidateType": "official_video",
+    "title": "RESCENE [PULSE] Highlight Medley",
+    "publishedAt": "2026-10-26",
+    "eventDate": null,
+    "videoId": "kmDGZd1mv7I",
+    "sourceUrl": "https://www.youtube.com/watch?v=kmDGZd1mv7I",
+    "sourceName": "RESCENE Official YouTube",
+    "sourceType": "official_video",
+    "discoveredAt": "2026-10-26",
+    "dedupeKeys": [
+      "media:youtube:kmDGZd1mv7I"
+    ],
+    "reason": "公式YouTubeの高シグナル動画として検出。記事化の要否と日本語本文を人間が確認します。"
+  },
+  {
+    "id": "youtube-MNxIMnWhBRQ",
+    "status": "candidate",
+    "candidateType": "official_video",
+    "title": "RESCENE [PULSE] Highlight Medley - Dragon",
+    "publishedAt": "2026-10-26",
+    "eventDate": null,
+    "videoId": "MNxIMnWhBRQ",
+    "sourceUrl": "https://www.youtube.com/watch?v=MNxIMnWhBRQ",
+    "sourceName": "RESCENE Official YouTube",
+    "sourceType": "official_video",
+    "discoveredAt": "2026-10-26",
+    "dedupeKeys": [
+      "media:youtube:MNxIMnWhBRQ"
+    ],
+    "reason": "公式YouTubeの高シグナル動画として検出。記事化の要否と日本語本文を人間が確認します。"
+  },
+  {
+    "id": "youtube-mrfisPt2wOk",
+    "status": "candidate",
+    "candidateType": "official_video",
+    "title": "RESCENE [PULSE] Highlight Medley - MEME",
+    "publishedAt": "2026-10-26",
+    "eventDate": null,
+    "videoId": "mrfisPt2wOk",
+    "sourceUrl": "https://www.youtube.com/watch?v=mrfisPt2wOk",
+    "sourceName": "RESCENE Official YouTube",
+    "sourceType": "official_video",
+    "discoveredAt": "2026-10-26",
+    "dedupeKeys": [
+      "media:youtube:mrfisPt2wOk"
+    ],
+    "reason": "公式YouTubeの高シグナル動画として検出。記事化の要否と日本語本文を人間が確認します。"
+  },
+  {
     "id": "mnet-notice-6ad098be81b129370e830c7b",
     "status": "candidate",
     "candidateType": "official_notice",
