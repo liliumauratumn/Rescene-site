@@ -1,5 +1,22 @@
 [
   {
+    "id": "youtube-CQXZp8vTiTU",
+    "status": "candidate",
+    "candidateType": "official_video",
+    "title": "RESCENE (리센느) 'With' Official MV Teaser",
+    "publishedAt": "2026-10-30",
+    "eventDate": null,
+    "videoId": "CQXZp8vTiTU",
+    "sourceUrl": "https://www.youtube.com/watch?v=CQXZp8vTiTU",
+    "sourceName": "RESCENE Official YouTube",
+    "sourceType": "official_video",
+    "discoveredAt": "2026-10-31",
+    "dedupeKeys": [
+      "media:youtube:CQXZp8vTiTU"
+    ],
+    "reason": "公式YouTubeの高シグナル動画として検出。記事化の要否と日本語本文を人間が確認します。"
+  },
+  {
     "id": "youtube-BRL7ag8oEO0",
     "status": "candidate",
     "candidateType": "official_video",
