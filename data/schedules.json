@@ -78,6 +78,45 @@
     "verificationStatus": "confirmed"
   },
   {
+    "id": "mnet-calendar-6ae4ba84a46d723d18905122",
+    "title": "2026 MAMA AWARDS (OSAKA)",
+    "startAt": "2026-11-20T00:00:00+09:00",
+    "endAt": "2026-11-20T23:59:59+09:00",
+    "timezone": "Asia/Tokyo",
+    "type": "performance",
+    "region": "KR",
+    "prefecture": null,
+    "venue": null,
+    "status": "scheduled",
+    "applicationStartAt": null,
+    "applicationEndAt": null,
+    "saleStartAt": null,
+    "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/11?eventId=6ae4ba84a46d723d18905122",
+    "sourceId": "6ae4ba84a46d723d18905122",
+    "sourceIds": [
+      "6ae4ba84a46d723d18905122"
+    ],
+    "sourceName": "RESCENE Official / Mnet Plus",
+    "sourceLabel": "RESCENE公式スケジュール",
+    "sources": [
+      {
+        "label": "RESCENE公式スケジュール",
+        "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/11?eventId=6ae4ba84a46d723d18905122",
+        "type": "official_calendar",
+        "verifiedAt": "2026-10-31"
+      }
+    ],
+    "verifiedAt": "2026-10-31",
+    "dedupeKeys": [
+      "source:mnet-calendar:6ae4ba84a46d723d18905122",
+      "event:2026mamaawardsosaka:2026-11-20"
+    ],
+    "originalTitle": "2026 MAMA AWARDS (OSAKA)",
+    "allDay": true,
+    "autoManaged": true,
+    "verificationStatus": "confirmed"
+  },
+  {
     "id": "mnet-calendar-6adc11ce13e68b02d4a6b14a",
     "title": "2026 멜론 뮤직 어워드 (MMA)",
     "startAt": "2026-11-14T00:00:00+09:00",
@@ -191,6 +230,45 @@
     ],
     "originalTitle": "경주 APEC 정상회의장 기념관 개관식",
     "allDay": true,
+    "autoManaged": true,
+    "verificationStatus": "confirmed"
+  },
+  {
+    "id": "mnet-calendar-6ae4a4065ba3d32fb9cca84a",
+    "title": "갤럭시 나이트 - 네이버 쇼핑라이브",
+    "startAt": "2026-10-30T20:00:00+09:00",
+    "endAt": null,
+    "timezone": "Asia/Tokyo",
+    "type": "event",
+    "region": "KR",
+    "prefecture": null,
+    "venue": null,
+    "status": "completed",
+    "applicationStartAt": null,
+    "applicationEndAt": null,
+    "saleStartAt": null,
+    "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6ae4a4065ba3d32fb9cca84a",
+    "sourceId": "6ae4a4065ba3d32fb9cca84a",
+    "sourceIds": [
+      "6ae4a4065ba3d32fb9cca84a"
+    ],
+    "sourceName": "RESCENE Official / Mnet Plus",
+    "sourceLabel": "RESCENE公式スケジュール",
+    "sources": [
+      {
+        "label": "RESCENE公式スケジュール",
+        "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6ae4a4065ba3d32fb9cca84a",
+        "type": "official_calendar",
+        "verifiedAt": "2026-10-31"
+      }
+    ],
+    "verifiedAt": "2026-10-31",
+    "dedupeKeys": [
+      "source:mnet-calendar:6ae4a4065ba3d32fb9cca84a",
+      "event:갤럭시나이트네이버쇼핑라이브:2026-10-30"
+    ],
+    "originalTitle": "갤럭시 나이트 - 네이버 쇼핑라이브",
+    "allDay": false,
     "autoManaged": true,
     "verificationStatus": "confirmed"
   },
