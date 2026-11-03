@@ -1,5 +1,56 @@
 [
   {
+    "id": "youtube-_ldpW3AQWWA",
+    "status": "candidate",
+    "candidateType": "official_video",
+    "title": "RESCENE 'With' Official MV #2",
+    "publishedAt": "2026-11-03",
+    "eventDate": null,
+    "videoId": "_ldpW3AQWWA",
+    "sourceUrl": "https://www.youtube.com/watch?v=_ldpW3AQWWA",
+    "sourceName": "RESCENE Official YouTube",
+    "sourceType": "official_video",
+    "discoveredAt": "2026-11-04",
+    "dedupeKeys": [
+      "media:youtube:_ldpW3AQWWA"
+    ],
+    "reason": "公式YouTubeの高シグナル動画として検出。記事化の要否と日本語本文を人間が確認します。"
+  },
+  {
+    "id": "youtube-4wB0AyS4KSc",
+    "status": "candidate",
+    "candidateType": "official_video",
+    "title": "RESCENE 'With' Official MV #1",
+    "publishedAt": "2026-11-03",
+    "eventDate": null,
+    "videoId": "4wB0AyS4KSc",
+    "sourceUrl": "https://www.youtube.com/watch?v=4wB0AyS4KSc",
+    "sourceName": "RESCENE Official YouTube",
+    "sourceType": "official_video",
+    "discoveredAt": "2026-11-04",
+    "dedupeKeys": [
+      "media:youtube:4wB0AyS4KSc"
+    ],
+    "reason": "公式YouTubeの高シグナル動画として検出。記事化の要否と日本語本文を人間が確認します。"
+  },
+  {
+    "id": "youtube-pey3E47eSc8",
+    "status": "candidate",
+    "candidateType": "official_video",
+    "title": "RESCENE (리센느) 'With' Official MV",
+    "publishedAt": "2026-11-03",
+    "eventDate": null,
+    "videoId": "pey3E47eSc8",
+    "sourceUrl": "https://www.youtube.com/watch?v=pey3E47eSc8",
+    "sourceName": "RESCENE Official YouTube",
+    "sourceType": "official_video",
+    "discoveredAt": "2026-11-04",
+    "dedupeKeys": [
+      "media:youtube:pey3E47eSc8"
+    ],
+    "reason": "公式YouTubeの高シグナル動画として検出。記事化の要否と日本語本文を人間が確認します。"
+  },
+  {
     "id": "youtube-CQXZp8vTiTU",
     "status": "candidate",
     "candidateType": "official_video",
