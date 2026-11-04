@@ -195,6 +195,84 @@
     "verificationStatus": "confirmed"
   },
   {
+    "id": "mnet-calendar-6aeb1a6f5e04b81dc54f2630",
+    "title": "KBS2 <뮤직뱅크>",
+    "startAt": "2026-11-06T16:45:00+09:00",
+    "endAt": null,
+    "timezone": "Asia/Tokyo",
+    "type": "broadcast",
+    "region": "KR",
+    "prefecture": null,
+    "venue": null,
+    "status": "scheduled",
+    "applicationStartAt": null,
+    "applicationEndAt": null,
+    "saleStartAt": null,
+    "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/11?eventId=6aeb1a6f5e04b81dc54f2630",
+    "sourceId": "6aeb1a6f5e04b81dc54f2630",
+    "sourceIds": [
+      "6aeb1a6f5e04b81dc54f2630"
+    ],
+    "sourceName": "RESCENE Official / Mnet Plus",
+    "sourceLabel": "RESCENE公式スケジュール",
+    "sources": [
+      {
+        "label": "RESCENE公式スケジュール",
+        "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/11?eventId=6aeb1a6f5e04b81dc54f2630",
+        "type": "official_calendar",
+        "verifiedAt": "2026-11-05"
+      }
+    ],
+    "verifiedAt": "2026-11-05",
+    "dedupeKeys": [
+      "source:mnet-calendar:6aeb1a6f5e04b81dc54f2630",
+      "event:kbs2뮤직뱅크:2026-11-06"
+    ],
+    "originalTitle": "KBS2 <뮤직뱅크>",
+    "allDay": false,
+    "autoManaged": true,
+    "verificationStatus": "confirmed"
+  },
+  {
+    "id": "mnet-calendar-6aeb1b00a46d723d189054e1",
+    "title": "KBS2 <뮤직뱅크> 사전 녹화",
+    "startAt": "2026-11-06T06:00:00+09:00",
+    "endAt": null,
+    "timezone": "Asia/Tokyo",
+    "type": "broadcast",
+    "region": "KR",
+    "prefecture": null,
+    "venue": null,
+    "status": "scheduled",
+    "applicationStartAt": null,
+    "applicationEndAt": null,
+    "saleStartAt": null,
+    "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/11?eventId=6aeb1b00a46d723d189054e1",
+    "sourceId": "6aeb1b00a46d723d189054e1",
+    "sourceIds": [
+      "6aeb1b00a46d723d189054e1"
+    ],
+    "sourceName": "RESCENE Official / Mnet Plus",
+    "sourceLabel": "RESCENE公式スケジュール",
+    "sources": [
+      {
+        "label": "RESCENE公式スケジュール",
+        "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/11?eventId=6aeb1b00a46d723d189054e1",
+        "type": "official_calendar",
+        "verifiedAt": "2026-11-05"
+      }
+    ],
+    "verifiedAt": "2026-11-05",
+    "dedupeKeys": [
+      "source:mnet-calendar:6aeb1b00a46d723d189054e1",
+      "event:kbs2뮤직뱅크사전녹화:2026-11-06"
+    ],
+    "originalTitle": "KBS2 <뮤직뱅크> 사전 녹화",
+    "allDay": false,
+    "autoManaged": true,
+    "verificationStatus": "confirmed"
+  },
+  {
     "id": "mnet-calendar-6aeabdec5e04b81dc54f256a",
     "title": "SBS <인기가요> 사전 녹화",
     "startAt": "2026-11-05T00:00:00+09:00",
