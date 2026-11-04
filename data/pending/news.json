@@ -1,5 +1,22 @@
 [
   {
+    "id": "mnet-notice-6aea9fbd42650b5a3bf1f067",
+    "status": "candidate",
+    "candidateType": "official_notice",
+    "title": "4th Mini Album [PULSE] 'With' 발매 기념 이벤트 안내",
+    "publishedAt": "2026-11-04",
+    "eventDate": null,
+    "sourceId": "6aea9fbd42650b5a3bf1f067",
+    "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/community/board/67a5c573036dc37e1e6d248c/post/6aea9fbd42650b5a3bf1f067",
+    "sourceName": "RESCENE Official / Mnet Plus",
+    "sourceType": "official_notice",
+    "discoveredAt": "2026-11-04",
+    "dedupeKeys": [
+      "source:mnet-notice:6aea9fbd42650b5a3bf1f067"
+    ],
+    "reason": "公式Noticeで検出。日本語本文、日付、関連作品を人間が確認してからapprovedに変更します。"
+  },
+  {
     "id": "youtube-_ldpW3AQWWA",
     "status": "candidate",
     "candidateType": "official_video",
