@@ -156,6 +156,45 @@
     "verificationStatus": "confirmed"
   },
   {
+    "id": "mnet-calendar-6aed5f9fb4515616f2a91867",
+    "title": "SBS <인기가요>",
+    "startAt": "2026-11-08T15:10:00+09:00",
+    "endAt": null,
+    "timezone": "Asia/Tokyo",
+    "type": "broadcast",
+    "region": "KR",
+    "prefecture": null,
+    "venue": null,
+    "status": "scheduled",
+    "applicationStartAt": null,
+    "applicationEndAt": null,
+    "saleStartAt": null,
+    "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/11?eventId=6aed5f9fb4515616f2a91867",
+    "sourceId": "6aed5f9fb4515616f2a91867",
+    "sourceIds": [
+      "6aed5f9fb4515616f2a91867"
+    ],
+    "sourceName": "RESCENE Official / Mnet Plus",
+    "sourceLabel": "RESCENE公式スケジュール",
+    "sources": [
+      {
+        "label": "RESCENE公式スケジュール",
+        "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/11?eventId=6aed5f9fb4515616f2a91867",
+        "type": "official_calendar",
+        "verifiedAt": "2026-11-06"
+      }
+    ],
+    "verifiedAt": "2026-11-06",
+    "dedupeKeys": [
+      "source:mnet-calendar:6aed5f9fb4515616f2a91867",
+      "event:sbs인기가요:2026-11-08"
+    ],
+    "originalTitle": "SBS <인기가요>",
+    "allDay": false,
+    "autoManaged": true,
+    "verificationStatus": "confirmed"
+  },
+  {
     "id": "mnet-calendar-6a3e7e069f69517347795cee",
     "title": "2026 KGMA（Korea Grand Music Awards）",
     "startAt": "2026-11-07T00:00:00+09:00",

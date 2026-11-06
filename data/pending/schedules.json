@@ -1,5 +1,195 @@
 [
   {
+    "id": "uncertain-match-6aed5f75b4515616f2a91866-2026-11-06",
+    "status": "candidate",
+    "candidateType": "uncertain_match",
+    "title": "SBS <인기가요> 사전 녹화",
+    "eventDate": "2026-11-08",
+    "sourceId": "6aed5f75b4515616f2a91866",
+    "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/11?eventId=6aed5f75b4515616f2a91866",
+    "sourceName": "RESCENE Official / Mnet Plus",
+    "sourceType": "official_calendar",
+    "discoveredAt": "2026-11-06",
+    "existingSchedule": {
+      "id": "mnet-calendar-6aeabdec5e04b81dc54f256a",
+      "title": "SBS <인기가요> 사전 녹화",
+      "startAt": "2026-11-05T00:00:00+09:00",
+      "endAt": "2026-11-05T23:59:59+09:00",
+      "timezone": "Asia/Tokyo",
+      "type": "broadcast",
+      "region": "KR",
+      "prefecture": null,
+      "venue": null,
+      "status": "scheduled",
+      "applicationStartAt": null,
+      "applicationEndAt": null,
+      "saleStartAt": null,
+      "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/11?eventId=6aeabdec5e04b81dc54f256a",
+      "sourceId": "6aeabdec5e04b81dc54f256a",
+      "sourceIds": [
+        "6aeabdec5e04b81dc54f256a"
+      ],
+      "sourceName": "RESCENE Official / Mnet Plus",
+      "sourceLabel": "RESCENE公式スケジュール",
+      "sources": [
+        {
+          "label": "RESCENE公式スケジュール",
+          "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/11?eventId=6aeabdec5e04b81dc54f256a",
+          "type": "official_calendar",
+          "verifiedAt": "2026-11-04"
+        }
+      ],
+      "verifiedAt": "2026-11-04",
+      "dedupeKeys": [
+        "source:mnet-calendar:6aeabdec5e04b81dc54f256a",
+        "event:sbs인기가요사전녹화:2026-11-05"
+      ],
+      "originalTitle": "SBS <인기가요> 사전 녹화",
+      "allDay": true,
+      "autoManaged": true,
+      "verificationStatus": "confirmed"
+    },
+    "proposedSchedule": {
+      "id": "mnet-calendar-6aed5f75b4515616f2a91866",
+      "title": "SBS <인기가요> 사전 녹화",
+      "startAt": "2026-11-08T06:25:00+09:00",
+      "endAt": null,
+      "timezone": "Asia/Tokyo",
+      "type": "broadcast",
+      "region": "KR",
+      "prefecture": null,
+      "venue": null,
+      "status": "scheduled",
+      "applicationStartAt": null,
+      "applicationEndAt": null,
+      "saleStartAt": null,
+      "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/11?eventId=6aed5f75b4515616f2a91866",
+      "sourceId": "6aed5f75b4515616f2a91866",
+      "sourceIds": [
+        "6aed5f75b4515616f2a91866"
+      ],
+      "sourceName": "RESCENE Official / Mnet Plus",
+      "sourceLabel": "RESCENE公式スケジュール",
+      "sources": [
+        {
+          "label": "RESCENE公式スケジュール",
+          "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/11?eventId=6aed5f75b4515616f2a91866",
+          "type": "official_calendar",
+          "verifiedAt": "2026-11-06"
+        }
+      ],
+      "verifiedAt": "2026-11-06",
+      "dedupeKeys": [
+        "source:mnet-calendar:6aed5f75b4515616f2a91866",
+        "event:sbs인기가요사전녹화:2026-11-08"
+      ],
+      "originalTitle": "SBS <인기가요> 사전 녹화",
+      "allDay": false,
+      "autoManaged": true,
+      "verificationStatus": "confirmed"
+    },
+    "dedupeKeys": [
+      "source:mnet-calendar:6aed5f75b4515616f2a91866",
+      "event:sbs인기가요사전녹화:2026-11-08"
+    ],
+    "reason": "公式source IDは一致しませんが、既存予定とタイトル・日付または一部source IDが近いため、同一イベントか人間が確認します。"
+  },
+  {
+    "id": "uncertain-match-6aed5ffbb4515616f2a91868-2026-11-06",
+    "status": "candidate",
+    "candidateType": "uncertain_match",
+    "title": "MBC <쇼!음악중심> 사전 녹화",
+    "eventDate": "2026-11-07",
+    "sourceId": "6aed5ffbb4515616f2a91868",
+    "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/11?eventId=6aed5ffbb4515616f2a91868",
+    "sourceName": "RESCENE Official / Mnet Plus",
+    "sourceType": "official_calendar",
+    "discoveredAt": "2026-11-06",
+    "existingSchedule": {
+      "id": "mnet-calendar-6aeabe5d5ba3d32fb9ccab77",
+      "title": "MBC <쇼음악중심> 사전 녹화",
+      "startAt": "2026-11-05T00:00:00+09:00",
+      "endAt": "2026-11-05T23:59:59+09:00",
+      "timezone": "Asia/Tokyo",
+      "type": "broadcast",
+      "region": "KR",
+      "prefecture": null,
+      "venue": null,
+      "status": "scheduled",
+      "applicationStartAt": null,
+      "applicationEndAt": null,
+      "saleStartAt": null,
+      "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/11?eventId=6aeabe5d5ba3d32fb9ccab77",
+      "sourceId": "6aeabe5d5ba3d32fb9ccab77",
+      "sourceIds": [
+        "6aeabe5d5ba3d32fb9ccab77"
+      ],
+      "sourceName": "RESCENE Official / Mnet Plus",
+      "sourceLabel": "RESCENE公式スケジュール",
+      "sources": [
+        {
+          "label": "RESCENE公式スケジュール",
+          "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/11?eventId=6aeabe5d5ba3d32fb9ccab77",
+          "type": "official_calendar",
+          "verifiedAt": "2026-11-04"
+        }
+      ],
+      "verifiedAt": "2026-11-04",
+      "dedupeKeys": [
+        "source:mnet-calendar:6aeabe5d5ba3d32fb9ccab77",
+        "event:mbc쇼음악중심사전녹화:2026-11-05"
+      ],
+      "originalTitle": "MBC <쇼음악중심> 사전 녹화",
+      "allDay": true,
+      "autoManaged": true,
+      "verificationStatus": "confirmed"
+    },
+    "proposedSchedule": {
+      "id": "mnet-calendar-6aed5ffbb4515616f2a91868",
+      "title": "MBC <쇼!음악중심> 사전 녹화",
+      "startAt": "2026-11-07T06:45:00+09:00",
+      "endAt": null,
+      "timezone": "Asia/Tokyo",
+      "type": "broadcast",
+      "region": "KR",
+      "prefecture": null,
+      "venue": null,
+      "status": "scheduled",
+      "applicationStartAt": null,
+      "applicationEndAt": null,
+      "saleStartAt": null,
+      "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/11?eventId=6aed5ffbb4515616f2a91868",
+      "sourceId": "6aed5ffbb4515616f2a91868",
+      "sourceIds": [
+        "6aed5ffbb4515616f2a91868"
+      ],
+      "sourceName": "RESCENE Official / Mnet Plus",
+      "sourceLabel": "RESCENE公式スケジュール",
+      "sources": [
+        {
+          "label": "RESCENE公式スケジュール",
+          "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/11?eventId=6aed5ffbb4515616f2a91868",
+          "type": "official_calendar",
+          "verifiedAt": "2026-11-06"
+        }
+      ],
+      "verifiedAt": "2026-11-06",
+      "dedupeKeys": [
+        "source:mnet-calendar:6aed5ffbb4515616f2a91868",
+        "event:mbc쇼음악중심사전녹화:2026-11-07"
+      ],
+      "originalTitle": "MBC <쇼!음악중심> 사전 녹화",
+      "allDay": false,
+      "autoManaged": true,
+      "verificationStatus": "confirmed"
+    },
+    "dedupeKeys": [
+      "source:mnet-calendar:6aed5ffbb4515616f2a91868",
+      "event:mbc쇼음악중심사전녹화:2026-11-07"
+    ],
+    "reason": "公式source IDは一致しませんが、既存予定とタイトル・日付または一部source IDが近いため、同一イベントか人間が確認します。"
+  },
+  {
     "id": "date-change-6aeabdec5e04b81dc54f256a-2026-11-05",
     "status": "candidate",
     "candidateType": "date_change",
