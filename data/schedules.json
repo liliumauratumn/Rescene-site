@@ -243,7 +243,7 @@
     "region": "KR",
     "prefecture": null,
     "venue": null,
-    "status": "scheduled",
+    "status": "completed",
     "applicationStartAt": null,
     "applicationEndAt": null,
     "saleStartAt": null,
@@ -259,10 +259,10 @@
         "label": "RESCENE公式スケジュール",
         "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/11?eventId=6aeb1a6f5e04b81dc54f2630",
         "type": "official_calendar",
-        "verifiedAt": "2026-11-05"
+        "verifiedAt": "2026-11-07"
       }
     ],
-    "verifiedAt": "2026-11-05",
+    "verifiedAt": "2026-11-07",
     "dedupeKeys": [
       "source:mnet-calendar:6aeb1a6f5e04b81dc54f2630",
       "event:kbs2뮤직뱅크:2026-11-06"
@@ -282,7 +282,7 @@
     "region": "KR",
     "prefecture": null,
     "venue": null,
-    "status": "scheduled",
+    "status": "completed",
     "applicationStartAt": null,
     "applicationEndAt": null,
     "saleStartAt": null,
@@ -298,10 +298,10 @@
         "label": "RESCENE公式スケジュール",
         "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/11?eventId=6aeb1b00a46d723d189054e1",
         "type": "official_calendar",
-        "verifiedAt": "2026-11-05"
+        "verifiedAt": "2026-11-07"
       }
     ],
-    "verifiedAt": "2026-11-05",
+    "verifiedAt": "2026-11-07",
     "dedupeKeys": [
       "source:mnet-calendar:6aeb1b00a46d723d189054e1",
       "event:kbs2뮤직뱅크사전녹화:2026-11-06"
