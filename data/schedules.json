@@ -204,7 +204,7 @@
     "region": "KR",
     "prefecture": null,
     "venue": null,
-    "status": "scheduled",
+    "status": "completed",
     "applicationStartAt": null,
     "applicationEndAt": null,
     "saleStartAt": null,
@@ -220,10 +220,10 @@
         "label": "RESCENE公式スケジュール",
         "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/11?eventId=6a3e7e069f69517347795cee",
         "type": "official_calendar",
-        "verifiedAt": "2026-09-03"
+        "verifiedAt": "2026-11-08"
       }
     ],
-    "verifiedAt": "2026-09-03",
+    "verifiedAt": "2026-11-08",
     "dedupeKeys": [
       "source:mnet-calendar:6a3e7e069f69517347795cee",
       "event:2026kgma코리아그랜드뮤직어워즈:2026-11-07"
