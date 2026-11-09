@@ -1,5 +1,100 @@
 [
   {
+    "id": "uncertain-match-6af175e1a46d723d189056f5-2026-11-10",
+    "status": "candidate",
+    "candidateType": "uncertain_match",
+    "title": "SBS M <더 쇼> 사전 녹화",
+    "eventDate": "2026-11-10",
+    "sourceId": "6af175e1a46d723d189056f5",
+    "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/11?eventId=6af175e1a46d723d189056f5",
+    "sourceName": "RESCENE Official / Mnet Plus",
+    "sourceType": "official_calendar",
+    "discoveredAt": "2026-11-10",
+    "existingSchedule": {
+      "id": "mnet-calendar-6af175a75e04b81dc54f3997",
+      "title": "SBS M <더 쇼> 사전 녹화",
+      "startAt": "2026-11-10T07:25:00+09:00",
+      "endAt": null,
+      "timezone": "Asia/Tokyo",
+      "type": "broadcast",
+      "region": "KR",
+      "prefecture": null,
+      "venue": null,
+      "status": "scheduled",
+      "applicationStartAt": null,
+      "applicationEndAt": null,
+      "saleStartAt": null,
+      "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/11?eventId=6af175a75e04b81dc54f3997",
+      "sourceId": "6af175a75e04b81dc54f3997",
+      "sourceIds": [
+        "6af175a75e04b81dc54f3997"
+      ],
+      "sourceName": "RESCENE Official / Mnet Plus",
+      "sourceLabel": "RESCENE公式スケジュール",
+      "sources": [
+        {
+          "label": "RESCENE公式スケジュール",
+          "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/11?eventId=6af175a75e04b81dc54f3997",
+          "type": "official_calendar",
+          "verifiedAt": "2026-11-10"
+        }
+      ],
+      "verifiedAt": "2026-11-10",
+      "dedupeKeys": [
+        "source:mnet-calendar:6af175a75e04b81dc54f3997",
+        "event:sbsm더쇼사전녹화:2026-11-10"
+      ],
+      "originalTitle": "SBS M <더 쇼> 사전 녹화",
+      "allDay": false,
+      "autoManaged": true,
+      "verificationStatus": "confirmed"
+    },
+    "proposedSchedule": {
+      "id": "mnet-calendar-6af175e1a46d723d189056f5",
+      "title": "SBS M <더 쇼> 사전 녹화",
+      "startAt": "2026-11-10T13:20:00+09:00",
+      "endAt": null,
+      "timezone": "Asia/Tokyo",
+      "type": "broadcast",
+      "region": "KR",
+      "prefecture": null,
+      "venue": null,
+      "status": "scheduled",
+      "applicationStartAt": null,
+      "applicationEndAt": null,
+      "saleStartAt": null,
+      "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/11?eventId=6af175e1a46d723d189056f5",
+      "sourceId": "6af175e1a46d723d189056f5",
+      "sourceIds": [
+        "6af175e1a46d723d189056f5"
+      ],
+      "sourceName": "RESCENE Official / Mnet Plus",
+      "sourceLabel": "RESCENE公式スケジュール",
+      "sources": [
+        {
+          "label": "RESCENE公式スケジュール",
+          "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/11?eventId=6af175e1a46d723d189056f5",
+          "type": "official_calendar",
+          "verifiedAt": "2026-11-10"
+        }
+      ],
+      "verifiedAt": "2026-11-10",
+      "dedupeKeys": [
+        "source:mnet-calendar:6af175e1a46d723d189056f5",
+        "event:sbsm더쇼사전녹화:2026-11-10"
+      ],
+      "originalTitle": "SBS M <더 쇼> 사전 녹화",
+      "allDay": false,
+      "autoManaged": true,
+      "verificationStatus": "confirmed"
+    },
+    "dedupeKeys": [
+      "source:mnet-calendar:6af175e1a46d723d189056f5",
+      "event:sbsm더쇼사전녹화:2026-11-10"
+    ],
+    "reason": "公式source IDは一致しませんが、既存予定とタイトル・日付または一部source IDが近いため、同一イベントか人間が確認します。"
+  },
+  {
     "id": "uncertain-match-6af162d3a46d723d189056ea-2026-11-09",
     "status": "candidate",
     "candidateType": "uncertain_match",
