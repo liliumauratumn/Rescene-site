@@ -1,5 +1,100 @@
 [
   {
+    "id": "uncertain-match-6af162d3a46d723d189056ea-2026-11-09",
+    "status": "candidate",
+    "candidateType": "uncertain_match",
+    "title": "MBC M <쇼! 챔피언> 사전 녹화",
+    "eventDate": "2026-11-11",
+    "sourceId": "6af162d3a46d723d189056ea",
+    "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/11?eventId=6af162d3a46d723d189056ea",
+    "sourceName": "RESCENE Official / Mnet Plus",
+    "sourceType": "official_calendar",
+    "discoveredAt": "2026-11-09",
+    "existingSchedule": {
+      "id": "mnet-calendar-6af162a2a46d723d189056e9",
+      "title": "MBC M <쇼! 챔피언> 사전 녹화",
+      "startAt": "2026-11-11T06:00:00+09:00",
+      "endAt": null,
+      "timezone": "Asia/Tokyo",
+      "type": "broadcast",
+      "region": "KR",
+      "prefecture": null,
+      "venue": null,
+      "status": "scheduled",
+      "applicationStartAt": null,
+      "applicationEndAt": null,
+      "saleStartAt": null,
+      "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/11?eventId=6af162a2a46d723d189056e9",
+      "sourceId": "6af162a2a46d723d189056e9",
+      "sourceIds": [
+        "6af162a2a46d723d189056e9"
+      ],
+      "sourceName": "RESCENE Official / Mnet Plus",
+      "sourceLabel": "RESCENE公式スケジュール",
+      "sources": [
+        {
+          "label": "RESCENE公式スケジュール",
+          "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/11?eventId=6af162a2a46d723d189056e9",
+          "type": "official_calendar",
+          "verifiedAt": "2026-11-09"
+        }
+      ],
+      "verifiedAt": "2026-11-09",
+      "dedupeKeys": [
+        "source:mnet-calendar:6af162a2a46d723d189056e9",
+        "event:mbcm쇼챔피언사전녹화:2026-11-11"
+      ],
+      "originalTitle": "MBC M <쇼! 챔피언> 사전 녹화",
+      "allDay": false,
+      "autoManaged": true,
+      "verificationStatus": "confirmed"
+    },
+    "proposedSchedule": {
+      "id": "mnet-calendar-6af162d3a46d723d189056ea",
+      "title": "MBC M <쇼! 챔피언> 사전 녹화",
+      "startAt": "2026-11-11T12:50:00+09:00",
+      "endAt": null,
+      "timezone": "Asia/Tokyo",
+      "type": "broadcast",
+      "region": "KR",
+      "prefecture": null,
+      "venue": null,
+      "status": "scheduled",
+      "applicationStartAt": null,
+      "applicationEndAt": null,
+      "saleStartAt": null,
+      "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/11?eventId=6af162d3a46d723d189056ea",
+      "sourceId": "6af162d3a46d723d189056ea",
+      "sourceIds": [
+        "6af162d3a46d723d189056ea"
+      ],
+      "sourceName": "RESCENE Official / Mnet Plus",
+      "sourceLabel": "RESCENE公式スケジュール",
+      "sources": [
+        {
+          "label": "RESCENE公式スケジュール",
+          "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/11?eventId=6af162d3a46d723d189056ea",
+          "type": "official_calendar",
+          "verifiedAt": "2026-11-09"
+        }
+      ],
+      "verifiedAt": "2026-11-09",
+      "dedupeKeys": [
+        "source:mnet-calendar:6af162d3a46d723d189056ea",
+        "event:mbcm쇼챔피언사전녹화:2026-11-11"
+      ],
+      "originalTitle": "MBC M <쇼! 챔피언> 사전 녹화",
+      "allDay": false,
+      "autoManaged": true,
+      "verificationStatus": "confirmed"
+    },
+    "dedupeKeys": [
+      "source:mnet-calendar:6af162d3a46d723d189056ea",
+      "event:mbcm쇼챔피언사전녹화:2026-11-11"
+    ],
+    "reason": "公式source IDは一致しませんが、既存予定とタイトル・日付または一部source IDが近いため、同一イベントか人間が確認します。"
+  },
+  {
     "id": "uncertain-match-6aed5f75b4515616f2a91866-2026-11-06",
     "status": "candidate",
     "candidateType": "uncertain_match",
