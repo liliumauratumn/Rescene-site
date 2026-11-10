@@ -243,7 +243,7 @@
     "region": "KR",
     "prefecture": null,
     "venue": null,
-    "status": "scheduled",
+    "status": "completed",
     "applicationStartAt": null,
     "applicationEndAt": null,
     "saleStartAt": null,
@@ -259,10 +259,10 @@
         "label": "RESCENE公式スケジュール",
         "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/11?eventId=6af17804a46d723d189056fc",
         "type": "official_calendar",
-        "verifiedAt": "2026-11-10"
+        "verifiedAt": "2026-11-11"
       }
     ],
-    "verifiedAt": "2026-11-10",
+    "verifiedAt": "2026-11-11",
     "dedupeKeys": [
       "source:mnet-calendar:6af17804a46d723d189056fc",
       "event:sbsm더쇼:2026-11-10"
@@ -282,7 +282,7 @@
     "region": "KR",
     "prefecture": null,
     "venue": null,
-    "status": "scheduled",
+    "status": "completed",
     "applicationStartAt": null,
     "applicationEndAt": null,
     "saleStartAt": null,
@@ -298,10 +298,10 @@
         "label": "RESCENE公式スケジュール",
         "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/11?eventId=6af175a75e04b81dc54f3997",
         "type": "official_calendar",
-        "verifiedAt": "2026-11-10"
+        "verifiedAt": "2026-11-11"
       }
     ],
-    "verifiedAt": "2026-11-10",
+    "verifiedAt": "2026-11-11",
     "dedupeKeys": [
       "source:mnet-calendar:6af175a75e04b81dc54f3997",
       "event:sbsm더쇼사전녹화:2026-11-10"
