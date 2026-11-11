@@ -1,5 +1,100 @@
 [
   {
+    "id": "uncertain-match-6af47175c920f3638b522257-2026-11-12",
+    "status": "candidate",
+    "candidateType": "uncertain_match",
+    "title": "KBS2 <뮤직뱅크>",
+    "eventDate": "2026-11-13",
+    "sourceId": "6af47175c920f3638b522257",
+    "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/11?eventId=6af47175c920f3638b522257",
+    "sourceName": "RESCENE Official / Mnet Plus",
+    "sourceType": "official_calendar",
+    "discoveredAt": "2026-11-12",
+    "existingSchedule": {
+      "id": "mnet-calendar-6aeb1a6f5e04b81dc54f2630",
+      "title": "KBS2 <뮤직뱅크>",
+      "startAt": "2026-11-06T16:45:00+09:00",
+      "endAt": null,
+      "timezone": "Asia/Tokyo",
+      "type": "broadcast",
+      "region": "KR",
+      "prefecture": null,
+      "venue": null,
+      "status": "completed",
+      "applicationStartAt": null,
+      "applicationEndAt": null,
+      "saleStartAt": null,
+      "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/11?eventId=6aeb1a6f5e04b81dc54f2630",
+      "sourceId": "6aeb1a6f5e04b81dc54f2630",
+      "sourceIds": [
+        "6aeb1a6f5e04b81dc54f2630"
+      ],
+      "sourceName": "RESCENE Official / Mnet Plus",
+      "sourceLabel": "RESCENE公式スケジュール",
+      "sources": [
+        {
+          "label": "RESCENE公式スケジュール",
+          "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/11?eventId=6aeb1a6f5e04b81dc54f2630",
+          "type": "official_calendar",
+          "verifiedAt": "2026-11-07"
+        }
+      ],
+      "verifiedAt": "2026-11-07",
+      "dedupeKeys": [
+        "source:mnet-calendar:6aeb1a6f5e04b81dc54f2630",
+        "event:kbs2뮤직뱅크:2026-11-06"
+      ],
+      "originalTitle": "KBS2 <뮤직뱅크>",
+      "allDay": false,
+      "autoManaged": true,
+      "verificationStatus": "confirmed"
+    },
+    "proposedSchedule": {
+      "id": "mnet-calendar-6af47175c920f3638b522257",
+      "title": "KBS2 <뮤직뱅크>",
+      "startAt": "2026-11-13T17:10:00+09:00",
+      "endAt": null,
+      "timezone": "Asia/Tokyo",
+      "type": "broadcast",
+      "region": "KR",
+      "prefecture": null,
+      "venue": null,
+      "status": "scheduled",
+      "applicationStartAt": null,
+      "applicationEndAt": null,
+      "saleStartAt": null,
+      "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/11?eventId=6af47175c920f3638b522257",
+      "sourceId": "6af47175c920f3638b522257",
+      "sourceIds": [
+        "6af47175c920f3638b522257"
+      ],
+      "sourceName": "RESCENE Official / Mnet Plus",
+      "sourceLabel": "RESCENE公式スケジュール",
+      "sources": [
+        {
+          "label": "RESCENE公式スケジュール",
+          "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/11?eventId=6af47175c920f3638b522257",
+          "type": "official_calendar",
+          "verifiedAt": "2026-11-12"
+        }
+      ],
+      "verifiedAt": "2026-11-12",
+      "dedupeKeys": [
+        "source:mnet-calendar:6af47175c920f3638b522257",
+        "event:kbs2뮤직뱅크:2026-11-13"
+      ],
+      "originalTitle": "KBS2 <뮤직뱅크>",
+      "allDay": false,
+      "autoManaged": true,
+      "verificationStatus": "confirmed"
+    },
+    "dedupeKeys": [
+      "source:mnet-calendar:6af47175c920f3638b522257",
+      "event:kbs2뮤직뱅크:2026-11-13"
+    ],
+    "reason": "公式source IDは一致しませんが、既存予定とタイトル・日付または一部source IDが近いため、同一イベントか人間が確認します。"
+  },
+  {
     "id": "uncertain-match-6af175e1a46d723d189056f5-2026-11-10",
     "status": "candidate",
     "candidateType": "uncertain_match",

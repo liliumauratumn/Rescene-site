@@ -165,7 +165,7 @@
     "region": "KR",
     "prefecture": null,
     "venue": null,
-    "status": "scheduled",
+    "status": "completed",
     "applicationStartAt": null,
     "applicationEndAt": null,
     "saleStartAt": null,
@@ -181,10 +181,10 @@
         "label": "RESCENE公式スケジュール",
         "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/11?eventId=6af16317a46d723d189056eb",
         "type": "official_calendar",
-        "verifiedAt": "2026-11-09"
+        "verifiedAt": "2026-11-12"
       }
     ],
-    "verifiedAt": "2026-11-09",
+    "verifiedAt": "2026-11-12",
     "dedupeKeys": [
       "source:mnet-calendar:6af16317a46d723d189056eb",
       "event:mbcm쇼챔피언:2026-11-11"
@@ -204,7 +204,7 @@
     "region": "KR",
     "prefecture": null,
     "venue": null,
-    "status": "scheduled",
+    "status": "completed",
     "applicationStartAt": null,
     "applicationEndAt": null,
     "saleStartAt": null,
@@ -220,10 +220,10 @@
         "label": "RESCENE公式スケジュール",
         "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/11?eventId=6af162a2a46d723d189056e9",
         "type": "official_calendar",
-        "verifiedAt": "2026-11-09"
+        "verifiedAt": "2026-11-12"
       }
     ],
-    "verifiedAt": "2026-11-09",
+    "verifiedAt": "2026-11-12",
     "dedupeKeys": [
       "source:mnet-calendar:6af162a2a46d723d189056e9",
       "event:mbcm쇼챔피언사전녹화:2026-11-11"
