@@ -1,5 +1,100 @@
 [
   {
+    "id": "uncertain-match-6af69afeb12b5508a503cc7c-2026-11-13",
+    "status": "candidate",
+    "candidateType": "uncertain_match",
+    "title": "SBS <인기가요>",
+    "eventDate": "2026-11-15",
+    "sourceId": "6af69afeb12b5508a503cc7c",
+    "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/11?eventId=6af69afeb12b5508a503cc7c",
+    "sourceName": "RESCENE Official / Mnet Plus",
+    "sourceType": "official_calendar",
+    "discoveredAt": "2026-11-13",
+    "existingSchedule": {
+      "id": "mnet-calendar-6aed5f9fb4515616f2a91867",
+      "title": "SBS <인기가요>",
+      "startAt": "2026-11-08T15:10:00+09:00",
+      "endAt": null,
+      "timezone": "Asia/Tokyo",
+      "type": "broadcast",
+      "region": "KR",
+      "prefecture": null,
+      "venue": null,
+      "status": "completed",
+      "applicationStartAt": null,
+      "applicationEndAt": null,
+      "saleStartAt": null,
+      "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/11?eventId=6aed5f9fb4515616f2a91867",
+      "sourceId": "6aed5f9fb4515616f2a91867",
+      "sourceIds": [
+        "6aed5f9fb4515616f2a91867"
+      ],
+      "sourceName": "RESCENE Official / Mnet Plus",
+      "sourceLabel": "RESCENE公式スケジュール",
+      "sources": [
+        {
+          "label": "RESCENE公式スケジュール",
+          "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/11?eventId=6aed5f9fb4515616f2a91867",
+          "type": "official_calendar",
+          "verifiedAt": "2026-11-09"
+        }
+      ],
+      "verifiedAt": "2026-11-09",
+      "dedupeKeys": [
+        "source:mnet-calendar:6aed5f9fb4515616f2a91867",
+        "event:sbs인기가요:2026-11-08"
+      ],
+      "originalTitle": "SBS <인기가요>",
+      "allDay": false,
+      "autoManaged": true,
+      "verificationStatus": "confirmed"
+    },
+    "proposedSchedule": {
+      "id": "mnet-calendar-6af69afeb12b5508a503cc7c",
+      "title": "SBS <인기가요>",
+      "startAt": "2026-11-15T15:15:00+09:00",
+      "endAt": null,
+      "timezone": "Asia/Tokyo",
+      "type": "broadcast",
+      "region": "KR",
+      "prefecture": null,
+      "venue": null,
+      "status": "scheduled",
+      "applicationStartAt": null,
+      "applicationEndAt": null,
+      "saleStartAt": null,
+      "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/11?eventId=6af69afeb12b5508a503cc7c",
+      "sourceId": "6af69afeb12b5508a503cc7c",
+      "sourceIds": [
+        "6af69afeb12b5508a503cc7c"
+      ],
+      "sourceName": "RESCENE Official / Mnet Plus",
+      "sourceLabel": "RESCENE公式スケジュール",
+      "sources": [
+        {
+          "label": "RESCENE公式スケジュール",
+          "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/11?eventId=6af69afeb12b5508a503cc7c",
+          "type": "official_calendar",
+          "verifiedAt": "2026-11-13"
+        }
+      ],
+      "verifiedAt": "2026-11-13",
+      "dedupeKeys": [
+        "source:mnet-calendar:6af69afeb12b5508a503cc7c",
+        "event:sbs인기가요:2026-11-15"
+      ],
+      "originalTitle": "SBS <인기가요>",
+      "allDay": false,
+      "autoManaged": true,
+      "verificationStatus": "confirmed"
+    },
+    "dedupeKeys": [
+      "source:mnet-calendar:6af69afeb12b5508a503cc7c",
+      "event:sbs인기가요:2026-11-15"
+    ],
+    "reason": "公式source IDは一致しませんが、既存予定とタイトル・日付または一部source IDが近いため、同一イベントか人間が確認します。"
+  },
+  {
     "id": "uncertain-match-6af47175c920f3638b522257-2026-11-12",
     "status": "candidate",
     "candidateType": "uncertain_match",
