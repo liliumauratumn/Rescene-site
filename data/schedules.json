@@ -117,6 +117,45 @@
     "verificationStatus": "confirmed"
   },
   {
+    "id": "mnet-calendar-6af7e663290d6361dc478204",
+    "title": "멜론 STAGE 99",
+    "startAt": "2026-11-24T00:00:00+09:00",
+    "endAt": "2026-11-24T23:59:59+09:00",
+    "timezone": "Asia/Tokyo",
+    "type": "performance",
+    "region": "KR",
+    "prefecture": null,
+    "venue": null,
+    "status": "scheduled",
+    "applicationStartAt": null,
+    "applicationEndAt": null,
+    "saleStartAt": null,
+    "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/11?eventId=6af7e663290d6361dc478204",
+    "sourceId": "6af7e663290d6361dc478204",
+    "sourceIds": [
+      "6af7e663290d6361dc478204"
+    ],
+    "sourceName": "RESCENE Official / Mnet Plus",
+    "sourceLabel": "RESCENE公式スケジュール",
+    "sources": [
+      {
+        "label": "RESCENE公式スケジュール",
+        "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/11?eventId=6af7e663290d6361dc478204",
+        "type": "official_calendar",
+        "verifiedAt": "2026-11-14"
+      }
+    ],
+    "verifiedAt": "2026-11-14",
+    "dedupeKeys": [
+      "source:mnet-calendar:6af7e663290d6361dc478204",
+      "event:멜론stage99:2026-11-24"
+    ],
+    "originalTitle": "멜론 STAGE 99",
+    "allDay": true,
+    "autoManaged": true,
+    "verificationStatus": "confirmed"
+  },
+  {
     "id": "mnet-calendar-6ae4ba84a46d723d18905122",
     "title": "2026 MAMA AWARDS (OSAKA)",
     "startAt": "2026-11-20T00:00:00+09:00",
