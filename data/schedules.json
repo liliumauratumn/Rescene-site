@@ -243,7 +243,7 @@
     "region": "KR",
     "prefecture": null,
     "venue": null,
-    "status": "scheduled",
+    "status": "completed",
     "applicationStartAt": null,
     "applicationEndAt": null,
     "saleStartAt": null,
@@ -259,10 +259,10 @@
         "label": "RESCENE公式スケジュール",
         "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/11?eventId=6af5486d16bd0539d8e6ba15",
         "type": "official_calendar",
-        "verifiedAt": "2026-11-12"
+        "verifiedAt": "2026-11-15"
       }
     ],
-    "verifiedAt": "2026-11-12",
+    "verifiedAt": "2026-11-15",
     "dedupeKeys": [
       "source:mnet-calendar:6af5486d16bd0539d8e6ba15",
       "event:mbc쇼음악중심사전녹화:2026-11-14"
@@ -282,7 +282,7 @@
     "region": "KR",
     "prefecture": null,
     "venue": null,
-    "status": "scheduled",
+    "status": "completed",
     "applicationStartAt": null,
     "applicationEndAt": null,
     "saleStartAt": null,
@@ -298,10 +298,10 @@
         "label": "RESCENE公式スケジュール",
         "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/11?eventId=6adc11ce13e68b02d4a6b14a",
         "type": "official_calendar",
-        "verifiedAt": "2026-10-24"
+        "verifiedAt": "2026-11-15"
       }
     ],
-    "verifiedAt": "2026-10-24",
+    "verifiedAt": "2026-11-15",
     "dedupeKeys": [
       "source:mnet-calendar:6adc11ce13e68b02d4a6b14a",
       "event:2026멜론뮤직어워드mma:2026-11-14"
