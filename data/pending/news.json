@@ -1,5 +1,22 @@
 [
   {
+    "id": "youtube-uimf1XEv_Ow",
+    "status": "candidate",
+    "candidateType": "official_video",
+    "title": "더 활짝 피어나 🌺ㅣRESCENE (리센느) ‘PULSE’ Dance Practice Behind",
+    "publishedAt": "2026-11-19",
+    "eventDate": null,
+    "videoId": "uimf1XEv_Ow",
+    "sourceUrl": "https://www.youtube.com/watch?v=uimf1XEv_Ow",
+    "sourceName": "RESCENE Official YouTube",
+    "sourceType": "official_video",
+    "discoveredAt": "2026-11-20",
+    "dedupeKeys": [
+      "media:youtube:uimf1XEv_Ow"
+    ],
+    "reason": "公式YouTubeの高シグナル動画として検出。記事化の要否と日本語本文を人間が確認します。"
+  },
+  {
     "id": "mnet-notice-6afd6bb0cd641632763bda73",
     "status": "candidate",
     "candidateType": "official_notice",
