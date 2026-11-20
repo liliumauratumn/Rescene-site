@@ -117,6 +117,45 @@
     "verificationStatus": "confirmed"
   },
   {
+    "id": "mnet-calendar-6b002a95a938105b2805bb9b",
+    "title": "와키윌리 팝업스토어",
+    "startAt": "2026-12-01T00:00:00+09:00",
+    "endAt": "2026-12-01T23:59:59+09:00",
+    "timezone": "Asia/Tokyo",
+    "type": "event",
+    "region": "KR",
+    "prefecture": null,
+    "venue": null,
+    "status": "scheduled",
+    "applicationStartAt": null,
+    "applicationEndAt": null,
+    "saleStartAt": null,
+    "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/12?eventId=6b002a95a938105b2805bb9b",
+    "sourceId": "6b002a95a938105b2805bb9b",
+    "sourceIds": [
+      "6b002a95a938105b2805bb9b"
+    ],
+    "sourceName": "RESCENE Official / Mnet Plus",
+    "sourceLabel": "RESCENE公式スケジュール",
+    "sources": [
+      {
+        "label": "RESCENE公式スケジュール",
+        "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/12?eventId=6b002a95a938105b2805bb9b",
+        "type": "official_calendar",
+        "verifiedAt": "2026-11-21"
+      }
+    ],
+    "verifiedAt": "2026-11-21",
+    "dedupeKeys": [
+      "source:mnet-calendar:6b002a95a938105b2805bb9b",
+      "event:와키윌리팝업스토어:2026-12-01"
+    ],
+    "originalTitle": "와키윌리 팝업스토어",
+    "allDay": true,
+    "autoManaged": true,
+    "verificationStatus": "confirmed"
+  },
+  {
     "id": "mnet-calendar-6af7e663290d6361dc478204",
     "title": "멜론 STAGE 99",
     "startAt": "2026-11-24T00:00:00+09:00",
@@ -165,7 +204,7 @@
     "region": "KR",
     "prefecture": null,
     "venue": null,
-    "status": "scheduled",
+    "status": "completed",
     "applicationStartAt": null,
     "applicationEndAt": null,
     "saleStartAt": null,
@@ -181,10 +220,10 @@
         "label": "RESCENE公式スケジュール",
         "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/11?eventId=6ae4ba84a46d723d18905122",
         "type": "official_calendar",
-        "verifiedAt": "2026-10-31"
+        "verifiedAt": "2026-11-21"
       }
     ],
-    "verifiedAt": "2026-10-31",
+    "verifiedAt": "2026-11-21",
     "dedupeKeys": [
       "source:mnet-calendar:6ae4ba84a46d723d18905122",
       "event:2026mamaawardsosaka:2026-11-20"
