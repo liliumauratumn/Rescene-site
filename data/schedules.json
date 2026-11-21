@@ -8,7 +8,7 @@
     "type": "performance",
     "region": "KR",
     "prefecture": null,
-    "venue": null,
+    "venue": "KINTEX",
     "status": "scheduled",
     "applicationStartAt": null,
     "applicationEndAt": null,
@@ -26,9 +26,15 @@
         "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/12?eventId=6af50e7574c3d63faa38c626",
         "type": "official_calendar",
         "verifiedAt": "2026-11-12"
+      },
+      {
+        "label": "SBS公式発表",
+        "url": "https://news.sbs.co.kr/news/endPage.do?newsId=N1008837439",
+        "type": "official_broadcaster",
+        "verifiedAt": "2026-11-21"
       }
     ],
-    "verifiedAt": "2026-11-12",
+    "verifiedAt": "2026-11-21",
     "dedupeKeys": [
       "source:mnet-calendar:6af50e7574c3d63faa38c626",
       "event:2026sbs가요대전:2026-12-24"
@@ -90,9 +96,9 @@
     "endAt": "2026-12-05T23:59:59+09:00",
     "timezone": "Asia/Tokyo",
     "type": "performance",
-    "region": "KR",
+    "region": "TW",
     "prefecture": null,
-    "venue": null,
+    "venue": "高雄国家体育場",
     "status": "scheduled",
     "applicationStartAt": null,
     "applicationEndAt": null,
@@ -110,9 +116,21 @@
         "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/12?eventId=6a98f652301866263741bcec",
         "type": "official_calendar",
         "verifiedAt": "2026-09-03"
+      },
+      {
+        "label": "AAA公式チケット案内",
+        "url": "https://tixcraft.com/activity/detail/26_aaa",
+        "type": "event_organizer",
+        "verifiedAt": "2026-11-21"
+      },
+      {
+        "label": "AAA主催 Star News",
+        "url": "https://www.starnewskorea.com/music/2026/07/30/2026073004034296136",
+        "type": "event_organizer",
+        "verifiedAt": "2026-11-21"
       }
     ],
-    "verifiedAt": "2026-09-03",
+    "verifiedAt": "2026-11-21",
     "dedupeKeys": [
       "source:mnet-calendar:6a98f652301866263741bcec",
       "event:aaa2026inkaohsiung:2026-12-05"
@@ -162,12 +180,51 @@
     "verificationStatus": "confirmed"
   },
   {
+    "id": "mnet-notice-6ae2e5d5f9e7993dee787c43",
+    "title": "[PULSE] 対面・ビデオ通話サイン会（WHOSFAN）",
+    "startAt": "2026-11-29T14:00:00+09:00",
+    "endAt": null,
+    "timezone": "Asia/Tokyo",
+    "type": "event",
+    "region": "KR",
+    "prefecture": null,
+    "venue": null,
+    "status": "scheduled",
+    "applicationStartAt": null,
+    "applicationEndAt": null,
+    "saleStartAt": null,
+    "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/contents/6ae2e5d5f9e7993dee787c43",
+    "sourceId": "6ae2e5d5f9e7993dee787c43",
+    "sourceIds": [
+      "6ae2e5d5f9e7993dee787c43"
+    ],
+    "sourceName": "RESCENE Official / Mnet Plus",
+    "sourceLabel": "RESCENE公式告知",
+    "sources": [
+      {
+        "label": "RESCENE公式告知",
+        "url": "https://artist.mnetplus.world/main/stg/rescene-official/contents/6ae2e5d5f9e7993dee787c43",
+        "type": "official_notice",
+        "verifiedAt": "2026-11-21"
+      }
+    ],
+    "verifiedAt": "2026-11-21",
+    "dedupeKeys": [
+      "source:mnet-notice:6ae2e5d5f9e7993dee787c43",
+      "event:pulsefansignwhosfan:2026-11-29"
+    ],
+    "originalTitle": "[PULSE] 대면사인회/개인 영상통화 팬사인회",
+    "allDay": false,
+    "autoManaged": false,
+    "verificationStatus": "confirmed"
+  },
+  {
     "id": "mnet-calendar-6af7e663290d6361dc478204",
     "title": "멜론 STAGE 99",
     "startAt": "2026-11-24T00:00:00+09:00",
     "endAt": "2026-11-24T23:59:59+09:00",
     "timezone": "Asia/Tokyo",
-    "type": "performance",
+    "type": "event",
     "region": "KR",
     "prefecture": null,
     "venue": null,
@@ -188,9 +245,15 @@
         "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/11?eventId=6af7e663290d6361dc478204",
         "type": "official_calendar",
         "verifiedAt": "2026-11-14"
+      },
+      {
+        "label": "Kakao Entertainment公式発表",
+        "url": "https://kakaoent.com/pr/detail/624",
+        "type": "event_organizer",
+        "verifiedAt": "2026-11-21"
       }
     ],
-    "verifiedAt": "2026-11-14",
+    "verifiedAt": "2026-11-21",
     "dedupeKeys": [
       "source:mnet-calendar:6af7e663290d6361dc478204",
       "event:멜론stage99:2026-11-24"
@@ -201,15 +264,60 @@
     "verificationStatus": "confirmed"
   },
   {
+    "id": "mnet-notice-6adad208e9a4c318c2621f9b",
+    "title": "[PULSE] 対面・ビデオ通話サイン会（MAKESTAR）",
+    "startAt": "2026-11-22T13:00:00+09:00",
+    "endAt": null,
+    "timezone": "Asia/Tokyo",
+    "type": "event",
+    "region": "KR",
+    "prefecture": null,
+    "venue": null,
+    "status": "scheduled",
+    "applicationStartAt": null,
+    "applicationEndAt": null,
+    "saleStartAt": null,
+    "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/contents/6adad208e9a4c318c2621f9b",
+    "sourceId": "6adad208e9a4c318c2621f9b",
+    "sourceIds": [
+      "6adad208e9a4c318c2621f9b"
+    ],
+    "sourceName": "RESCENE Official / Mnet Plus",
+    "sourceLabel": "RESCENE公式告知",
+    "sources": [
+      {
+        "label": "RESCENE公式告知",
+        "url": "https://artist.mnetplus.world/main/stg/rescene-official/contents/6adad208e9a4c318c2621f9b",
+        "type": "official_notice",
+        "verifiedAt": "2026-11-21"
+      },
+      {
+        "label": "MAKESTAR公式案内",
+        "url": "https://www.makestar.com/product/21557",
+        "type": "event_organizer",
+        "verifiedAt": "2026-11-21"
+      }
+    ],
+    "verifiedAt": "2026-11-21",
+    "dedupeKeys": [
+      "source:mnet-notice:6adad208e9a4c318c2621f9b",
+      "event:pulsefansignmakestar:2026-11-22"
+    ],
+    "originalTitle": "[PULSE] 대면사인회/개인 영상통화 팬사인회",
+    "allDay": false,
+    "autoManaged": false,
+    "verificationStatus": "confirmed"
+  },
+  {
     "id": "mnet-calendar-6ae4ba84a46d723d18905122",
     "title": "2026 MAMA AWARDS (OSAKA)",
     "startAt": "2026-11-20T00:00:00+09:00",
     "endAt": "2026-11-20T23:59:59+09:00",
     "timezone": "Asia/Tokyo",
     "type": "performance",
-    "region": "KR",
-    "prefecture": null,
-    "venue": null,
+    "region": "JP",
+    "prefecture": "大阪府",
+    "venue": "京セラドーム大阪",
     "status": "completed",
     "applicationStartAt": null,
     "applicationEndAt": null,
@@ -226,6 +334,12 @@
         "label": "RESCENE公式スケジュール",
         "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/11?eventId=6ae4ba84a46d723d18905122",
         "type": "official_calendar",
+        "verifiedAt": "2026-11-21"
+      },
+      {
+        "label": "CJ公式発表",
+        "url": "https://newsroom.cj.net/?p=10787",
+        "type": "event_organizer",
         "verifiedAt": "2026-11-21"
       }
     ],
@@ -1016,45 +1130,6 @@
     ],
     "originalTitle": "NOL FESTIVAL - 고양",
     "allDay": true,
-    "autoManaged": true,
-    "verificationStatus": "confirmed"
-  },
-  {
-    "id": "mnet-calendar-6aa4f18695f4fe71ddd6c352",
-    "title": "MBC 라디오스타",
-    "startAt": "2026-10-16T22:30:00+09:00",
-    "endAt": null,
-    "timezone": "Asia/Tokyo",
-    "type": "broadcast",
-    "region": "KR",
-    "prefecture": null,
-    "venue": null,
-    "status": "scheduled",
-    "applicationStartAt": null,
-    "applicationEndAt": null,
-    "saleStartAt": null,
-    "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6aa4f18695f4fe71ddd6c352",
-    "sourceId": "6aa4f18695f4fe71ddd6c352",
-    "sourceIds": [
-      "6aa4f18695f4fe71ddd6c352"
-    ],
-    "sourceName": "RESCENE Official / Mnet Plus",
-    "sourceLabel": "RESCENE公式スケジュール",
-    "sources": [
-      {
-        "label": "RESCENE公式スケジュール",
-        "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6aa4f18695f4fe71ddd6c352",
-        "type": "official_calendar",
-        "verifiedAt": "2026-09-12"
-      }
-    ],
-    "verifiedAt": "2026-09-12",
-    "dedupeKeys": [
-      "source:mnet-calendar:6aa4f18695f4fe71ddd6c352",
-      "event:mbc라디오스타:2026-10-16"
-    ],
-    "originalTitle": "MBC 라디오스타",
-    "allDay": false,
     "autoManaged": true,
     "verificationStatus": "confirmed"
   },
@@ -1952,6 +2027,51 @@
     ],
     "originalTitle": "동국대학교 축제",
     "allDay": true,
+    "autoManaged": true,
+    "verificationStatus": "confirmed"
+  },
+  {
+    "id": "mnet-calendar-6aa4f18695f4fe71ddd6c352",
+    "title": "MBC 라디오스타",
+    "startAt": "2026-09-16T22:30:00+09:00",
+    "endAt": null,
+    "timezone": "Asia/Tokyo",
+    "type": "broadcast",
+    "region": "KR",
+    "prefecture": null,
+    "venue": null,
+    "status": "completed",
+    "applicationStartAt": null,
+    "applicationEndAt": null,
+    "saleStartAt": null,
+    "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6aa4f18695f4fe71ddd6c352",
+    "sourceId": "6aa4f18695f4fe71ddd6c352",
+    "sourceIds": [
+      "6aa4f18695f4fe71ddd6c352"
+    ],
+    "sourceName": "RESCENE Official / Mnet Plus",
+    "sourceLabel": "RESCENE公式スケジュール",
+    "sources": [
+      {
+        "label": "RESCENE公式スケジュール",
+        "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6aa4f18695f4fe71ddd6c352",
+        "type": "official_calendar",
+        "verifiedAt": "2026-09-14"
+      },
+      {
+        "label": "MBC公式番組情報",
+        "url": "https://playvod.imbc.com/Templete/VodView?bid=1000794103375100000",
+        "type": "official_broadcaster",
+        "verifiedAt": "2026-11-21"
+      }
+    ],
+    "verifiedAt": "2026-11-21",
+    "dedupeKeys": [
+      "source:mnet-calendar:6aa4f18695f4fe71ddd6c352",
+      "event:mbc라디오스타:2026-09-16"
+    ],
+    "originalTitle": "MBC 라디오스타",
+    "allDay": false,
     "autoManaged": true,
     "verificationStatus": "confirmed"
   },
