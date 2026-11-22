@@ -59,7 +59,7 @@ try {
   git(seedDir, 'config', 'user.email', 'owner@example.invalid');
   await writeFile(join(seedDir, 'base.txt'), 'base\n');
   await writeFile(join(seedDir, 'schedule-data.txt'), 'initial calendar\n');
-  git(seedDir, 'add', 'base.txt');
+  git(seedDir, 'add', 'base.txt', 'schedule-data.txt');
   git(seedDir, 'commit', '-qm', 'initial');
   git(seedDir, 'remote', 'add', 'origin', originDir);
   git(seedDir, 'push', '-q', '-u', 'origin', 'main');
