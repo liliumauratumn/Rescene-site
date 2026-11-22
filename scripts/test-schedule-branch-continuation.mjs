@@ -67,14 +67,14 @@ try {
   git(seedDir, 'switch', '-q', '-c', 'automation/schedule-update');
   await writeFile(join(seedDir, 'schedule.txt'), 'schedule branch change\n');
   await writeFile(join(seedDir, 'schedule-data.txt'), 'unreviewed automated calendar\n');
-  git(seedDir, 'add', 'schedule.txt');
+  git(seedDir, 'add', 'schedule.txt', 'schedule-data.txt');
   git(seedDir, 'commit', '-qm', 'schedule update');
   git(seedDir, 'push', '-q', '-u', 'origin', 'automation/schedule-update');
 
   git(seedDir, 'switch', '-q', 'main');
   await writeFile(join(seedDir, 'main.txt'), 'new main commit\n');
   await writeFile(join(seedDir, 'schedule-data.txt'), 'verified calendar corrections\n');
-  git(seedDir, 'add', 'main.txt');
+  git(seedDir, 'add', 'main.txt', 'schedule-data.txt');
   git(seedDir, 'commit', '-qm', 'new main commit');
   git(seedDir, 'push', '-q', 'origin', 'main');
 
