@@ -1,5 +1,158 @@
 [
   {
+    "id": "minami-ready-to-love",
+    "slug": "minami-ready-to-love",
+    "title": "MINAMI初の単独OST「사랑해볼래, 나」配信",
+    "summary": "2026年11月18日、RESCENEのMINAMIが歌う「사랑해볼래, 나」が配信されました。日韓共同制作ドラマ『メリーベリーラブ』のOST Part 2で、MINAMIにとってデビュー後初の単独OSTです。",
+    "publishedAt": "2026-11-18",
+    "eventDate": "2026-11-18",
+    "category": "release",
+    "sourceType": "official_distribution",
+    "sourceName": "Melon 配信情報",
+    "sourceUrl": "https://www.melon.com/album/detail.htm?albumId=15166808",
+    "sourceLabel": "Melon 配信情報",
+    "sources": [
+      {
+        "label": "Melon 配信情報",
+        "url": "https://www.melon.com/album/detail.htm?albumId=15166808",
+        "type": "official_distribution",
+        "verifiedAt": "2026-11-21"
+      },
+      {
+        "label": "日本テレビ 番組公式",
+        "url": "https://www.ntv.co.jp/merryberrylove/",
+        "type": "broadcaster",
+        "verifiedAt": "2026-11-21"
+      },
+      {
+        "label": "MBC NEWS",
+        "url": "https://imnews.imbc.com/replay/2026/nwtoday/article/6866792_37012.html",
+        "type": "news_report",
+        "verifiedAt": "2026-11-21"
+      }
+    ],
+    "verifiedAt": "2026-11-21",
+    "dedupeKeys": [
+      "source:mnet-notice:6afd6bb0cd641632763bda73",
+      "release:minami-ready-to-love"
+    ],
+    "body": [
+      {
+        "heading": "何が起きた",
+        "paragraphs": [
+          "2026年11月18日、RESCENEのMINAMIが歌う「사랑해볼래, 나」が配信されました。日韓共同制作ドラマ『メリーベリーラブ』のOST Part 2で、MINAMIにとってデビュー後初の単独OSTです。"
+        ]
+      }
+    ],
+    "relatedMembers": [
+      "minami"
+    ],
+    "relatedReleases": [],
+    "verificationStatus": "confirmed"
+  },
+  {
+    "id": "pulse-release",
+    "slug": "pulse-release",
+    "title": "4th Mini Album『PULSE』発売、タイトル曲「With」のMV公開",
+    "summary": "RESCENEは2026年11月3日、4th Mini Album『PULSE』を発売し、タイトル曲「With」のミュージックビデオを公開しました。全5曲を収録しています。",
+    "publishedAt": "2026-11-03",
+    "eventDate": "2026-11-03",
+    "category": "release",
+    "sourceType": "official_video",
+    "sourceName": "RESCENE公式MV",
+    "sourceUrl": "https://www.youtube.com/watch?v=pey3E47eSc8",
+    "sourceLabel": "RESCENE公式MV",
+    "sources": [
+      {
+        "label": "RESCENE公式MV",
+        "url": "https://www.youtube.com/watch?v=pey3E47eSc8",
+        "type": "official_video",
+        "verifiedAt": "2026-11-21"
+      },
+      {
+        "label": "Melon 配信情報",
+        "url": "https://www.melon.com/album/detail.htm?albumId=15082293",
+        "type": "official_distribution",
+        "verifiedAt": "2026-11-21"
+      },
+      {
+        "label": "RESCENE公式 ダンス練習ビハインド",
+        "url": "https://www.youtube.com/watch?v=uimf1XEv_Ow",
+        "type": "official_video",
+        "verifiedAt": "2026-11-21"
+      }
+    ],
+    "verifiedAt": "2026-11-21",
+    "dedupeKeys": [
+      "media:youtube:pey3E47eSc8",
+      "release:pulse-release"
+    ],
+    "body": [
+      {
+        "heading": "何が起きた",
+        "paragraphs": [
+          "RESCENEは2026年11月3日、4th Mini Album『PULSE』を発売し、タイトル曲「With」のミュージックビデオを公開しました。全5曲を収録しています。"
+        ]
+      },
+      {
+        "heading": "関連映像",
+        "paragraphs": [
+          "11月19日には、RESCENEの公式YouTubeで『PULSE』のダンス練習の舞台裏を収めた映像が公開されました。"
+        ]
+      }
+    ],
+    "relatedMembers": [],
+    "relatedReleases": [
+      "pulse"
+    ],
+    "verificationStatus": "confirmed"
+  },
+  {
+    "id": "loco-tata-minami",
+    "slug": "loco-tata-minami",
+    "title": "MINAMIがLocoのシングル「TATA」に客演",
+    "summary": "2026年10月15日、RESCENEのMINAMIが客演したLocoのシングル「TATA」が配信されました。",
+    "publishedAt": "2026-10-15",
+    "eventDate": "2026-10-15",
+    "category": "release",
+    "sourceType": "official_distribution",
+    "sourceName": "Apple Music 配信情報",
+    "sourceUrl": "https://music.apple.com/us/album/tata-feat-minami-of-rescene-single/6821782173",
+    "sourceLabel": "Apple Music 配信情報",
+    "sources": [
+      {
+        "label": "Apple Music 配信情報",
+        "url": "https://music.apple.com/us/album/tata-feat-minami-of-rescene-single/6821782173",
+        "type": "official_distribution",
+        "verifiedAt": "2026-11-21"
+      },
+      {
+        "label": "Melon 配信情報",
+        "url": "https://www.melon.com/album/detail.htm?albumId=14645527",
+        "type": "official_distribution",
+        "verifiedAt": "2026-11-21"
+      }
+    ],
+    "verifiedAt": "2026-11-21",
+    "dedupeKeys": [
+      "source:mnet-notice:6ad098be81b129370e830c7b",
+      "release:loco-tata-minami"
+    ],
+    "body": [
+      {
+        "heading": "何が起きた",
+        "paragraphs": [
+          "2026年10月15日、RESCENEのMINAMIが客演したLocoのシングル「TATA」が配信されました。"
+        ]
+      }
+    ],
+    "relatedMembers": [
+      "minami"
+    ],
+    "relatedReleases": [],
+    "verificationStatus": "confirmed"
+  },
+  {
     "id": "kcon-la-2026-love-attack-stage",
     "slug": "kcon-la-2026-love-attack-stage",
     "title": "KCON LA 2026、RESCENEの「LOVE ATTACK」公式ステージ映像が公開",

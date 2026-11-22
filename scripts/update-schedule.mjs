@@ -133,7 +133,7 @@ const records = groups.map(({ events }) => {
     startAt,
     endAt,
     timezone: 'Asia/Tokyo',
-    type: typeMap[first.label.name] ?? 'event',
+    type: override.type ?? typeMap[first.label.name] ?? 'event',
     region: override.region ?? 'KR',
     prefecture: override.prefecture ?? null,
     venue: override.venue ?? null,

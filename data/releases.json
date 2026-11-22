@@ -713,5 +713,46 @@
     "purchaseLinks": [],
     "verificationStatus": "confirmed",
     "publish": true
+  },
+  {
+    "id": "pulse",
+    "title": "PULSE",
+    "releaseDate": "2026-11-03",
+    "releaseType": "4th Mini Album",
+    "language": "ko",
+    "titleTracks": [
+      "With"
+    ],
+    "tracks": [
+      {
+        "title": "Finest Thing"
+      },
+      {
+        "title": "With",
+        "isTitle": true
+      },
+      {
+        "title": "백화요란 (Inside Out)"
+      },
+      {
+        "title": "MEME"
+      },
+      {
+        "title": "Dragon"
+      }
+    ],
+    "scentConcept": null,
+    "descriptionJa": "タイトル曲「With」を含む全5曲を収録した4枚目のミニアルバム。",
+    "japanRelated": false,
+    "officialVideoUrl": "https://www.youtube.com/watch?v=pey3E47eSc8",
+    "streamingLinks": [
+      {
+        "label": "Melon",
+        "url": "https://www.melon.com/album/detail.htm?albumId=15082293"
+      }
+    ],
+    "purchaseLinks": [],
+    "verificationStatus": "confirmed",
+    "publish": true
   }
 ]
