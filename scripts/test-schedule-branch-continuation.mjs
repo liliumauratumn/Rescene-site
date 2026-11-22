@@ -91,7 +91,7 @@ try {
   git(failedRunnerDir, 'switch', '-q', 'automation/schedule-update');
   const failedMerge = spawnSync(
     'git',
-    ['merge', '--no-edit', 'origin/main'],
+    ['merge', '-X', 'theirs', '--no-edit', 'origin/main'],
     { cwd: failedRunnerDir, encoding: 'utf8', env: gitEnvironment },
   );
   assert.equal(failedMerge.status, 128);
