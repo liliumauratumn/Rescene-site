@@ -12,7 +12,7 @@ const workflow = await readFile(
   'utf8',
 );
 const continuationStart = workflow.indexOf('- name: Continue the schedule branch if it exists');
-const mergeIndex = workflow.indexOf('git merge --no-edit "origin/$default_branch"', continuationStart);
+const mergeIndex = workflow.indexOf('git merge -X theirs --no-edit "origin/$default_branch"', continuationStart);
 const nameConfigIndex = workflow.indexOf('git config user.name "github-actions[bot]"', continuationStart);
 const emailConfigIndex = workflow.indexOf(
   'git config user.email "41898282+github-actions[bot]@users.noreply.github.com"',
@@ -116,7 +116,7 @@ try {
     'automation/schedule-update:automation/schedule-update',
   );
   git(runnerDir, 'switch', '-q', 'automation/schedule-update');
-  git(runnerDir, 'merge', '--no-edit', 'origin/main');
+  git(runnerDir, 'merge', '-X', 'theirs', '--no-edit', 'origin/main');
 
   assert.equal(git(runnerDir, 'log', '-1', '--format=%cn'), 'github-actions[bot]');
   assert.equal(
