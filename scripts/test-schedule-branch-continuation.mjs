@@ -58,6 +58,7 @@ try {
   git(seedDir, 'config', 'user.name', 'Repository Owner');
   git(seedDir, 'config', 'user.email', 'owner@example.invalid');
   await writeFile(join(seedDir, 'base.txt'), 'base\n');
+  await writeFile(join(seedDir, 'schedule-data.txt'), 'initial calendar\n');
   git(seedDir, 'add', 'base.txt');
   git(seedDir, 'commit', '-qm', 'initial');
   git(seedDir, 'remote', 'add', 'origin', originDir);
@@ -65,12 +66,14 @@ try {
 
   git(seedDir, 'switch', '-q', '-c', 'automation/schedule-update');
   await writeFile(join(seedDir, 'schedule.txt'), 'schedule branch change\n');
+  await writeFile(join(seedDir, 'schedule-data.txt'), 'unreviewed automated calendar\n');
   git(seedDir, 'add', 'schedule.txt');
   git(seedDir, 'commit', '-qm', 'schedule update');
   git(seedDir, 'push', '-q', '-u', 'origin', 'automation/schedule-update');
 
   git(seedDir, 'switch', '-q', 'main');
   await writeFile(join(seedDir, 'main.txt'), 'new main commit\n');
+  await writeFile(join(seedDir, 'schedule-data.txt'), 'verified calendar corrections\n');
   git(seedDir, 'add', 'main.txt');
   git(seedDir, 'commit', '-qm', 'new main commit');
   git(seedDir, 'push', '-q', 'origin', 'main');
@@ -126,6 +129,11 @@ try {
   assert.equal(git(runnerDir, 'log', '-1', '--format=%P').split(' ').length, 2);
   assert.equal(await readFile(join(runnerDir, 'schedule.txt'), 'utf8'), 'schedule branch change\n');
   assert.equal(await readFile(join(runnerDir, 'main.txt'), 'utf8'), 'new main commit\n');
+  assert.equal(
+    await readFile(join(runnerDir, 'schedule-data.txt'), 'utf8'),
+    'verified calendar corrections\n',
+    'Merge conflict must keep the verified main-branch schedule',
+  );
   assert.ok(Number(git(runnerDir, 'rev-list', '--count', 'origin/main..HEAD')) > 0);
 
   const ghCalls = [];
