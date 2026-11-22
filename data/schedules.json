@@ -219,6 +219,84 @@
     "verificationStatus": "confirmed"
   },
   {
+    "id": "mnet-calendar-6b023361946e254a8ebc928b",
+    "title": "디즈니 <헥스:마녀왕국> 스페셜 무대인사",
+    "startAt": "2026-11-25T18:25:00+09:00",
+    "endAt": null,
+    "timezone": "Asia/Tokyo",
+    "type": "event",
+    "region": "KR",
+    "prefecture": null,
+    "venue": null,
+    "status": "scheduled",
+    "applicationStartAt": null,
+    "applicationEndAt": null,
+    "saleStartAt": null,
+    "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/11?eventId=6b023361946e254a8ebc928b",
+    "sourceId": "6b023361946e254a8ebc928b",
+    "sourceIds": [
+      "6b023361946e254a8ebc928b"
+    ],
+    "sourceName": "RESCENE Official / Mnet Plus",
+    "sourceLabel": "RESCENE公式スケジュール",
+    "sources": [
+      {
+        "label": "RESCENE公式スケジュール",
+        "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/11?eventId=6b023361946e254a8ebc928b",
+        "type": "official_calendar",
+        "verifiedAt": "2026-11-23"
+      }
+    ],
+    "verifiedAt": "2026-11-23",
+    "dedupeKeys": [
+      "source:mnet-calendar:6b023361946e254a8ebc928b",
+      "event:디즈니헥스마녀왕국스페셜무대인사:2026-11-25"
+    ],
+    "originalTitle": "디즈니 <헥스:마녀왕국> 스페셜 무대인사",
+    "allDay": false,
+    "autoManaged": true,
+    "verificationStatus": "confirmed"
+  },
+  {
+    "id": "mnet-calendar-6b02343e7dada20be5d084e4",
+    "title": "할리스 미니 팬미팅",
+    "startAt": "2026-11-25T15:30:00+09:00",
+    "endAt": null,
+    "timezone": "Asia/Tokyo",
+    "type": "event",
+    "region": "KR",
+    "prefecture": null,
+    "venue": null,
+    "status": "scheduled",
+    "applicationStartAt": null,
+    "applicationEndAt": null,
+    "saleStartAt": null,
+    "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/11?eventId=6b02343e7dada20be5d084e4",
+    "sourceId": "6b02343e7dada20be5d084e4",
+    "sourceIds": [
+      "6b02343e7dada20be5d084e4"
+    ],
+    "sourceName": "RESCENE Official / Mnet Plus",
+    "sourceLabel": "RESCENE公式スケジュール",
+    "sources": [
+      {
+        "label": "RESCENE公式スケジュール",
+        "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/11?eventId=6b02343e7dada20be5d084e4",
+        "type": "official_calendar",
+        "verifiedAt": "2026-11-23"
+      }
+    ],
+    "verifiedAt": "2026-11-23",
+    "dedupeKeys": [
+      "source:mnet-calendar:6b02343e7dada20be5d084e4",
+      "event:할리스미니팬미팅:2026-11-25"
+    ],
+    "originalTitle": "할리스 미니 팬미팅",
+    "allDay": false,
+    "autoManaged": true,
+    "verificationStatus": "confirmed"
+  },
+  {
     "id": "mnet-calendar-6af7e663290d6361dc478204",
     "title": "멜론 STAGE 99",
     "startAt": "2026-11-24T00:00:00+09:00",
@@ -2032,7 +2110,7 @@
   },
   {
     "id": "mnet-calendar-6aa4f18695f4fe71ddd6c352",
-    "title": "MBC 라디오스타",
+    "title": "MBC <라디오스타>",
     "startAt": "2026-09-16T22:30:00+09:00",
     "endAt": null,
     "timezone": "Asia/Tokyo",
@@ -2056,21 +2134,21 @@
         "label": "RESCENE公式スケジュール",
         "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/09?eventId=6aa4f18695f4fe71ddd6c352",
         "type": "official_calendar",
-        "verifiedAt": "2026-09-14"
+        "verifiedAt": "2026-11-23"
       },
       {
         "label": "MBC公式番組情報",
         "url": "https://playvod.imbc.com/Templete/VodView?bid=1000794103375100000",
         "type": "official_broadcaster",
-        "verifiedAt": "2026-11-21"
+        "verifiedAt": "2026-11-23"
       }
     ],
-    "verifiedAt": "2026-11-21",
+    "verifiedAt": "2026-11-23",
     "dedupeKeys": [
       "source:mnet-calendar:6aa4f18695f4fe71ddd6c352",
       "event:mbc라디오스타:2026-09-16"
     ],
-    "originalTitle": "MBC 라디오스타",
+    "originalTitle": "MBC <라디오스타>",
     "allDay": false,
     "autoManaged": true,
     "verificationStatus": "confirmed"
