@@ -40,7 +40,7 @@ jobs:
           if git ls-remote --exit-code --heads origin "$UPDATE_BRANCH" >/dev/null 2>&1; then
             git fetch origin "$UPDATE_BRANCH:$UPDATE_BRANCH"
             git switch "$UPDATE_BRANCH"
-            git merge --no-edit "origin/$default_branch"
+            git merge -X theirs --no-edit "origin/$default_branch"
           else
             git switch -c "$UPDATE_BRANCH" "origin/$default_branch"
           fi

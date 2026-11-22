@@ -30,7 +30,11 @@
     "이벤트",
     "활동"
   ],
-  "scheduleLabels": ["방송", "공연", "행사"],
+  "scheduleLabels": [
+    "방송",
+    "공연",
+    "행사"
+  ],
   "scheduleOverrides": {
     "6a7241766e77820edf3dbd8e": {
       "title": "『2026 Coupang Play Series』プレビューショー"
@@ -105,6 +109,80 @@
     },
     "6a3e7e069f69517347795cee": {
       "title": "2026 KGMA（Korea Grand Music Awards）"
+    },
+    "6af50e7574c3d63faa38c626": {
+      "venue": "KINTEX",
+      "additionalSources": [
+        {
+          "label": "SBS公式発表",
+          "url": "https://news.sbs.co.kr/news/endPage.do?newsId=N1008837439",
+          "type": "official_broadcaster"
+        }
+      ]
+    },
+    "6adc139b5aa3932ecf5898af": {
+      "startAt": "2026-12-13T17:00:00+09:00",
+      "endAt": null,
+      "allDay": false,
+      "type": "performance",
+      "region": "JP",
+      "prefecture": "東京都",
+      "venue": "MUFGスタジアム（国立競技場）",
+      "additionalSources": [
+        {
+          "label": "公演主催者 公式サイト",
+          "url": "https://music-bank.jp/",
+          "type": "event_organizer"
+        }
+      ]
+    },
+    "6a98f652301866263741bcec": {
+      "region": "TW",
+      "venue": "高雄国家体育場",
+      "additionalSources": [
+        {
+          "label": "AAA公式チケット案内",
+          "url": "https://tixcraft.com/activity/detail/26_aaa",
+          "type": "event_organizer"
+        },
+        {
+          "label": "AAA主催 Star News",
+          "url": "https://www.starnewskorea.com/music/2026/07/30/2026073004034296136",
+          "type": "event_organizer"
+        }
+      ]
+    },
+    "6af7e663290d6361dc478204": {
+      "type": "event",
+      "additionalSources": [
+        {
+          "label": "Kakao Entertainment公式発表",
+          "url": "https://kakaoent.com/pr/detail/624",
+          "type": "event_organizer"
+        }
+      ]
+    },
+    "6ae4ba84a46d723d18905122": {
+      "region": "JP",
+      "prefecture": "大阪府",
+      "venue": "京セラドーム大阪",
+      "additionalSources": [
+        {
+          "label": "CJ公式発表",
+          "url": "https://newsroom.cj.net/?p=10787",
+          "type": "event_organizer"
+        }
+      ]
+    },
+    "6aa4f18695f4fe71ddd6c352": {
+      "startAt": "2026-09-16T22:30:00+09:00",
+      "additionalSources": [
+        {
+          "label": "MBC公式番組情報",
+          "url": "https://playvod.imbc.com/Templete/VodView?bid=1000794103375100000",
+          "type": "official_broadcaster"
+        }
+      ]
     }
   }
 }
