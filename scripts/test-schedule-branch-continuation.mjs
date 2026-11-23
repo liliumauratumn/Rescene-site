@@ -12,7 +12,7 @@ const workflow = await readFile(
   'utf8',
 );
 const continuationStart = workflow.indexOf('- name: Continue the schedule branch if it exists');
-const mergeIndex = workflow.indexOf('git merge --no-edit "origin/$default_branch"', continuationStart);
+const mergeIndex = workflow.indexOf('git merge -X theirs --no-edit "origin/$default_branch"', continuationStart);
 const nameConfigIndex = workflow.indexOf('git config user.name "github-actions[bot]"', continuationStart);
 const emailConfigIndex = workflow.indexOf(
   'git config user.email "41898282+github-actions[bot]@users.noreply.github.com"',
@@ -58,20 +58,23 @@ try {
   git(seedDir, 'config', 'user.name', 'Repository Owner');
   git(seedDir, 'config', 'user.email', 'owner@example.invalid');
   await writeFile(join(seedDir, 'base.txt'), 'base\n');
-  git(seedDir, 'add', 'base.txt');
+  await writeFile(join(seedDir, 'schedule-data.txt'), 'initial calendar\n');
+  git(seedDir, 'add', 'base.txt', 'schedule-data.txt');
   git(seedDir, 'commit', '-qm', 'initial');
   git(seedDir, 'remote', 'add', 'origin', originDir);
   git(seedDir, 'push', '-q', '-u', 'origin', 'main');
 
   git(seedDir, 'switch', '-q', '-c', 'automation/schedule-update');
   await writeFile(join(seedDir, 'schedule.txt'), 'schedule branch change\n');
-  git(seedDir, 'add', 'schedule.txt');
+  await writeFile(join(seedDir, 'schedule-data.txt'), 'unreviewed automated calendar\n');
+  git(seedDir, 'add', 'schedule.txt', 'schedule-data.txt');
   git(seedDir, 'commit', '-qm', 'schedule update');
   git(seedDir, 'push', '-q', '-u', 'origin', 'automation/schedule-update');
 
   git(seedDir, 'switch', '-q', 'main');
   await writeFile(join(seedDir, 'main.txt'), 'new main commit\n');
-  git(seedDir, 'add', 'main.txt');
+  await writeFile(join(seedDir, 'schedule-data.txt'), 'verified calendar corrections\n');
+  git(seedDir, 'add', 'main.txt', 'schedule-data.txt');
   git(seedDir, 'commit', '-qm', 'new main commit');
   git(seedDir, 'push', '-q', 'origin', 'main');
 
@@ -88,7 +91,7 @@ try {
   git(failedRunnerDir, 'switch', '-q', 'automation/schedule-update');
   const failedMerge = spawnSync(
     'git',
-    ['merge', '--no-edit', 'origin/main'],
+    ['merge', '-X', 'theirs', '--no-edit', 'origin/main'],
     { cwd: failedRunnerDir, encoding: 'utf8', env: gitEnvironment },
   );
   assert.equal(failedMerge.status, 128);
@@ -116,7 +119,7 @@ try {
     'automation/schedule-update:automation/schedule-update',
   );
   git(runnerDir, 'switch', '-q', 'automation/schedule-update');
-  git(runnerDir, 'merge', '--no-edit', 'origin/main');
+  git(runnerDir, 'merge', '-X', 'theirs', '--no-edit', 'origin/main');
 
   assert.equal(git(runnerDir, 'log', '-1', '--format=%cn'), 'github-actions[bot]');
   assert.equal(
@@ -126,6 +129,11 @@ try {
   assert.equal(git(runnerDir, 'log', '-1', '--format=%P').split(' ').length, 2);
   assert.equal(await readFile(join(runnerDir, 'schedule.txt'), 'utf8'), 'schedule branch change\n');
   assert.equal(await readFile(join(runnerDir, 'main.txt'), 'utf8'), 'new main commit\n');
+  assert.equal(
+    await readFile(join(runnerDir, 'schedule-data.txt'), 'utf8'),
+    'verified calendar corrections\n',
+    'Merge conflict must keep the verified main-branch schedule',
+  );
   assert.ok(Number(git(runnerDir, 'rev-list', '--count', 'origin/main..HEAD')) > 0);
 
   const ghCalls = [];
