@@ -306,7 +306,7 @@
     "region": "KR",
     "prefecture": null,
     "venue": null,
-    "status": "scheduled",
+    "status": "completed",
     "applicationStartAt": null,
     "applicationEndAt": null,
     "saleStartAt": null,
@@ -322,16 +322,16 @@
         "label": "RESCENE公式スケジュール",
         "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/11?eventId=6af7e663290d6361dc478204",
         "type": "official_calendar",
-        "verifiedAt": "2026-11-14"
+        "verifiedAt": "2026-11-25"
       },
       {
         "label": "Kakao Entertainment公式発表",
         "url": "https://kakaoent.com/pr/detail/624",
         "type": "event_organizer",
-        "verifiedAt": "2026-11-21"
+        "verifiedAt": "2026-11-25"
       }
     ],
-    "verifiedAt": "2026-11-21",
+    "verifiedAt": "2026-11-25",
     "dedupeKeys": [
       "source:mnet-calendar:6af7e663290d6361dc478204",
       "event:멜론stage99:2026-11-24"
