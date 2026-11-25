@@ -228,7 +228,7 @@
     "region": "KR",
     "prefecture": null,
     "venue": null,
-    "status": "scheduled",
+    "status": "completed",
     "applicationStartAt": null,
     "applicationEndAt": null,
     "saleStartAt": null,
@@ -244,10 +244,10 @@
         "label": "RESCENE公式スケジュール",
         "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/11?eventId=6b023361946e254a8ebc928b",
         "type": "official_calendar",
-        "verifiedAt": "2026-11-23"
+        "verifiedAt": "2026-11-26"
       }
     ],
-    "verifiedAt": "2026-11-23",
+    "verifiedAt": "2026-11-26",
     "dedupeKeys": [
       "source:mnet-calendar:6b023361946e254a8ebc928b",
       "event:디즈니헥스마녀왕국스페셜무대인사:2026-11-25"
@@ -267,7 +267,7 @@
     "region": "KR",
     "prefecture": null,
     "venue": null,
-    "status": "scheduled",
+    "status": "completed",
     "applicationStartAt": null,
     "applicationEndAt": null,
     "saleStartAt": null,
@@ -283,10 +283,10 @@
         "label": "RESCENE公式スケジュール",
         "url": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/11?eventId=6b02343e7dada20be5d084e4",
         "type": "official_calendar",
-        "verifiedAt": "2026-11-23"
+        "verifiedAt": "2026-11-26"
       }
     ],
-    "verifiedAt": "2026-11-23",
+    "verifiedAt": "2026-11-26",
     "dedupeKeys": [
       "source:mnet-calendar:6b02343e7dada20be5d084e4",
       "event:할리스미니팬미팅:2026-11-25"
